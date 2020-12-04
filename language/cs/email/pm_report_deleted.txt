@@ -1,0 +1,8 @@
+Subject: Hlášení odstraněno - "{PM_SUBJECT}"
+
+Dobrý den {USERNAME},
+
+Hlášení o zprávě "{PM_SUBJECT}", které jste odeslali na "{SITENAME}" bylo moderátorem odstraněno.
+
+
+{EMAIL_SIG}

@@ -1,0 +1,7 @@
+Subject: Váš účet byl deaktivován
+
+Dobrý den {USERNAME},
+
+váš účet na fóru „{SITENAME}“ byl deaktivován, pravděpodobně kvůli změnám v profilu. Než se budete moci přihlásit, budete muset vyčkat, než bude váš účet znovu aktivován administrátorem. Jakmile jej aktivuje, obdržíte další e-mail.
+
+{EMAIL_SIG}

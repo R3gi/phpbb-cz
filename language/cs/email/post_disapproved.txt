@@ -1,0 +1,12 @@
+Subject: Neschválení příspěvku - {POST_SUBJECT}
+
+Dobrý den {USERNAME},
+
+Dostal jste toto upozornění, protože váš příspěvek "{POST_SUBJECT}" na {SITENAME} nebyl schválen moderátorem nebo administrátorem.
+
+Zde je důvod neschválení:
+
+{REASON}
+
+
+{EMAIL_SIG}

@@ -1,0 +1,42 @@
+Subject: Vítejte na fóru „{SITENAME}“
+
+{WELCOME_MSG}
+
+Z důvodů pravidel COPPA (vyhláška o ochraně mládeže na internetu platící v USA) je váš účet neaktivní.
+
+Prosím vytiskněte tuto stránku a nechte ji podepsat rodiči. Poté ji odešlete na následující faxový účet:
+
+{FAX_INFO}
+
+nebo na e-mail:
+
+{MAIL_INFO}
+
+------------------------------ ODSTŘIHNĚTE ZDE ------------------------------
+Potvrzení přístupu k „{SITENAME}“ - {U_BOARD}
+
+Uživatelské jméno: {USERNAME}
+E-mail: {EMAIL_ADDRESS}
+
+ZKONTROLOVAL/A JSEM ÚDAJE, KTERÉ BYLY POSKYTNUTY MÝM DÍTĚTEM A SOUHLASÍM S JEJICH UCHOVÁNÍM NA „{SITENAME}“. 
+JSEM SEZNAMEN/A S TÍM, ŽE TYTO ÚDAJE LZE KDYKOLIV ZMĚNIT ZADÁNÍM HESLA.
+JSEM SEZNAMEN/A S TÍM, ŽE MOHU KDYKOLIV POŽÁDAT O TO, ABY BYLA TATO DATA STAŽENA A SMAZÁNA Z „{SITENAME}“.
+
+
+Rodič nebo zákonný zástupce
+(Napište své jméno): _____________________
+
+(podpis): __________________ 
+
+Datum: _______________
+
+------------------------------ ODSTŘIHNĚTE ZDE ------------------------------
+
+
+Váš účet je momentálně neaktivní. Dříve, než se budete moci přihlásit jej bude muset administrátor fóra aktivovat. Administrátor jej aktivuje jakmile obdrží výše uvedené prohlášení. Až bude váš účet aktivován, obdržíte další e-mail.
+
+Prosíme nezapomeňte, že vaše heslo je zašifrováno v naší databázi a nelze jej získat zpět. Pokud ho zapomenete nebo ztratíte, zašleme vám nové, ale budete jej muset aktivovat stejným způsobem jako tento účet.
+
+Děkujeme za vaši registraci.
+
+{EMAIL_SIG}

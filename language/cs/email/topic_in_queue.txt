@@ -1,0 +1,13 @@
+Subject: Moderování tématu - "{TOPIC_TITLE}"
+
+Ahoj {USERNAME},
+
+Obdržel jste toto upozornění, protože je třeba schválit téma "{TOPIC_TITLE}" ve fóru "{SITENAME}".
+
+Pro zobrazení tématu klikněte na následující odkaz:
+{U_VIEW_TOPIC}
+
+Pro zobrazení fóra klikněte na následující odkaz:
+{U_FORUM}
+
+{EMAIL_SIG}

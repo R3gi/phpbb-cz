@@ -1,0 +1,10 @@
+Subject: Hlášení o soukromé zprávě - "{TOPIC_TITLE}"
+
+Ahoj {USERNAME},
+
+Obdržel jste toto upozornění, protože soukromá zpráva s názvem "{SUBJECT}", kterou odeslal "{AUTHOR_NAME}" ve fóru "{SITENAME}" byla nahlášena.
+
+Pro zobrazení hlášení klikněte na následující odkaz:
+{U_VIEW_REPORT}
+
+{EMAIL_SIG}

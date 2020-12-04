@@ -1,0 +1,15 @@
+Subject: Nová soukromá zpráva
+
+Ahoj {USERNAME},
+
+Na váš účet ve fóru "{SITENAME}" vám přišla od uživatele "{AUTHOR_NAME}" nová soukromá zpráva s následujícím předmětem:
+
+{SUBJECT}
+
+Vaši novou soukromou zprávu můžete zobrazit kliknutím na následující odkaz:
+
+{U_VIEW_MESSAGE}
+
+Pokud nechcete dostávat upozornění na nové soukromé zprávy, změňte si, prosím, příslušné nastavení ve vašem profilu.
+
+{EMAIL_SIG}

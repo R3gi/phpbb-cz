@@ -1,0 +1,13 @@
+Subject: Upozornění o novém tématu - "{FORUM_NAME}"
+
+Dobrý den {USERNAME},
+
+obdržel jste toto upozornění, protože sledujete fórum "{FORUM_NAME}" na webu "{SITENAME}". Od vaší poslední návštěvy bylo do tohoto fóra posláno<!-- IF AUTHOR_NAME != '' --> uživatelem {AUTHOR_NAME}<!-- ENDIF --> nové téma "{TOPIC_TITLE}". Pro zobrazení fóra můžete použít následující odkaz. Dokud fórum nenavštívíte, nebudou vám poslána žádná další upozornění.
+
+{U_FORUM}
+
+Pokud nadále nechcete sledovat toto fórum, můžete buď kliknout na odkaz "Ukončit sledování fóra", který naleznete naspodu fóra nahoře, nebo kliknout na následující odkaz:
+
+{U_STOP_WATCHING_FORUM}
+
+{EMAIL_SIG}

@@ -1,0 +1,11 @@
+Subject: Zamítnutí tématu - "{TOPIC_TITLE}"
+
+Ahoj {USERNAME},
+
+Obdržel jste toto upozornění, protože vaše téma "{TOPIC_TITLE}" ve fóru "{SITENAME}" bylo zamítnuto moderátorem nebo administrátorem.
+
+Pro zamítnutí byl dán následující důvod:
+
+{REASON}
+
+{EMAIL_SIG}

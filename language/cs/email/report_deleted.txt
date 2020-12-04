@@ -1,0 +1,7 @@
+Subject: Smazání nahlášení příspěvku - {POST_SUBJECT}
+
+Dobrý den {USERNAME},
+
+Obdrželi jste tuto zprávu, protože vaše hlášení kvůli příspěvku "{POST_SUBJECT}" v "{TOPIC_TITLE}" na {SITENAME} bylo smazáno moderátorem nebo administrátorem.
+
+{EMAIL_SIG}

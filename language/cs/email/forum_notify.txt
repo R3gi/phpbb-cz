@@ -1,0 +1,21 @@
+Subject: Upozornění na nový příspěvek na fóru - {FORUM_NAME}
+List-Unsubscribe: <{U_STOP_WATCHING_FORUM}>
+
+Dobrý den {USERNAME},
+
+obdrželi jste toto upozornění, protože sledujete fórum „{FORUM_NAME}“ na stránce {SITENAME}. V tomto fóru byla od vaší poslední návštěvy zaznamenána <!-- IF AUTHOR_NAME != '' -->od uživatele {AUTHOR_NAME}<!-- ENDIF --> odpověď na téma „{TOPIC_TITLE}“. Dokud toto téma nezobrazíte, nebude vám zasláno žádné další e-mailové upozornění.
+
+Pro zobrazení poslední nepřečtené odpovědi můžete použít následující odkaz:
+{U_NEWEST_POST}
+
+Pro zobrazení tématu můžete použít následující odkaz:
+{U_TOPIC}
+
+Pro zobrazení fóra můžete použít následující odkaz:
+{U_FORUM}
+ 
+Pokud již dále nechcete sledovat toto fórum, použijte odkaz „Přestat sledovat toto fórum“ na samotném fóru, nebo použijte následující odkaz:
+
+{U_STOP_WATCHING_FORUM}
+
+{EMAIL_SIG}

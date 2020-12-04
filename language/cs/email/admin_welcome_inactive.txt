@@ -1,0 +1,19 @@
+Subject: Vítejte na fóru „{SITENAME}“
+
+{WELCOME_MSG}
+
+Prosím uschovejte si tento e-mail pro případné zapomenutí údajů. Vaše přihlašovací údaje:
+
+----------------------------
+Uživatelské jméno: {USERNAME}
+
+URL fóra:         {U_BOARD}
+----------------------------
+
+Váš účet je momentálně neaktivní, administrátor fóra ho bude muset aktivovat, než se budete moci přihlásit. Obdržíte další e-mail, až toto administrátor provede.
+
+Prosíme nezapomeňte, že vaše heslo je zašifrováno v naší databázi a nelze jej získat zpět. Pokud ho přesto zapomenete nebo ztratíte, zašleme vám nové, které ale budete muset aktivovat stejným způsobem jako tento účet.
+
+Děkujeme za vaši registraci.
+
+{EMAIL_SIG}

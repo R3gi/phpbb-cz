@@ -1,0 +1,13 @@
+Subject: Nahlášen příspěvek - „{TOPIC_TITLE}“
+
+Dobrý den {USERNAME},
+
+toto upozornění, jste obdrželi, protože příspěvek „{POST_SUBJECT}“ ve fóru „{SITENAME}“ byl nahlášen.
+
+Pro zobrazení hlášení použijte následující odkaz:
+{U_VIEW_REPORT}
+
+Pro zobrazení příspěvku použijte následující odkaz:
+{U_VIEW_POST}
+
+{EMAIL_SIG}

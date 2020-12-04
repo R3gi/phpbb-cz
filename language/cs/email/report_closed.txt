@@ -1,0 +1,13 @@
+Subject: Nahlášení příspěvku uzavřeno - {POST_SUBJECT}
+
+Dobrý den {USERNAME},
+
+Hlášení, které jste zaslal kvůli příspěvku "{POST_SUBJECT}" napsaném "{AUTHOR_NAME}" v "{TOPIC_TITLE}" na {SITENAME} bylo uzavřeno moderátorem nebo administrátorem. Pro další dotazy na {CLOSER_NAME} použijte soukromou zprávu.
+
+Daný příspěvek si můžete rozkliknout na následujícím odkazu:
+
+{U_VIEW_POST}
+
+Požádali jste o upozornění na tuto událost, pamatujte, že máte vždy možnost tuto notifikaci o zavření nahlášení vypnout v nastavení vašeho profilu.
+
+{EMAIL_SIG}

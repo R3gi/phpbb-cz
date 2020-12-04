@@ -1,0 +1,13 @@
+Následující zpráva vám byla zaslána administrátorem fóra „{SITENAME}“. Pokud je tato zpráva spam, obsahuje pohoršující nebo jiné komentáře, které shledáváte jako nevhodné, kontaktujte prosím správce fóra na následující adrese:
+
+{CONTACT_EMAIL}
+
+Přiložte celý e-mail, zejména jeho hlavičku. 
+
+Následuje zpráva pro vás:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{MESSAGE}
+
+
+{EMAIL_SIG}

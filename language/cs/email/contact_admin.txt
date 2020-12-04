@@ -1,0 +1,22 @@
+Dobrý den {TO_USERNAME},
+
+tato zpráva vám byla poslána přes formulář pro kontaktování administrátora na fóru „{SITENAME}“.
+
+<!-- IF S_IS_REGISTERED -->
+Zpráva byla odeslána uživatelem, který má na fóru účet:
+Uživatelské jméno: {FROM_USERNAME}
+E-mailová adresa: {FROM_EMAIL_ADDRESS}
+IP adresa: {FROM_IP_ADDRESS}
+Profil: {U_FROM_PROFILE}
+<!-- ELSE -->
+Zpráva byla odeslána návštěvníkem s těmito kontaktními informacemi:
+Jméno: {FROM_USERNAME}
+E-mailová adresa: {FROM_EMAIL_ADDRESS}
+IP adresa: {FROM_IP_ADDRESS}
+<!-- ENDIF -->
+
+
+Následuje vlastní zpráva
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{MESSAGE}

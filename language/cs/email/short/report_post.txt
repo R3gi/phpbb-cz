@@ -1,0 +1,13 @@
+Subject: Hlášení o příspěvku - "{TOPIC_TITLE}"
+
+Ahoj {USERNAME},
+
+Obdržel jste toto upozornění, protože příspěvek "{POST_SUBJECT}" ve fóru "{SITENAME}" byl nahlášen.
+
+Pro zobrazení hlášení klikněte na následující odkaz:
+{U_VIEW_REPORT}
+
+Pro zobrazení příspěvku klikněte na následující odkaz:
+{U_VIEW_POST}
+
+{EMAIL_SIG}

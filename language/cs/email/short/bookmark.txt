@@ -1,0 +1,20 @@
+Subject: Upozornění na odpověď v tématu - "{TOPIC_TITLE}"
+
+Ahoj {USERNAME},
+
+Obdržel jste toto upozornění, protože do tématu "{TOPIC_TITLE}", které máte označené záložkou ve fóru "{SITENAME}" byla od vaší poslední návštěvy poslaná odpověď. Pro zobrazení nových odpovědí můžete použít následující odkaz. Dokud téma nenavštívíte, nebudou vám poslána žádná další upozornění.
+
+Pro zobrazení nejnovějších příspěvků, které byly odeslány od vaší poslední návštěvy fóra, klikněte na následující odkaz:
+{U_NEWEST_POST}
+
+Pro zobrazení tématu klikněte na následující odkaz:
+{U_TOPIC}
+
+Pro zobrazení fóra klikněte na následující odkaz:
+{U_FORUM}
+
+Pokud už nechcete dostávat informace o odpovědích k záložkám, aktualizujte si, prosím, vaše nastavení upozorňování:
+
+{U_NOTIFICATION_SETTINGS}
+
+{EMAIL_SIG}

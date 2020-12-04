@@ -1,0 +1,11 @@
+Subject: Byli jste přidáni do uživatelské skupiny
+
+Gratulujeme,
+
+Byli jste přidáni do skupiny "{GROUP_NAME}" na stránce {SITENAME}.
+Tato akce byla provedena administrátorem nebo moderátorem skupiny, kontaktujte je pro více informací.
+
+Zde jsou informace o vaši nové skupině:
+{U_GROUP}
+
+{EMAIL_SIG}

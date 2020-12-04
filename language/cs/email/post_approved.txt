@@ -1,0 +1,14 @@
+Subject: Schválení příspěvku - {POST_SUBJECT}
+
+Dobrý den {USERNAME},
+
+Dostal jste toto upozornění, protože váš příspěvek "{POST_SUBJECT}" na {SITENAME} byl schválen moderátorem nebo administrátorem.
+
+Pokud chcete zobrazit příspěvek, klikněte na tento odkaz:
+{U_VIEW_POST}
+
+Pokud chcete zobrazit celé téma, klikněte na tento odkaz:
+{U_VIEW_TOPIC}
+
+
+{EMAIL_SIG}

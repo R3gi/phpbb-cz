@@ -1,0 +1,19 @@
+Subject: Nová instalace phpBB
+
+Gratulujeme,
+
+systém phpBB byl úspěšně nainstalován na váš server.
+
+Tato zpráva obsahuje důležité informace o vaší instalaci, prosíme uschovejte ji. Nezapomeňte, že vaše heslo je zašifrováno v databázi a nelze jej získat zpět, ale je možné si nechat poslat nové. 
+
+----------------------------
+Uživatelské jméno: {USERNAME}
+
+Adresa fóra:       {U_BOARD}
+----------------------------
+
+Užitečné informace o phpBB lze naleznout ve složce „docs“ vaší instalace, nebo na stránkách podpory phpBB - https://www.phpbb.com/support/, případně české podpory - https://www.phpbb.cz.
+
+Doporučujeme sledovat novinky v nových verzích našeho systému pro zajištění bezpečnosti vašeho fóra, novinky vám můžeme zasílat automaticky, pokud se přihlásíte na mailing list, který je na výše uvedeném odkazu.
+
+{EMAIL_SIG}

@@ -1,0 +1,11 @@
+Subject: Schválení tématu - {TOPIC_TITLE}
+
+Dobrý den {USERNAME},
+
+toto upozornění jste obdrželi, protože vaše téma „{TOPIC_TITLE}“ na fóru „{SITENAME}“ bylo schváleno moderátorem nebo administrátorem.
+
+Pro zobrazení tématu můžete použít následující odkaz:
+{U_VIEW_TOPIC}
+
+
+{EMAIL_SIG}

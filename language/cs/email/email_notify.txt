@@ -1,0 +1,17 @@
+Subject: {SITENAME} - E-mail kamarádovi o tématu
+
+Dobrý den {TO_USERNAME},
+
+Tato zpráva byla odeslán z fóra „{SITENAME}“ uživatelem {FROM_USERNAME}, který myslel, že by vás mohlo zajímat následující téma:
+
+{TOPIC_NAME}
+
+Pro zobrazení tématu můžete použít následující odkaz:
+
+{U_TOPIC}
+
+Zpráva od uživatele {FROM_USERNAME} může být uvedena níže. Berte na vědomí, že tato zpráva nebyla kontrolována administrátory fóra. Pokud si chcete stěžovat ohledně obdržení tohoto e-mailu, kontaktujte administrátora na adrese {BOARD_CONTACT}. Do stížnosti prosím nezapomeňte ocitovat hlavičku tohoto e-mailu.
+
+----------
+
+{MESSAGE}

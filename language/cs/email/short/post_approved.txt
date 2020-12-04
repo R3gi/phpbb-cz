@@ -1,0 +1,13 @@
+Subject: Schválení příspěvku - „{POST_SUBJECT}“
+
+Dobrý den {USERNAME},
+
+váš příspěvek „{POST_SUBJECT}“ ve fóru „{SITENAME}“ byl schválen moderátorem nebo administrátorem.
+
+Pro zobrazení příspěvku můžete použít následující odkaz:
+{U_VIEW_POST}
+
+Pro zobrazení tématu můžete použít následující odkaz:
+{U_VIEW_TOPIC}
+
+{EMAIL_SIG}

@@ -1,0 +1,20 @@
+Subject: Upozornění na odpověď v tématu - {TOPIC_TITLE}
+
+Dobrý den {USERNAME},
+
+obdrželi jste toto upozornění, protože sledujete téma „{TOPIC_TITLE}“ na fóru {SITENAME}. V tomto tématu byl od vaší poslední návštěvy zaznamenán nový příspěvek<!-- IF AUTHOR_NAME != '' --> od {AUTHOR_NAME}<!-- ENDIF -->. Dokud toto téma nezobrazíte, nebude vám zasláno žádné další e-mailové upozornění.
+
+Pro zobrazení poslední nepřečtené odpovědi můžete použít následující odkaz:
+{U_NEWEST_POST}
+
+Pro zobrazení tématu můžete použít následující odkaz:
+{U_TOPIC}
+
+Pro zobrazení fóra můžete použít následující odkaz:
+{U_FORUM}
+ 
+Pokud již dále nechcete sledovat toto fórum, použijte odkaz „Ukončit sledování tohoto tématu“, nebo použijte následující odkaz:
+
+{U_STOP_WATCHING_TOPIC}
+
+{EMAIL_SIG}

@@ -1,0 +1,13 @@
+
+Dobrý den {TO_USERNAME},
+
+Obdrželi jste zprávu od uživatele {FROM_USERNAME} z {SITENAME}. Pokud je tato zpráva spam, kontaktujte administrátora fóra na následující adrese:
+
+{BOARD_CONTACT}
+
+Následuje celá zpráva. Pamatujte, že adresa odesílatele byla nastavena na IM účet fóra.
+
+Celá zpráva
+~~~~~~~~~~~
+
+{MESSAGE}

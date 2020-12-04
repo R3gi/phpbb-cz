@@ -1,0 +1,12 @@
+Subject: Neaktivní účet
+
+Dobrý den {USERNAME},
+
+{REGISTER_DATE} jste si registroval/a nový účet na fóru „{SITENAME}“. Váš účet zatím není aktivní.
+Pro aktivaci vašeho účtu použijte následující odkaz:
+
+{U_ACTIVATE}
+
+Děkujeme za registraci na našem webu „{SITENAME}“.
+
+{EMAIL_SIG}

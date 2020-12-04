@@ -1,0 +1,8 @@
+Subject: Hlášení uzavřeno - "{PM_SUBJECT}"
+
+Dobrý den {USERNAME},
+
+Zpráva "{PM_SUBJECT}", kterou jste nahlásili na "{SITENAME}" byla zpracována administrátorem nebo moderátorem. Hlášení bylo uzavřeno, pokud máte další dotazy, kontaktujte {CLOSER_NAME} soukromou zprávou na fóru.
+
+
+{EMAIL_SIG}
