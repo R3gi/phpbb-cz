@@ -226,7 +226,7 @@ $lang = array_merge($lang, array(
 	'ACP_REGISTER_SETTINGS_EXPLAIN'		=> 'Zde můžete definovat způsob registrace a nastavení spjatá s&nbsp;uživatelskými profily.',
 
 	'ACC_ACTIVATION'					=> 'Aktivace účtu',
-	'ACC_ACTIVATION_EXPLAIN'	=> 'Určuje, mají-li uživatelé okamžitý přístup k&nbsp;fóru, nebo musí registraci účtu nejprve potvrdit. Lze také zcela zakázat nové registrace.  <em>Abyste mohli používat aktivaci uživatelem nebo administrátorem, musíte mít na fóru povolené posílání emailů</em>, které najdete v „Nastavení e-mailu“ na záložce „Obecné“.',
+	'ACC_ACTIVATION_EXPLAIN'	=> 'Určuje, mají-li uživatelé okamžitý přístup k&nbsp;fóru, nebo musí registraci účtu nejprve potvrdit. Lze také zcela zakázat nové registrace.  <em>Abyste mohli používat aktivaci uživatelem nebo administrátorem, musíte mít na fóru povolené posílání e-mailů</em>, které najdete v „Nastavení e-mailu“ na záložce „Obecné“.',
   'ACC_ACTIVATION_WARNING'		=> 'Pamatujte, že aktuálně vybraný způsob aktivace vyžaduje, aby bylo na fóru povolené posílání e-mailů, jinak budou registrace zakázané. Doporučujeme vám, abyste si vybrali jiný způsob aktivace, nebo znovu povolili e-maily.',
 	'ACC_ADMIN'								=> 'Administrátorem',
 	'ACC_DISABLE'							=> 'Vypnout registrace',

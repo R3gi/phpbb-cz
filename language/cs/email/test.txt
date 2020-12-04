@@ -1,8 +1,8 @@
-Subject: phpBB je správně nastaveno pro odesílání emailů
+Subject: phpBB je správně nastaveno pro odesílání e-mailů
 
 Dobrý den {USERNAME},
 
-Gratulujeme. Pokud vám přišel tento email, je vaše phpBB správně nastaveno pro odesílání emailů.
+Gratulujeme. Pokud vám přišel tento e-mail, je vaše phpBB správně nastaveno pro odesílání e-mailů.
 
 <!-- IF MESSAGE -->
 {MESSAGE}

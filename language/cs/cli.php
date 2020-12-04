@@ -101,8 +101,8 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_USER_ADD'					=> 'Přidat nového uživatele.',
 	'CLI_DESCRIPTION_USER_ADD_OPTION_USERNAME'	=> 'Uživatelské jméno nového uživatele',
 	'CLI_DESCRIPTION_USER_ADD_OPTION_PASSWORD'	=> 'Heslo nového uživatele',
-	'CLI_DESCRIPTION_USER_ADD_OPTION_EMAIL'		=> 'Emailová adresa nového uživatele',
-	'CLI_DESCRIPTION_USER_ADD_OPTION_NOTIFY'	=> 'Odeslat novému uživateli aktivační email k účtu (neposílá se ve výchozím nastavení)',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_EMAIL'		=> 'E-mailová adresa nového uživatele',
+	'CLI_DESCRIPTION_USER_ADD_OPTION_NOTIFY'	=> 'Odeslat novému uživateli aktivační e-mail k účtu (neposílá se ve výchozím nastavení)',
 	'CLI_DESCRIPTION_USER_DELETE'				=> 'Smazat účet uživatele.',
 	'CLI_DESCRIPTION_USER_DELETE_USERNAME'		=> 'Uživatelské jméno uživatele ke smazání',
 	'CLI_DESCRIPTION_USER_DELETE_OPTION_POSTS'	=> 'Smazat všechny příspěvky uživatele. Bez této možnosti zůstanou příspěvky uživatele zachovány.',
@@ -167,9 +167,9 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Můžete také určit název úlohy pro cron pro spuštění pouze určité úlohy pro cron.',
 	'CLI_HELP_USER_ACTIVATE'	=> 'Aktivujte účet uživatele. Můžete ho také deaktivovat použitím možnosti <info>--deactivate</info>.
-Použitím možnosti <info>--send-email</info> můžete volitelně odeslat uživateli aktivační email.',
+Použitím možnosti <info>--send-email</info> můžete volitelně odeslat uživateli aktivační e-mail.',
 	'CLI_HELP_USER_ADD'			=> 'Příkaz <info>%command.name%</info> přidá nového uživatele:
 Pokud je tento příkaz spuštěn bez dalších možností, budete požádáni o jejich vložení.
-Použitím možnosti <info>--send-email</info> můžete volitelně odeslat novému uživateli email.',
+Použitím možnosti <info>--send-email</info> můžete volitelně odeslat novému uživateli e-mail.',
 	'CLI_HELP_USER_RECLEAN'		=> 'Znovu pročištění uživatelských jmen zkontroluje všechna uložená uživatelská jména a zajistí, aby byly uložené i verze uživ. jmen v základním tvaru. U uživatelských jmen v základním tvaru nezáleží na velikosti písmen, jsou NFC normalizovaná a transformovaná do ASCII.',
 ));

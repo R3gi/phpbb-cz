@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 
 	// Support page
 	'SUPPORT_TITLE'		=> 'Podpora',
-	'SUPPORT_BODY'		=> 'Plná podpora se poskytuje zdarma pro aktuální stabilní verzi phpBB3. Tato podpora zahrnuje pomoc s:</p><ul><li>instalací</li><li>nastavením</li><li>technickými otázkami</li><li>problémy, které se týkají potencionálních chyb v programu</li><li>aktualizací z RC (Release Candidate) verze na poslední stabilní verzi</li><li>konverzí z phpBB 2.0.x na phpBB3</li><li>konverzí z jiných programů diskuzních fór na phpBB3 (více informací najdete na phpBB.com ve fóru <a href="https://www.phpbb.com/community/viewforum.php?f=486">Convertors Forum</a>)</li></ul><p>Doporučujeme všem uživatelů, kteří stále používají beta verzi phpBB3, aby aktualizovali jejich instalaci na nejnovější verzí.</p><h2>Rozšíření a vzhledy</h2><p>Pro problémy týkající se rozšíření použijte, prosím, příslušné <a href="https://www.phpbb.com/community/viewforum.php?f=451">Extensions Forum</a> (Fórum o modifikacích).<br />Pro problémy týkající se vzhledů, šablon a motivů použijte, prosím, příslušné <a href="https://www.phpbb.com/community/viewforum.php?f=471">Styles Forum</a> (Fórum o vzhledech).<br /><br />Jestliže se vaše otázka týká konkrétního balíčku, napište, prosím, přímo do tématu věnovanému tomu balíčku.</p><h2>Další informace</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&t=571070">The phpBB Welcome Package</a> (téma (ang.) s odkazy na informace o phpBB)<br /><a href="https://www.phpbb.com/support/">Stránka podpory (ang.)</a><br /><a href="https://www.phpbb.com/support/docs/en/3.1/ug/quickstart/">Quick Start Guide</a> (Rychlý průvodce (ang.))<br /><br />Abyste vždy věděli o posledních novinkách a nových verzích, můžete se <a href="https://www.phpbb.com/support/">přihlásit k odběru informací emailem</a>?<br /><br />',
+	'SUPPORT_BODY'		=> 'Plná podpora se poskytuje zdarma pro aktuální stabilní verzi phpBB3. Tato podpora zahrnuje pomoc s:</p><ul><li>instalací</li><li>nastavením</li><li>technickými otázkami</li><li>problémy, které se týkají potencionálních chyb v programu</li><li>aktualizací z RC (Release Candidate) verze na poslední stabilní verzi</li><li>konverzí z phpBB 2.0.x na phpBB3</li><li>konverzí z jiných programů diskuzních fór na phpBB3 (více informací najdete na phpBB.com ve fóru <a href="https://www.phpbb.com/community/viewforum.php?f=486">Convertors Forum</a>)</li></ul><p>Doporučujeme všem uživatelů, kteří stále používají beta verzi phpBB3, aby aktualizovali jejich instalaci na nejnovější verzí.</p><h2>Rozšíření a vzhledy</h2><p>Pro problémy týkající se rozšíření použijte, prosím, příslušné <a href="https://www.phpbb.com/community/viewforum.php?f=451">Extensions Forum</a> (Fórum o modifikacích).<br />Pro problémy týkající se vzhledů, šablon a motivů použijte, prosím, příslušné <a href="https://www.phpbb.com/community/viewforum.php?f=471">Styles Forum</a> (Fórum o vzhledech).<br /><br />Jestliže se vaše otázka týká konkrétního balíčku, napište, prosím, přímo do tématu věnovanému tomu balíčku.</p><h2>Další informace</h2><p><a href="https://www.phpbb.com/community/viewtopic.php?f=14&t=571070">The phpBB Welcome Package</a> (téma (ang.) s odkazy na informace o phpBB)<br /><a href="https://www.phpbb.com/support/">Stránka podpory (ang.)</a><br /><a href="https://www.phpbb.com/support/docs/en/3.1/ug/quickstart/">Quick Start Guide</a> (Rychlý průvodce (ang.))<br /><br />Abyste vždy věděli o posledních novinkách a nových verzích, můžete se <a href="https://www.phpbb.com/support/">přihlásit k odběru informací e-mailem</a>?<br /><br />',
 
 	// License
 	'LICENSE_TITLE'		=> 'General Public License',
@@ -150,7 +150,7 @@ $lang = array_merge($lang, array(
 	'ADMIN_USERNAME_EXPLAIN'	=> 'Prosím, vložte uživatelské jméno o délce mezi 3 a 20 znaky.',
 
 	// Errors
-	'INST_ERR_EMAIL_INVALID'		=> 'Vámi vložená emailová adresa není platná.',
+	'INST_ERR_EMAIL_INVALID'		=> 'Vámi vložená e-mailová adresa není platná.',
 	'INST_ERR_PASSWORD_MISMATCH'	=> 'Vámi vložené heslo se neshoduje.',
 	'INST_ERR_PASSWORD_TOO_LONG'	=> 'Vámi vložené heslo je příliš dlouhé. Maximální délka hesla je 30 znaků.',
 	'INST_ERR_PASSWORD_TOO_SHORT'	=> 'Vámi vložené heslo je příliš krátké. Minimální délka hesla je 6 znaků.',
@@ -213,7 +213,7 @@ $lang = array_merge($lang, array(
 	//
 	// Email data
 	//
-	'EMAIL_CONFIG'	=> 'Nastavení emailu',
+	'EMAIL_CONFIG'	=> 'Nastavení e-mailu',
 
 	// Package info
 	'PACKAGE_VERSION'					=> 'Verze nainstalovaného balíčku',
@@ -307,7 +307,7 @@ $lang = array_merge($lang, array(
 
 	// Install finish
 	'TASK_INSTALL_EXTENSIONS'	=> 'Instalace přibalených rozšíření',
-	'TASK_NOTIFY_USER'			=> 'Odesílání upozorňovacího emailu',
+	'TASK_NOTIFY_USER'			=> 'Odesílání upozorňovacího e-mailu',
 	'TASK_POPULATE_MIGRATIONS'	=> 'Zaplňování migrací',
 
 	// Installer general progress messages
