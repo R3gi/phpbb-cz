@@ -21,7 +21,7 @@ This is an official Czech translation for phpBB forum software.
    to [phpBB's 'How to Install a Language Pack' manual](https://www.phpbb.com/support/docs/en/3.3/kb/article/how-to-install-a-language-pack/)
    .
 
-It's safe to delete _README.md_ and _LICENSE files_.
+It's safe to delete _README.md_ and _LICENSE_ files.
 
 ## Support
 

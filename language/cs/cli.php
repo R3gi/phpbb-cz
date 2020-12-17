@@ -35,7 +35,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-  'CLI_APCU_CACHE_NOTICE'				=> 'APCu cache musí být pročištěna skrze Administrátorský panel.',
+    'CLI_APCU_CACHE_NOTICE'				=> 'APCu cache musí být pročištěna skrze Administrátorský panel.',
 
 	'CLI_CONFIG_CANNOT_CACHED'			=> 'Nastavte tuto možnost, pokud se konfigurace mění příliš často na to, aby se vyplatilo ji cachovat.',
 	'CLI_CONFIG_CURRENT'				=> 'Aktuální hodnota konfigurace, použijte jednu ze dvou možností (0 nebo 1)',
@@ -63,9 +63,11 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_GET_CONFIG'				=> 'Získá hodnotu konfigurační možnosti',
 	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Zvýší číselnou hodnotu konfigurační možnosti',
 	'CLI_DESCRIPTION_LIST_EXTENSIONS'			=> 'Vypíše všechna rozšíření v databázi a v souborech.',
+
 	'CLI_DESCRIPTION_OPTION_ENV'				=> 'Název prostředí.',
 	'CLI_DESCRIPTION_OPTION_SAFE_MODE'			=> 'Spustit v bezpečném režimu (bez rozšíření).',
 	'CLI_DESCRIPTION_OPTION_SHELL'				=> 'Spustí shell.',
+
 	'CLI_DESCRIPTION_PURGE_EXTENSION'			=> 'Pročistí (smaže data) určené rozšíření.',
 
 	'CLI_DESCRIPTION_REPARSER_LIST'						=> 'Vypíše typy textů, které lze reparsovat.',
@@ -91,6 +93,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_UPDATE_CHECK_OPTION_STABILITY'	=> 'Spustit příkaz pro kontrolu pouze stabilních nebo pouze nestabilních verzí.',
 
 	'CLI_DESCRIPTION_UPDATE_HASH_BCRYPT'		=> 'Updates outdated password hashes to be hashed with bcrypt.',
+
 	'CLI_ERROR_INVALID_STABILITY' => '"%s" musí být nastavena na „stabilní” nebo „nestabilní”.',
 
 	'CLI_DESCRIPTION_USER_ACTIVATE'				=> 'Aktivovat (nebo deaktivovat) účet uživatele.',
@@ -110,7 +113,7 @@ $lang = array_merge($lang, array(
 
 	'CLI_EXTENSION_DISABLE_FAILURE'		=> 'Rozšíření %s nelze zakázat',
 	'CLI_EXTENSION_DISABLE_SUCCESS'		=> 'Rozšíření %s úspěšně zakázáno',
-	'CLI_EXTENSION_DISABLED'					=> 'Rozšíření %s není povolené',
+	'CLI_EXTENSION_DISABLED'			=> 'Rozšíření %s není povolené',
 	'CLI_EXTENSION_ENABLE_FAILURE'		=> 'Nelze povolit rozšíření %s',
 	'CLI_EXTENSION_ENABLE_SUCCESS'		=> 'Rozšíření %s úspěšně povoleno',
 	'CLI_EXTENSION_ENABLED'				=> 'Rozšíření %s už bylo povoleno',
