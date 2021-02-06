@@ -16,7 +16,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
@@ -24,7 +24,7 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-// DEVELOPERS PLEASE NOTE 
+// DEVELOPERS PLEASE NOTE
 //
 // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
 //
@@ -60,27 +60,27 @@ $lang = array_merge($lang, array(
 
 	'JUMP_TO_POST'			=> 'Přejít na příspěvek',
 
-	'LOGIN_EXPLAIN_EGOSEARCH'       => 'Pokud si chcete prohlédnout vlastní příspěvky, musíte se přihlásit.',
+	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'Pokud si chcete prohlédnout vlastní příspěvky, musíte se přihlásit.',
 	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'Pro zobrazení seznamu nepřečtených příspěvků se musíte přihlásit.',
 	'LOGIN_EXPLAIN_NEWPOSTS'	=> 'Pro zobrazení nových příspěvků od své poslední návštěvy se musíte přihlásit.',  
-	
+
 	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> array(
 		1	=> 'Pokoušíte se vyhledat příliš mnoho slov. Můžete vložit maximálně %1$d slovo.',
 		2	=> 'Pokoušíte se vyhledat příliš mnoho slov. Můžete vložit maximálně %1$d slova.',
 		3	=> 'Pokoušíte se vyhledat příliš mnoho slov. Můžete vložit maximálně %1$d slov.',
 	),
-	
+
 	'NO_KEYWORDS'			=> 'Musíte zadat minimálně jedno slovo, které chcete vyhledat. Každé slovo musí obsahovat nejméně %s a maximálně %s znaků (kromě *).',
 	'NO_RECENT_SEARCHES'	=> 'Nebyla nalezena žádná předchozí vyhledávání',
 	'NO_SEARCH'				=> 'Je nám líto, ale nemáte oprávnění vyhledávat na tomto fóru.',
+	'NO_SEARCH_RESULTS'		=> 'Nenalezeny žádné vhodné výsledky.',
 	'NO_SEARCH_LOAD'		=> 'Je nám líto, ale nemůžete teď použít vyhledávání. Aktuálně má server vysoké zatížení, prosím zkuste to později.',
-	'NO_SEARCH_RESULTS'		=> 'Nebyly nalezeny žádné vhodné výsledky.',
 	'NO_SEARCH_TIME'		=> array(
 		1	=> 'Omlouváme se, ale nyní nemůžete použít vyhledávání. Zkuste to, prosím, znovu za %d sekundu.',
 		2	=> 'Omlouváme se, ale nyní nemůžete použít vyhledávání. Zkuste to, prosím, znovu za %d sekundy.',
 		3	=> 'Omlouváme se, ale nyní nemůžete použít vyhledávání. Zkuste to, prosím, znovu za %d sekund.',
 	),
-	'NO_SEARCH_UNREADS'      => 'Vyhledávání nepřečtených příspěvků je na tomto fóru vypnuto.',
+	'NO_SEARCH_UNREADS'		=> 'Vyhledávání nepřečtených příspěvků je na tomto fóru vypnuto.',
 	'WORD_IN_NO_POST'		=> 'Nebyl nalezen žádný příspěvek, protože slovo %s není obsaženo v&nbsp;žádném z příspěvků.',
 	'WORDS_IN_NO_POST'		=> 'Nebyl nalezen žádný příspěvek, protože slova %s nejsou obsažena v&nbsp;žádném z příspěvků.',
 
@@ -91,7 +91,7 @@ $lang = array_merge($lang, array(
 	'RESULT_DAYS'			=> 'Omezit výsledky na předchozí',
 	'RESULT_SORT'			=> 'Seřadit výsledky podle',
 	'RETURN_FIRST'			=> 'Zobrazit prvních',
-  'RETURN_FIRST_EXPLAIN'	=> 'Nastavte 0 pro zobrazení celého příspěvku.',
+	'RETURN_FIRST_EXPLAIN'	=> 'Nastavte 0 pro zobrazení celého příspěvku.',
 	'GO_TO_SEARCH_ADV'	=> 'Přejít na rozšířené vyhledávání',
 
 	'SEARCHED_FOR'				=> 'Text vyhledávání',

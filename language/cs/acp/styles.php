@@ -84,7 +84,7 @@ $lang = array_merge($lang, [
 	'STYLE_USED_BY'				=> 'Používá (včetně robotů)',
 	'STYLE_VERSION'				=> 'Verze stylu',
 
-	'UNINSTALL_DEFAULT'		=> 'Výchozí vzhled nemůžete odinstalovat.',
-	'UNINSTALL_PROSILVER'	=> 'Nemůžete odinstalovat styl „prosilver”.',
-  'BROWSE_STYLES_DATABASE'	=> 'Procházet databázi vzhledů',
+	'UNINSTALL_PROSILVER'		=> 'Nemůžete odinstalovat styl „prosilver”.',
+	'UNINSTALL_DEFAULT'			=> 'Výchozí vzhled nemůžete odinstalovat.',
+	'BROWSE_STYLES_DATABASE'	=> 'Procházet databázi vzhledů',
 ]);

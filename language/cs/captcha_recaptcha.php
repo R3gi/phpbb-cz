@@ -21,7 +21,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	// Find the language/country code on https://developers.google.com/recaptcha/docs/language
 	// If no code exists for your language you can use "en" or leave the string empty
 	'RECAPTCHA_LANG'				=> 'cs',
@@ -72,5 +72,6 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_V3_THRESHOLD_REGISTER'			=> 'U registrace',
 	'RECAPTCHA_V3_THRESHOLD_REPORT'				=> 'U nahlášení',
 	'RECAPTCHA_V3_THRESHOLDS'					=> 'Prahová hodnota',
-	'RECAPTCHA_V3_THRESHOLDS_EXPLAIN'			=> 'reCAPTCHA v3 vrací skóre (<samp>1.0</samp> je velmi dobrá interakce, <samp>0.0</samp> je pravděpodobně bot). Zde můžete nastavit minimální skóré.',
-));
+	'RECAPTCHA_V3_THRESHOLDS_EXPLAIN'			=> 'reCAPTCHA v3 vrací skóre (<samp>1.0</samp> je velmi dobrá interakce, <samp>0.0</samp> je pravděpodobně bot). Zde můžete nastavit minimální skóre.',
+    'EMPTY_RECAPTCHA_V3_REQUEST_METHOD'			=> 'reCAPTCHA v3 potřebuje vědět, kterou z dostupných metod chcete použít pro ověření požadavku.',
+]);

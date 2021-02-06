@@ -158,10 +158,10 @@ $lang = array_merge($lang, array(
 	'ACL_M_SPLIT'	=> 'Může rozdělovat témata',
 	'ACL_M_MERGE'	=> 'Může spojovat témata',
 
-	'ACL_M_INFO'	=> 'Může zobrazit informace o příspěvku',
-	'ACL_M_WARN'	=> 'Může udělovat varování<br /><em>Toto nastavení je pouze globální a není založeno na fórech.</em>', // This moderator setting is only global (and not local)
-  'ACL_M_PM_REPORT'	=> 'Může uzavírat a mazat hlášení soukromých zpráv<br /><em>Tohle nastavení je pouze globální a není založeno na fórech.</em>', // This moderator setting is only global (and not local)
-	'ACL_M_BAN'		=> 'Může spravovat bany<br /><em>Toto nastavení je pouze globální a není založeno na fórech.</em>', // This moderator setting is only global (and not local)
+	'ACL_M_INFO'		=> 'Může zobrazit informace o příspěvku',
+	'ACL_M_WARN'		=> 'Může udělovat varování<br /><em>Toto nastavení je pouze globální a není založeno na fórech.</em>', // This moderator setting is only global (and not local)
+	'ACL_M_PM_REPORT'	=> 'Může uzavírat a mazat hlášení soukromých zpráv<br /><em>Tohle nastavení je pouze globální a není založeno na fórech.</em>', // This moderator setting is only global (and not local)
+	'ACL_M_BAN'			=> 'Může spravovat bany<br /><em>Toto nastavení je pouze globální a není založeno na fórech.</em>', // This moderator setting is only global (and not local)
 ));
 
 // Admin Permissions

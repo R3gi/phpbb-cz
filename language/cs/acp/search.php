@@ -58,9 +58,8 @@ $lang = array_merge($lang, array(
 	'FULLTEXT_MYSQL_INCOMPATIBLE_DATABASE'	=> 'MySQL fulltext může být použit pouze od MySQL4 a vyšší.',
 	'FULLTEXT_MYSQL_NOT_SUPPORTED'			=> 'MySQL fulltextové indexy můžou být použity pouze s MyISAM nebo InnoDB tabulkami. Pro fulltextové indexy na InnoDB tabulkách je požadováno MySQL 5.6.8 nebo novější.',
 	'FULLTEXT_MYSQL_TOTAL_POSTS'					=> 'Celkový počet indexovaných příspěvků',
-
 	'FULLTEXT_MYSQL_MIN_SEARCH_CHARS_EXPLAIN'   => 'Pouze slova s touto minimální délkou budou brány v úvahu při hledání. Pokud byste chtěli změnit toto nastavení, je potřeb tak učinit přímo v nastavení MySQL, pravděpodobně to bude muset udělat poskytovatel vašeho hostingu.',
-  'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'   => 'Pouze slova kratší než toto číslo budou brány v úvahu při hledání. Pokud byste chtěli změnit toto nastavení, je potřeb tak učinit přímo v nastavení MySQL, pravděpodobně to bude muset udělat poskytovatel vašeho hostingu.',
+	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'   => 'Pouze slova kratší než toto číslo budou brány v úvahu při hledání. Pokud byste chtěli změnit toto nastavení, je potřeb tak učinit přímo v nastavení MySQL, pravděpodobně to bude muset udělat poskytovatel vašeho hostingu.',
 
 	'FULLTEXT_POSTGRES_INCOMPATIBLE_DATABASE'	=> 'PostgreSQL fulltextový backend lze použít jen s PostgreSQL.',
 	'FULLTEXT_POSTGRES_TOTAL_POSTS'			=> 'Celkový počet indexovaných příspěvků',
@@ -103,7 +102,6 @@ $lang = array_merge($lang, array(
 	'MAX_SEARCH_CHARS_EXPLAIN'				=> 'Pouze slova, která se skládají z méně znaků, než je nastaveno, budou zaindexována.',
 	'MAX_NUM_SEARCH_KEYWORDS'					=> 'Limit vyhledaných klíčových slov',
 	'MAX_NUM_SEARCH_KEYWORDS_EXPLAIN'	=> 'Maximální počet slov, které může uživatel vyhledat. Pokud je zde nastavena 0, není kladeno žádné omezení co do počtu slov.',
-
 	'MIN_SEARCH_CHARS'								=> 'Minimální počet znaků pro indexaci',
 	'MIN_SEARCH_CHARS_EXPLAIN'				=> 'Pouze slova, která se skládají z více znaků, než je nastaveno, budou zaindexována.',
 	'MIN_SEARCH_AUTHOR_CHARS'					=> 'Minimální počet znaků ve jméně autora',
@@ -142,8 +140,8 @@ $lang = array_merge($lang, array(
 	'TOTAL_WORDS'				=> 'Celkový počet indexovaných slov',
 	'TOTAL_MATCHES'			=> 'Celkový počet spojení mezi slovy a příspěvky',
 
-	'YES_SEARCH'									=> 'Povolit vyhledávání',
+	'YES_SEARCH'							=> 'Povolit vyhledávání',
 	'YES_SEARCH_EXPLAIN'					=> 'Umožnit uživatelům využívat vyhledávání na fóru včetně vyhledávání uživatelů.',
 	'YES_SEARCH_UPDATE'						=> 'Povolit aktualizaci indexu při přispívání',
-	'YES_SEARCH_UPDATE_EXPLAIN'		=> 'Aktualizuje index po přidání příspěvku, ignorováno pokud je vyhledávání vypnuto.',
+	'YES_SEARCH_UPDATE_EXPLAIN'				=> 'Aktualizuje index po přidání příspěvku, ignorováno pokud je vyhledávání vypnuto.',
 ));

@@ -16,7 +16,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
@@ -42,7 +42,7 @@ $lang = array_merge($lang, array(
 	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'Přílohy jsou vypnuty.',
 
 	'BOOKMARK_ADDED'		=> 'Téma bylo přidáno do záložek.',
-	'BOOKMARK_ERR'         => 'Přidání tématu do záložek selhalo. Zkuste to znovu.',
+	'BOOKMARK_ERR'			=> 'Přidání tématu do záložek selhalo. Zkuste to znovu.',
 	'BOOKMARK_REMOVED'		=> 'Záložka byla odstraněna.',
 	'BOOKMARK_TOPIC'		=> 'Přidat do záložek',
 	'BOOKMARK_TOPIC_REMOVE'	=> 'Odstranit ze záložek',
@@ -64,8 +64,7 @@ $lang = array_merge($lang, array(
 
 	'FILE_NOT_FOUND_404'	=> 'Soubor <strong>%s</strong> nebyl nalezen nebo je porušen.',
 	'FORK_TOPIC'			=> 'Zkopírovat téma',
-
-	'FULL_EDITOR' => 'Upravit v editoru & Náhled',
+	'FULL_EDITOR'			=> 'Upravit v editoru & Náhled',
 
 	'LINKAGE_FORBIDDEN'		=> 'Nejste autorizovaný pro prohlížení a stahování z tohoto webu.',
 	'LOGIN_NOTIFY_TOPIC'	=> 'Byli jste upozorněni na toto téma, přihlaste se pro jeho zobrazení.',
@@ -89,7 +88,7 @@ $lang = array_merge($lang, array(
 	'NO_UNREAD_POSTS'		=> 'V tomto fóru nejsou další nepřečtená témata.',
 	'NO_VOTE_OPTION'		=> 'Musíte vybrat možnost.',
 	'NO_VOTES'				=> 'Žádná hlasování',
-  'NO_AUTH_PRINT_TOPIC'	=> 'Nemáte oprávnění tisknout témata.',
+	'NO_AUTH_PRINT_TOPIC'	=> 'Nemáte oprávnění tisknout témata.',
 
 	'POLL_ENDED_AT'			=> 'Anketa končí za %s',
 	'POLL_RUN_TILL'			=> 'Anketa do %s',
@@ -97,9 +96,8 @@ $lang = array_merge($lang, array(
 	'POST_DELETED_RESTORE'	=> 'Tento příspěvek byl smazán, ale může být obnoven.',
 	'PRINT_TOPIC'			=> 'Verze pro tisk',
 
-	'QUICKREPLY'			=> 'Rychlá odpověď',
-
 	'QUICK_MOD'				=> 'Rychlé úpravy',
+	'QUICKREPLY'			=> 'Rychlá odpověď',
 
 	'REPLY_TO_TOPIC'		=> 'Odpovědět na téma',
 	'RESTORE'				=> 'Obnovit',

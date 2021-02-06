@@ -16,7 +16,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
@@ -50,7 +50,6 @@ $lang = array_merge($lang, array(
 	'AUTO_PRUNE_SHADOW_FREQ_EXPLAIN'	=> 'Počet dnů, které musí uběhnout než bude provedeno další pročištění.',
 
 	'CONTINUE'						=> 'Pokračovat',
-
 	'COPY_PERMISSIONS'				=> 'Zkopírovat oprávnění z',
 	'COPY_PERMISSIONS_EXPLAIN'		=> 'Pro usnadnění nastavení oprávnění nového fóra, můžete zkopírovat sadu oprávnění z jiného.',
 	'COPY_PERMISSIONS_ADD_EXPLAIN'	=> 'Po vytvoření bude mít fórum stejná oprávnění jako zde zvolené. Není-li žádné zvoleno, nově vytvořené fórum nebude viditelné, dokud nenastavíte základní oprávnění.',
@@ -59,12 +58,12 @@ $lang = array_merge($lang, array(
 	'CREATE_FORUM'					=> 'Vytvořit nové fórum',
 
 	'DECIDE_MOVE_DELETE_CONTENT'		=> 'Odstranit obsah nebo přesunout do fóra',
-	'DECIDE_MOVE_DELETE_SUBFORUMS'	=> 'Odstranit subfóra nebo přesunout do fóra',
-	'DEFAULT_STYLE'									=> 'Výchozí vzhled',
-	'DELETE_ALL_POSTS'							=> 'Smazat příspěvky',
-	'DELETE_SUBFORUMS'							=> 'Smazat subfóra a příspěvky',
-	'DISPLAY_ACTIVE_TOPICS'					=> 'Povolit oblíbená témata',
-	'DISPLAY_ACTIVE_TOPICS_EXPLAIN'	=> 'Zapněte, pokud chcete, aby se ve fóru označovala oblíbená témata.',
+	'DECIDE_MOVE_DELETE_SUBFORUMS'		=> 'Odstranit subfóra nebo přesunout do fóra',
+	'DEFAULT_STYLE'						=> 'Výchozí vzhled',
+	'DELETE_ALL_POSTS'					=> 'Smazat příspěvky',
+	'DELETE_SUBFORUMS'					=> 'Smazat subfóra a příspěvky',
+	'DISPLAY_ACTIVE_TOPICS'				=> 'Povolit oblíbená témata',
+	'DISPLAY_ACTIVE_TOPICS_EXPLAIN'		=> 'Zapněte, pokud chcete, aby se ve fóru označovala oblíbená témata.',
 
 	'EDIT_FORUM'								=> 'Upravit fórum',
 	'ENABLE_INDEXING'						=> 'Povolit indexování pro vyhledávání',
@@ -139,8 +138,8 @@ $lang = array_merge($lang, array(
 	'LOCKED'									=> 'Zamknuto',
 
 	'MOVE_POSTS_NO_POSTABLE_FORUM'	=> 'Do fóra, které jste vybrali pro přesunutí příspěvku, není možno přispívat. Prosíme, zvolte dostupné fórum.',
-	'MOVE_POSTS_TO'		=> 'Přesunout příspěvky do',
-	'MOVE_SUBFORUMS_TO'	=> 'Přesunout subfóra do',
+	'MOVE_POSTS_TO'					=> 'Přesunout příspěvky do',
+	'MOVE_SUBFORUMS_TO'				=> 'Přesunout subfóra do',
 
 	'NO_DESTINATION_FORUM'			=> 'Nezvolili jste fórum, do něhož bude přesunut obsah.',
 	'NO_FORUM_ACTION'				=> 'Nebyla definována akce pro naložení s&nbsp;obsahem fóra',

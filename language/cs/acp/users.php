@@ -16,7 +16,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
@@ -42,8 +42,8 @@ $lang = array_merge($lang, array(
 
 	'BAN_ALREADY_ENTERED'	=> 'Ban již existuje, nebyl udělen znovu.',
 	'BAN_SUCCESSFUL'		=> 'Ban byl udělen.',
-	'CANNOT_BAN_ANONYMOUS'         => 'Nelze zabanovat anonymního uživatele. Pokud potřebujete omezit jeho možnosti, použijte sekci Oprávnění.',
 
+	'CANNOT_BAN_ANONYMOUS'			=> 'Nelze zabanovat anonymního uživatele. Pokud potřebujete omezit jeho možnosti, použijte sekci Oprávnění.',
 	'CANNOT_BAN_FOUNDER'			=> 'Nelze zabanovat účty zakladatelů.',
 	'CANNOT_BAN_YOURSELF'			=> 'Nemůžete zabanovat sami sebe.',
 	'CANNOT_DEACTIVATE_BOT'			=> 'Nelze deaktivovat účty botů, deaktivujte samotného bota na stránce s přehledem botů.',

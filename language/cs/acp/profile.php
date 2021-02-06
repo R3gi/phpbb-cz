@@ -16,7 +16,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
@@ -148,28 +148,28 @@ $lang = array_merge($lang, array(
 	'REQUIRED_FIELD_EXPLAIN'	=> 'Položka profilu bude muset být vyplněna uživatelem nebo administrátorem. Pokud je vypnuta možnost Zobrazit při&nbsp;registraci, položka bude vyžadována pouze při změnách v profilu.',
 	'ROWS'										=> 'řady',
 
-	'SAVE'										=> 'Uložit',
-	'SECOND_OPTION'						=> 'Druhá možnost',
-  'SHOW_NOVALUE_FIELD'			=> 'Zobrazit pole, pokud nebyla vybraná hodnota',
+	'SAVE'							=> 'Uložit',
+	'SECOND_OPTION'					=> 'Druhá možnost',
+	'SHOW_NOVALUE_FIELD'			=> 'Zobrazit pole, pokud nebyla vybraná hodnota',
 	'SHOW_NOVALUE_FIELD_EXPLAIN'	=> 'Určuje, jestli má být zobrazeno pole v profilu v případě, že nebyla vybraná hodnota ve volitelných polích nebo v případě, že ještě nebyla vybraná hodnota v požadovaných polích.',
-	'STEP_1_EXPLAIN_CREATE'		=> 'Zde zvolíte hlavní parametry a nastavení nové položky. Tyto nastavení jsou potřebné pro druhý krok, kde budete moci přidat další možnosti a doladit vložená nastavení.',
+	'STEP_1_EXPLAIN_CREATE'			=> 'Zde zvolíte hlavní parametry a nastavení nové položky. Tyto nastavení jsou potřebné pro druhý krok, kde budete moci přidat další možnosti a doladit vložená nastavení.',
 	'STEP_1_EXPLAIN_EDIT'			=> 'Zde můžete změnit základní nastavení vaší položky. Nastavení, které je nutné přepočítat nebo přepsat pro zachování konzistence budou automaticky změněny a dále dostupné k upravení v druhém kroku.',
 	'STEP_1_TITLE_CREATE'			=> 'Přidat položku profilu',
 	'STEP_1_TITLE_EDIT'				=> 'Upravit položku profilu',
-	'STEP_2_EXPLAIN_CREATE'		=> 'Zde nastavte možnosti, které jsou specifické pro tento druh vstupního pole, např. délku, rozsah nebo povolené znaky.',
+	'STEP_2_EXPLAIN_CREATE'			=> 'Zde nastavte možnosti, které jsou specifické pro tento druh vstupního pole, např. délku, rozsah nebo povolené znaky.',
 	'STEP_2_EXPLAIN_EDIT'			=> 'Zde nastavte možnosti, které jsou specifické pro tento druh vstupního pole, např. délku, rozsah nebo povolené znaky.<br /><strong>Berte na vědomí, že změny, které provedete, neovlivní data, které byly dosud zadané.</strong>',
 	'STEP_2_TITLE_CREATE'			=> 'Specifická nastavení typu',
 	'STEP_2_TITLE_EDIT'				=> 'Specifická nastavení typu',
-	'STEP_3_EXPLAIN_CREATE'		=> 'Vzhledem k&nbsp;tomu, že máte nainstalován na fóru více než jeden jazyk, měli byste vyplnit názvy polí i pro další jazyky. Položka bude fungovat s&nbsp;výchozím jazykem, další jazyky můžete doplnit později.',
+	'STEP_3_EXPLAIN_CREATE'			=> 'Vzhledem k&nbsp;tomu, že máte nainstalován na fóru více než jeden jazyk, měli byste vyplnit názvy polí i pro další jazyky. Položka bude fungovat s&nbsp;výchozím jazykem, další jazyky můžete doplnit později.',
 	'STEP_3_EXPLAIN_EDIT'			=> 'Vzhledem k&nbsp;tomu, že máte nainstalován na fóru více než jeden jazyk, měli byste vyplnit názvy polí i pro další jazyky. Položka bude zatím fungovat s&nbsp;výchozím jazykem.',
 	'STEP_3_TITLE_CREATE'			=> 'Zbývající definice popisů pro další jazyky',
 	'STEP_3_TITLE_EDIT'				=> 'Definice názvů pro další jazyky',
 	'STRING_DEFAULT_VALUE_EXPLAIN'	=> 'Vložte řetězec, který bude zobrazen, pokud je položka nevyplněná. Nechte toto pole prázdné, pokud má být výchozí hodnota také prázdná.',
 
 	'TEXT_DEFAULT_VALUE_EXPLAIN'	=> 'Vložte text, který bude zobrazen, pokud je položka nevyplněná. Nechte toto pole prázdné, pokud má být výchozí hodnota také prázdná.',
-	'TRANSLATE'										=> 'Přeložit',
+	'TRANSLATE'						=> 'Přeložit',
 
-	'USER_FIELD_NAME'		=> 'Název či popisek pole zobrazený uživateli',
+	'USER_FIELD_NAME'	=> 'Název či popisek pole zobrazený uživateli',
 
-	'VISIBILITY_OPTION'	=> 'Možnosti zobrazení',
+	'VISIBILITY_OPTION'				=> 'Možnosti zobrazení',
 ));

@@ -138,8 +138,8 @@ $lang = array_merge($lang, array(
 	'CLI_MIGRATIONS_ONLY_AVAILABLE'		    => 'Zobrazit pouze dostupné migrace',
 	'CLI_MIGRATIONS_EMPTY'                  => 'Žádné migrace.',
 
-	'CLI_REPARSER_REPARSE_REPARSING'		=> 'Reparsuji %1$s (řádek %2$d - %3$d)',
-	'CLI_REPARSER_REPARSE_REPARSING_START'	=> 'Reparsuji %s...',
+	'CLI_REPARSER_REPARSE_REPARSING'		=> 'Reparsuji %1$s (řádek %2$d – %3$d)',
+	'CLI_REPARSER_REPARSE_REPARSING_START'	=> 'Reparsuji %s…',
 	'CLI_REPARSER_REPARSE_SUCCESS'			=> 'Reparsování bylo úspěšně dokončeno',
 
 	// In all the case %1$s is the logical name of the file and %2$s the real name on the filesystem

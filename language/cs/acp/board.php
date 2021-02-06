@@ -16,7 +16,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
@@ -73,6 +73,7 @@ $lang = array_merge($lang, array(
 // Board Features
 $lang = array_merge($lang, array(
 	'ACP_BOARD_FEATURES_EXPLAIN'	=> 'Zde můžete nastavit některé funkce fóra.',
+
 	'ALLOW_ATTACHMENTS'			=> 'Povolit přílohy',
 	'ALLOW_BIRTHDAYS'			=> 'Povolit narozeniny',
 	'ALLOW_BIRTHDAYS_EXPLAIN'	=> 'Povolit vkládání narozenin a zobrazení věku v&nbsp;uživatelském profilu. Upozorňujeme, že výpis narozenin v&nbsp;obsahu fóra je řízen nastavením zatížení.',
@@ -100,7 +101,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_TOPIC_NOTIFY'		=> 'Povolit sledování témat',
 	'BOARD_PM'					=> 'Soukromé zprávy',
 	'BOARD_PM_EXPLAIN'			=> 'Povolit soukromé zprávy všem uživatelům.',
-  'ALLOW_BOARD_NOTIFICATIONS' => 'Povolit notifikace fóra',
+	'ALLOW_BOARD_NOTIFICATIONS' => 'Povolit notifikace fóra',
 ));
 
 // Avatar Settings
@@ -109,7 +110,7 @@ $lang = array_merge($lang, array(
 
 	'ALLOW_AVATARS'					=> 'Povolit avatary',
 	'ALLOW_AVATARS_EXPLAIN'			=> 'Umožnit obecné používání avatarů;<br />Pokud vypnete používání avatarů obecně nebo vypnete některý z druhů avatarů, nebudou už zobrazeny na fóru, ale uživatelé si je budou moci stáhnout v uživatelském panelu, aby o ně nepřišli.',
-  'ALLOW_GRAVATAR'  =>  'Povolit gravatar avatary',
+	'ALLOW_GRAVATAR'				=> 'Povolit gravatar avatary',
 	'ALLOW_LOCAL'					=> 'Povolit avatary z galerie',
 	'ALLOW_REMOTE'					=> 'Povolit vzdálené avatary',
 	'ALLOW_REMOTE_EXPLAIN'			=> 'Avatary umístěné na jiných serverech.<br><em><strong class="error">Varování:</strong> Povolení této funkce může uživatelům umožnit kontrolovat existenci souborů a služeb, které jsou přístupné pouze v místní síti.</em>',
@@ -132,13 +133,13 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_MESSAGE_SETTINGS_EXPLAIN'		=> 'Zde můžete definovat všechna výchozí nastavení soukromých zpráv.',
 
-	'ALLOW_BBCODE_PM'				=> 'Povolit BBCode v&nbsp;soukromých zprávách',
-	'ALLOW_FLASH_PM'				=> 'Povolit použití značky <code>[FLASH]</code>',
+	'ALLOW_BBCODE_PM'			=> 'Povolit BBCode v&nbsp;soukromých zprávách',
+	'ALLOW_FLASH_PM'			=> 'Povolit použití značky <code>[FLASH]</code>',
 	'ALLOW_FLASH_PM_EXPLAIN'	=> 'Upozorňujeme, že možnost použití značky Flash v&nbsp;soukromých zprávách, je-li povoleno, závisí na nastavení oprávnění.',
 	'ALLOW_FORWARD_PM'			=> 'Povolit přeposílání soukromých zprávách',
-	'ALLOW_IMG_PM'					=> 'Povolit použití značky <code>[IMG]</code>',
-	'ALLOW_MASS_PM'					=> 'Povolit posílání soukromých zpráv více uživatelům nebo skupinám',
-	'ALLOW_MASS_PM_EXPLAIN'	=> 'Zasílání konkrétním skupinám lze upravit v nastavení té skupiny.',
+	'ALLOW_IMG_PM'				=> 'Povolit použití značky <code>[IMG]</code>',
+	'ALLOW_MASS_PM'				=> 'Povolit posílání soukromých zpráv více uživatelům nebo skupinám',
+	'ALLOW_MASS_PM_EXPLAIN'		=> 'Zasílání konkrétním skupinám lze upravit v nastavení té skupiny.',
 	'ALLOW_PRINT_PM'			=> 'Povolit zobrazení soukromých zpráv v&nbsp;rozvržení pro tisk',
 	'ALLOW_QUOTE_PM'			=> 'Povolit citování soukromých zpráv',
 	'ALLOW_SIG_PM'				=> 'Povolit připojení podpisu v&nbsp;soukromých zprávách',
@@ -153,32 +154,32 @@ $lang = array_merge($lang, array(
 	'HOLD_NEW_MESSAGES'			=> 'Podržet příchozí zprávy',
 	'PM_EDIT_TIME'				=> 'Omezit čas pro úpravu',
 	'PM_EDIT_TIME_EXPLAIN'		=> 'Omezuje čas, po který je možné upravovat nedoručenou soukromou zprávu. Pokud je hodnota nastavena na 0, funkce je vypnuta.',
-	'PM_MAX_RECIPIENTS'         => 'Povolený počet příjemců',
-	'PM_MAX_RECIPIENTS_EXPLAIN'   => 'Maximální počet příjemců pro jednu soukromou zprávu. Pokud je nastavena 0, zprávu lze zaslat neomezenému počtu uživatelů. Toto nastavení lze upravit pro každou skupinu v jejím nastavení.',
+	'PM_MAX_RECIPIENTS'			=> 'Povolený počet příjemců',
+	'PM_MAX_RECIPIENTS_EXPLAIN'	=> 'Maximální počet příjemců pro jednu soukromou zprávu. Pokud je nastavena 0, zprávu lze zaslat neomezenému počtu uživatelů. Toto nastavení lze upravit pro každou skupinu v jejím nastavení.',
 
 ));
 
 // Post Settings
 $lang = array_merge($lang, array(
 	'ACP_POST_SETTINGS_EXPLAIN'			=> 'Zde definujete všechna výchozí nastavení pro přispívání.',
-	'ALLOW_POST_LINKS'							=> 'Povolit odkazy v&nbsp;příspěvcích/soukromých zprávách',
+	'ALLOW_POST_LINKS'					=> 'Povolit odkazy v&nbsp;příspěvcích/soukromých zprávách',
 	'ALLOW_POST_LINKS_EXPLAIN'			=> 'Je-li zakázáno, značky <code>[URL]</code> a automatické oživování odkazů jsou vypnuty.',
-  'ALLOWED_SCHEMES_LINKS'				=> 'Povolená schémata odkazů',
-  'ALLOWED_SCHEMES_LINKS_EXPLAIN'		=> 'Uživatelé mohou vkládat pouze adresy bez schémat nebo některé schéma ze seznamu povolených schémat (odděleno čárkou).',
-	'ALLOW_POST_FLASH'							=> 'Povolit použití značky<code>[FLASH]</code> v&nbsp;příspěvcích',
+	'ALLOWED_SCHEMES_LINKS'				=> 'Povolená schémata odkazů',
+	'ALLOWED_SCHEMES_LINKS_EXPLAIN'		=> 'Uživatelé mohou vkládat pouze adresy bez schémat nebo některé schéma ze seznamu povolených schémat (odděleno čárkou).',
+	'ALLOW_POST_FLASH'					=> 'Povolit použití značky<code>[FLASH]</code> v&nbsp;příspěvcích',
 	'ALLOW_POST_FLASH_EXPLAIN'			=> 'Je-li zakázáno, nelze v&nbsp;příspěvcích používat značku <code>[FLASH]</code>.',
 
-	'BUMP_INTERVAL'							=> 'Interval pro oživení',
+	'BUMP_INTERVAL'					=> 'Interval pro oživení',
 	'BUMP_INTERVAL_EXPLAIN'			=> 'Doba od posledního příspěvku v&nbsp;tématu nutná pro možnost jeho oživení autorem. Pokud zvolíte 0, funkce se vypne.',
-	'CHAR_LIMIT'								=> 'Maximální počet znaků v&nbsp;příspěvku',
-	'CHAR_LIMIT_EXPLAIN'				=> 'Maximální počet znaků v&nbsp;příspěvku. Pokud je hodnota nastavena na 0, lze použít neomezený počet znaků.',
-	'DELETE_TIME'								=> 'Omezení času pro smazaní příspěvku',
-	'DELETE_TIME_EXPLAIN'				=> 'Omezí dobu, po kterou uživatel může smazat svůj příspěvek. Pokud je hodnota nastavena na 0, funkce je vypnuta.',
-	'DISPLAY_LAST_EDITED'				=> 'Zobrazit informace o&nbsp;poslední úpravě',
+	'CHAR_LIMIT'					=> 'Maximální počet znaků v&nbsp;příspěvku',
+	'CHAR_LIMIT_EXPLAIN'			=> 'Maximální počet znaků v&nbsp;příspěvku. Pokud je hodnota nastavena na 0, lze použít neomezený počet znaků.',
+	'DELETE_TIME'					=> 'Omezení času pro smazaní příspěvku',
+	'DELETE_TIME_EXPLAIN'			=> 'Omezí dobu, po kterou uživatel může smazat svůj příspěvek. Pokud je hodnota nastavena na 0, funkce je vypnuta.',
+	'DISPLAY_LAST_EDITED'			=> 'Zobrazit informace o&nbsp;poslední úpravě',
 	'DISPLAY_LAST_EDITED_EXPLAIN'	=> 'Zvolte, má-li se pod příspěvkem zobrazovat informace o&nbsp;jeho poslední úpravě.',
-	'EDIT_TIME'									=> 'Omezení času pro úpravu',
-	'EDIT_TIME_EXPLAIN'					=> 'Omezuje dobu, po kterou je možno upravovat nový příspěvek. Pokud je hodnota nastavena na 0, funkce je vypnuta.',
-	'FLOOD_INTERVAL'						=> 'Ochranný interval',
+	'EDIT_TIME'						=> 'Omezení času pro úpravu',
+	'EDIT_TIME_EXPLAIN'				=> 'Omezuje dobu, po kterou je možno upravovat nový příspěvek. Pokud je hodnota nastavena na 0, funkce je vypnuta.',
+	'FLOOD_INTERVAL'				=> 'Ochranný interval',
 	'FLOOD_INTERVAL_EXPLAIN'		=> 'Počet sekund, po jehož uplynutí může uživatel odeslat další příspěvek. Pokud je hodnota nastavena na 0, funkce je vypnuta.',
 	'HOT_THRESHOLD'							=> 'Počet příspěvků v&nbsp;oblíbených tématech',
 	'HOT_THRESHOLD_EXPLAIN'			=> 'Určete minimální počet příspěvků, při němž se téma automaticky označí jako oblíbené. Pokud je hodnota nastavena na 0, funkce je vypnuta.',
@@ -225,13 +226,18 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_REGISTER_SETTINGS_EXPLAIN'		=> 'Zde můžete definovat způsob registrace a nastavení spjatá s&nbsp;uživatelskými profily.',
 
-	'ACC_ACTIVATION'					=> 'Aktivace účtu',
-	'ACC_ACTIVATION_EXPLAIN'	=> 'Určuje, mají-li uživatelé okamžitý přístup k&nbsp;fóru, nebo musí registraci účtu nejprve potvrdit. Lze také zcela zakázat nové registrace.  <em>Abyste mohli používat aktivaci uživatelem nebo administrátorem, musíte mít na fóru povolené posílání e-mailů</em>, které najdete v „Nastavení e-mailu“ na záložce „Obecné“.',
-  'ACC_ACTIVATION_WARNING'		=> 'Pamatujte, že aktuálně vybraný způsob aktivace vyžaduje, aby bylo na fóru povolené posílání e-mailů, jinak budou registrace zakázané. Doporučujeme vám, abyste si vybrali jiný způsob aktivace, nebo znovu povolili e-maily.',
-	'ACC_ADMIN'								=> 'Administrátorem',
-	'ACC_DISABLE'							=> 'Vypnout registrace',
-	'ACC_NONE'								=> 'Bez aktivace (okamžitý přístup)',
-	'ACC_USER'								=> 'Uživatelem (ověření e-mailem)',
+	'ACC_ACTIVATION'				=> 'Aktivace účtu',
+	'ACC_ACTIVATION_EXPLAIN'		=> 'Určuje, mají-li uživatelé okamžitý přístup k&nbsp;fóru, nebo musí registraci účtu nejprve potvrdit. Lze také zcela zakázat nové registrace.  <em>Abyste mohli používat aktivaci uživatelem nebo administrátorem, musíte mít na fóru povolené posílání e-mailů</em>, které najdete v „Nastavení e-mailu“ na záložce „Obecné“.',
+	'ACC_ACTIVATION_WARNING'		=> 'Pamatujte, že aktuálně vybraný způsob aktivace vyžaduje, aby bylo na fóru povolené posílání e-mailů, jinak budou registrace zakázané. Doporučujeme vám, abyste si vybrali jiný způsob aktivace, nebo znovu povolili e-maily.',
+	'NEW_MEMBER_POST_LIMIT'			=> 'Počet příspěvků pro nové uživatele',
+	'NEW_MEMBER_POST_LIMIT_EXPLAIN'	=> 'Nově registrovaní členové fóra jsou ve skupině <em>Noví členové fóra</em>, dokud nedosáhnou tohoto počtu příspěvků. Můžete tuto skupinu použít pro omezení posílání soukromých zpráv nebo vynucení schválení příspěvků. <strong>Pokud je počet nastaven na 0, uživatelé budou automaticky plnohodnotnými členy fóra.</strong>',
+	'NEW_MEMBER_GROUP_DEFAULT'		=> 'Nastavit skupinu Noví členové fóra jako výchozí',
+	'NEW_MEMBER_GROUP_DEFAULT_EXPLAIN'	=> 'Pokud toto povolíte a uživatel nedosáhne nutného počtu příspěvků pro vystoupení ze skupiny <em>Noví členové fóra</em>, bude navíc tato skupina nastavena jako jejich výchozí. To se hodí, pokud chcete tyto uživatele odlišit například hodností nebo barvou.',
+
+	'ACC_ADMIN'					=> 'Administrátorem',
+	'ACC_DISABLE'				=> 'Vypnout registrace',
+	'ACC_NONE'					=> 'Bez aktivace (okamžitý přístup)',
+	'ACC_USER'					=> 'Uživatelem (ověření e-mailem)',
 //	'ACC_USER_ADMIN'			=> 'Uživatelem a Administrátorem',
 	'ALLOW_EMAIL_REUSE'			=> 'Povolit použití shodné e-mailové adresy',
 	'ALLOW_EMAIL_REUSE_EXPLAIN'	=> 'Různí uživatelé se mohou registrovat se stejnou e-mailovou adresou.',
@@ -243,12 +249,6 @@ $lang = array_merge($lang, array(
 	'ENABLE_COPPA_EXPLAIN'		=> 'Vyžaduje od uživatelů stvrzení, že jsou starší 13ti let, jak ukládá U.S. COPPA Act (Vyhláška USA o&nbsp;ochraně mládeže na internetu). Je-li funkce vypnuta, předdefinovaná skupina COPPA nebude použita.',
 	'MAX_CHARS'								=> 'Max',
 	'MIN_CHARS'								=> 'Min',
-
-	'NEW_MEMBER_POST_LIMIT'			=> 'Počet příspěvků pro nové uživatele',
-	'NEW_MEMBER_POST_LIMIT_EXPLAIN'	=> 'Nově registrovaní členové fóra jsou ve skupině <em>Noví členové fóra</em>, dokud nedosáhnou tohoto počtu příspěvků. Můžete tuto skupinu použít pro omezení posílání soukromých zpráv nebo vynucení schválení příspěvků. <strong>Pokud je počet nastaven na 0, uživatelé budou automaticky plnohodnotnými členy fóra.</strong>',
-	'NEW_MEMBER_GROUP_DEFAULT'		=> 'Nastavit skupinu Noví členové fóra jako výchozí',
-	'NEW_MEMBER_GROUP_DEFAULT_EXPLAIN'	=> 'Pokud toto povolíte a uživatel nedosáhne nutného počtu příspěvků pro vystoupení ze skupiny <em>Noví členové fóra</em>, bude navíc tato skupina nastavena jako jejich výchozí. To se hodí, pokud chcete tyto uživatele odlišit například hodností nebo barvou.',
-
 	'NO_AUTH_PLUGIN'					=> 'Nebyl nalezen použitelný plugin pro autorizaci.',
 	'PASSWORD_LENGTH'					=> 'Délka hesla',
 	'PASSWORD_LENGTH_EXPLAIN'	=> 'Minimální délka hesla. Maximální délka není omezena.',
@@ -271,8 +271,8 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_MANAGEMENT'				=> 'Obecné nastavení exportů ATOM',
 	'ACP_FEED_MANAGEMENT_EXPLAIN'		=> 'Na této stránce můžete povolit a upravit různé exporty ATOM (vylepšené RSS), které dokáží zpracovat příspěvky i s BBCode a nabídnout je ke stažení uživatelům do jejich čteček.',
 
- 	'ACP_FEED_GENERAL'							=> 'Nastavení obecného exportu',
- 	'ACP_FEED_POST_BASED'					=> 'Nastavení exportu příspěvků',
+ 	'ACP_FEED_GENERAL'					=> 'Nastavení obecného exportu',
+ 	'ACP_FEED_POST_BASED'				=> 'Nastavení exportu příspěvků',
  	'ACP_FEED_TOPIC_BASED'				=> 'Nastavení exportu témat',
  	'ACP_FEED_SETTINGS_OTHER'			=> 'Ostatní nastavení exportů',
 
@@ -300,58 +300,53 @@ $lang = array_merge($lang, array(
 
  	'ACP_FEED_HTTP_AUTH'				=> 'HTTP přihlášení',
  	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'Umožní uživatelům se přihlásit k exportům přes HTTP přidáním parametru <samp>auth=http</samp> k URL exportu, což jim umožní zobrazit obsah skrytých sekcí, kam mají přístup. Některé instalace PHP vyžadují další úpravy konfigurace, v souboru .htaccess jsou další instrukce, pokud by vám funkce nefungovala.',
-
 	'ACP_FEED_ITEM_STATISTICS'			=> 'Statistiky položek',
 	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'Zobrazí jednotlivé statistiky každé položky<br />(autor, čas odeslání, počet odpovědí a zobrazení)',
 	'ACP_FEED_EXCLUDE_ID'				=> 'Vyloučit tato fóra',
 	'ACP_FEED_EXCLUDE_ID_EXPLAIN'		=> 'Obsah z těchto fór <strong>nebude zahrnut v exportech</strong>. Nevyberte žádné fórum pro použití všech.<br />Vyberte více fór podržením tlačítka <samp>CTRL</samp> a vybráním jednotlivých položek.',
 ));
 
-
 // Visual Confirmation Settings
 $lang = array_merge($lang, array(
-	'ACP_VC_EXT_GET_MORE'					=> 'Další (a pravděpodobně lepší) antispamovací doplňky můžete najít v <a href="https://www.phpbb.com/go/anti-spam-ext"><strong>Databázi rozšíření na phpBB.com</strong></a>. Další informace týkající se prevence spamu ve vašem fóru můžete najít v <a href="https://www.phpbb.com/go/anti-spam"><strong>Databázi znalostí (Knowledge Base) na phpBB.com</strong></a>.',
 	'ACP_VC_SETTINGS_EXPLAIN'				=> 'Zde si můžete vybrat a nastavit jednotlivé plug-iny, které různým způsobem implementují nástroje pro potlačení nechtěných příspěvků a registrací – spamu.',
-	'AVAILABLE_CAPTCHAS'						=> 'Dostupné plug-iny',
-	'CAPTCHA_UNAVAILABLE'						=> 'Plug-in nebyl nastaven, protože nebyly splněny jeho požadavky.',
-	'CAPTCHA_GD'										=> 'GD CAPTCHA',
-	'CAPTCHA_GD_3D'									=> 'GD 3D Captcha',
-
-	'CAPTCHA_GD_FOREGROUND_NOISE'		=> 'GD CAPTCHA s&nbsp;šumem na popředí',
-	'CAPTCHA_GD_EXPLAIN'						=> 'Použít GD pro vytvoření složitější CAPTCHA',
-	'CAPTCHA_GD_FOREGROUND_NOISE_EXPLAIN'		=> 'Použít šum na popředí pro složitější CAPTCHA, pokud používáte GD',
-	'CAPTCHA_GD_X_GRID'							=> 'GD CAPTCHA s&nbsp;šumem na pozadí v&nbsp;x-ové ose',
-	'CAPTCHA_GD_X_GRID_EXPLAIN'			=> 'Použijte nižší hodnoty tohoto nastavení pro ztížení CAPTCHA. 0 vypne šum na x-ové ose.',
-	'CAPTCHA_GD_Y_GRID'							=> 'GD CAPTCHA s&nbsp;šumem na pozadí v&nbsp;y-ové ose',
-	'CAPTCHA_GD_Y_GRID_EXPLAIN'			=> 'Použijte nižší hodnoty tohoto nastavení pro ztížení CAPTCHA. 0 vypne šum na y-ové ose.',
-
-	'CAPTCHA_GD_WAVE'								=> 'Vlnová deformace CAPTCHA',
+	'ACP_VC_EXT_GET_MORE'					=> 'Další (a pravděpodobně lepší) antispamovací doplňky můžete najít v <a href="https://www.phpbb.com/go/anti-spam-ext"><strong>Databázi rozšíření na phpBB.com</strong></a>. Další informace týkající se prevence spamu ve vašem fóru můžete najít v <a href="https://www.phpbb.com/go/anti-spam"><strong>Databázi znalostí (Knowledge Base) na phpBB.com</strong></a>.',
+	'AVAILABLE_CAPTCHAS'					=> 'Dostupné plug-iny',
+	'CAPTCHA_UNAVAILABLE'					=> 'Plug-in nebyl nastaven, protože nebyly splněny jeho požadavky.',
+	'CAPTCHA_GD'							=> 'GD CAPTCHA',
+	'CAPTCHA_GD_3D'							=> 'GD 3D Captcha',
+	'CAPTCHA_GD_FOREGROUND_NOISE'			=> 'GD CAPTCHA s&nbsp;šumem na popředí',
+	'CAPTCHA_GD_EXPLAIN'					=> 'Použít GD pro vytvoření složitější CAPTCHA',
+	'CAPTCHA_GD_FOREGROUND_NOISE_EXPLAIN'	=> 'Použít šum na popředí pro složitější CAPTCHA, pokud používáte GD',
+	'CAPTCHA_GD_X_GRID'						=> 'GD CAPTCHA s&nbsp;šumem na pozadí v&nbsp;x-ové ose',
+	'CAPTCHA_GD_X_GRID_EXPLAIN'				=> 'Použijte nižší hodnoty tohoto nastavení pro ztížení CAPTCHA. 0 vypne šum na x-ové ose.',
+	'CAPTCHA_GD_Y_GRID'						=> 'GD CAPTCHA s&nbsp;šumem na pozadí v&nbsp;y-ové ose',
+	'CAPTCHA_GD_Y_GRID_EXPLAIN'				=> 'Použijte nižší hodnoty tohoto nastavení pro ztížení CAPTCHA. 0 vypne šum na y-ové ose.',
+	'CAPTCHA_GD_WAVE'						=> 'Vlnová deformace CAPTCHA',
 	'CAPTCHA_GD_WAVE_EXPLAIN'				=> 'Tato možnost deformuje obrázek podle sinové vlny.',
-	'CAPTCHA_GD_3D_NOISE'						=> 'Přidat 3D objekty jako šum',
-	'CAPTCHA_GD_3D_NOISE_EXPLAIN'		=> 'Tato možnost přidá různé klamné objekty přes písmena.',
-	'CAPTCHA_GD_FONTS'							=> 'Použít různé fonty',
-	'CAPTCHA_GD_FONTS_EXPLAIN'			=> 'Toto nastavení určuje kolik různých tvarů písmen bude použito. Můžete použít standardní tvary nebo uvést své. Přidání malých písmen je také možné.',
+	'CAPTCHA_GD_3D_NOISE'					=> 'Přidat 3D objekty jako šum',
+	'CAPTCHA_GD_3D_NOISE_EXPLAIN'			=> 'Tato možnost přidá různé klamné objekty přes písmena.',
+	'CAPTCHA_GD_FONTS'						=> 'Použít různé fonty',
+	'CAPTCHA_GD_FONTS_EXPLAIN'				=> 'Toto nastavení určuje kolik různých tvarů písmen bude použito. Můžete použít standardní tvary nebo uvést své. Přidání malých písmen je také možné.',
 	'CAPTCHA_FONT_DEFAULT'					=> 'Výchozí',
-	'CAPTCHA_FONT_NEW'							=> 'Nové tvary',
-	'CAPTCHA_FONT_LOWER'						=> 'Použít malá písmena',
-
-	'CAPTCHA_NO_GD'									=> 'Jednoduchý obrázek',
-	'CAPTCHA_PREVIEW_MSG'						=> 'Vaše změny v nastavení zatím nebyly uloženy, toto je pouze náhled.',
+	'CAPTCHA_FONT_NEW'						=> 'Nové tvary',
+	'CAPTCHA_FONT_LOWER'					=> 'Použít malá písmena',
+	'CAPTCHA_NO_GD'							=> 'Jednoduchý obrázek',
+	'CAPTCHA_PREVIEW_MSG'					=> 'Vaše změny v nastavení zatím nebyly uloženy, toto je pouze náhled.',
 	'CAPTCHA_PREVIEW_EXPLAIN'				=> 'Náhled, jak by vypadal plug-in při současných nastaveních.',
 
-	'CAPTCHA_SELECT'								=> 'Instalované plug-iny CAPTCHA',
+	'CAPTCHA_SELECT'						=> 'Instalované plug-iny CAPTCHA',
 	'CAPTCHA_SELECT_EXPLAIN'				=> 'Seznam obsahuje všechny plug-iny, které systém našel. Šedé položky nejsou dostupné v tuto chvíli a před použitím pravděpodobně budou potřebovat nastavit.',
-	'CAPTCHA_CONFIGURE'							=> 'Nastavit CAPTCHA',
-	'CAPTCHA_CONFIGURE_EXPLAIN'			=> 'Upravit nastavení pro vybranou CAPTCHA.',
-	'CONFIGURE'											=> 'Nastavit',
-	'CAPTCHA_NO_OPTIONS'						=> 'Tato CAPTCHA nemá žádné volitelné nastavení.',
+	'CAPTCHA_CONFIGURE'						=> 'Nastavit CAPTCHA',
+	'CAPTCHA_CONFIGURE_EXPLAIN'				=> 'Upravit nastavení pro vybranou CAPTCHA.',
+	'CONFIGURE'								=> 'Nastavit',
+	'CAPTCHA_NO_OPTIONS'					=> 'Tato CAPTCHA nemá žádné volitelné nastavení.',
 
-	'VISUAL_CONFIRM_POST'						=> 'Povolit obranu proti spamu u anonymních příspěvků',
-	'VISUAL_CONFIRM_POST_EXPLAIN'		=> 'Vyžaduje, aby anonymní návštěvníci při odeslání příspěvku vložili náhodně vygenerovaný kód nebo splnili jiný úkol pro obranu proti spamu.',
-	'VISUAL_CONFIRM_REG'						=> 'Povolit obranu proti spamu při registraci',
-	'VISUAL_CONFIRM_REG_EXPLAIN'		=> 'Vyžaduje, aby noví uživatelé při registraci vložili náhodně vygenerovaný kód nebo splnili jiný úkol pro obranu proti hromadným registracím.',
+	'VISUAL_CONFIRM_POST'					=> 'Povolit obranu proti spamu u anonymních příspěvků',
+	'VISUAL_CONFIRM_POST_EXPLAIN'			=> 'Vyžaduje, aby anonymní návštěvníci při odeslání příspěvku vložili náhodně vygenerovaný kód nebo splnili jiný úkol pro obranu proti spamu.',
+	'VISUAL_CONFIRM_REG'					=> 'Povolit obranu proti spamu při registraci',
+	'VISUAL_CONFIRM_REG_EXPLAIN'			=> 'Vyžaduje, aby noví uživatelé při registraci vložili náhodně vygenerovaný kód nebo splnili jiný úkol pro obranu proti hromadným registracím.',
 	'VISUAL_CONFIRM_REFRESH'				=> 'Povolit uživatelům obnovit obrázek CAPTCHA nebo získat nový úkol',
-	'VISUAL_CONFIRM_REFRESH_EXPLAIN'	=> 'Povolí uživatelům vyžádat si nový obrázek nebo jiný úkol v případě, že jej nemůže vyluštit během registrace. Některé plug-iny toto nemusí podporvat.',
+	'VISUAL_CONFIRM_REFRESH_EXPLAIN'		=> 'Povolí uživatelům vyžádat si nový obrázek nebo jiný úkol v případě, že jej nemůže vyluštit během registrace. Některé plug-iny toto nemusí podporvat.',
 ));
 
 // Cookie Settings
@@ -359,13 +354,13 @@ $lang = array_merge($lang, array(
 	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Zde lze definovat obsah dat obsažených v&nbsp;cookies odesíláných prohlížečům návštěvníků. Ve většině případů by výchozí hodnoty měly bez potíží vyhovovat. Pokud je však třeba některé upravit, buďte opatrní; jejich špatné nastavení může zabránit uživatelům v&nbsp;přihlášení. Pokud máte problémy s uživateli přihlášenými na Vaše fórum, navštivte <strong><a href="https://www.phpbb.com/support/go/cookie-settings/">phpBB.com Knowledge Base - Fixing incorrect cookie settings</a></strong>',
 
 	'COOKIE_DOMAIN'				=> 'Doména cookie',
-  'COOKIE_DOMAIN_EXPLAIN'		=> 'Nejčastěji může zůstat toto nastavení jako volitelné. Nechte jej prázdné pokud si nejste jisti.<br /><br /> V případech, kdy máte fórum integrováno s vlastním softwarem nebo máte vícero domén, pak vyplňte doménu se kterou má fórum propojit cookies. V případech, kdy máte <i>example.com</i> a <i>forums.example.com</i>, nebo pravděpodobně <i>forums.example.com</i> a <i>blog.example.com</i>. Odstraňte subdomény dokud nebudete mít doménu základní úrovně, například <i>example.com</i>. Pak přidejte tečku na začátek této domény .example.com (poznámka - před doménou je tečka).',
+	'COOKIE_DOMAIN_EXPLAIN'		=> 'Nejčastěji může zůstat toto nastavení jako volitelné. Nechte jej prázdné pokud si nejste jisti.<br /><br /> V případech, kdy máte fórum integrováno s vlastním softwarem nebo máte vícero domén, pak vyplňte doménu se kterou má fórum propojit cookies. V případech, kdy máte <i>example.com</i> a <i>forums.example.com</i>, nebo pravděpodobně <i>forums.example.com</i> a <i>blog.example.com</i>. Odstraňte subdomény dokud nebudete mít doménu základní úrovně, například <i>example.com</i>. Pak přidejte tečku na začátek této domény .example.com (poznámka - před doménou je tečka).',
 	'COOKIE_NAME'				=> 'Název cookie',
-  'COOKIE_NAME_EXPLAIN'		=> 'Zadejte libovolný název, tak abyste zajistili jeho unikátnost. Kdykoliv budete měnit nastavení cookies, měli byste změnit i tohle nastavení.',
-  'COOKIE_NOTICE'				=> 'Cookie lišta',
-  'COOKIE_NOTICE_EXPLAIN'		=> 'Pokud je povoleno, zobrazí se cookie lišta s upozorněním o využívání cookie na webu. Může být vyžadováno zákonem, záleží na obsahu fóra a použitých doplňcích.',
+	'COOKIE_NAME_EXPLAIN'		=> 'Zadejte libovolný název, tak abyste zajistili jeho unikátnost. Kdykoliv budete měnit nastavení cookies, měli byste změnit i tohle nastavení.',
+	'COOKIE_NOTICE'				=> 'Cookie lišta',
+	'COOKIE_NOTICE_EXPLAIN'		=> 'Pokud je povoleno, zobrazí se cookie lišta s upozorněním o využívání cookie na webu. Může být vyžadováno zákonem, záleží na obsahu fóra a použitých doplňcích.',
 	'COOKIE_PATH'				=> 'Cesta ke cookie',
-  'COOKIE_PATH_EXPLAIN'		=> 'Tohle je obvykle stejné jako Cesta ke skriptům nebo lomítko, nezáleží jaká je adresa Vašeho fóra.',
+	'COOKIE_PATH_EXPLAIN'		=> 'Tohle je obvykle stejné jako Cesta ke skriptům nebo lomítko, nezáleží jaká je adresa Vašeho fóra.',
 	'COOKIE_SECURE'				=> 'Zabezpečená cookie',
 	'COOKIE_SECURE_EXPLAIN'		=> 'Pokud váš server běží výhradně přes SSL, aktivujte toto nastavení, v&nbsp;ostatních případech jej ponechte vypnuté. Je-li funkce zapnutá a stránky neběží přes SSL, budou se při přesměrování zobrazovat chyby.',
 	'ONLINE_LENGTH'				=> 'Doba přítomnosti uživatele',
@@ -390,12 +385,6 @@ $lang = array_merge($lang, array(
 // Load Settings
 $lang = array_merge($lang, array(
 	'ACP_LOAD_SETTINGS_EXPLAIN'	=> 'Zde můžete povolit nebo zakázat určité funkce fóra, které mohou ovlivnit jeho vytížení. Na většině serverů není nutné jakékoliv funkce omezovat. Přesto na některých systémech nebo ve sdílených prostředích, jako jsou freehostingy, může být omezení nepotřebných funkcí užitečné. Lze také stanovit limity vytížení serveru a aktivních sessions, při kterých se fórum samo vypne.',
-
-	'AUTH_PROVIDER_OAUTH_ERROR_ELEMENT_MISSING'	=> 'Pro vybranou Oauth službu jste zadali jen jednu ze dvou povinných položek. Pro každou povolenou OAuth službu musíte poskytnout „Klíč aplikace“ a „Tajný klíč aplikace“.',
-	'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> 'Každá OAuth služba vyžaduje pro autentizaci s externím serverem jedinečné ID aplikace a tajný klíč aplikace. Tyto informace by měly být poskytnuty OAuth službou po zaregistrování vašeho webu u poskytovatele OAuth služby a musí být vloženy přesně jak jsou vám poskytnuty.<br />Služba, která nebude mít vyplněná pole pro „ID aplikace“ a „Tajný klíč aplikace“, nebude k dispozici pro použití uživateli fóra. Pamatujte také, že uživatelé se stále budou moci registrovat a přihlašovat pomocí DB autentizačního pluginu.',
-	'AUTH_PROVIDER_OAUTH_KEY'					=> 'Klíč aplikace (Key)',
-	'AUTH_PROVIDER_OAUTH_TITLE'					=> 'OAuth',
-	'AUTH_PROVIDER_OAUTH_SECRET'				=> 'Tajný klíč aplikace (Secret)',
 
 	'ALLOW_CDN'						=> 'Povolit externí načtení obsahu třetích stran',
 	'ALLOW_CDN_EXPLAIN'				=> 'Pokud je toto nastavení povoleno, některé soubory třetích stran budou načteny z externích serverů namísto z vašeho serveru. Tím se sníží množství přenesených dat z vašeho serveru, ale pro některé administrátory fór to může představovat bezpečnostní riziko. Ve výchozí instalaci phpBB je povoleno načtení „jQuery“ a „Open Sans“ fontu z „Content Delivery Networku“ (CDN) Googlu',
@@ -436,7 +425,7 @@ $lang = array_merge($lang, array(
 	'YES_POST_MARKING_EXPLAIN'		=> 'Tečka označí uživateli všechna témata, do nichž sám přispěl.',
 	'YES_READ_MARKING'				=> 'Povolit ukládání označení nepřečtených fór/témat na serveru',
 	'YES_READ_MARKING_EXPLAIN'		=> 'Ukládá stav fóra nebo tématu na serveru namísto v&nbsp;cookies uživatele.',
-	'YES_UNREAD_SEARCH'            => 'Povolit hledání nepřečtených příspěvků',
+	'YES_UNREAD_SEARCH'				=> 'Povolit hledání nepřečtených příspěvků',
 ));
 
 // Auth settings
@@ -445,9 +434,15 @@ $lang = array_merge($lang, array(
 
 	'AUTH_METHOD'				=> 'Zvolit způsob autentifikace',
 
+	'AUTH_PROVIDER_OAUTH_ERROR_ELEMENT_MISSING'	=> 'Pro vybranou Oauth službu jste zadali jen jednu ze dvou povinných položek. Pro každou povolenou OAuth službu musíte poskytnout „Klíč aplikace“ a „Tajný klíč aplikace“.',
+	'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> 'Každá OAuth služba vyžaduje pro autentizaci s externím serverem jedinečné ID aplikace a tajný klíč aplikace. Tyto informace by měly být poskytnuty OAuth službou po zaregistrování vašeho webu u poskytovatele OAuth služby a musí být vloženy přesně jak jsou vám poskytnuty.<br />Služba, která nebude mít vyplněná pole pro „ID aplikace“ a „Tajný klíč aplikace“, nebude k dispozici pro použití uživateli fóra. Pamatujte také, že uživatelé se stále budou moci registrovat a přihlašovat pomocí DB autentizačního pluginu.',
+	'AUTH_PROVIDER_OAUTH_KEY'					=> 'Klíč aplikace (Key)',
+	'AUTH_PROVIDER_OAUTH_TITLE'					=> 'OAuth',
+	'AUTH_PROVIDER_OAUTH_SECRET'				=> 'Tajný klíč aplikace (Secret)',
+
 	'APACHE_SETUP_BEFORE_USE'	=> 'Je třeba nastavit autentifikaci apache před zapnutím této možnosti v&nbsp;phpBB. Nezapomínejte, že uživatelské jméno v&nbsp;apache musí být stejné, jako používáte v&nbsp;phpBB.',
 
-  'LDAP'  =>  'LDAP',
+	'LDAP'							=> 'LDAP',
 	'LDAP_DN'										=> 'Základní LDAP <var>dn</var>',
 	'LDAP_DN_EXPLAIN'						=> 'Distinguished Name (DN) obsahuje všechny údaje o&nbsp;uživatelích, např. <samp>o=Moje firma,c=CZ</samp>.',
 	'LDAP_EMAIL'								=> 'Položka e-mailu LDAP',
@@ -499,6 +494,8 @@ $lang = array_merge($lang, array(
 	'SMILIES_PATH_EXPLAIN'		=> 'Cesta pod kořenovým adresářem phpBB, např. <samp>images/smilies</samp>',
 	'UPLOAD_ICONS_PATH'			=> 'Cesta k&nbsp;ukládání ikon pro skupiny příloh',
 	'UPLOAD_ICONS_PATH_EXPLAIN'	=> 'Cesta pod kořenovým adresářem phpBB, např. <samp>images/upload_icons</samp>',
+	'USE_SYSTEM_CRON'		=> 'Spouštět pravidelné úkoly přes cron',
+	'USE_SYSTEM_CRON_EXPLAIN'		=> 'Pokud tuto možnost zakážete, phpBB zajistí, aby byly pravidelné úkoly spouštěny automaticky. Pokud tuto možnost povolíte, phpBB samo nebude plánovat žádné pravidelné úkoly. Administrátor systému musí pro <code>bin/phpbbcli.php cron:run</code> zajistit, aby byl spouštěn v pravidelných intervalech (např. každých 5 minut) cronem systému.',
 ));
 
 // Security Settings
@@ -536,7 +533,7 @@ $lang = array_merge($lang, array(
 	'IP_LOGIN_LIMIT_TIME_EXPLAIN'	=> 'Pokusy o přihlášení končí po uplynutí této doby.',
 	'IP_LOGIN_LIMIT_USE_FORWARDED'	=> 'Omezit pokusy o přihlášení pomocí hlavičky <var>X_FORWARDED_FOR</var>',
 	'IP_LOGIN_LIMIT_USE_FORWARDED_EXPLAIN'	=> 'Místo omezení počtu přihášení podle IP adresy, se použijí hodnoty z hlavičky <var>X_FORWARDED_FOR</var>. <br /><em><strong>Upozornění:</strong> Povolte jen v případě, že pracujete s proxy servery, které nastavují hlavičku <var>X_FORWARDED_FOR</var> na spolehlivé hodnoty.</em>',
-  'MAX_LOGIN_ATTEMPTS'					=> 'Maximální počet pokusů o&nbsp;přihlášení',
+	'MAX_LOGIN_ATTEMPTS'					=> 'Maximální počet pokusů o&nbsp;přihlášení',
 	'MAX_LOGIN_ATTEMPTS_EXPLAIN'	=> 'Pokud uživatel překročí zadaný počet pokusů o&nbsp;přihlášení, bude při každém dalším pokusu požádán o&nbsp;potvrzení ověřovacího kódu.',
 	'NO_IP_VALIDATION'						=> 'Žádné',
 	'NO_REF_VALIDATION'						=> 'Žádné',
@@ -552,10 +549,8 @@ $lang = array_merge($lang, array(
 	'REFERRER_VALID_EXPLAIN'				=> 'Pokud je toto nastavení povoleno, bude porovnán referer u POST dotazů s hodnotami domény/cesty v nastavení. Toto může způsobit potíže na fórech, které používají více domén nebo externí přihlašování.',
 	'TPL_ALLOW_PHP'								=> 'Povolit PHP ve&nbsp;vzhledech',
 	'TPL_ALLOW_PHP_EXPLAIN'				=> 'Je-li tato možnost povolena, příkazy <code>PHP</code> a <code>INCLUDEPHP</code> budou rozeznávány a zpracovány ve&nbsp;vzhledech.',
-  'UPLOAD_CERT_VALID'				=> 'Ověřit certifikát pro nahrávání',
+	'UPLOAD_CERT_VALID'				=> 'Ověřit certifikát pro nahrávání',
 	'UPLOAD_CERT_VALID_EXPLAIN'		=> 'Pokud povolíte, bude ověřen certifikát pro vzdálené nahrávání. Tato funkce vyžaduje, aby byl soubor CA bundle nadefinován v nastavení <samp>openssl.cafile</samp> nebo <samp>curl.cainfo</samp> ve vašem php.ini.',
-	'USE_SYSTEM_CRON'		=> 'Spouštět pravidelné úkoly přes cron',
-	'USE_SYSTEM_CRON_EXPLAIN'		=> 'Pokud tuto možnost zakážete, phpBB zajistí, aby byly pravidelné úkoly spouštěny automaticky. Pokud tuto možnost povolíte, phpBB samo nebude plánovat žádné pravidelné úkoly. Administrátor systému musí pro <code>bin/phpbbcli.php cron:run</code> zajistit, aby byl spouštěn v pravidelných intervalech (např. každých 5 minut) cronem systému.',
 ));
 
 // Email Settings
@@ -572,22 +567,20 @@ $lang = array_merge($lang, array(
 	'CONTACT_EMAIL_EXPLAIN'			=> 'Tato adresa bude použita vždy, když je potřeba uvést kontakt na fórum, např. spam, výstupy chyb atd. Bude vždy použita jako adresa pro hlavičky <samp>From</samp> a <samp>Reply-To</samp>.',
 	'CONTACT_EMAIL_NAME'			=> 'Kontaktní jméno',
 	'CONTACT_EMAIL_NAME_EXPLAIN'	=> 'Toto je kontaktní jméno, které uvidí příjemci e-mailů. Pokud nechcete kontaktní jméno používat, nechte pole prázdné.',
-  'EMAIL_FORCE_SENDER'			=> 'Zabezpečit odesílací e-mailovou adresu',
-  'EMAIL_FORCE_SENDER_EXPLAIN'	=> 'Toto nastaví <samp>Return-Path</samp> k odesílací e-mailové adrese namísto použití lokálního uživatelského jména a hesla ze serveru. Toto nastavení se neaplikuje pokud použijete SMPT.<br><em><strong>Varování:</strong> Vyžaduje nastavení uživatele, aby běžel jako důvěryhodný s oprávněním k odesílání e-mailů.</em>',
+	'EMAIL_FORCE_SENDER'			=> 'Zabezpečit odesílací e-mailovou adresu',
+	'EMAIL_FORCE_SENDER_EXPLAIN'	=> 'Toto nastaví <samp>Return-Path</samp> k odesílací e-mailové adrese namísto použití lokálního uživatelského jména a hesla ze serveru. Toto nastavení se neaplikuje pokud použijete SMPT.<br><em><strong>Varování:</strong> Vyžaduje nastavení uživatele, aby běžel jako důvěryhodný s oprávněním k odesílání e-mailů.</em>',
 	'EMAIL_PACKAGE_SIZE'			=> 'Velikost balíku e-mailů',
 	'EMAIL_PACKAGE_SIZE_EXPLAIN'	=> 'Jedná se o&nbsp;počet e-mailů, které jsou odeslány naráz (tj. v&nbsp;jednom balíku). Nastavte tuto hodnotu na 0, pokud se vám nedoručují e-maily s&nbsp;upozorněními.',
 	'EMAIL_MAX_CHUNK_SIZE'			=> 'Maximum povolených příjemců e-mailu',
 	'EMAIL_MAX_CHUNK_SIZE_EXPLAIN'	=> 'Pokud je potřeba, nastavte maximální počet příjemců, které váš e-mailový server povolí v jedné e-mailové zprávě.',
 	'EMAIL_SIG'						=> 'Podpis e-mailu',
 	'EMAIL_SIG_EXPLAIN'				=> 'Tento text bude připojen ke všem e-mailům odeslaným přes fórum.',
-
 	'ENABLE_EMAIL'					=> 'Povolit e-maily na fóru',
 	'ENABLE_EMAIL_EXPLAIN'			=> 'Je-li tato funkce zakázána, nebudou přístupné žádné funkce používající e-maily na fóru. <em>Berte na vědomí, že aktivace účtů uživatelem nebo administrátorem tuto funkci vyžadují. Pokud máte tento druh aktivace zapnutý a vypnete e-maily zakážete registraci.</em>',
-  'SEND_TEST_EMAIL'				=> 'Odeslat testovací e-mail',
-  'SEND_TEST_EMAIL_EXPLAIN'		=> 'Odešle testovací e-mail na adresu definovanou ve vašem účtu.',
-  'SMTP_ALLOW_SELF_SIGNED'		=> 'Povolit seld-signed SSL certifikáty',
-  'SMTP_ALLOW_SELF_SIGNED_EXPLAIN'=> 'Povolit připojení na SMTP servery, které jsou self-signed SSL certifikáty.<em><strong>Varování:</strong> Povolení self-signed SSL certifikátů může mít bezpečnostní dopady.</em>',
-
+	'SEND_TEST_EMAIL'				=> 'Odeslat testovací e-mail',
+	'SEND_TEST_EMAIL_EXPLAIN'		=> 'Odešle testovací e-mail na adresu definovanou ve vašem účtu.',
+	'SMTP_ALLOW_SELF_SIGNED'		=> 'Povolit seld-signed SSL certifikáty',
+	'SMTP_ALLOW_SELF_SIGNED_EXPLAIN'=> 'Povolit připojení na SMTP servery, které jsou self-signed SSL certifikáty.<em><strong>Varování:</strong> Povolení self-signed SSL certifikátů může mít bezpečnostní dopady.</em>',
 	'SMTP_AUTH_METHOD'				=> 'Způsob autentifikace pro SMTP',
 	'SMTP_AUTH_METHOD_EXPLAIN'		=> 'Používá se jen, když je zadáno uživatelské jméno/heslo. Obraťte se na vašeho poskytovatele, pokud si nejste jisti nastavením.',
 	'SMTP_CRAM_MD5'					=> 'CRAM-MD5',
@@ -604,11 +597,12 @@ $lang = array_merge($lang, array(
 	'SMTP_SETTINGS'					=> 'Nastavení SMTP',
 	'SMTP_USERNAME'					=> 'Uživatelské jméno SMTP',
 	'SMTP_USERNAME_EXPLAIN'			=> 'Zadejte uživatelské jméno k&nbsp;SMTP serveru, pouze pokud ho server vyžaduje.',
-  'SMTP_VERIFY_PEER'				=> 'Ověření SSL certifikátu',
-  'SMTP_VERIFY_PEER_EXPLAIN'		=> 'Vyžaduje ověření SSL certifikátu používaného SMTP serverem.<em><strong>Varování:</strong> Připojování s neověřeným SSL certifikátem může být bezpečnostním rizikem.</em>',
-  'SMTP_VERIFY_PEER_NAME'			=> 'Ověřit SMTP název',
-  'SMTP_VERIFY_PEER_NAME_EXPLAIN'	=> 'Vyžaduje ověření názvu SMTP serverů používajících SSL / TLS připojení.<em><strong>Varování:</strong> Připojení k neověřeným uzlům může být bezpečnostní hrozbou.</em>',
-  'TEST_EMAIL_SENT'				=> 'Testovací e-mail byl odeslán.<br />Pokud vám nepřijde, prosím zkontrolujte vaši konfiguraci e-mailů.<br /><br />Pokud potřebujete pomoc, prosím navštivte <a href="https://www.phpbb.cz/index.php">českou podporu phpBB.cz</a>.',
+	'SMTP_VERIFY_PEER'				=> 'Ověření SSL certifikátu',
+	'SMTP_VERIFY_PEER_EXPLAIN'		=> 'Vyžaduje ověření SSL certifikátu používaného SMTP serverem.<em><strong>Varování:</strong> Připojování s neověřeným SSL certifikátem může být bezpečnostním rizikem.</em>',
+	'SMTP_VERIFY_PEER_NAME'			=> 'Ověřit SMTP název',
+	'SMTP_VERIFY_PEER_NAME_EXPLAIN'	=> 'Vyžaduje ověření názvu SMTP serverů používajících SSL / TLS připojení.<em><strong>Varování:</strong> Připojení k neověřeným uzlům může být bezpečnostní hrozbou.</em>',
+	'TEST_EMAIL_SENT'				=> 'Testovací e-mail byl odeslán.<br />Pokud vám nepřijde, prosím zkontrolujte vaši konfiguraci e-mailů.<br /><br />Pokud potřebujete pomoc, prosím navštivte <a href="https://www.phpbb.cz/index.php">českou podporu phpBB.cz</a>.',
+
 	'USE_SMTP'						=> 'Použít SMTP server pro odesílání',
 	'USE_SMTP_EXPLAIN'				=> 'Zvolte „Ano“, pokud chcete, aby byly e-maily odeslány přes označený server místo serverové funkce e-mail.',
 ));
@@ -635,6 +629,8 @@ $lang = array_merge($lang, array(
 	'JAB_USE_SSL_EXPLAIN'		=> 'Pokud povolíte tuto možnost, phpBB se pokusí navázat zabezpečené spojení. Port Jabberu bude nastaven na 5223, pokud je zvolen port 5222.',
 	'JAB_USERNAME'				=> 'Uživatelské jméno nebo Jabber ID',
 	'JAB_USERNAME_EXPLAIN'		=> 'Vložte uživatelské jméno nebo platné Jabber ID. Tato položka nebude kontrolována, jestli je platná. Pokud uvedete pouze uživatelské jméno (část před zavináčem), vaše Jabber ID bude toto jméno dohromady se serverem, který jste uvedli výše. Další možnost je uvést kompletní JID, např. uzivatel@jabber.org',
-  'JAB_VERIFY_PEER_NAME'			=> 'Ověřit Jabber',
-  'JAB_VERIFY_PEER_NAME_EXPLAIN'	=> 'Require verification of peer name for Jabber servers using SSL / TLS connections.<em><strong>Warning:</strong> Connecting to unverified peers may cause security implications.</em>',
+	'JAB_VERIFY_PEER'				=> 'Ověřit SSL certifikát',
+	'JAB_VERIFY_PEER_EXPLAIN'		=> 'Vyžadovat ověření certifikátu Jabber serveru. <br><em><strong>Upozornění:</strong> Připojení k peerům s neověřeným SSL certifikátem může znamenat narušení bezpečnosti.</em>',
+	'JAB_VERIFY_PEER_NAME'			=> 'Ověřit název Jabber peerů',
+	'JAB_VERIFY_PEER_NAME_EXPLAIN'	=> 'Vyžadovat ověření názvu peerů Jabber serverů s SSL/TLS připojením.<em><strong>Upozornění:</strong> Připojení k neověřeným peerům může znamenat narušení bezpečnosti.</em>',
 ));

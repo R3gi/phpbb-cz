@@ -16,7 +16,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-  exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
@@ -54,8 +54,8 @@ $lang = array_merge($lang, array(
 	'SEND_TO_USERS'			=> 'Odeslat uživatelům',
 	'SEND_TO_USERS_EXPLAIN'	=> 'Vložení libovolného jména zruší platnost jakékoliv výše vybrané skupiny. Uživatelská jména vkládejte jednotlivě na řádky pod sebe.',
 
-  'MAIL_BANNED'			=> 'Odeslat e-mail zabanovaným uživatelům',
-  'MAIL_BANNED_EXPLAIN'	=> 'Pokud posíláte hromadný e-mail skupině, zde si můžete také zvolit, kteří zabanovaní uživatelé také obdrží e-mail.',
+	'MAIL_BANNED'			=> 'Odeslat e-mail zabanovaným uživatelům',
+	'MAIL_BANNED_EXPLAIN'	=> 'Pokud posíláte hromadný e-mail skupině, zde si můžete také zvolit, kteří zabanovaní uživatelé také obdrží e-mail.',
 	'MAIL_HIGH_PRIORITY'	=> 'Vysoká',
 	'MAIL_LOW_PRIORITY'		=> 'Nízká',
 	'MAIL_NORMAL_PRIORITY'	=> 'Normální',

@@ -16,7 +16,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
@@ -64,7 +64,7 @@ $lang = array_merge($lang, array(
 	'USER_DEACTIVATE_SUCCESS'	=> 'Vybraní uživatelé byli deaktivováni.',
 	'USER_DELETE_SUCCESS'		=> 'Vybraní uživatelé byli smazáni.',
 	'USER_PRUNE_FAILURE'		=> 'Vybraným kritériím nevyhovují žádní uživatelé.',
-	
+
 	'WRONG_ACTIVE_JOINED_DATE'	=> 'Zadané datum není správné, použijte formát <kbd>RRRR-MM-DD</kbd>.',
 ));
 

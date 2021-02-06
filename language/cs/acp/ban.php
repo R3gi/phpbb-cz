@@ -16,7 +16,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
@@ -49,7 +49,6 @@ $lang = array_merge($lang, array(
 	'BAN_REASON'			=> 'Důvod banu',
 	'BAN_GIVE_REASON'		=> 'Důvod zobrazený zabanovanému uživateli',
 	'BAN_UPDATE_SUCCESSFUL'	=> 'Seznam banů byl aktualizován.',
-	
 	'BANNED_UNTIL_DATE'		=> 'až do %s', // Example: "until Mon 13.Jul.2009, 14:44"
 	'BANNED_UNTIL_DURATION'	=> '%1$s (do %2$s)', // Example: "7 days (until Tue 14.Jul.2009, 14:44)"
 
@@ -69,12 +68,12 @@ $lang = array_merge($lang, array(
 	'IP_UNBAN_EXPLAIN'			=> 'Odebrat více IP adres naráz lze kombinací myši a klávesnice odpovídající vašemu počítači a prohlížeči. Vyřazené IP adresy budou zvýrazněny.',
 
 	'LENGTH_BAN_INVALID'		=> 'Datum musí mít formát <kbd>RRRR-MM-DD</kbd>.',
-  
-  'OPTIONS_BANNED'			=> 'Zabanovaní',
+
+	'OPTIONS_BANNED'			=> 'Zabanovaní',
 	'OPTIONS_EXCLUDED'			=> 'Vyloučení',
 
 	'PERMANENT'		=> 'Trvalý',
-	
+
 	'UNTIL'						=> 'Datum vypršení',
 	'USER_BAN'					=> 'Zabanovat jedno nebo více uživatelských jmen',
 	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'Povolte možnost pro vyřazení zadaných uživatelů z aktivních banů.',
@@ -82,5 +81,4 @@ $lang = array_merge($lang, array(
 	'USER_NO_BANNED'			=> 'Žádná zabanovaná uživatelská jména',
 	'USER_UNBAN'				=> 'Zrušit ban či vyřazení uživatelských jmen',
 	'USER_UNBAN_EXPLAIN'		=> 'Odebrat více uživatelských jmen naráz lze kombinací myši a klávesnice odpovídající vašemu počítači a prohlížeči. Vyřazená uživatelská jména budou zvýrazněna.',
-
 ));

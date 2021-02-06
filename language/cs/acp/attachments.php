@@ -16,7 +16,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
@@ -63,14 +63,14 @@ $lang = array_merge($lang, array(
 	'ATTACH_MAX_PM_FILESIZE_EXPLAIN'	=> 'Maximální velikost přílohy připojené k soukromé zprávě, 0 znamená neomezenou velikost.',
 	'ATTACH_ORPHAN_URL'					=> 'Nepřiřazené přílohy',
 	'ATTACH_POST_ID'					=> 'ID příspěvku',
-  'ATTACH_POST_TYPE'					=> 'Typ příspěvku',
+	'ATTACH_POST_TYPE'					=> 'Typ příspěvku',
 	'ATTACH_QUOTA'						=> 'Celkový prostor pro přílohy',
 	'ATTACH_QUOTA_EXPLAIN'				=> 'Maximální dostupný prostor pro přílohy na celém fóru, 0 znamená neomezenou velikost.',
 	'ATTACH_TO_POST'					=> 'Připojit přílohu k&nbsp;příspěvku',
 
 	'CAT_IMAGES'				=> 'Obrázky',
-	'CHECK_CONTENT'            => 'Zkontrolovat soubory příloh',
-	'CHECK_CONTENT_EXPLAIN'      => 'Některým prohlížečům může být podstrčen nesprávný mimetype souboru, který se má nahrát. Tato funkce zajišťuje, že takovéto soubory budou s velkou pravděpodobností odmínuty.',
+	'CHECK_CONTENT'				=> 'Zkontrolovat soubory příloh',
+	'CHECK_CONTENT_EXPLAIN'		=> 'Některým prohlížečům může být podstrčen nesprávný mimetype souboru, který se má nahrát. Tato funkce zajišťuje, že takovéto soubory budou s velkou pravděpodobností odmínuty.',
 	'CREATE_GROUP'				=> 'Vytvořit novou skupinu',
 	'CREATE_THUMBNAIL'			=> 'Vytvořit náhled',
 	'CREATE_THUMBNAIL_EXPLAIN'	=> 'Vytvořit náhled souboru, pokud je to možné.',
@@ -95,14 +95,13 @@ $lang = array_merge($lang, array(
 	'EXTENSION_GROUP_DELETED'		=> 'Skupina přípon byla odstraněna.',
 	'EXTENSION_GROUP_EXIST'			=> 'Skupina přípon %s již existuje.',
 
-	'EXT_GROUP_ARCHIVES'         => 'Archivy',
-	'EXT_GROUP_DOCUMENTS'         => 'Dokumenty',
-	'EXT_GROUP_DOWNLOADABLE_FILES'   => 'Soubory ke stažení',
-	'EXT_GROUP_IMAGES'            => 'Obrázky',
-	'EXT_GROUP_PLAIN_TEXT'         => 'Text',
-  'FILES_GONE' => 'Jedna z vámi vybraných příloh pro smazání nebyla nalezena.',
+	'EXT_GROUP_ARCHIVES'			=> 'Archivy',
+	'EXT_GROUP_DOCUMENTS'			=> 'Dokumenty',
+	'EXT_GROUP_DOWNLOADABLE_FILES'	=> 'Soubory ke stažení',
+	'EXT_GROUP_IMAGES'				=> 'Obrázky',
+	'EXT_GROUP_PLAIN_TEXT'			=> 'Text',
 
-	'FILES_GONE'			=> 'Některé z příloh, které jste vybrali pro smazání neexistují. Mohli být vámi smazány dříve, ostatní přílohy, které byly nalezeny byly smazány.teré jste vybrali pro smazání neexistují. Mohli být smazány dříve. Přílohy, které existovali, byly smazány.',
+	'FILES_GONE'			=> 'Některé z příloh, které jste vybrali pro smazání neexistují. Mohly být smazány už dříve. Ostatní nalezené přílohy byly smazány.',
 	'FILES_STATS_WRONG'		=> 'Statistiky vašich souborů jsou pravděpodobně nepřesné a měly by být resynchronizovány. Aktuální hodnoty: počet příloh = %1$d, celková velikost příloh = %2$s.<br />Klikněte %3$ssem%4$s pro jejich resynchronizaci.',
 
 	'GO_TO_EXTENSIONS'		=> 'Přejít na rozhraní pro správu skupin přípon',
@@ -110,7 +109,7 @@ $lang = array_merge($lang, array(
 
 	'IMAGE_LINK_SIZE'			=> 'Rozměry pro odkaz k&nbsp;obrázku',
 	'IMAGE_LINK_SIZE_EXPLAIN'	=> 'Zobrazit obrázek jako textový odkaz v&nbsp;příspěvku, pokud jeho rozměry přesahují nastavený limit. Pro vypnutí této funkce nastavte hodnoty na 0&nbsp;px ku 0&nbsp;px.',
-  'IMAGE_QUALITY'				=> 'Kvalita nahrávaných příloh obrázků (pouze JPEG)',
+	'IMAGE_QUALITY'				=> 'Kvalita nahrávaných příloh obrázků (pouze JPEG)',
 	'IMAGE_QUALITY_EXPLAIN'		=> 'Zadejte hodnotu mezi 50 % (menší velikost) a 90 % (vyšší kvalita). Hodnota vyšší než 90 % zvyšuje velikost souborů a je zakázána. Nastavení je aplikováno pouze, pokud jsou maximální rozměry obrázků nastaveny jiné než 0px krát 0px.',
 	'IMAGE_STRIP_METADATA'		=> 'Odstranit metadata (pouze JPEG)',
 	'IMAGE_STRIP_METADATA_EXPLAIN'	=> 'Odstraní Exif metadata, například jméno autora, GPS souřadnice a detaily kamery. Nastavení se aplikuje pouze, pokud jsou maximální rozměry nastaveny jiné než 0px krát 0px.',
@@ -130,9 +129,9 @@ $lang = array_merge($lang, array(
 	'NOT_ALLOWED_IN_PM'			=> 'Povoleno pouze u&nbsp;příspěvků',
 	'NOT_ALLOWED_IN_PM_POST'	=> 'Není povoleno',
 	'NOT_ASSIGNED'				=> 'Nepřiřazeno',
-  'NO_ATTACHMENTS'  =>  'Za zvolené období nebyla nalezena žádná příloha.',
+	'NO_ATTACHMENTS'			=> 'Za zvolené období nebyla nalezena žádná příloha.',
 	'NO_EXT_GROUP'				=> 'Žádná',
-  'NO_EXT_GROUP_ALLOWED_PM'	=> 'Nejsou žádné <a href="%s">povolené skupiny druhů souborů</a> pro soukromé zprávy.',
+	'NO_EXT_GROUP_ALLOWED_PM'	=> 'Nejsou žádné <a href="%s">povolené skupiny druhů souborů</a> pro soukromé zprávy.',
 	'NO_EXT_GROUP_ALLOWED_POST'	=> 'Nejsou žádné <a href="%s">povolené skupiny druhů souborů</a> pro příspěvky.',
 	'NO_EXT_GROUP_NAME'			=> 'Nebyl zadán název skupiny',
 	'NO_EXT_GROUP_SPECIFIED'	=> 'Nebyla určena žádná skupina.',
@@ -145,9 +144,9 @@ $lang = array_merge($lang, array(
 	'ORDER_ALLOW_DENY'		=> 'Povolit',
 	'ORDER_DENY_ALLOW'		=> 'Zakázat',
 
-	'REMOVE_ALLOWED_IPS'		=> 'Odstranit nebo vyřadit vyjmuté <em>povolené</em> IP/hostitele',
-	'REMOVE_DISALLOWED_IPS'		=> 'Odstranit nebo vyřadit vyjmuté <em>zakázané</em> IP/hostitele',
-  'RESYNC_FILES_STATS_CONFIRM'	=> 'Opravdu chcete resynchronizovat statistiky souborů?',
+	'REMOVE_ALLOWED_IPS'			=> 'Odstranit nebo vyřadit vyjmuté <em>povolené</em> IP/hostitele',
+	'REMOVE_DISALLOWED_IPS'			=> 'Odstranit nebo vyřadit vyjmuté <em>zakázané</em> IP/hostitele',
+	'RESYNC_FILES_STATS_CONFIRM'	=> 'Opravdu chcete resynchronizovat statistiky souborů?',
 
 	'SECURE_ALLOW_DENY'				=> 'Seznam zakázaných/povolených',
 	'SECURE_ALLOW_DENY_EXPLAIN'		=> 'Změnit výchozí chování, pokud je povoleno zabezpečené stahování, seznamu zakázaných/povolených na <strong>whitelist</strong> (Povolování) nebo <strong>blacklist</strong> (Omezování).',

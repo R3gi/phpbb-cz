@@ -70,7 +70,7 @@ $lang = array_merge($lang, array(
 
 	<p>phpBB3 podporuje následující databáze:</p>
 	<ul>
-		<li>MySQL 4.3.1 nebo vyšší (MySQLi je vyžadována)</li>
+		<li>MySQL 4.1.3 nebo vyšší (MySQLi je vyžadována)</li>
 		<li>PostgreSQL 8.3+</li>
 		<li>SQLite 3.6.15+</li>
 		<li>MS SQL Server 2000 nebo vyšší (přímo nebo přes ODBC)</li>
@@ -89,8 +89,8 @@ $lang = array_merge($lang, array(
 // Requirements translation
 $lang = array_merge($lang, array(
 	// Filesystem requirements
-	'FILE_NOT_EXISTS'			=> 'Soubor neexistuje',
-	'FILE_NOT_EXISTS_EXPLAIN'	=> 'Aby bylo možné nainstalovat phpBB, soubor %1$s musí existovat.',
+	'FILE_NOT_EXISTS'						=> 'Soubor neexistuje',
+	'FILE_NOT_EXISTS_EXPLAIN'				=> 'Aby bylo možné nainstalovat phpBB, soubor %1$s musí existovat.',
 	'FILE_NOT_EXISTS_EXPLAIN_OPTIONAL'		=> 'Pro lepší uživatelský zážitek je doporučeno, aby soubor %1$s existoval.',
 	'FILE_NOT_WRITABLE'						=> 'Soubor není zapisovatelný',
 	'FILE_NOT_WRITABLE_EXPLAIN'				=> 'Aby bylo možné nainstalovat phpBB, soubor %1$s musí být zapisovatelný.',
@@ -112,7 +112,7 @@ $lang = array_merge($lang, array(
 	'PCRE_UTF_SUPPORT_EXPLAIN'			=> 'phpBB nepoběží, pokud vaše PHP instalace není kompilovaná s podporou UTF-8 v rozšíření PCRE.',
 	'PHP_JSON_SUPPORT'					=> 'Podpora PHP JSON',
 	'PHP_JSON_SUPPORT_EXPLAIN'			=> 'Pro správnou funkčnost phpBB musí být dostupné rozšíření PHP JSON.',
-  'PHP_MBSTRING_SUPPORT'				=> 'Podpora PHP mbstring',
+	'PHP_MBSTRING_SUPPORT'				=> 'Podpora PHP mbstring',
 	'PHP_MBSTRING_SUPPORT_EXPLAIN'		=> 'Pro správnou funkčnost phpBB musí být dostupné rozšíření PHP mbstring.',
 	'PHP_XML_SUPPORT'					=> 'Podpora PHP XML/DOM',
 	'PHP_XML_SUPPORT_EXPLAIN'			=> 'Pro správnou funkčnost phpBB musí být dostupné rozšíření PHP XML/DOM.',

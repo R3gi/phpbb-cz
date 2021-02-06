@@ -16,7 +16,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
@@ -54,12 +54,16 @@ $lang = array_merge($lang, array(
 	'NO_NEW_POSTS_HOT'		=> 'Žádné nové příspěvky [ Oblíbené ]',
 	'NO_NEW_POSTS_LOCKED'	=> 'Žádné nové příspěvky [ Zamknuté ]',
 	'NO_READ_ACCESS'		=> 'Nemáte potřebná oprávnění pro čtení nebo zobrazení témat v&nbsp;tomto fóru.',
-  'NO_FORUMS_IN_CATEGORY'	=> 'Tato kategorie nemá žádná fóra.',  
-  'NO_UNREAD_POSTS_HOT'      => 'Bez nových příspěvků [ Oblíbené ]',
-  'NO_UNREAD_POSTS_LOCKED'   => 'Bez nových příspěvků [ Zamknuté ]',
+	'NO_FORUMS_IN_CATEGORY'	=> 'Tato kategorie nemá žádná fóra.',
+	'NO_UNREAD_POSTS_HOT'		=> 'Bez nových příspěvků [ Oblíbené ]',
+	'NO_UNREAD_POSTS_LOCKED'	=> 'Bez nových příspěvků [ Zamknuté ]',
+
 	'POST_FORUM_LOCKED'		=> 'Toto fórum je zamknuto',
 
 	'TOPICS_MARKED'			=> 'Všechna témata ve fóru byla označena jako přečtená',
+
+	'UNREAD_POSTS_HOT'		=> 'Nové příspěvky [ Oblíbené ]',
+	'UNREAD_POSTS_LOCKED'	=> 'Nové příspěvky [ Zamknuté ]',
 
 	'VIEW_FORUM'			=> 'Zobrazit fórum',
 	'VIEW_FORUM_TOPICS'		=> array(
@@ -67,7 +71,4 @@ $lang = array_merge($lang, array(
 		2	=> '%d témata',
 		3	=> '%d témat',
 	),
-
-	'UNREAD_POSTS_HOT'      => 'Nové příspěvky [ Oblíbené ]',
-  'UNREAD_POSTS_LOCKED'   => 'Nové příspěvky [ Zamknuté ]',
 ));

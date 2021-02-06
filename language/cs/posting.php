@@ -16,7 +16,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
@@ -44,7 +44,7 @@ $lang = array_merge($lang, array(
 	'ADD_POLL_EXPLAIN'			=> 'Pokud nechcete vytvořit anketu, nechte pole prázdná',
 	'ALREADY_DELETED'			=> 'Omlouváme se, ale tato zpráva byla již smazána.',
 	'ATTACH_COMMENT_NO_EMOJIS'	=> 'Komentář přílohy obsahuje nepovolené znaky (Emoji).',
-  'ATTACH_DISK_FULL'			=> 'Na disku není dostatek místa pro uložení této přílohy.',
+	'ATTACH_DISK_FULL'			=> 'Na disku není dostatek místa pro uložení této přílohy.',
 	'ATTACH_QUOTA_REACHED'		=> 'Omlouváme se, ale bylo dosaženo maximální velikosti příloh.',
 	'ATTACH_SIG'				=> 'Přiložit podpis (podpisy mohou být nastaveny v&nbsp;uživatelském panelu)',
 
@@ -104,7 +104,6 @@ $lang = array_merge($lang, array(
 	'DELETE_REASON_EXPLAIN'		=> 'Zadaný důvod smazání bude viditelný pro moderátory.',
 	'DELETE_POST_WARN'			=> 'Smazat tento příspěvek',
 	'DELETE_TOPIC_CONFIRM'		=> 'Opravdu chcete smazat toto téma?',
-	'DELETE_TOPIC_PERMANENTLY'	=> 'Téma bude trvale smazáno a nepůjde ho obnovit',
 	'DELETE_TOPIC_PERMANENTLY'	=> array(
 		1	=> 'Téma bude trvale smazáno a nepůjde ho obnovit',
 		2	=> 'Tyto 1$d témata budou trvale smazány a nepůjdou obnovit',
@@ -116,7 +115,7 @@ $lang = array_merge($lang, array(
 	'DISABLE_BBCODE'			=> 'Zakázat BBCode',
 	'DISABLE_MAGIC_URL'			=> 'Zakázat URL adresy v&nbsp;tomto příspěvku',
 	'DISABLE_SMILIES'			=> 'Zakázat smajlíky',
-	'DISALLOWED_CONTENT'      => 'Nahraný soubor byl odmínut protože byl identifikován jako možný útok.',
+	'DISALLOWED_CONTENT'		=> 'Nahraný soubor byl odmínut protože byl identifikován jako možný útok.',
 	'DISALLOWED_EXTENSION'		=> 'Přípona %s není povolena',
 	'DRAFT_LOADED'				=> 'Koncept byl načten, nyní můžete dopsat váš příspěvek.<br />Váš koncept bude po odeslání příspěvku smazán.',
 	'DRAFT_LOADED_PM'			=> 'Koncept byl načten, nyní můžete dopsat váši soukromou zprávu.<br />Váš koncept bude po odeslání soukromé zprávy smazán.',
@@ -151,12 +150,12 @@ $lang = array_merge($lang, array(
 	'LOAD_DRAFT_EXPLAIN'		=> 'Zde můžete zvolit koncept, ve&nbsp;kterém chcete pokračovat. Vaše nynější zpráva bude smazána. Koncepty si můžete prohlédnout, upravit a mazat ve vašem uživatelském panelu.',
 	'LOGIN_EXPLAIN_BUMP'		=> 'Musíte se přihlásit, pokud chcete obnovovat témata v&nbsp;tomto fóru.',
 	'LOGIN_EXPLAIN_DELETE'		=> 'Musíte se přihlásit, pokud chcete mazat příspěvky v&nbsp;tomto fóru.',
-  'LOGIN_EXPLAIN_SOFT_DELETE'	=> 'Musíte se přihlásit, pokud chcete skrývat příspěvky v&nbsp;tomto fóru.',
+	'LOGIN_EXPLAIN_SOFT_DELETE'	=> 'Musíte se přihlásit, pokud chcete skrývat příspěvky v&nbsp;tomto fóru.',
 	'LOGIN_EXPLAIN_POST'		=> 'Musíte se přihlásit, pokud chcete posílat příspěvky do tohoto fóra.',
 	'LOGIN_EXPLAIN_QUOTE'		=> 'Musíte se přihlásit, pokud chcete citovat příspěvky v&nbsp;tomto fóru.',
 	'LOGIN_EXPLAIN_REPLY'		=> 'Musíte se přihlásit, pokud chcete odpovědět na toto téma.',
 
-  'MAX_ATTACHMENT_FILESIZE'	=> 'Maximální velikost na přílohu: %s.',
+	'MAX_ATTACHMENT_FILESIZE'	=> 'Maximální velikost na přílohu: %s.',
 	'MAX_FONT_SIZE_EXCEEDED'	=> 'Můžete použít jen to písmo, které nepřekračuje velikost %d.',
 	'MAX_FLASH_HEIGHT_EXCEEDED'	=> array(
 		1	=> 'Vaše flashové soubory můžou být vysoké maximálně %d pixel.',
@@ -195,12 +194,12 @@ $lang = array_merge($lang, array(
 	'NO_POLL_TITLE'				=> 'Nevložili jste anketní otázku.',
 	'NO_POST'					=> 'Požadovaný příspěvek neexistuje.',
 	'NO_POST_MODE'				=> 'Nebyl zvolen typ odeslání',
-  'NO_TEMP_DIR'				=> 'Dočasná složka nebyla nalezena nebo do ní nelze zapisovat.',
+	'NO_TEMP_DIR'				=> 'Dočasná složka nebyla nalezena nebo do ní nelze zapisovat.',
 
 	'PARTIAL_UPLOAD'			=> 'Byla nahrána jen část přiloženého souboru.',
+	'PHP_UPLOAD_STOPPED'		=> 'PHP rozšíření zastavilo nahrávání souboru.',
 	'PHP_SIZE_NA'				=> 'Velikost přílohy je příliš velká.<br />Nemohu zjistit maximální velikost souboru v&nbsp;php.ini.',
 	'PHP_SIZE_OVERRUN'			=> 'Velikost přílohy je příliš velká. Maximální velikost je %1$d %2$s.<br />Toto je nastaveno v&nbsp;php.ini a nemůže být změněno.',
-  'PHP_UPLOAD_STOPPED'		=> 'PHP rozšíření zastavilo nahrávání souboru.',
 	'PLACE_INLINE'				=> 'Umístit do příspěvku',
 	'POLL_DELETE'				=> 'Smazat anketu',
 	'POLL_FOR'					=> 'Délka trvání',
@@ -219,12 +218,12 @@ $lang = array_merge($lang, array(
 		3	=> 'Každou možnost vložte na nový řádek. Můžete vložit až <strong>%d</strong> možností. Pokud odeberete nebo přidáte možnosti, všechny dříve vložené hlasy budou resetovány.',
 	),
 	'POLL_QUESTION'				=> 'Anketní otázka',
-	'POLL_TITLE_TOO_LONG'       => 'Název hlasování musí být kratší než 100 znaků.',
-	'POLL_TITLE_COMP_TOO_LONG'  => 'Zpracovaný název hlasování je příliš dlouhý, zkuste odstranit HTML nebo BBCode.',
+	'POLL_TITLE_TOO_LONG'		=> 'Název hlasování musí být kratší než 100 znaků.',
+	'POLL_TITLE_COMP_TOO_LONG'	=> 'Zpracovaný název hlasování je příliš dlouhý, zkuste odstranit HTML nebo BBCode.',
 	'POLL_VOTE_CHANGE'			=> 'Povolit změnu hlasu',
 	'POLL_VOTE_CHANGE_EXPLAIN'	=> 'Pokud je povoleno, uživatelé mohou změnit svůj hlas.',
 	'POSTED_ATTACHMENTS'		=> 'Odeslané přílohy',
-	'POST_APPROVAL_NOTIFY'  	=> 'Budete informováni, jakmile váš příspěvek bude schválen.',
+	'POST_APPROVAL_NOTIFY'		=> 'Budete informováni, jakmile váš příspěvek bude schválen.',
 	'POST_CONFIRMATION'			=> 'Potvrzení příspěvku',
 	'POST_CONFIRM_EXPLAIN'		=> 'Pro ochranu před spamem administrátor vyžaduje potvrzení odpovědi. Kód je zobrazen v&nbsp;obrázku pod touto zprávou. Pokud obrázek nevidíte, kontaktuje %s Administrátory%s.',
 	'POST_DELETED'				=> 'Váš příspěvek byl odstraněn.',
@@ -234,9 +233,9 @@ $lang = array_merge($lang, array(
 	'POST_ICON'					=> 'Ikonka',
 	'POST_NORMAL'				=> 'Výchozí',
 	'POST_REVIEW'				=> 'Přehodnocení příspěvku',
-	'POST_REVIEW_EXPLAIN'		=> 'Během doby, kdy jste psal příspěvek do tématu, přibyl další. Chcete odeslat příspěvek tak, jak je nyní?',
 	'POST_REVIEW_EDIT'			=> 'Přehodnocení příspěvku',
 	'POST_REVIEW_EDIT_EXPLAIN'	=> 'Během doby, kdy jste upravoval příspěvek, ho upravil ještě nekdo jiný. Chcete odeslat příspěvek tak, jak je nyní?.',
+	'POST_REVIEW_EXPLAIN'		=> 'Během doby, kdy jste psal příspěvek do tématu, přibyl další. Chcete odeslat příspěvek tak, jak je nyní?',
 	'POST_STORED'				=> 'Vaše zpráva byla odeslána.',
 	'POST_STORED_MOD'			=> 'Vaše zpráva byla odeslána, ale než bude veřejně zobrazena, musí být schválena moderátorem.',
 	'POST_TOPIC_AS'				=> 'Přidat téma jako',
@@ -295,7 +294,7 @@ $lang = array_merge($lang, array(
 	'USER_CANNOT_FORUM_POST'	=> 'Nemůžete odesílat příspěvky do tohoto fóra, protože toto fórum to nepodporuje.',
 
 	'VIEW_MESSAGE'				=> '%sZobrazit vaši odeslanou zprávu%s',
-	'VIEW_PRIVATE_MESSAGE'      => '%sZobrazit vaši odeslanou soukromou zprávu%s',
+	'VIEW_PRIVATE_MESSAGE'		=> '%sZobrazit vaši odeslanou soukromou zprávu%s',
 
 	'WRONG_FILESIZE'			=> 'Soubor je příliš velký. Maximální velikost je %1$d %2$s',
 	'WRONG_SIZE'				=> 'Obrázek musí mít šířku alespoň %1$s pixelů, výšku %2$s pixelů a šířku nejvíce %3$s pixelů a výšku %4$s pixelů. Váš obrázek má šířku %5$s pixelů a výšku %6$s pixelů.',

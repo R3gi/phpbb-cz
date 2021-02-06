@@ -16,7 +16,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
@@ -74,9 +74,9 @@ $lang = array_merge($lang, array(
 	'ACP_CAT_USERGROUP'			=> 'Uživatelé a skupiny',
 	'ACP_CAT_USERS'				=> 'Uživatelé',
 	'ACP_CLIENT_COMMUNICATION'	=> 'Komunikace mezi klienty',
+	'ACP_COOKIE_SETTINGS'		=> 'Cookies',
 	'ACP_CONTACT'				=> 'Kontaktní stránka',
 	'ACP_CONTACT_SETTINGS'		=> 'Nastavení kontaktní stránky',
-	'ACP_COOKIE_SETTINGS'		=> 'Cookies',
 	'ACP_CRITICAL_LOGS'			=> 'Log chyb',
 	'ACP_CUSTOM_PROFILE_FIELDS'	=> 'Vlastní pole v&nbsp;profilu',
 
@@ -88,9 +88,6 @@ $lang = array_merge($lang, array(
 	'ACP_EXTENSION_GROUPS'		=> 'Nastavení příloh podle druhu',
 	'ACP_EXTENSION_MANAGEMENT'	=> 'Správa rozšíření',
 	'ACP_EXTENSIONS'			=> 'Správce rozšíření',
-
-	'ACP_FEED'					=> 'Exporty ATOM',
-	'ACP_FEED_SETTINGS'			=> 'Nastavení exportů',
 
 	'ACP_FORUM_BASED_PERMISSIONS'	=> 'Oprávnění založená na fórech',
 	'ACP_FORUM_LOGS'				=> 'Log fór',
@@ -110,7 +107,8 @@ $lang = array_merge($lang, array(
 	'ACP_GROUPS_MANAGEMENT'			=> 'Správa skupiny',
 	'ACP_GROUPS_PERMISSIONS'		=> 'Oprávnění skupiny',
 	'ACP_GROUPS_POSITION'			=> 'Umístění skupiny',
-  'ACP_HELP_PHPBB'			=> 'Pomozte podpořit phpBB',
+
+	'ACP_HELP_PHPBB'			=> 'Pomozte podpořit phpBB',
 
 	'ACP_ICONS'					=> 'Ikony témat',
 	'ACP_ICONS_SMILIES'			=> 'Ikony témat/smajlíci',
@@ -125,8 +123,10 @@ $lang = array_merge($lang, array(
 	'ACP_LOGGING'				=> 'Zaznamenávání',
 
 	'ACP_MAIN'					=> 'Obsah administrace',
+
 	'ACP_MANAGE_ATTACHMENTS'			=> 'Správa příloh',
 	'ACP_MANAGE_ATTACHMENTS_EXPLAIN'	=> 'Zde můžete zobrazit a mazat soubory připojené k příspěvkům a soukromým zprávám.',
+
 	'ACP_MANAGE_EXTENSIONS'		=> 'Druhy souborů',
 	'ACP_MANAGE_FORUMS'			=> 'Správa fór',
 	'ACP_MANAGE_RANKS'			=> 'Hodnosti',
@@ -139,7 +139,7 @@ $lang = array_merge($lang, array(
 	'ACP_MOD_LOGS'				=> 'Moderátorský log',
 	'ACP_MOD_ROLES'				=> 'Moderátorské role',
 
-	'ACP_NO_ITEMS'            => 'Nejsou zde zatím žádné položky.',
+	'ACP_NO_ITEMS'				=> 'Nejsou zde zatím žádné položky.',
 
 	'ACP_ORPHAN_ATTACHMENTS'	=> 'Nepřiřazené přílohy',
 
@@ -160,6 +160,9 @@ $lang = array_merge($lang, array(
 	'ACP_REGISTER_SETTINGS'		=> 'Registrace uživatelů',
 
 	'ACP_RESTORE'				=> 'Obnovit',
+
+	'ACP_FEED'					=> 'Exporty ATOM',
+	'ACP_FEED_SETTINGS'			=> 'Nastavení exportů',
 
 	'ACP_SEARCH'				=> 'Nastavení hledání',
 	'ACP_SEARCH_INDEX'			=> 'Vyhledávač',
@@ -197,7 +200,7 @@ $lang = array_merge($lang, array(
 	'ACP_USER_ROLES'				=> 'Uživatelské role',
 	'ACP_USER_SECURITY'				=> 'Bezpečnost uživatele',
 	'ACP_USER_SIG'					=> 'Podpis',
-	'ACP_USER_WARNINGS' => 'Varování',
+	'ACP_USER_WARNINGS'				=> 'Varování',
 
 	'ACP_VC_SETTINGS'					=> 'Obrana proti spamu',
 	'ACP_VC_CAPTCHA_DISPLAY'			=> 'Náhled obrázku CAPTCHA',
@@ -223,12 +226,11 @@ $lang = array_merge($lang, array(
 
 	'BACK'					=> 'Zpět',
 
-  'CONTAINER_EXCEPTION' => 'Kvůli nainstalovanému rozšíření došlo v phpBB k chybě při vytváření kontejneru. Z tohoto důvodu byla všechna rozšíření dočasně zakázána. Prosím, zkuste pročistit cache fóra. Jakmile bude chyba s kontejnerem vyřešena, budou všechna rozšíření znovu povolena. Pokud tato chyba bude přetrvávat, navštivte, prosím, <a href="https://www.phpbb.com/support">podpůrné fórum na phpBB.com</a>.',
-  'EXCEPTION' => 'Výjimka',
+	'CONTAINER_EXCEPTION' => 'Kvůli nainstalovanému rozšíření došlo v phpBB k chybě při vytváření kontejneru. Z tohoto důvodu byla všechna rozšíření dočasně zakázána. Prosím, zkuste pročistit cache fóra. Jakmile bude chyba s kontejnerem vyřešena, budou všechna rozšíření znovu povolena. Pokud tato chyba bude přetrvávat, navštivte, prosím, <a href="https://www.phpbb.com/support">podpůrné fórum na phpBB.com</a>.',
+	'EXCEPTION' => 'Výjimka',
 
 	'COLOUR_SWATCH'			=> 'Vzorník bezpečných barev',
 	'CONFIG_UPDATED'		=> 'Nastavení bylo aktualizováno.',
-
 	'CRON_LOCK_ERROR'		=> 'Nelze získat cron lock.',
 	'CRON_NO_SUCH_TASK'		=> 'Nelze nalézt úkol pro cron „%s“.',
 	'CRON_NO_TASK'			=> 'Nyní není potřeba spouštět žádný úkol pro cron.',
@@ -272,10 +274,8 @@ $lang = array_merge($lang, array(
 
 	'MANAGE'				=> 'Spravovat',
 	'MENU_TOGGLE'			=> 'Zobrazit nebo skrýt postranní menu',
-
 	'MORE'					=> 'Více',			// Not used at the moment
 	'MORE_INFORMATION'		=> 'Více informací »',
-
 	'MOVE_DOWN'				=> 'Posunout dolů',
 	'MOVE_UP'				=> 'Posunout nahoru',
 
@@ -299,8 +299,8 @@ $lang = array_merge($lang, array(
 	'REMIND'							=> 'Připomenout',
   'REPARSE_LOCK_ERROR'				=> 'Reparsování již bylo spuštěno jiným procesem.',
 	'RESYNC'							=> 'Synchronizovat',
-	'RUNNING_TASK'			=> 'Spuštěný úkol: %s.',
 
+	'RUNNING_TASK'			=> 'Spuštěný úkol: %s.',
 	'SELECT_ANONYMOUS'		=> 'Vybrat anonymního uživatele',
 	'SELECT_OPTION'			=> 'Vybrat možnost',
 
@@ -367,13 +367,15 @@ $lang = array_merge($lang, array(
 
 	// Environment configuration checks, mbstring related
 	'ERROR_MBSTRING_FUNC_OVERLOAD'					=> 'Funkce zatížení není správně nastavena.',
-	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'			=> '<var>mbstring.func_overload</var> musí být nastaveno na 0 nebo 4. Aktuální hodnoty můžete zkontrolovat na stránce s <samp>PHP informacemi</samp>.',
+	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'			=> '<var>mbstring.func_overload</var> musí být nastaveno na 0 nebo 4. Aktuální hodnotu můžete zkontrolovat na stránce s <samp>PHP informacemi</samp>.',
 	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'Transpantní kódování znaků není správně nastaveno.',
-	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> '<var>mbstring.encoding_translation</var> musí být nastaveno na 0. Aktuální hodnoty můžete zkontrolovat na stránce s <samp>PHP informacemi</samp>.',
+	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> '<var>mbstring.encoding_translation</var> musí být nastaveno na 0. Aktuální hodnotu můžete zkontrolovat na stránce s <samp>PHP informacemi</samp>.',
 	'ERROR_MBSTRING_HTTP_INPUT'						=> 'Konverze vstupní HTTP znaků není správně nastavena.',
-	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> '<var>mbstring.http_input</var> musí být nastaven na <samp>pass</samp>. Aktuální hodnoty můžete zkontrolovat na stránce s <samp>PHP informacemi</samp>.',
+	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> '<var>mbstring.http_input</var> musí být nastaven na <samp>pass</samp>. Aktuální hodnotu můžete zkontrolovat na stránce s <samp>PHP informacemi</samp>.',
 	'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'Konverze výstupních HTTP znaků není správně nastavena.',
-	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> musí být nastaven na <samp>pass</samp>. Aktuální hodnoty můžete zkontrolovat na stránce s <samp>PHP informacemi</samp>.',
+	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> musí být nastaven na <samp>pass</samp>. Aktuální hodnotu můžete zkontrolovat na stránce s <samp>PHP informacemi</samp>.',
+	'ERROR_DEFAULT_CHARSET'							=> 'Výchozí kódování je nesprávně nastaveno',
+	'ERROR_DEFAULT_CHARSET_EXPLAIN'					=> '<var>default_charset</var> musí být nastaveno na <samp>UTF-8</samp>. Aktuální hodnotu můžete zkontrolovat na stránce s <samp>PHP informacemi</samp>.',
 
 	'FILES_PER_DAY'		=> 'Příloh za den',
 	'FORUM_STATS'		=> 'Statistiky fóra',
@@ -396,7 +398,7 @@ $lang = array_merge($lang, array(
 	'PURGE_CACHE'			=> 'Pročistit mezipaměť',
 	'PURGE_CACHE_CONFIRM'	=> 'Opravdu chcete zcela pročistit mezipaměť?',
 	'PURGE_CACHE_EXPLAIN'	=> 'Pročistí všechny soubory vzhledů a SQL dotazy v mezipaměti.',
-  'PURGE_CACHE_SUCCESS'	=> 'Mezipaměť byla úspěšně pročištěna.',
+	'PURGE_CACHE_SUCCESS'	=> 'Mezipaměť byla úspěšně pročištěna.',
 
 	'PURGE_SESSIONS'			=> 'Pročistit všechny sessions',
 	'PURGE_SESSIONS_CONFIRM'	=> 'Opravdu chcete smazat všechny sessions? Smazaním odhlásíte všechny uživatele.',
@@ -423,7 +425,7 @@ $lang = array_merge($lang, array(
 	'RESYNC_STATS_SUCCESS'			=> 'Statistiky byly resynchronizovány',
 	'RUN'							=> 'Spustit nyní',
 
-	'STATISTIC'			=> 'Statistika',
+	'STATISTIC'					=> 'Statistika',
 	'STATISTIC_RESYNC_OPTIONS'	=> 'Resynchronizovat nebo vynulovat statistiky',
 
 	'TIMEZONE_INVALID'	=> 'Vámi vybraná časová zóna je neplatná.',
@@ -433,22 +435,22 @@ $lang = array_merge($lang, array(
 	'UPLOAD_DIR_SIZE'	=> 'Velikost všech příloh',
 	'USERS_PER_DAY'		=> 'Uživatelů za den',
 
-	'VALUE'					=> 'Hodnota',
-	'VERSIONCHECK_FAIL'			=> 'Informace o poslední verzi se nepodařilo zjistit.',
-	'VERSIONCHECK_FORCE_UPDATE'	=> 'Znovu zkontrolovat verzi',
-  'VERSION_CHECK'				=> 'Kontrola verze',
-	'VERSION_CHECK_EXPLAIN'		=> 'Zde můžete zkontrolovat, jestli je vaše phpBB aktuální.',
-  'VERSIONCHECK_INVALID_ENTRY'	=> 'Poslední verze informace obsahuje nepovolený znak.',
-  'VERSIONCHECK_INVALID_URL'		=> 'Poslední verze informace obsahuje nevalidní URL.',
-  'VERSIONCHECK_INVALID_VERSION'	=> 'Poslední verze informace obsahuje chybnou verzi.',
+	'VALUE'							=> 'Hodnota',
+	'VERSIONCHECK_FAIL'				=> 'Informace o poslední verzi se nepodařilo zjistit.',
+	'VERSIONCHECK_FORCE_UPDATE'		=> 'Znovu zkontrolovat verzi',
+	'VERSION_CHECK'					=> 'Kontrola verze',
+	'VERSION_CHECK_EXPLAIN'			=> 'Zde můžete zkontrolovat, jestli je vaše phpBB aktuální.',
+	'VERSIONCHECK_INVALID_ENTRY'	=> 'Poslední verze informace obsahuje nepovolený znak.',
+	'VERSIONCHECK_INVALID_URL'		=> 'Poslední verze informace obsahuje nevalidní URL.',
+	'VERSIONCHECK_INVALID_VERSION'	=> 'Poslední verze informace obsahuje chybnou verzi.',
 	'VERSION_NOT_UP_TO_DATE_ACP'	=> 'Vaše instalace phpBB není aktuální.<br />Dole je odkaz na oznámení o vydání nové verze, ve kterém najdete více informací a instrukce pro aktualizaci.',
 	'VERSION_NOT_UP_TO_DATE_TITLE'	=> 'Vaše instalace phpBB není aktuální.',
-	'VERSION_UP_TO_DATE_ACP'	=> 'Vaše instalace phpBB je aktuální. V současné době nejsou dostupné žádné aktualizace.',
-	'VIEW_ADMIN_LOG'		=> 'Zobrazit administrátorský log',
-	'VIEW_INACTIVE_USERS'	=> 'Zobrazit neaktivní uživatele',
+	'VERSION_UP_TO_DATE_ACP'		=> 'Vaše instalace phpBB je aktuální. V současné době nejsou dostupné žádné aktualizace.',
+	'VIEW_ADMIN_LOG'				=> 'Zobrazit administrátorský log',
+	'VIEW_INACTIVE_USERS'			=> 'Zobrazit neaktivní uživatele',
 
 	'WELCOME_PHPBB'			=> 'Vítejte v&nbsp;phpBB',
-	'WRITABLE_CONFIG'      => 'Soubor s nastavením (config.php) je world-writable, může jej upravit kdokoliv. Silně vám doporučujeme změnit oprávnění na 640 nebo alespoň na 644 (např.: <a href="http://cs.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
+	'WRITABLE_CONFIG'		=> 'Soubor s nastavením (config.php) je world-writable, může jej upravit kdokoliv. Silně vám doporučujeme změnit oprávnění na 640 nebo alespoň na 644 (např.: <a href="http://cs.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
 ));
 
 // Inactive Users
@@ -473,7 +475,6 @@ $lang = array_merge($lang, array(
 	'SORT_LAST_REMINDER'=> 'Naposledy upozorněni',
 	'SORT_REMINDER'		=> 'Připomenutí odesláno',
 
-
 	'USER_IS_INACTIVE'		=> 'Uživatel je neaktivní',
 ));
 
@@ -482,13 +483,13 @@ $lang = array_merge($lang, array(
 	'EXPLAIN_SEND_STATISTICS'	=> 'Budeme rádi, když na servery phpBB odešlete statistické informace o nastavení vašeho serveru a fóra. Veškerá data, která by mohla identifikovat vaše fórum nebo stránky byly odstraněny, informace jsou naprosto <strong>anonymní</strong>. Na základě zaslaných podrobností můžeme lépe rozhodovat o budoucnosti a vývoji phpBB. Statistiky budou zobrazeny veřejně a budou také sdíleny s vývojáři PHP, programovacím jazykem, ve kterém je phpBB napsáno.',
 	'EXPLAIN_SHOW_STATISTICS'	=> 'Klikněte na následující tlačítko pro zobrazení náhledu odeslaných informací.',
 	'DONT_SEND_STATISTICS'		=> 'Vraťte se do administrace, pokud nechcete zaslat žádné informace.',
-	'GO_ACP_MAIN'							=> 'Přejít na hlavní stránku administrace',
-	'HIDE_STATISTICS'					=> 'Skrýt podrobnosti',
-  'SEND_STATISTICS'			=> 'Odeslat statistiky',
+	'GO_ACP_MAIN'				=> 'Přejít na hlavní stránku administrace',
+	'HIDE_STATISTICS'			=> 'Skrýt podrobnosti',
+	'SEND_STATISTICS'			=> 'Odeslat statistiky',
 	'SEND_STATISTICS_LONG'		=> 'Odeslat statistickou informaci',
-	'SHOW_STATISTICS'					=> 'Zobrazit podrobnosti',
+	'SHOW_STATISTICS'			=> 'Zobrazit podrobnosti',
 	'THANKS_SEND_STATISTICS'	=> 'Děkujeme za odeslání informací, budou využity k lepšímu vývoji phpBB.',
-  'FAIL_SEND_STATISTICS'		=> 'phpBB se nepodařilo odeslat statistiky',
+	'FAIL_SEND_STATISTICS'		=> 'phpBB se nepodařilo odeslat statistiky',
 ));
 
 // Log Entries
@@ -726,13 +727,13 @@ $lang = array_merge($lang, array(
 	'LOG_REASON_REMOVED'	=> '<strong>Odstranění důvodu hlášení/zamítnutí</strong><br />» %s',
 	'LOG_REASON_UPDATED'	=> '<strong>Aktualizace důvodu hlášení/zamítnutí</strong><br />» %s',
 
-	'LOG_REFERER_INVALID'      => '<strong>Selhalo ověření refereru</strong><br />»Referer byl „<em>%1$s</em>“. Požadavek byl odmítnut a session zrušena.',
+	'LOG_REFERER_INVALID'	=> '<strong>Selhalo ověření refereru</strong><br />»Referer byl „<em>%1$s</em>“. Požadavek byl odmítnut a session zrušena.',
 	'LOG_RESET_DATE'			=> '<strong>Vynulován čas spuštění fóra</strong>',
 	'LOG_RESET_ONLINE'			=> '<strong>Vynulován rekord online uživatelů</strong>',
 	'LOG_RESYNC_FILES_STATS'	=> '<strong>Resynchronizovány statistiky souborů</strong>',
 	'LOG_RESYNC_POSTCOUNTS'		=> '<strong>Resynchonizace počtu příspěvků</strong>',
 	'LOG_RESYNC_POST_MARKING'	=> '<strong>Označená témata synchronizována</strong>',
-  'LOG_RESYNC_STATS'			=> '<strong>Příspěvky, témata a statistiky resynchronizovány</strong>',
+	'LOG_RESYNC_STATS'			=> '<strong>Příspěvky, témata a statistiky resynchronizovány</strong>',
 
 	'LOG_SEARCH_INDEX_CREATED'	=> '<strong>Vytvořen vyhledávací index pro</strong><br />» %s',
 	'LOG_SEARCH_INDEX_REMOVED'	=> '<strong>Odstraněn vyhledávací index pro</strong><br />» %s',
@@ -742,7 +743,7 @@ $lang = array_merge($lang, array(
 	'LOG_STYLE_EDIT_DETAILS'	=> '<strong>Upraven vzhled</strong><br />» %s',
 	'LOG_STYLE_EXPORT'			=> '<strong>Exportován vzhled</strong><br />» %s',
 
-  // @deprecated 3.1
+	// @deprecated 3.1
 	'LOG_TEMPLATE_ADD_DB'			=> '<strong>Přidána nová šablona do databáze</strong><br />» %s',
 	// @deprecated 3.1
 	'LOG_TEMPLATE_ADD_FS'			=> '<strong>Přidána nová šablona do systému souborů</strong><br />» %s',
@@ -784,6 +785,7 @@ $lang = array_merge($lang, array(
 	'LOG_USER_NEW_PASSWORD'	=> '<strong>Změněna hesla uživatele</strong><br />» %s',
 	'LOG_USER_REACTIVATE'	=> '<strong>Vyžádání reaktivace účtu</strong><br />» %s',
 	'LOG_USER_REMOVED_NR'	=> '<strong>Odstranění označení „Nový člen“ u</strong><br />» %s',
+
 	'LOG_USER_UPDATE_EMAIL'	=> '<strong>Změna e-mailu uživatele „%1$s“</strong><br />» z „%2$s“ na „%3$s“',
 	'LOG_USER_UPDATE_NAME'	=> '<strong>Změněna uživatelského jména</strong><br />» z „%1$s“ na „%2$s“',
 	'LOG_USER_USER_UPDATE'	=> '<strong>Aktualizace uživatele</strong><br />» %s',

@@ -16,7 +16,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
@@ -107,7 +107,7 @@ $lang = array_merge($lang, array(
 	'CURRENT_SMILIES'			=> 'Současné smajlíky',
 	'CURRENT_SMILIES_EXPLAIN'	=> 'Zde můžete pracovat s&nbsp;instalovanými smajlíky.',
 
-	'DISPLAY_ON_POSTING'	=> 'Zobrazit při odesílání příspěvku',
+	'DISPLAY_ON_POSTING'		=> 'Zobrazit při odesílání příspěvku',
 	'DISPLAY_POSTING'			=> 'Zobrazit',
 	'DISPLAY_POSTING_NO'		=> 'Nezobrazit',
 

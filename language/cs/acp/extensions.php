@@ -126,7 +126,7 @@ $lang = array_merge($lang, array(
 	'FORCE_UNSTABLE'					=> 'Vždy zkontrolovat zda jsou k dispozici nestabilní verze',
 	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'Nastavení kontroly verzí',
 
-  'BROWSE_EXTENSIONS_DATABASE'		=> 'Procházet databázi rozšíření',
+	'BROWSE_EXTENSIONS_DATABASE'		=> 'Procházet databázi rozšíření',
 
 	'META_FIELD_NOT_SET'	=> 'Požadované meta pole %s nebylo určeno.',
 	'META_FIELD_INVALID'	=> 'Meta pole %s je neplatné.',
