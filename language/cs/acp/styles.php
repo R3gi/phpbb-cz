@@ -86,5 +86,6 @@ $lang = array_merge($lang, [
 
 	'UNINSTALL_PROSILVER'		=> 'Nemůžete odinstalovat styl „prosilver”.',
 	'UNINSTALL_DEFAULT'			=> 'Výchozí vzhled nemůžete odinstalovat.',
+
 	'BROWSE_STYLES_DATABASE'	=> 'Procházet databázi vzhledů',
 ]);

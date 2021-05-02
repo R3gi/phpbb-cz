@@ -44,19 +44,20 @@ $lang = array_merge($lang, [
 	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha v2',
 	'CAPTCHA_RECAPTCHA_V3'			=> 'reCaptcha v3',
 
-	'RECAPTCHA_INCORRECT'			=> 'Ověřovací kód, který jste zadali nebyl správně',
-	'RECAPTCHA_NOSCRIPT'			=> 'Pro načtení úkolu musíte ve vašem prohlížeči povolit JavaScript.',
-    'RECAPTCHA_NOT_AVAILABLE'       => 'Pro použití reCaptcha, musíte se registrovat na <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
-    'RECAPTCHA_INVISIBLE'			=> 'Tato CAPTCHA je aktuálně neviditelná. K ověření, zda funguje, by se měla objevit ikona vpravém dolním rohu této stránky.',
+	'RECAPTCHA_INCORRECT'				=> 'Zadaný ověřovací kód byl nesprávný',
+	'RECAPTCHA_NOSCRIPT'				=> 'Pro načtení úkolu musíte ve vašem prohlížeči povolit JavaScript.',
+	'RECAPTCHA_NOT_AVAILABLE'			=> 'Pro použití reCaptcha, musíte se registrovat na <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_INVISIBLE'				=> 'Tato CAPTCHA je aktuálně neviditelná. K ověření, zda funguje, by se měla objevit ikona v pravém dolním rohu této stránky.',
+	'RECAPTCHA_V3_LOGIN_ERROR_ATTEMPTS'	=> 'Dosáhli jste maximálního počtu pokusů o přihlášení.<br>Kromě uživatelského jména a hesla bude pro vaše ověření použita neviditelná reCAPTCHA v3.',
 
 	'RECAPTCHA_PUBLIC'				=> 'Veřejný klíč',
 	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Váš veřejný klíč k službě reCAPTCHA, získáte ho na <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Prosíme, použijte reCAPTCHA v2 &gt; Neviditelná reCAPTCHA.',
-    'RECAPTCHA_V3_PUBLIC_EXPLAIN'	=> 'Váš veřejný klíč k službě reCAPTCHA, získáte ho na <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Prosíme, použijte reCAPTCHA v3.',
+	'RECAPTCHA_V3_PUBLIC_EXPLAIN'	=> 'Váš veřejný klíč k službě reCAPTCHA, získáte ho na <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Prosíme, použijte reCAPTCHA v3.',
 	'RECAPTCHA_PRIVATE'				=> 'Soukromý klíč',
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Váš soukromý klíč ke službě reCAPTCHA, získáte ho na <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Prosíme, použijte reCAPTCHA v2 &gt; Neviditelná reCAPTCHA.',
-    'RECAPTCHA_V3_PRIVATE_EXPLAIN'	=> 'Váš soukromý klíč ke službě reCAPTCHA, získáte ho na <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Prosíme, použijte reCAPTCHA v3.',
+	'RECAPTCHA_V3_PRIVATE_EXPLAIN'	=> 'Váš soukromý klíč ke službě reCAPTCHA, získáte ho na <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Prosíme, použijte reCAPTCHA v3.',
 
-    'RECAPTCHA_V3_DOMAIN'				=> 'Požadavek na doménu',
+	'RECAPTCHA_V3_DOMAIN'				=> 'Požadavek na doménu',
 	'RECAPTCHA_V3_DOMAIN_EXPLAIN'		=> 'Doména, které se dotáže skript, když ověřuje požadavek.<br>Použijte <samp>recaptcha.net</samp>, pokud je <samp>google.com</samp> nedostupný.',
 
 	'RECAPTCHA_V3_METHOD'				=> 'Typ požadavku',
@@ -73,5 +74,5 @@ $lang = array_merge($lang, [
 	'RECAPTCHA_V3_THRESHOLD_REPORT'				=> 'U nahlášení',
 	'RECAPTCHA_V3_THRESHOLDS'					=> 'Prahová hodnota',
 	'RECAPTCHA_V3_THRESHOLDS_EXPLAIN'			=> 'reCAPTCHA v3 vrací skóre (<samp>1.0</samp> je velmi dobrá interakce, <samp>0.0</samp> je pravděpodobně bot). Zde můžete nastavit minimální skóre.',
-    'EMPTY_RECAPTCHA_V3_REQUEST_METHOD'			=> 'reCAPTCHA v3 potřebuje vědět, kterou z dostupných metod chcete použít pro ověření požadavku.',
+	'EMPTY_RECAPTCHA_V3_REQUEST_METHOD'			=> 'reCAPTCHA v3 potřebuje vědět, kterou z dostupných metod chcete použít pro ověření požadavku.',
 ]);
