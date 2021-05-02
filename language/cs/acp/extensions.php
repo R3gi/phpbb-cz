@@ -66,9 +66,9 @@ $lang = array_merge($lang, array(
 	'EXTENSION_DISABLE_SUCCESS'		=> 'Rozšíření bylo úspěšně zakázáno',
 	'EXTENSION_ENABLE_SUCCESS'		=> 'Rozšíření bylo úspěšně povoleno',
 
-	'EXTENSION_NAME'		    => 'Název rozšíření',
-	'EXTENSION_ACTIONS'	    	=> 'Akce',
-	'EXTENSION_OPTIONS'	    	=> 'Možnosti',
+	'EXTENSION_NAME'			=> 'Název rozšíření',
+	'EXTENSION_ACTIONS'			=> 'Akce',
+	'EXTENSION_OPTIONS'			=> 'Možnosti',
 	'EXTENSION_INSTALL_HEADLINE'=> 'Instalace rozšíření',
 	'EXTENSION_INSTALL_EXPLAIN'	=> '<ol>
 			<li>Stáhněte rozšíření z phpBB databáze rozšíření</li>

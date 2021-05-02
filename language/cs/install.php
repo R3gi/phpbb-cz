@@ -300,9 +300,9 @@ $lang = array_merge($lang, array(
 	'TASK_CREATE_TABLES'				=> 'Vytváření tabulek',
 
 	// Install data
-	'TASK_ADD_BOTS'			=> 'Registrování botů',
-	'TASK_ADD_LANGUAGES'	=> 'Instalace dostupných jazyků',
-	'TASK_ADD_MODULES'		=> 'Instalace modulů',
+	'TASK_ADD_BOTS'				=> 'Registrování botů',
+	'TASK_ADD_LANGUAGES'		=> 'Instalace dostupných jazyků',
+	'TASK_ADD_MODULES'			=> 'Instalace modulů',
 	'TASK_CREATE_SEARCH_INDEX'	=> 'Vytvářím vyhledávací index',
 
 	// Install finish
@@ -356,15 +356,38 @@ $lang = array_merge($lang, array(
 
 		<br />
 
-		<h1>Jak aktualizovat vaši instalaci pomocí „Automatického aktualizačního balíčku“</h1>
+		<h1>Jak aktualizovat vaši instalaci pomocí úplného balíčku (Full Package)</h1>
 
-		<p>Doporučený způsob aktualizace instalace vašeho fóra, který je tu popsán, lze použít jen s automatickým aktualizačním balíčkem („Automatic Update Package“). Vaše fórum můžete také aktualizovat pomocí způsobů, které jsou uvedeny v dokumentu „INSTALL.html“. Postup pro automatickou aktualizaci phpBB3:</p>
+		<p>Doporučený způsob aktualizace instalace vašeho fóra je pomocí úplného balíčku. Pokud byly soubory jádra phpBB pozměněny, použijte automatický aktualizační balíček, abyste o vaše úpravy nepřišli. Vaše fórum můžete také aktualizovat pomocí způsobů, které jsou uvedeny v dokumentu „INSTALL.html“. Postup pro aktualizaci phpBB3 pomocí úplného balíčku:</p>
 
+		<ol style="margin-left: 20px; font-size: 1.1em;">
+			<li><strong class="error">Zálohujte si všechny soubory a databázi.</strong></li>
+			<li>Přejděte na <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">stránku se soubory ke stažení na webu phpBB.com</a> and stáhněte si nejnovější „Full Package“ balíček.</li>
+			<li>Rozbalte balíček.</li>
+			<li>Odstraňte (smažte) soubor <code class="inline">config.php</code> a složky <code class="inline">/images</code>, <code class="inline">/store</code> a <code class="inline">/files</code> <em>z rozbaleného balíčku</em> (tj. ne z vašeho webu).</li>
+			<li>Přejděte do Administrace, nastavení fóra a ujistěte se, že je prosilver nastaven jako výchozí vzhled fóra. Pokud ne, nastavte jako výchozí prosilver.</li>
+			<li>Smažte složky <code class="inline">/vendor</code> a <code class="inline">/cache</code> z kořenové složky vašeho hostitele (tam kde máte soubory vašeho fóra).</li>
+			<li>Pomocí FTP nebo SSH nahrajte připravené soubory a složky (tj. zbývající OBSAH phpBB3 složky) do kořenové složky s instalací vašeho fóra na vašem serveru. Všechny existující soubory přepište. (Poznámka: soubory vašich rozšíření ve složce <code class="inline">/ext</code> nemažte při nahrávání nových phpBB3.)</li>
+			<li><strong><a href="%1$s" title="%1$s">Nyní začněte s aktualizací. Pomocí webového prohlížeče přejdete na stránku ukazující na instalační složku vašeho fóra.</a>.</strong></li>
+			<li>Postupujte podle pokynů a dokončete aktualizaci databáze.</li>
+			<li>Pomocí FTP, nebo SSH smažte složku <code class="inline">/install</code> z kořenové složky s instalací vašeho fóra.<br><br></li>
+		</ol>
+
+		<p>Teď máte své fórum aktuální. Následné kroky:</p>
 		<ul style="margin-left: 20px; font-size: 1.1em;">
+			<li>Aktualizujte jazykové balíčky</li>
+			<li>Aktualizujte vaše vzhledy<br><br></li>
+		</ul>
+
+		<h1>Jak aktualizovat vaši instalaci pomocí automatického aktualizačního balíčku (Automatic Update Package)</h1>
+
+		<p>Automatický aktualizační balíček doporučujeme použít pouze pokud jste provedli úpravu souborů jádra phpBB. Vaše fórum můžete také aktualizovat pomocí způsobů, které jsou uvedeny v dokumentu „INSTALL.html“. Postup pro aktualizaci phpBB3 pomocí automatického aktualizačního balíčku:</p>
+
+		<ol style="margin-left: 20px; font-size: 1.1em;">
 			<li>Přejděte na <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">stránku se soubory ke stažení na webu phpBB.com</a> a stáhněte soubor „Automatic Update Package“ („Automatický aktualizační balíček“).<br /><br /></li>
 			<li>Rozbalte archiv.<br /><br /></li>
 			<li>Nahrajte kompletní rozbalené složky „install“ a „vendor“ do kořenového adresáře vašeho phpBB fóra (tam, kde je soubor „config.php“).<br /><br /></li>
-		</ul>
+		</ol>
 
 		<p>Po nahrání souborů bude vaše fórum pro normální uživatele vypnuto, protože se mezi soubory fóra nachází nahraný adresář „install“.<br /><br />
 		<strong><a href="%1$s" title="%1$s">Pak přejděte ve vašem prohlížeči na adresář „install“, čímž spustíte aktualizaci</a>.</strong><br />
