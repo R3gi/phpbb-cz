@@ -70,7 +70,6 @@ $lang = array_merge($lang, array(
 	'START_RESTORE'			=> 'Spustit obnovu',
 	'STORE_AND_DOWNLOAD'	=> 'Uložit a stáhnout',
 	'STORE_LOCAL'			=> 'Uložit zálohu zde',
-	'STRUCTURE_ONLY'		=> 'Pouze strukturu',
 
 	'TABLE_SELECT'		=> 'Vybrat tabulky',
 	'TABLE_SELECT_ERROR'=> 'Musíte zvolit alespoň jednu tabulku.',
