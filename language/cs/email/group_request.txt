@@ -2,7 +2,7 @@ Subject: Žádost o vstup do skupiny
 
 Dobrý den {USERNAME},
 
-Uživatel "{REQUEST_USERNAME}" zažádal o vstup do skupiny "{GROUP_NAME}", kterou vedete na "{SITENAME}".
+uživatel „{REQUEST_USERNAME}“ zažádal o vstup do skupiny „{GROUP_NAME}“, kterou vedete na webu „{SITENAME}“.
 Pro schválení této žádosti použijte následující odkaz:
 
 {U_PENDING}

@@ -2,7 +2,7 @@ Subject: {SITENAME} - E-mail kamarádovi o tématu
 
 Dobrý den {TO_USERNAME},
 
-Tato zpráva byla odeslán z fóra „{SITENAME}“ uživatelem {FROM_USERNAME}, který myslel, že by vás mohlo zajímat následující téma:
+Tato zpráva byla odeslán z fóra „{SITENAME}“ uživatelem {FROM_USERNAME}, který si myslí, že by vás mohlo zajímat následující téma:
 
 {TOPIC_NAME}
 

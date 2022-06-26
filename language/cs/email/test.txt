@@ -2,13 +2,12 @@ Subject: phpBB je správně nastaveno pro odesílání e-mailů
 
 Dobrý den {USERNAME},
 
-Gratulujeme. Pokud vám přišel tento e-mail, je vaše phpBB správně nastaveno pro odesílání e-mailů.
+gratulujeme. Pokud vám přišel tento e-mail, je vaše phpBB správně nastaveno pro odesílání e-mailů.
 
 <!-- IF MESSAGE -->
 {MESSAGE}
 
 <!-- ENDIF -->
-
-Pokud potřebujete pomoc, navštivte, prosím, fórum podpory pro phpBB - https://www.phpbb.cz/
+Pokud potřebujete pomoc, navštivte, prosím, fórum podpory pro phpBB – https://www.phpbb.com/community/, případně https://www.phpbb.cz/
 
 {EMAIL_SIG}

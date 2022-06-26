@@ -1,8 +1,8 @@
-Subject: Moderování příspěvku - „{TOPIC_TITLE}“
+Subject: Moderování příspěvku – „{TOPIC_TITLE}“
 
 Dobrý den {USERNAME},
 
-toto upozornění jste obdrželi, protože příspěvek „{POST_SUBJECT}“ ve fóru „{SITENAME}“ vyžaduje schválení.
+příspěvek „{POST_SUBJECT}“ na webu „{SITENAME}“ vyžaduje schválení.
 
 Pro zobrazení příspěvku můžete použít následující odkaz:
 {U_VIEW_POST}

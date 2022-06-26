@@ -9,5 +9,4 @@ Následuje zpráva pro vás:
 
 {MESSAGE}
 
-
 {EMAIL_SIG}

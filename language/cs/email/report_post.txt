@@ -2,7 +2,7 @@ Subject: Nahlášen příspěvek - „{TOPIC_TITLE}“
 
 Dobrý den {USERNAME},
 
-toto upozornění, jste obdrželi, protože příspěvek „{POST_SUBJECT}“ ve fóru „{SITENAME}“ byl nahlášen.
+příspěvek „{POST_SUBJECT}“ ve fóru „{SITENAME}“ byl nahlášen.
 
 Pro zobrazení hlášení použijte následující odkaz:
 {U_VIEW_REPORT}

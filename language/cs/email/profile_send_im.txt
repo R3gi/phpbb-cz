@@ -1,7 +1,7 @@
 
 Dobrý den {TO_USERNAME},
 
-Obdrželi jste zprávu od uživatele {FROM_USERNAME} z {SITENAME}. Pokud je tato zpráva spam, kontaktujte administrátora fóra na následující adrese:
+uživatel {FROM_USERNAME} vám posílá zprávu z webu {SITENAME}. Pokud je tato zpráva spam, kontaktujte administrátora fóra na následující adrese:
 
 {BOARD_CONTACT}
 
