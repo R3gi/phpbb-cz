@@ -154,7 +154,7 @@ $lang = array_merge($lang, array(
 	'SECURE_DOWNLOADS_EXPLAIN'		=> 'Je-li tato možnost povolena, stahovat mohou jenom IP/hostitelé, které zvolíte.',
 	'SECURE_DOWNLOAD_NOTICE'		=> 'Zabezpečené stahování není povoleno. Nastavení níže budou uplatněna po povolení zabezpečeného stahování.',
 	'SECURE_DOWNLOAD_UPDATE_SUCCESS'=> 'Seznam IP byl aktualizován.',
-	'SECURE_EMPTY_REFERRER'			=> 'Povolit prázdný refferer(odkazující stránka)',
+	'SECURE_EMPTY_REFERRER'			=> 'Povolit prázdný refferer (odkazující stránka)',
 	'SECURE_EMPTY_REFERRER_EXPLAIN'	=> 'Zabezpečené stahování je založeno na reffererech. Chcete povolit stahování, která nemají refferer(odkazující stránku)?',
 	'SETTINGS_CAT_IMAGES'			=> 'Nastavení kategorie obrázku',
 	'SPECIAL_CATEGORY'				=> 'Zvláštní kategorie',
@@ -170,4 +170,5 @@ $lang = array_merge($lang, array(
 	'UPLOAD_DIR_EXPLAIN'			=> 'Cesta k&nbsp;umístění složky pro ukládání příloh.',
 	'UPLOAD_ICON'					=> 'Ikona uploadů',
 	'UPLOAD_NOT_DIR'				=> 'Cesta, kterou jste zadali, není zřejmě platná složka.',
+    'UPLOAD_POST_NOT_EXIST'			=> 'Soubor „%1$s“ nelze nahrát k&nbsp;příspěvku číslo %2$d, protože příspěvek neexistuje.',
 ));
