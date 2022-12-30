@@ -1,8 +1,8 @@
-Subject: Upozornění na odpověď v tématu - "{TOPIC_TITLE}"
+Subject: Upozornění na odpověď v tématu – „{TOPIC_TITLE}“
 
 Dobrý den {USERNAME},
 
-Obdržel jste toto upozornění, protože uživatel "{AUTHOR_NAME}" vás citoval v odpovědi odeslané do tématu "{TOPIC_TITLE}" ve fóru "{SITENAME}". Pro zobrazení poslané odpovědi klikněte na následující odkaz.
+Uživatel „{AUTHOR_NAME}“ vás citoval v odpovědi odeslané do tématu „{TOPIC_TITLE}“ na webu „{SITENAME}“.
 
 Pro zobrazení citovaného příspěvku klikněte na následující odkaz:
 {U_VIEW_POST}

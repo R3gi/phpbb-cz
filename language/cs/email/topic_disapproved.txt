@@ -2,11 +2,10 @@ Subject: Neschválení tématu - {TOPIC_TITLE}
 
 Dobrý den {USERNAME},
 
-Obdrželi jste toto upozornění, protože vaše téma "{TOPIC_TITLE}" na {SITENAME} bylo zamítnuto moderátorem nebo administrátorem.
+vše téma „{TOPIC_TITLE}“ na webu {SITENAME} bylo zamítnuto moderátorem nebo administrátorem.
 
-Zde je důvod neschválení:
+Zde je důvod zamítnutí:
 
 {REASON}
-
 
 {EMAIL_SIG}

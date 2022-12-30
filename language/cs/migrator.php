@@ -48,10 +48,10 @@ $lang = array_merge($lang, array(
 	'MIGRATION_EFFECTIVELY_INSTALLED'	=> 'Migrace je již nainstalována (přeskočeno): %s',
 	'MIGRATION_EXCEPTION_ERROR'			=> 'Během požadavku došlo k chybě a byla vyvolána výjimka. Změny provedené před tím, než došlo k chybě, byly podle našich nejlepších schopností vráceny zpět, ale měli byste zkontrolovat vaše fórum a ujistit se, že se na něm nevyskytují chyby.',
 	'MIGRATION_NOT_FULFILLABLE'			=> 'Migraci „%1$s“ nelze provést, chybí migrace „%2$s“.',
-	'MIGRATION_NOT_INSTALLED'			=> 'Migrace "%s" není nainstalována.',
+	'MIGRATION_NOT_INSTALLED'			=> 'Migrace „%s“ není nainstalována.',
 	'MIGRATION_NOT_VALID'				=> '%s není platná migrace.',
 	'MIGRATION_SCHEMA_DONE'				=> 'Nainstalované schema: %1$s; Čas: %2$.2f sekund',
-  'MIGRATION_SCHEMA_IN_PROGRESS'		=> 'Instaluji schema: %1$s; Čas: %2$.2f sekund',
+	'MIGRATION_SCHEMA_IN_PROGRESS'		=> 'Instalace schema: %1$s; Čas: %2$.2f sekund',
 	'MIGRATION_SCHEMA_RUNNING'			=> 'Instalace schema: %s.',
 
 	'MIGRATION_REVERT_DATA_DONE'		=> 'Vrácená data: %1$s; Čas: %2$.2f sekund',
@@ -77,5 +77,6 @@ $lang = array_merge($lang, array(
 	'PARENT_MODULE_FIND_ERROR'			=> 'Nepodařilo se určit identifikátor nadřazeného modulu: %s',
 	'PERMISSION_NOT_EXIST'				=> 'Nastavení oprávnění „%s“, které mělo existovat, neexistuje.',
 
+    'ROLE_ASSIGNED_NOT_EXIST'			=> 'Role oprávnění přiřazená skupině „%1$s“ neočekávaně neexistuje. ID role: „%2$s“',
 	'ROLE_NOT_EXIST'					=> 'Role oprávnění „%s“, která měla existovat, neexistuje.',
 ));

@@ -13,5 +13,4 @@ Pro reaktivaci vašeho účtu použijte následující odkaz:
 
 {U_ACTIVATE}
 
-
 {EMAIL_SIG}

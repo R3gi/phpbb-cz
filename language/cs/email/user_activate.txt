@@ -2,7 +2,7 @@ Subject: Reaktivace vašeho účtu
 
 Dobrý den {USERNAME},
 
-váš účet na fóru „{SITENAME}“ byl deaktivován. Reaktivaci provedete kliknutím na následující odkaz:
+váš účet na fóru „{SITENAME}“ byl deaktivován, nejspíše kvůli změnám v profilu. Reaktivaci provedete kliknutím na následující odkaz:
 
 {U_ACTIVATE}
 

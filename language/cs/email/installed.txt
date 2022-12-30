@@ -12,7 +12,7 @@ Uživatelské jméno: {USERNAME}
 Adresa fóra:       {U_BOARD}
 ----------------------------
 
-Užitečné informace o phpBB lze naleznout ve složce „docs“ vaší instalace, nebo na stránkách podpory phpBB - https://www.phpbb.com/support/, případně české podpory - https://www.phpbb.cz.
+Užitečné informace o phpBB lze naleznout ve složce „docs“ vaší instalace, nebo na stránkách podpory phpBB – https://www.phpbb.com/support/, případně české podpory – https://www.phpbb.cz.
 
 Doporučujeme sledovat novinky v nových verzích našeho systému pro zajištění bezpečnosti vašeho fóra, novinky vám můžeme zasílat automaticky, pokud se přihlásíte na mailing list, který je na výše uvedeném odkazu.
 

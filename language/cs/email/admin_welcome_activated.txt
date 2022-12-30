@@ -2,6 +2,8 @@ Subject: Účet byl aktivován
 
 Dobrý den {USERNAME},
 
-Váš účet na "{SITENAME}" byl aktivován administrátorem. Nyní se můžete přihlásit.
+Váš účet na „{SITENAME}“ byl aktivován administrátorem. Nyní se můžete přihlásit.
+
+Vaše heslo je bezpečně zašifrováno v naší databázi a nelze ho získat zpět. Pokud ho zapomenete, můžete si ho resetovat pomocí Vaší registrační e-mailové adresy.
 
 {EMAIL_SIG}

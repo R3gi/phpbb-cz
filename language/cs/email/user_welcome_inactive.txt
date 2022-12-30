@@ -6,7 +6,7 @@ Prosím uschovejte si tento e-mail pro případné zapomenutí údajů. Následu
 
 ----------------------------
 Uživatelské jméno: 	{USERNAME}
- 
+
 URL adresa fóra: 	{U_BOARD}
 ----------------------------
 
