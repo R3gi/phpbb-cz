@@ -1,13 +1,13 @@
 <?php
 /**
 *
-* common [Čeština]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: common.php 505 2015-08-18 10:32:21Z Otakar Pěnkava $
-* @copyright (c)  2015 phpBB.cz
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* Original copyright: (c) 2005 phpBB Group
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -95,6 +95,7 @@ $lang = array_merge($lang, array(
 	'AUTH_PROVIDER_OAUTH_ERROR_INVALID_ENTRY'				=> 'Neplatný záznam v databázi.',
 	'AUTH_PROVIDER_OAUTH_ERROR_INVALID_SERVICE_TYPE'		=> 'Neplatný typ služby poskytnut pro obslužnou rutinu OAuth služby.',
 	'AUTH_PROVIDER_OAUTH_ERROR_REQUEST'						=> 'Něco se pokazilo, když probíhala Vaše OAuth žádost.',
+	'AUTH_PROVIDER_OAUTH_RETURN_ERROR'						=> 'Váš požadavek nelze zpracovat, protože externí služba vrátila chybnou hodnotu.',
 	'AUTH_PROVIDER_OAUTH_ERROR_SERVICE_NOT_CREATED'			=> 'OAuth služba nebyla vytvořena',
 	'AUTH_PROVIDER_OAUTH_SERVICE_BITLY'						=> 'Bitly',
 	'AUTH_PROVIDER_OAUTH_SERVICE_FACEBOOK'					=> 'Facebook',
@@ -142,7 +143,7 @@ $lang = array_merge($lang, array(
 		2	=> 'Uživatelé prohlížející si toto fórum: %2$s a %1$d hosti',
 		3	=> 'Uživatelé prohlížející si toto fórum: %2$s a %1$d hostů',
 	),
-	'BUTTON_DELETE'  		=> 'Smazat',
+	'BUTTON_DELETE'         => 'Smazat',
 	'BUTTON_EDIT'			=> 'Upravit',
 	'BUTTON_FORUM_LOCKED'	=> 'Zamčeno',
 	'BUTTON_INFORMATION'    => 'Informace',
@@ -168,7 +169,7 @@ $lang = array_merge($lang, array(
 	'CHARACTERS'			=> array(
 		1	=> '%d znak',
 		2	=> '%d znaky',
-		3	=> '%d znaky',
+		3	=> '%d znaků',
 	),
 	'COLLAPSE_VIEW'			=> 'Zmenšit náhled',
 	'CLOSE_WINDOW'			=> 'Zavřít okno',
@@ -295,7 +296,7 @@ $lang = array_merge($lang, array(
 	'FTP_FSOCK_ROOT_PATH'			=> 'Cesta k&nbsp;phpBB',
 	'FTP_FSOCK_ROOT_PATH_EXPLAIN'	=> 'Cesta k&nbsp;phpBB z kořenového adresáře.',
 	'FTP_FSOCK_TIMEOUT'				=> 'Doba vypršení',
-	'FTP_FSOCK_TIMEOUT_EXPLAIN'		=> 'Doba v&nbsp;sekundách, kterou bude systém čekat na odpoveď od FTP serveru.',
+	'FTP_FSOCK_TIMEOUT_EXPLAIN'		=> 'Doba v&nbsp;sekundách, kterou bude systém čekat na odpověď od FTP serveru.',
 	'FTP_FSOCK_USERNAME'			=> 'Uživatelské jméno k&nbsp;FTP',
 	'FTP_FSOCK_USERNAME_EXPLAIN'	=> 'Uživatelské jméno k&nbsp;přístupu na FTP server.',
 
@@ -404,8 +405,8 @@ $lang = array_merge($lang, array(
 	'LOGIN_CONFIRMATION'				=> 'Potvrzení přihlášení',
 	'LOGIN_CONFIRM_EXPLAIN'				=> 'Pro zamezení útokům brute force na účty uživatelů vyžaduje administrátor zadání ověřovacího kódu po stanoveném počtu neúspěšných přihlášení. Kód je zobrazen na obrázku níže. Pokud máte zrakovou vadu, nebo jinak nemůžete přečíst kód, kontaktujte %sadministrátora fóra%s.',
 	'LOGIN_ERROR_ATTEMPTS'				=> 'Překročil jste maximální počet pokusů o&nbsp;přihlášení. Nyní musíte kromě uživatelského jména zadat projít CAPTCHA testem.',
-	'LOGIN_ERROR_EXTERNAL_AUTH_APACHE'	=> 'Nebyl jste autorizován Apachem.',
-	'LOGIN_ERROR_OAUTH_SERVICE_DOES_NOT_EXIST'	=> 'Byla vyžadována neexistující služba OAuth.',
+	'LOGIN_ERROR_EXTERNAL_AUTH_APACHE'	=> 'Nejste ztotožněni Apachem.',
+	'LOGIN_ERROR_OAUTH_SERVICE_DOES_NOT_EXIST'	=> 'Byla vyžádána neexistující služba OAuth.',
 	'LOGIN_ERROR_PASSWORD'				=> 'Zadali jste nesprávné heslo. Zkontrolujte vaše heslo a zkuste znovu. Pokud potíže přetrvají, kontaktujte %sadministrátora fóra%s.',
 	'LOGIN_ERROR_PASSWORD_CONVERT'		=> 'Nebylo možné převést vaše heslo při přechodu ze starší verze fóra. %sZažádejte prosím o&nbsp;nové%s. Pokud potíže přetrvají, kontaktujte %sadministrátora fóra%s.',
 	'LOGIN_ERROR_USERNAME'				=> 'Zadali jste nesprávné uživatelské jméno. Zkontrolujte vaše uživ. jméno a zkuste znovu. Pokud potíže přetrvají, kontaktujte %sadministrátora fóra%s.',
@@ -438,6 +439,7 @@ $lang = array_merge($lang, array(
 	'MESSAGE'				=> 'Zpráva',
 	'MESSAGES'				=> 'Zprávy',
 	'MESSAGES_COUNT'		=> array(
+		0	=> 'neomezené zprávy',
 		1	=> '%d zpráva',
 		2	=> '%d zprávy',
 		3	=> '%d zpráv',
@@ -457,8 +459,8 @@ $lang = array_merge($lang, array(
 	'NEWEST_USER'				=> 'Nejnovějším uživatelem je <strong>%s</strong>',
 	'NEW_MESSAGE'				=> 'Nová zpráva',
 	'NEW_MESSAGES'				=> 'Nové zprávy',
-	'NEW_POST'					=> 'Nový příspěvek',
-	'NEW_POSTS'					=> 'Nové příspěvky',
+	'NEW_POST'					=> 'Nový příspěvek',	// Not used anymore
+	'NEW_POSTS'					=> 'Nové příspěvky',	// Not used anymore
 	'NEXT'						=> 'Další',		// Used in pagination
 	'NEXT_STEP'					=> 'Další',
 	'NEVER'						=> 'Nikdy',
@@ -681,7 +683,7 @@ $lang = array_merge($lang, array(
 		3	=> '%d registrovaných',
 	),
 	'REMOVE'					=> 'Odstranit',
-	'REMOVE_INSTALL'			=> 'Prosím smažte, přesuňte nebo přejmenujte složku install.',
+	'REMOVE_INSTALL'			=> 'Prosím smažte, přesuňte nebo přejmenujte složku install. Dokud bude složka přítomna, bude přístupná pouze administrace fóra.',
 	'REPLIES'					=> 'Odpovědi',
 	'REPLY_WITH_QUOTE'			=> 'Odpovědět s&nbsp;citací',
 	'REPLYING_GLOBAL_ANNOUNCE'	=> 'Odpovídá na globální oznámení',
@@ -937,10 +939,9 @@ $lang = array_merge($lang, array(
 	'WEBSITE'			=> 'WWW',
 	'WHOIS'				=> 'Whois',
 	'WHO_IS_ONLINE'		=> 'Kdo je online',
-	'WRONG_PASSWORD'	=> 'Vložili jste špatné heslo.',
+	'WRONG_PASSWORD'	=> 'Zadali jste nesprávné heslo.',
 
 	'WRONG_DATA_COLOUR'			=> 'Hodnota barvy, kterou jste zadali je neplatná.',
-
 	'WRONG_DATA_JABBER'			=> 'Adresa, kterou jste zadali, není platný jabber účet.',
 	'WRONG_DATA_LANG'			=> 'Zvolený jazyk je neplatný.',
 	'WRONG_DATA_POST_SD'		=> 'Vámi určený směr řazení příspěvků není platný.',
@@ -1220,7 +1221,7 @@ $lang = array_merge($lang, array(
 		'America/Rio_Branco'	=> 'Amerika/Rio Branco',
 		'America/Santa_Isabel'	=> 'Amerika/Santa Isabel',
 		'America/Santarem'		=> 'Amerika/Santarém',
-		'America/Santiago'		=> 'Amerika/Santiago de Chile',
+		'America/Santiago'		=> 'Amerika/Santiago',
 		'America/Santo_Domingo'	=> 'Amerika/Santo Domingo',
 		'America/Sao_Paulo'		=> 'Amerika/São Paulo',
 		'America/Scoresbysund'	=> 'Amerika/Scoresbysund',

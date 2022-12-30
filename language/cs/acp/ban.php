@@ -1,13 +1,13 @@
 <?php
-/** 
+/**
 *
-* acp_ban [Čeština]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: ban.php 491 2009-09-12 09:46:40Z ameeck $
-* @copyright (c)  2007 phpBB.cz
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
-* Original copyright: (c) 2005 phpBB Group
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
