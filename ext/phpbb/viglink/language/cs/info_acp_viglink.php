@@ -4,7 +4,7 @@
  * VigLink extension for the phpBB Forum Software package.
  *
  * @copyright (c) 2014 phpBB Limited <https://www.phpbb.com>
- * @license GNU General Public License, version 2 (GPL-2.0)
+ * @license       GNU General Public License, version 2 (GPL-2.0)
  *
  */
 
@@ -38,6 +38,6 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'ACP_VIGLINK_SETTINGS'		=> 'Nastavení VigLinku',
-	'LOG_VIGLINK_CHECK_FAIL'	=> '<strong>Nastavení VigLinku nelze na phpBB.com ověřit</strong><br />» %s',
+	'ACP_VIGLINK_SETTINGS'   => 'Nastavení VigLinku',
+	'LOG_VIGLINK_CHECK_FAIL' => '<strong>Nastavení VigLinku nelze na phpBB.com ověřit</strong><br />» %s',
 ));
