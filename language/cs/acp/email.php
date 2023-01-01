@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 
 // Email settings
 $lang = array_merge($lang, array(
-	'ACP_MASS_EMAIL_EXPLAIN'		=> 'Zde můžete odeslat e-mail buď všem uživatelům fóra nebo určité skupině. E-mail bude odeslán z e-mailové adresy nastavené v&nbsp;administraci, se slepou kopií všem příjemcům. Pokud odesíláte zprávu velké skupině lidí, buďte trpěliví a nepřerušujte proces. Je běžné, že trvá dlouho odeslat hromadnou zprávu při velkém počtu příjemců. O ukončení odesílání budete informováni.',
+	'ACP_MASS_EMAIL_EXPLAIN'		=> 'Zde můžete odeslat e-mail buď všem uživatelům fóra nebo určité skupině. E-mail bude odeslán z e-mailové adresy nastavené v administraci, se slepou kopií všem příjemcům. Pokud odesíláte zprávu velké skupině lidí, buďte trpěliví a nepřerušujte proces. Je běžné, že trvá dlouho odeslat hromadnou zprávu při velkém počtu příjemců. O ukončení odesílání budete informováni.',
 	'ALL_USERS'						=> 'Všichni uživatelé',
 
 	'COMPOSE'				=> 'Napsat novou',

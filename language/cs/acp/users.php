@@ -55,7 +55,7 @@ $lang = array_merge($lang, array(
 	'CANNOT_REMOVE_ANONYMOUS'		=> 'Nelze odstranit anonymní účet.',
 	'CANNOT_REMOVE_FOUNDER'			=> 'Nemůžete odstranit účet zakladatele.',
 	'CANNOT_REMOVE_YOURSELF'		=> 'Nelze odstranit váš vlastní účet.',
-	'CANNOT_SET_FOUNDER_IGNORED'	=> 'Nelze povýšit uživatele, které jsou v&nbsp;nepřátelích, na zakladatele',
+	'CANNOT_SET_FOUNDER_IGNORED'	=> 'Nelze povýšit uživatele, které jsou v nepřátelích, na zakladatele',
 	'CANNOT_SET_FOUNDER_INACTIVE'	=> 'Musíte aktivovat uživatele předtím, než ho povýšíte, pouze aktivovaní uživatelé mohou být povýšeni.',
 	'CONFIRM_EMAIL_EXPLAIN'			=> 'Toto je nutné vyplnit, pouze pokud měníte e-mailovou adresu.',
 
@@ -118,7 +118,7 @@ $lang = array_merge($lang, array(
 	'USER_AVATAR_NOT_ALLOWED'		=> 'Avatar nebude zobrazen, protože jste v nastavení avatary vypnuli.',
 	'USER_AVATAR_UPDATED'			=> 'Nastavení avataru bylo úspešně změneno.',
 	'USER_AVATAR_TYPE_NOT_ALLOWED'	=> 'Současný avatar nebude zobrazen, protože jeho koncovka byla zakázána.',
-	'USER_CUSTOM_PROFILE_FIELDS'	=> 'Vlastní pole v&nbsp;profilu',
+	'USER_CUSTOM_PROFILE_FIELDS'	=> 'Vlastní pole v profilu',
 	'USER_DELETED'					=> 'Uživatel byl odstraněn.',
 	'USER_GROUP_ADD'				=> 'Přidat uživatele do skupiny',
 	'USER_GROUP_NORMAL'				=> 'Běžné skupiny, kterých je uživatel členem',

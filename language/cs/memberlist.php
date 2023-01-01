@@ -59,7 +59,7 @@ $lang = array_merge($lang, array(
 	'EMAIL_BODY_EXPLAIN'	=> 'Tento e-mail bude odeslán jako prostý text, nevkládejte žádné HTML nebo BBCode. Adresa pro odpověď na tento e-mail bude nastavena na vaši.',
 	'EMAIL_DISABLED'		=> 'Omlouváme se, ale všechny e-mailové služby na tomto fóru byly vypnuty.',
 	'EMAIL_SENT'			=> 'E-mail byl odeslán.',
-	'EMAIL_TOPIC_EXPLAIN'	=> 'Tento e-mail bude odeslán jako prostý text, nevkládejte žádné HTML nebo BBCode. Informace o&nbsp;tématu jsou již obsažené v&nbsp;e-mailu. Adresa na odpověď pro tento e-mail bude nastavena na vaši.',
+	'EMAIL_TOPIC_EXPLAIN'	=> 'Tento e-mail bude odeslán jako prostý text, nevkládejte žádné HTML nebo BBCode. Informace o tématu jsou již obsažené v e-mailu. Adresa na odpověď pro tento e-mail bude nastavena na vaši.',
 	'EMPTY_ADDRESS_EMAIL'	=> 'Musíte vložit platnou e-mailovou adresu.',
 	'EMPTY_MESSAGE_EMAIL'	=> 'Musíte vložit zprávu.',
 	'EMPTY_MESSAGE_IM'		=> 'Musíte vložit zprávu, která má být odeslána.',
@@ -98,7 +98,7 @@ $lang = array_merge($lang, array(
 		3	=> '%d uživatelů',
 	),
 	'LOGIN_EXPLAIN_TEAM'		=> 'Pro zobrazení týmu musíte být zaregistrováni a přihlášeni.',
-	'LOGIN_EXPLAIN_MEMBERLIST'	=> 'Pro přístup k&nbsp;seznamu uživatelů musíte být zaregistrováni a přihlášeni.',
+	'LOGIN_EXPLAIN_MEMBERLIST'	=> 'Pro přístup k seznamu uživatelů musíte být zaregistrováni a přihlášeni.',
 	'LOGIN_EXPLAIN_SEARCHUSER'	=> 'Pro hledání uživatelů musíte být zaregistrováni a přihlášeni.',
 	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'Pro zobrazení profilů musíte být zaregistrováni a přihlášeni.',
 

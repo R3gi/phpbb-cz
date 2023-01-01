@@ -42,7 +42,7 @@ $lang = array_merge($lang, array(
 	'30_MINS'		=> '30 minut',
 	'6_HOURS'		=> '6 hodin',
 
-	'ACP_BAN_EXPLAIN'	=> 'Zde můžete ovládat banování jmen, IP adres nebo e-mailů. Tyto postupy zabraňují uživateli přistoupit k&nbsp;jakékoliv části fóra. Chcete-li, můžete připojit krátký (nejvýše 3000 znaků) důvod pro ban, který se zobrazí v&nbsp;administrátorském logu. Rovněž může být určena délka trvání banu. Chcete-li, aby platnost banu uplynula k&nbsp;určitému datu, nastavte raději <u>Datum vypršení</u> u&nbsp;délky banu a zadejte datum ve formátu <kbd>RRRR-MM-DD</kbd>.',
+	'ACP_BAN_EXPLAIN'	=> 'Zde můžete ovládat banování jmen, IP adres nebo e-mailů. Tyto postupy zabraňují uživateli přistoupit k jakékoliv části fóra. Chcete-li, můžete připojit krátký (nejvýše 3000 znaků) důvod pro ban, který se zobrazí v administrátorském logu. Rovněž může být určena délka trvání banu. Chcete-li, aby platnost banu uplynula k určitému datu, nastavte raději <u>Datum vypršení</u> u délky banu a zadejte datum ve formátu <kbd>RRRR-MM-DD</kbd>.',
 
 	'BAN_EXCLUDE'			=> 'Vyřadit z banů',
 	'BAN_LENGTH'			=> 'Délka banu',

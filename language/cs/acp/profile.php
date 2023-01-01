@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 
 // Custom profile fields
 $lang = array_merge($lang, array(
-	'ADDED_PROFILE_FIELD'	=> 'Vlastní položka v&nbsp;profilu byla přidána.',
+	'ADDED_PROFILE_FIELD'	=> 'Vlastní položka v profilu byla přidána.',
 	'ALPHA_DOTS'			=> 'Alfanumerické a tečky',
 	'ALPHA_ONLY'			=> 'Pouze alfanumerické znaky',
 	'ALPHA_SPACERS'			=> 'Alfanumerické znaky a mezery',
@@ -66,7 +66,7 @@ $lang = array_merge($lang, array(
 	'DEFAULT_VALUE'									=> 'Výchozí hodnota',
 	'DELETE_PROFILE_FIELD'					=> 'Odstranit položku profilu',
 	'DELETE_PROFILE_FIELD_CONFIRM'	=> 'Opravdu chcete odstranit tuto položku?',
-	'DISPLAY_AT_PROFILE'						=> 'Zobrazit v&nbsp;uživatelském panelu',
+	'DISPLAY_AT_PROFILE'						=> 'Zobrazit v uživatelském panelu',
 	'DISPLAY_AT_PROFILE_EXPLAIN'		=> 'Uživatel si může změnit toto pole ve svém uživatelském panelu.',
 	'DISPLAY_AT_REGISTER'						=> 'Zobrazit při registraci',
 	'DISPLAY_AT_REGISTER_EXPLAIN'		=> 'Zobrazí položku již při registraci. Uživatel ji bude moct později změnit v uživatelském panelu.',
@@ -84,7 +84,7 @@ $lang = array_merge($lang, array(
 	'EMPTY_FIELD_IDENT'						=> 'Označení prázdného pole',
 	'EMPTY_USER_FIELD_NAME'				=> 'Prosím vložte název a popisek položky',
 	'ENTRIES'											=> 'Možnosti',
-	'EVERYTHING_OK'								=> 'Všechno v&nbsp;pořádku',
+	'EVERYTHING_OK'								=> 'Všechno v pořádku',
 
 	'FIELD_BOOL'								=> 'Booleovský (Ano/Ne)',
 	'FIELD_CONTACT_DESC'		=> 'Popis kontaktního odkazu',
@@ -95,7 +95,7 @@ $lang = array_merge($lang, array(
 	'FIELD_DROPDOWN'						=> 'Rolovací menu',
 	'FIELD_IDENT'								=> 'Označení pole',
 	'FIELD_IDENT_ALREADY_EXIST'	=> 'Vybrané označení pole již existuje, vyberte prosím jiné.',
-	'FIELD_IDENT_EXPLAIN'				=> 'Označení pole je název, pod kterým bude pole uloženo v&nbsp;databázi a šablonách.',
+	'FIELD_IDENT_EXPLAIN'				=> 'Označení pole je název, pod kterým bude pole uloženo v databázi a šablonách.',
 	'FIELD_INT'									=> 'Číselné hodnoty',
 	'FIELD_IS_CONTACT'			=> 'Zobrazit pole jako kontaktní pole',
 	'FIELD_IS_CONTACT_EXPLAIN'	=> 'Kontaktní pole jsou zobrazeny v kontaktní sekci uživatelského profilu a jsou odlišně zobrazeny v miniprofilu u příspěvků a v osobních zprávách. Můžete použít <samp>%s</samp> jako zástupnou proměnnou, která bude zaměněna za hodnotu vloženou uživatelem.',
@@ -110,7 +110,7 @@ $lang = array_merge($lang, array(
 	'FIRST_OPTION'							=> 'První možnost',
 
 	'HIDE_PROFILE_FIELD'					=> 'Skrýt položku profilu',
-	'HIDE_PROFILE_FIELD_EXPLAIN'	=> 'Jen administrátoři, moderátoři a samotný uživatel mohou vidět nebo upravovat tuto položku. Položka bude zobrazena pouze v&nbsp;profilech uživatelů. V případě, že bude vypnuta možnost Zobrazit v&nbsp;uživatelském panelu, položku uvidí a budou moci měnit pouze administrátoři a moderátoři.',
+	'HIDE_PROFILE_FIELD_EXPLAIN'	=> 'Jen administrátoři, moderátoři a samotný uživatel mohou vidět nebo upravovat tuto položku. Položka bude zobrazena pouze v profilech uživatelů. V případě, že bude vypnuta možnost Zobrazit v uživatelském panelu, položku uvidí a budou moci měnit pouze administrátoři a moderátoři.',
 
 	'INVALID_CHARS_FIELD_IDENT'	=> 'Označení pole může obsahovat jen málé a–z a _.',
 	'INVALID_FIELD_IDENT_LEN'		=> 'Označení pole může mít nejvíce 17 znaků.',
@@ -133,7 +133,7 @@ $lang = array_merge($lang, array(
 	'NO_FIELD_ID'							=> 'Nebylo zvoleno žádné id pole.',
 	'NO_FIELD_TYPE'						=> 'Nebyl přiřazen žádný druh položky.',
 	'NO_VALUE_OPTION'					=> 'Možnost odpovídající nevyplnění hodnoty',
-	'NO_VALUE_OPTION_EXPLAIN'	=> 'Hodnota nastavena pokud není pole vyplněno. Pokud je pole povinné, uživatel obdrží chybu s&nbsp;tím, že nelze zadat hodnotu uvedenou zde.',
+	'NO_VALUE_OPTION_EXPLAIN'	=> 'Hodnota nastavena pokud není pole vyplněno. Pokud je pole povinné, uživatel obdrží chybu s tím, že nelze zadat hodnotu uvedenou zde.',
 	'NUMBERS_ONLY'						=> 'Pouze čísla (0–9)',
 
 	'PROFILE_BASIC_OPTIONS'			=> 'Základní nastavení',
@@ -145,7 +145,7 @@ $lang = array_merge($lang, array(
 	'RADIO_BUTTONS'						=> 'Přepínací tlačítka',
 	'REMOVED_PROFILE_FIELD'		=> 'Položka byla odstraněna',
 	'REQUIRED_FIELD'					=> 'Povinné pole',
-	'REQUIRED_FIELD_EXPLAIN'	=> 'Položka profilu bude muset být vyplněna uživatelem nebo administrátorem. Pokud je vypnuta možnost Zobrazit při&nbsp;registraci, položka bude vyžadována pouze při změnách v profilu.',
+	'REQUIRED_FIELD_EXPLAIN'	=> 'Položka profilu bude muset být vyplněna uživatelem nebo administrátorem. Pokud je vypnuta možnost Zobrazit při registraci, položka bude vyžadována pouze při změnách v profilu.',
 	'ROWS'										=> 'řady',
 
 	'SAVE'							=> 'Uložit',
@@ -160,8 +160,8 @@ $lang = array_merge($lang, array(
 	'STEP_2_EXPLAIN_EDIT'			=> 'Zde nastavte možnosti, které jsou specifické pro tento druh vstupního pole, např. délku, rozsah nebo povolené znaky.<br /><strong>Berte na vědomí, že změny, které provedete, neovlivní data, které byly dosud zadané.</strong>',
 	'STEP_2_TITLE_CREATE'			=> 'Specifická nastavení typu',
 	'STEP_2_TITLE_EDIT'				=> 'Specifická nastavení typu',
-	'STEP_3_EXPLAIN_CREATE'			=> 'Vzhledem k&nbsp;tomu, že máte nainstalován na fóru více než jeden jazyk, měli byste vyplnit názvy polí i pro další jazyky. Položka bude fungovat s&nbsp;výchozím jazykem, další jazyky můžete doplnit později.',
-	'STEP_3_EXPLAIN_EDIT'			=> 'Vzhledem k&nbsp;tomu, že máte nainstalován na fóru více než jeden jazyk, měli byste vyplnit názvy polí i pro další jazyky. Položka bude zatím fungovat s&nbsp;výchozím jazykem.',
+	'STEP_3_EXPLAIN_CREATE'			=> 'Vzhledem k tomu, že máte nainstalován na fóru více než jeden jazyk, měli byste vyplnit názvy polí i pro další jazyky. Položka bude fungovat s výchozím jazykem, další jazyky můžete doplnit později.',
+	'STEP_3_EXPLAIN_EDIT'			=> 'Vzhledem k tomu, že máte nainstalován na fóru více než jeden jazyk, měli byste vyplnit názvy polí i pro další jazyky. Položka bude zatím fungovat s výchozím jazykem.',
 	'STEP_3_TITLE_CREATE'			=> 'Zbývající definice popisů pro další jazyky',
 	'STEP_3_TITLE_EDIT'				=> 'Definice názvů pro další jazyky',
 	'STRING_DEFAULT_VALUE_EXPLAIN'	=> 'Vložte řetězec, který bude zobrazen, pokud je položka nevyplněná. Nechte toto pole prázdné, pokud má být výchozí hodnota také prázdná.',

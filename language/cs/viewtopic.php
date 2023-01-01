@@ -46,7 +46,7 @@ $lang = array_merge($lang, array(
 	'BOOKMARK_REMOVED'		=> 'Záložka byla odstraněna.',
 	'BOOKMARK_TOPIC'		=> 'Přidat do záložek',
 	'BOOKMARK_TOPIC_REMOVE'	=> 'Odstranit ze záložek',
-	'BUMPED_BY'				=> 'Naposledy oživil %1$s v&nbsp;%2$s',
+	'BUMPED_BY'				=> 'Naposledy oživil %1$s v %2$s',
 	'BUMP_TOPIC'			=> 'Oživit téma',
 
 	'DELETE_TOPIC'			=> 'Odstranit téma',
@@ -122,5 +122,5 @@ $lang = array_merge($lang, array(
 	),
 	'VIEW_UNREAD_POST'		=> 'Přejít na nepřečtené příspěvky',
 	'VOTE_SUBMITTED'		=> 'Váš hlas byl přijat.',
-	'VOTE_CONVERTED'		=> 'Nelze změnit hlas u&nbsp;převedených hlasování.',
+	'VOTE_CONVERTED'		=> 'Nelze změnit hlas u převedených hlasování.',
 ));

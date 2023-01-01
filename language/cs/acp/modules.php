@@ -37,9 +37,9 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACP_MODULE_MANAGEMENT_EXPLAIN'	=> 'Zde můžete spravovat všechny druhy modulů. Berte na vědomí, že Administrace má třístupňovou strukturu (Kategorie -> Kategorie -> Modul) , kdežto ostatní ovládací panely mají dvoustupňovou strukturu (Kategorie -> Modul), která musí být dodržena. Upozorňujeme vás, že se můžete odříznout od ovládání, pokud vypnete nebo smažete samotný modul, starající se o&nbsp;správu modulů.',
+	'ACP_MODULE_MANAGEMENT_EXPLAIN'	=> 'Zde můžete spravovat všechny druhy modulů. Berte na vědomí, že Administrace má třístupňovou strukturu (Kategorie -> Kategorie -> Modul) , kdežto ostatní ovládací panely mají dvoustupňovou strukturu (Kategorie -> Modul), která musí být dodržena. Upozorňujeme vás, že se můžete odříznout od ovládání, pokud vypnete nebo smažete samotný modul, starající se o správu modulů.',
 	'ADD_MODULE'					=> 'Přidat modul',
-	'ADD_MODULE_CONFIRM'			=> 'Opravdu chcete přidat vybraný modul s&nbsp;vybraným režimem?',
+	'ADD_MODULE_CONFIRM'			=> 'Opravdu chcete přidat vybraný modul s vybraným režimem?',
 	'ADD_MODULE_TITLE'				=> 'Přidat modul',
 
 	'CANNOT_REMOVE_MODULE'	=> 'Nelze odstranit modul, má další podřazené moduly. Prosíme nejdříve přesuňte nebo odstraňte všechny podražené moduly.',
@@ -67,7 +67,7 @@ $lang = array_merge($lang, array(
 	'MODULE_EDITED'				=> 'Modul byl úspěšně upraven.',
 	'MODULE_ENABLED'			=> 'Modul povolen',
 	'MODULE_LANGNAME'			=> 'Název modulu',
-	'MODULE_LANGNAME_EXPLAIN'	=> 'Vložte zobrazovaný název modulu. Použijte jazykovou konstantu, pokud je jeho název uložen v&nbsp;jazykových souborech.',
+	'MODULE_LANGNAME_EXPLAIN'	=> 'Vložte zobrazovaný název modulu. Použijte jazykovou konstantu, pokud je jeho název uložen v jazykových souborech.',
 	'MODULE_TYPE'				=> 'Druh modulu',
 
 	'NO_CATEGORY_TO_MODULE'	=> 'Nelze změnit kategorii na modul. Prosíme nejdříve odstraňte/přesuňte všechny podřazené moduly.',

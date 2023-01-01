@@ -78,7 +78,7 @@ $lang = array_merge($lang, array(
 	'ACP_CONTACT'				=> 'Kontaktní stránka',
 	'ACP_CONTACT_SETTINGS'		=> 'Nastavení kontaktní stránky',
 	'ACP_CRITICAL_LOGS'			=> 'Log chyb',
-	'ACP_CUSTOM_PROFILE_FIELDS'	=> 'Vlastní pole v&nbsp;profilu',
+	'ACP_CUSTOM_PROFILE_FIELDS'	=> 'Vlastní pole v profilu',
 
 	'ACP_DATABASE'				=> 'Správa databáze',
 	'ACP_DISALLOW'				=> 'Zakázat',
@@ -147,7 +147,7 @@ $lang = array_merge($lang, array(
 	'ACP_PERMISSION_MASKS'		=> 'Masky oprávnění',
 	'ACP_PERMISSION_ROLES'		=> 'Role oprávnění',
 	'ACP_PERMISSION_TRACE'		=> 'Sledování oprávnění',
-	'ACP_PHP_INFO'				=> 'Informace o&nbsp;PHP',
+	'ACP_PHP_INFO'				=> 'Informace o PHP',
 	'ACP_POST_SETTINGS'			=> 'Příspěvky',
 	'ACP_PRUNE_FORUMS'			=> 'Pročistit fóra',
 	'ACP_PRUNE_USERS'			=> 'Pročistit uživatele',
@@ -221,7 +221,7 @@ $lang = array_merge($lang, array(
 	'ADMIN_INDEX'			=> 'Obsah administrace',
 	'ADMIN_PANEL'			=> 'Administrace fóra',
 
-	'ADM_LOGOUT'			=> 'Odhlásit&nbsp;z&nbsp;administrace',
+	'ADM_LOGOUT'			=> 'Odhlásit z administrace',
 	'ADM_LOGGED_OUT'		=> 'Byli jste úspěšně odhlášeni z administrace fóra.',
 
 	'BACK'					=> 'Zpět',
@@ -292,7 +292,7 @@ $lang = array_merge($lang, array(
 	'PARSE_SMILIES'						=> 'Zpracovávat smajlíky',
 	'PARSE_URLS'						=> 'Zpracovávat odkazy',
 	'PERMISSIONS_TRANSFERRED'			=> 'Oprávnění byla přenesena',
-	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'Nyní máte oprávnění %1$s. Můžete procházet fórum s&nbsp;uživatelským oprávněním, ale nelze vstoupit do Administrace fóra, protože administrátorská oprávnění nebyla přenesena. K <a href="%2$s"><strong>vlastním oprávněním</strong></a> se můžete kdykoliv vrátit.',
+	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'Nyní máte oprávnění %1$s. Můžete procházet fórum s uživatelským oprávněním, ale nelze vstoupit do Administrace fóra, protože administrátorská oprávnění nebyla přenesena. K <a href="%2$s"><strong>vlastním oprávněním</strong></a> se můžete kdykoliv vrátit.',
 	'PROCEED_TO_ACP'					=> '%sPokračovat na Administrační panel fóra%s',
 
   'RELEASE_ANNOUNCEMENT'		=> 'Oznámení',
@@ -330,9 +330,9 @@ $lang = array_merge($lang, array(
 
 // PHP info
 $lang = array_merge($lang, array(
-	'ACP_PHP_INFO_EXPLAIN'	=> 'Tato stránka vypisuje informace o&nbsp;verzi PHP instalované na tomto serveru. Obsahuje detaily o&nbsp;načtených modulech, dostupných proměnných a výchozích nastavení. Tyto informace mohou být užitečné při řešení potíží. Upozorňujeme, že někteří hostitelé mohou z bezpečnostních důvodů omezovat informace zde poskytované. Doporučuje se nezveřejňovat zde zobrazené podrobnosti, jen jste-li na ně dotázáni od <a href="http://www.phpbb.com/about/team/">týmových členů</a> na oficiálních fórech podpory.',
+	'ACP_PHP_INFO_EXPLAIN'	=> 'Tato stránka vypisuje informace o verzi PHP instalované na tomto serveru. Obsahuje detaily o načtených modulech, dostupných proměnných a výchozích nastavení. Tyto informace mohou být užitečné při řešení potíží. Upozorňujeme, že někteří hostitelé mohou z bezpečnostních důvodů omezovat informace zde poskytované. Doporučuje se nezveřejňovat zde zobrazené podrobnosti, jen jste-li na ně dotázáni od <a href="http://www.phpbb.com/about/team/">týmových členů</a> na oficiálních fórech podpory.',
 
-	'NO_PHPINFO_AVAILABLE'	=> 'Informace o&nbsp;vaší konfiguraci PHP nelze určit. Funkce phpinfo() byla z bezpečnostních důvodů vypnuta.',
+	'NO_PHPINFO_AVAILABLE'	=> 'Informace o vaší konfiguraci PHP nelze určit. Funkce phpinfo() byla z bezpečnostních důvodů vypnuta.',
 ));
 
 // Logs
@@ -354,10 +354,10 @@ $lang = array_merge($lang, array(
 
 // Index page
 $lang = array_merge($lang, array(
-	'ADMIN_INTRO'				=> 'Děkujeme, že jste si zvolili phpBB jako řešení pro vaše fórum. Tato obrazovka vám poskytne rychlý přehled o&nbsp;různých statistikách fóra. Odkazy v&nbsp;levé části obrazovky vám dovolují spravovat všechny části vašeho fóra. Každá stránka obsahuje pokyny k&nbsp;použití.',
+	'ADMIN_INTRO'				=> 'Děkujeme, že jste si zvolili phpBB jako řešení pro vaše fórum. Tato obrazovka vám poskytne rychlý přehled o různých statistikách fóra. Odkazy v levé části obrazovky vám dovolují spravovat všechny části vašeho fóra. Každá stránka obsahuje pokyny k použití.',
 	'ADMIN_LOG'					=> 'Záznam administrátorských činností',
-	'ADMIN_LOG_INDEX_EXPLAIN'	=> 'Zde je přehled posledních pěti akcí vykonaných administrátory. Ucelený záznam můžete zobrazit zvolením odpovídající položky v&nbsp;menu nebo kliknutím na níže uvedený odkaz.',
-	'AVATAR_DIR_SIZE'			=> 'Velikost adresáře s&nbsp;avatary',
+	'ADMIN_LOG_INDEX_EXPLAIN'	=> 'Zde je přehled posledních pěti akcí vykonaných administrátory. Ucelený záznam můžete zobrazit zvolením odpovídající položky v menu nebo kliknutím na níže uvedený odkaz.',
+	'AVATAR_DIR_SIZE'			=> 'Velikost adresáře s avatary',
 
 	'BOARD_STARTED'		=> 'Datum spuštění',
 	'BOARD_VERSION'	=> 'Verze fóra',
@@ -412,12 +412,12 @@ $lang = array_merge($lang, array(
 	'RESET_ONLINE_CONFIRM'			=> 'Opravdu chcete vynulovat rekord přítomých uživatelů?',
 	'RESET_ONLINE_SUCCESS'				=> 'Maximální počet uživatelů najednou přítomných ve fóru byl úspěšně resetován',
 	'RESYNC_POSTCOUNTS'				=> 'Resynchronizovat počítadla příspěvků',
-	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'Brány v&nbsp;úvahu budou pouze existující příspěvky. Pročištěné příspěvky nebudou počítány.',
+	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'Brány v úvahu budou pouze existující příspěvky. Pročištěné příspěvky nebudou počítány.',
 	'RESYNC_POSTCOUNTS_CONFIRM'		=> 'Opravdu chcete synchronizovat počítadla příspěvků?',
 	'RESYNC_POSTCOUNTS_SUCCESS'			=> 'Počet příspěvků byl úspěšně resynchronizován',
 	'RESYNC_POST_MARKING'			=> 'Resynchronizovat označená témata',
 	'RESYNC_POST_MARKING_CONFIRM'	=> 'Opravdu chcete resynchronizovat označená témata?',
-	'RESYNC_POST_MARKING_EXPLAIN'	=> 'Nejprve odznačí všechna témata a poté správně označí ta, v&nbsp;nichž uživatel vykázal aktivitu v&nbsp;posledních šesti měsících.',
+	'RESYNC_POST_MARKING_EXPLAIN'	=> 'Nejprve odznačí všechna témata a poté správně označí ta, v nichž uživatel vykázal aktivitu v posledních šesti měsících.',
 	'RESYNC_POST_MARKING_SUCCESS'	=> 'Označená témata byla úspěšně resynchronizována',
 	'RESYNC_STATS'					=> 'Resynchronizovat statistiky',
 	'RESYNC_STATS_CONFIRM'			=> 'Opravdu chcete resynchronizovat statistiky?',
@@ -449,7 +449,7 @@ $lang = array_merge($lang, array(
 	'VIEW_ADMIN_LOG'				=> 'Zobrazit administrátorský log',
 	'VIEW_INACTIVE_USERS'			=> 'Zobrazit neaktivní uživatele',
 
-	'WELCOME_PHPBB'			=> 'Vítejte v&nbsp;phpBB',
+	'WELCOME_PHPBB'			=> 'Vítejte v phpBB',
 	'WRITABLE_CONFIG'		=> 'Soubor s nastavením (config.php) je world-writable, může jej upravit kdokoliv. Silně vám doporučujeme změnit oprávnění na 640 nebo alespoň na 644 (např.: <a href="http://cs.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
 ));
 
@@ -458,7 +458,7 @@ $lang = array_merge($lang, array(
 	'INACTIVE_DATE'					=> 'Datum neaktivity',
 	'INACTIVE_REASON'				=> 'Důvod',
 	'INACTIVE_REASON_MANUAL'		=> 'Účet deaktivován administrátorem',
-	'INACTIVE_REASON_PROFILE'		=> 'Změněny detaily v&nbsp;profilu',
+	'INACTIVE_REASON_PROFILE'		=> 'Změněny detaily v profilu',
 	'INACTIVE_REASON_REGISTER'		=> 'Nově registrovaný uživatel',
 	'INACTIVE_REASON_REMIND'		=> 'Vyžádána reaktivace účtu',
 	'INACTIVE_REASON_UNKNOWN'		=> 'Neznámý',
@@ -504,23 +504,23 @@ $lang = array_merge($lang, array(
 	'LOG_ACL_ADD_ADMIN_GLOBAL_A_'		=> '<strong>Přidáni nebo upraveni Administrátoři</strong><br />» %s',
 	'LOG_ACL_ADD_MOD_GLOBAL_M_'			=> '<strong>Přidáni nebo upraveni Globální Moderátoři</strong><br />» %s',
 
-	'LOG_ACL_ADD_USER_LOCAL_F_'			=> '<strong>Přidán nebo upraven přístup uživatele k&nbsp;fóru</strong> %1$s<br />» %2$s',
-	'LOG_ACL_ADD_USER_LOCAL_M_'			=> '<strong>Přidán nebo upraven přístup uživatele k&nbsp;moderování fóra</strong> %1$s<br />» %2$s',
-	'LOG_ACL_ADD_GROUP_LOCAL_F_'		=> '<strong>Přidán nebo upraven přístup skupiny k&nbsp;fóru</strong> %1$s<br />» %2$s',
-	'LOG_ACL_ADD_GROUP_LOCAL_M_'		=> '<strong>Přidán nebo upraven přístup skupiny k&nbsp;moderování fóra</strong> %1$s<br />» %2$s',
+	'LOG_ACL_ADD_USER_LOCAL_F_'			=> '<strong>Přidán nebo upraven přístup uživatele k fóru</strong> %1$s<br />» %2$s',
+	'LOG_ACL_ADD_USER_LOCAL_M_'			=> '<strong>Přidán nebo upraven přístup uživatele k moderování fóra</strong> %1$s<br />» %2$s',
+	'LOG_ACL_ADD_GROUP_LOCAL_F_'		=> '<strong>Přidán nebo upraven přístup skupiny k fóru</strong> %1$s<br />» %2$s',
+	'LOG_ACL_ADD_GROUP_LOCAL_M_'		=> '<strong>Přidán nebo upraven přístup skupiny k moderování fóra</strong> %1$s<br />» %2$s',
 
 	'LOG_ACL_ADD_MOD_LOCAL_M_'			=> '<strong>Přidáni nebo upraveni Moderátoři</strong> od %1$s<br />» %2$s',
-	'LOG_ACL_ADD_FORUM_LOCAL_F_'		=> '<strong>Přidána nebo upravena oprávnění k&nbsp;fóru</strong> %1$s<br />» %2$s',
+	'LOG_ACL_ADD_FORUM_LOCAL_F_'		=> '<strong>Přidána nebo upravena oprávnění k fóru</strong> %1$s<br />» %2$s',
 
 	'LOG_ACL_DEL_ADMIN_GLOBAL_A_'		=> '<strong>Odstraněni Administrátoři</strong><br />» %s',
 	'LOG_ACL_DEL_MOD_GLOBAL_M_'			=> '<strong>Odstraněni Globální Moderátoři</strong><br />» %s',
 	'LOG_ACL_DEL_MOD_LOCAL_M_'			=> '<strong>Odstraněni Moderátoři</strong> z %1$s<br />» %2$s',
-	'LOG_ACL_DEL_FORUM_LOCAL_F_'		=> '<strong>Odstraněni uživatelská/skupinová oprávnění k&nbsp;fóru</strong> %1$s<br />» %2$s',
+	'LOG_ACL_DEL_FORUM_LOCAL_F_'		=> '<strong>Odstraněni uživatelská/skupinová oprávnění k fóru</strong> %1$s<br />» %2$s',
 
 	'LOG_ACL_TRANSFER_PERMISSIONS'	=> '<strong>Oprávnění přenesena od</strong><br />» %s',
 	'LOG_ACL_RESTORE_PERMISSIONS'		=> '<strong>Vlastní oprávnění obnovena po používání oprávnění od</strong><br />» %s',
 
-	'LOG_ADMIN_AUTH_FAIL'		=> '<strong>Neúspěšný pokus o&nbsp;přihlášení administrátora</strong>',
+	'LOG_ADMIN_AUTH_FAIL'		=> '<strong>Neúspěšný pokus o přihlášení administrátora</strong>',
 	'LOG_ADMIN_AUTH_SUCCESS'	=> '<strong>Úspěšné přihlášení do administrace</strong>',
 
 	'LOG_ATTACHMENTS_DELETED'	=> '<strong>Smazání příloh uživatelů</strong><br />» %s',
@@ -531,7 +531,7 @@ $lang = array_merge($lang, array(
 	'LOG_ATTACH_EXTGROUP_ADD'	=> '<strong>Přidání skupiny druhů souborů</strong><br />» %s',
 	'LOG_ATTACH_EXTGROUP_EDIT'	=> '<strong>Upravení skupiny druhů souborů</strong><br />» %s',
 	'LOG_ATTACH_EXTGROUP_DEL'	=> '<strong>Odstranění skupiny druhů souborů</strong><br />» %s',
-	'LOG_ATTACH_FILEUPLOAD'		=> '<strong>Přiřazení nepřiřazené přílohy k&nbsp;příspěvku</strong><br />» ID %1$d – %2$s',
+	'LOG_ATTACH_FILEUPLOAD'		=> '<strong>Přiřazení nepřiřazené přílohy k příspěvku</strong><br />» ID %1$d – %2$s',
 	'LOG_ATTACH_ORPHAN_DEL'		=> '<strong>Odstranění nepřiřazené přílohy</strong><br />» %s',
 
 	'LOG_BAN_EXCLUDE_USER'	=> '<strong>Vyjmutí uživatele z banu</strong> z důvodu „<em>%1$s</em>“<br />» %2$s ',
@@ -622,7 +622,7 @@ $lang = array_merge($lang, array(
 	'LOG_DOWNLOAD_REMOVE_IP'	=> '<strong>Odstranění IP/hostitele ze seznamu stahování</strong><br />» %s',
 
 	'LOG_ERROR_JABBER'		=> '<strong>Chyba Jabberu</strong><br />» %s',
-	'LOG_ERROR_EMAIL'		=> '<strong>Chyba v&nbsp; odesílání e-mailu</strong><br />» %s',
+	'LOG_ERROR_EMAIL'		=> '<strong>Chyba v  odesílání e-mailu</strong><br />» %s',
 	'LOG_ERROR_CAPTCHA'		=> '<strong>Chyba CAPTCHA</strong><br />» %s',
 
 	'LOG_FORUM_ADD'							=> '<strong>Vytvoření nového fóra</strong><br />» %s',
@@ -678,7 +678,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_MASS_EMAIL'		=> '<strong>Odeslání hromadného e-mailu</strong><br />» %s',
 
-	'LOG_MCP_CHANGE_POSTER'	=> '<strong>Změna odesílatele v&nbsp;tématu „%1$s“</strong><br />» z %2$s na %3$s',
+	'LOG_MCP_CHANGE_POSTER'	=> '<strong>Změna odesílatele v tématu „%1$s“</strong><br />» z %2$s na %3$s',
 
 	'LOG_MODULE_DISABLE'	=> '<strong>Vypnutí modulu</strong>» %s',
 	'LOG_MODULE_ENABLE'		=> '<strong>Zapnutí modulu</strong>» %s',
@@ -703,11 +703,11 @@ $lang = array_merge($lang, array(
 
 	'LOG_PLUPLOAD_TIDY_FAILED'		=> '<strong>Nepodařilo se otevřít %1$s pro údržbu, zkontrolujte oprávnění.</strong><br />Výjimka: %2$s<br />Cesta: %3$s',
 
-	'LOG_PROFILE_FIELD_ACTIVATE'	=> '<strong>Aktivování pole v&nbsp;profilu</strong><br />» %s',
-	'LOG_PROFILE_FIELD_CREATE'		=> '<strong>Přidání pole v&nbsp;profilu</strong><br />» %s',
-	'LOG_PROFILE_FIELD_DEACTIVATE'	=> '<strong>Deaktivování pole v&nbsp;profilu</strong><br />» %s',
-	'LOG_PROFILE_FIELD_EDIT'		=> '<strong>Změna pole v&nbsp;profilu</strong><br />» %s',
-	'LOG_PROFILE_FIELD_REMOVED'		=> '<strong>Odstranění pole v&nbsp;profilu</strong><br />» %s',
+	'LOG_PROFILE_FIELD_ACTIVATE'	=> '<strong>Aktivování pole v profilu</strong><br />» %s',
+	'LOG_PROFILE_FIELD_CREATE'		=> '<strong>Přidání pole v profilu</strong><br />» %s',
+	'LOG_PROFILE_FIELD_DEACTIVATE'	=> '<strong>Deaktivování pole v profilu</strong><br />» %s',
+	'LOG_PROFILE_FIELD_EDIT'		=> '<strong>Změna pole v profilu</strong><br />» %s',
+	'LOG_PROFILE_FIELD_REMOVED'		=> '<strong>Odstranění pole v profilu</strong><br />» %s',
 
 	'LOG_PRUNE'					=> '<strong>Pročištění fór</strong><br />» %s',
 	'LOG_AUTO_PRUNE'			=> '<strong>Automatické pročištění fór</strong><br />» %s',
@@ -793,7 +793,7 @@ $lang = array_merge($lang, array(
 	'LOG_USER_ACTIVE_USER'		=> '<strong>Aktivace uživatelského účtu</strong>',
 	'LOG_USER_DEL_AVATAR_USER'	=> '<strong>Odstranění avataru uživatele</strong>',
 	'LOG_USER_DEL_SIG_USER'		=> '<strong>Odstranění podpisu uživatele</strong>',
-	'LOG_USER_FEEDBACK'			=> '<strong>Přidání komentáře k&nbsp;uživateli</strong><br />» %s',
+	'LOG_USER_FEEDBACK'			=> '<strong>Přidání komentáře k uživateli</strong><br />» %s',
 	'LOG_USER_GENERAL'			=> '<strong>Přidání záznamu:</strong><br />» %s',
 	'LOG_USER_INACTIVE_USER'	=> '<strong>Deaktivace uživatelského účtu</strong>',
 	'LOG_USER_LOCK'				=> '<strong>Uživatel zamknul své téma</strong><br />» %s',

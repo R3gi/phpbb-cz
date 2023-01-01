@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_HELPLINE_TEXT'		=> 'Text nápovědy',
 	'BBCODE_HELPLINE_TOO_LONG'	=> 'Text nápovědy, který jste zadali, je příliš dlouhý.',
 
-	'BBCODE_INVALID_TAG_NAME'	=> 'BBCode s&nbsp;tímto názvem již existuje.',
+	'BBCODE_INVALID_TAG_NAME'	=> 'BBCode s tímto názvem již existuje.',
 	'BBCODE_INVALID'			=> 'Zadali jste nesprávný BBCode, jeho konstrukce obsahuje chyby.',
 	'BBCODE_INVALID_TEMPLATE'	=> 'Vaše BBcode šablona je neplatná.',
 	'BBCODE_TAG'				=> 'Značka',
@@ -73,7 +73,7 @@ $lang = array_merge($lang, array(
 
 	'TOKEN'					=> 'Proměnná',
 	'TOKENS'				=> 'Proměnné',
-	'TOKENS_EXPLAIN'		=> 'Proměnné drží místo pro budoucí uživatelský vstup, na jejich místo budou uživatelé vyplňovat data. Značka bude zpracována, pouze pokud je na daném místě text odpovídající definice proměnné. Pokud potřebujete, můžete je číslovat, přidáním čísla před uzavírající závorku, např. {USERNAME1}, {USERNAME2}.<br /><br />Vedle těchto proměnných lze použít jakýkoliv jazykový řetězec, který je přítomný v&nbsp;překladech. Vložte ho v&nbsp;tomto formátu {L_<em>&lt;název řetězce&gt;</em>},kde <em>&lt;název řetězce&gt;</em> je název přeloženého řetězce, který chcete zobrazit. Například, {L_WROTE} bude anglicky zobrazeno jako „wrote“, a pokud má uživatel aktivovanou češtinu, tak jako „napsal“.',
+	'TOKENS_EXPLAIN'		=> 'Proměnné drží místo pro budoucí uživatelský vstup, na jejich místo budou uživatelé vyplňovat data. Značka bude zpracována, pouze pokud je na daném místě text odpovídající definice proměnné. Pokud potřebujete, můžete je číslovat, přidáním čísla před uzavírající závorku, např. {USERNAME1}, {USERNAME2}.<br /><br />Vedle těchto proměnných lze použít jakýkoliv jazykový řetězec, který je přítomný v překladech. Vložte ho v tomto formátu {L_<em>&lt;název řetězce&gt;</em>},kde <em>&lt;název řetězce&gt;</em> je název přeloženého řetězce, který chcete zobrazit. Například, {L_WROTE} bude anglicky zobrazeno jako „wrote“, a pokud má uživatel aktivovanou češtinu, tak jako „napsal“.',
 	'TOKEN_DEFINITION'		=> 'Použitelné znaky',
 	'TOO_MANY_BBCODES'		=> 'Nelze vytvořit další BBCode značky. Odstraňte jednu nebo více značek a zkuste znovu.',
 
@@ -85,16 +85,16 @@ $lang = array_merge($lang, array(
 		'NUMBER'		=> 'Jakákoliv řada číslic',
 		'EMAIL'			=> 'Platná e-mailová adresa',
 		'URL'			=> 'Platná URL, používající volitelný protokol (http, ftp, atd., nelze zneužít pro JavaScriptové útoky). Pokud není zvolený žádný, „http://“ je připojeno na začátek řetězce.',
-		'LOCAL_URL'		=> 'Lokální URL adresa. Zadaná URL musí být relativní k&nbsp;stránce s&nbsp;tématem a nesmí obsahovat definici protokolu nebo název serveru, jako odkazy jsou s předponou „%s”',
+		'LOCAL_URL'		=> 'Lokální URL adresa. Zadaná URL musí být relativní k stránce s tématem a nesmí obsahovat definici protokolu nebo název serveru, jako odkazy jsou s předponou „%s”',
 	'RELATIVE_URL'	=> 'Relativní URL adresa. Můžete použít tohle pro ověření části URL adresy, ale buďte opatrní: celá URL adresa je platná jako relativní URL. Pokud byste chtěli použít relativní URL adresy na vašem fóru, použijte LOCAL_URL token.',
-		'COLOR'			=> 'HTML barva, buď v&nbsp;hexadecimálním formátu <samp>#FF1234</samp> nebo jako <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS barva</a> jako <samp>fuchsia</samp> nebo <samp>InactiveBorder</samp>',
+		'COLOR'			=> 'HTML barva, buď v hexadecimálním formátu <samp>#FF1234</samp> nebo jako <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS barva</a> jako <samp>fuchsia</samp> nebo <samp>InactiveBorder</samp>',
 	),
 ));
 
 // Smilies and topic icons
 $lang = array_merge($lang, array(
-	'ACP_ICONS_EXPLAIN'		=> 'Odsud můžete přidávat a upravovat ikony, které uživatelé mohou použít v&nbsp;záhlaví zpráv. Tyto ikony jsou nejčastěji zobrazené vedle názvu tématu v&nbsp;seznamu témat nebo vedle předmětu v&nbsp;přehledu tématu. Můžete také instalovat nebo vytvořit celé kolekce ikon.',
-	'ACP_SMILIES_EXPLAIN'	=> 'Smajlící nebo emotikony jsou často malé, někdy animované obrázky, které umožňují vyjádřit emoce nebo náladu. Z této stránky můžete přidávat a upravovat smajlíky, které uživatelé mohou používat v&nbsp;jejich příspěvcích a zprávách. Můžete také instalovat nebo vytvořit celou kolekci smajlíků.',
+	'ACP_ICONS_EXPLAIN'		=> 'Odsud můžete přidávat a upravovat ikony, které uživatelé mohou použít v záhlaví zpráv. Tyto ikony jsou nejčastěji zobrazené vedle názvu tématu v seznamu témat nebo vedle předmětu v přehledu tématu. Můžete také instalovat nebo vytvořit celé kolekce ikon.',
+	'ACP_SMILIES_EXPLAIN'	=> 'Smajlící nebo emotikony jsou často malé, někdy animované obrázky, které umožňují vyjádřit emoce nebo náladu. Z této stránky můžete přidávat a upravovat smajlíky, které uživatelé mohou používat v jejich příspěvcích a zprávách. Můžete také instalovat nebo vytvořit celou kolekci smajlíků.',
 	'ADD_SMILIES'			=> 'Přidat další smajlíky',
 	'ADD_ICONS'				=> 'Přidat další ikony',
 	'ADD_SMILEY_CODE'		=> 'Přidat další kód smajlíku',
@@ -103,9 +103,9 @@ $lang = array_merge($lang, array(
 
 	'CODE'						=> 'Kód',
 	'CURRENT_ICONS'				=> 'Současné ikony',
-	'CURRENT_ICONS_EXPLAIN'		=> 'Zde můžete pracovat s&nbsp;instalovanými ikonami.',
+	'CURRENT_ICONS_EXPLAIN'		=> 'Zde můžete pracovat s instalovanými ikonami.',
 	'CURRENT_SMILIES'			=> 'Současné smajlíky',
-	'CURRENT_SMILIES_EXPLAIN'	=> 'Zde můžete pracovat s&nbsp;instalovanými smajlíky.',
+	'CURRENT_SMILIES_EXPLAIN'	=> 'Zde můžete pracovat s instalovanými smajlíky.',
 
 	'DISPLAY_ON_POSTING'		=> 'Zobrazit při odesílání příspěvku',
 	'DISPLAY_POSTING'			=> 'Zobrazit',
@@ -192,7 +192,7 @@ $lang = array_merge($lang, array(
 	'SMILIES_IMPORTED'			=> 'Sada smajlíků byla nainstalována.',
 	'SMILIES_IMPORT_SUCCESS'	=> 'Sada smajlíků byla naimportována.',
 	'SMILIES_LOCATION'			=> 'Umístění smajlíku',
-	'SMILIES_NOT_DISPLAYED'		=> 'Následující smajlíky nejsou zobrazeny na stránce k&nbsp;odeslání zprávy.',
+	'SMILIES_NOT_DISPLAYED'		=> 'Následující smajlíky nejsou zobrazeny na stránce k odeslání zprávy.',
 	'SMILIES_ORDER'				=> 'Pořadí',
 	'SMILIES_URL'				=> 'Obrázek smajlíku',
 	'SMILIES_WIDTH'				=> 'Šířka smajlíku',
@@ -235,11 +235,11 @@ $lang = array_merge($lang, array(
 
 	'NO_ASSIGNED_RANK'		=> 'Nebyla přidělená zvláštní hodnost.',
 	'NO_RANK_TITLE'			=> 'Nezvolili jste název hodnosti.',
-	'NO_UPDATE_RANKS'		=> 'Hodnost byla odstraněna. Neaktualizovaly se ale účty s&nbsp;touto hodností, budete muset ručně upravit tuto hodnost na jejich účtech.',
+	'NO_UPDATE_RANKS'		=> 'Hodnost byla odstraněna. Neaktualizovaly se ale účty s touto hodností, budete muset ručně upravit tuto hodnost na jejich účtech.',
 
 	'RANK_ADDED'			=> 'Byla přidána nová hodnost.',
 	'RANK_IMAGE'			=> 'Obrázek hodnosti',
-	'RANK_IMAGE_EXPLAIN'	=> 'Zde můžete definovat malý obrázek, který bude zobrazen u&nbsp;hodnosti. Cesta je relativní k&nbsp;základní složce phpBB.',
+	'RANK_IMAGE_EXPLAIN'	=> 'Zde můžete definovat malý obrázek, který bude zobrazen u hodnosti. Cesta je relativní k základní složce phpBB.',
 	'RANK_IMAGE_IN_USE'		=> '(používána)',
 	'RANK_MINIMUM'			=> 'Minimální počet příspěvků',
 	'RANK_REMOVED'			=> 'Hodnost byla odstraněna.',
@@ -251,10 +251,10 @@ $lang = array_merge($lang, array(
 // Disallow Usernames
 $lang = array_merge($lang, array(
 	'ACP_DISALLOW_EXPLAIN'	=> 'Zde můžete upravovat uživatelská jména, která nelze používat. Nepovolená jména lze definovat pomocí zástupného znaku *.',
-	'ADD_DISALLOW_EXPLAIN'	=> 'Můžete zakázat uživatelské jméno pomocí zástupného symbolu * pro shodu s&nbsp;jakýmkoliv znakem.',
+	'ADD_DISALLOW_EXPLAIN'	=> 'Můžete zakázat uživatelské jméno pomocí zástupného symbolu * pro shodu s jakýmkoliv znakem.',
 	'ADD_DISALLOW_TITLE'	=> 'Přidat nepovolené jméno',
 
-	'DELETE_DISALLOW_EXPLAIN'	=> 'Odstranit nepovolené jméno můžete kliknutím na jméno v&nbsp;seznamu a odesláním.',
+	'DELETE_DISALLOW_EXPLAIN'	=> 'Odstranit nepovolené jméno můžete kliknutím na jméno v seznamu a odesláním.',
 	'DELETE_DISALLOW_TITLE'		=> 'Odstranit nepovolené jméno',
 	'DISALLOWED_ALREADY'		=> 'Zvolené jméno je již zakázané.',
 	'DISALLOWED_DELETED'		=> 'Nepovolené jméno bylo odstraněno.',
@@ -266,14 +266,14 @@ $lang = array_merge($lang, array(
 
 // Reasons
 $lang = array_merge($lang, array(
-	'ACP_REASONS_EXPLAIN'	=> 'Zde můžete spravovat odůvodnění, která jsou použita v&nbsp;hlášeních vadných příspěvků nebo při schvalování. Vždy je nastaveno výchozí odůvodnění (označené symbolem *), které nelze odstranit. Toto odůvodnění použijte tehdy, pokud žádná vámi vytvořená odůvodnění nejsou dostatečně vhodná.',
+	'ACP_REASONS_EXPLAIN'	=> 'Zde můžete spravovat odůvodnění, která jsou použita v hlášeních vadných příspěvků nebo při schvalování. Vždy je nastaveno výchozí odůvodnění (označené symbolem *), které nelze odstranit. Toto odůvodnění použijte tehdy, pokud žádná vámi vytvořená odůvodnění nejsou dostatečně vhodná.',
 	'ADD_NEW_REASON'		=> 'Přidat nový důvod',
 	'AVAILABLE_TITLES'		=> 'Dostupné přeložené odůvodnění',
 
 	'IS_NOT_TRANSLATED'			=> 'Odůvodnění <strong>nebylo</strong> přeloženo.',
-	'IS_NOT_TRANSLATED_EXPLAIN'	=> 'Odůvodnění <strong>nebylo</strong> přeloženo. Pokud chcete poskytnout přeložené znění, vytvořte odpovídající položku v&nbsp;části jazykových souborů pro odůvodnění o&nbsp;schválení/zamítnutí.',
+	'IS_NOT_TRANSLATED_EXPLAIN'	=> 'Odůvodnění <strong>nebylo</strong> přeloženo. Pokud chcete poskytnout přeložené znění, vytvořte odpovídající položku v části jazykových souborů pro odůvodnění o schválení/zamítnutí.',
 	'IS_TRANSLATED'				=> 'Odůvodnění bylo přeloženo.',
-	'IS_TRANSLATED_EXPLAIN'		=> 'Odůvodnění bylo přeloženo. Pokud je název, který je zde zvolený, obsažen v&nbsp;jazykových souborech, bude použita přeložená verze.',
+	'IS_TRANSLATED_EXPLAIN'		=> 'Odůvodnění bylo přeloženo. Pokud je název, který je zde zvolený, obsažen v jazykových souborech, bude použita přeložená verze.',
 
 	'NO_REASON'					=> 'Odůvodnění nebylo nalezeno.',
 	'NO_REASON_INFO'			=> 'Musíte zvolit název a popis odůvodnění.',
@@ -281,7 +281,7 @@ $lang = array_merge($lang, array(
 
 	'REASON_ADD'				=> 'Přidat odůvodnění',
 	'REASON_ADDED'				=> 'Odůvodnění schválení/zamítnutí bylo přidáno.',
-	'REASON_ALREADY_EXIST'		=> 'Odůvodnění s&nbsp;tímto názvem již existuje, zvolte jiný.',
+	'REASON_ALREADY_EXIST'		=> 'Odůvodnění s tímto názvem již existuje, zvolte jiný.',
 	'REASON_DESCRIPTION'		=> 'Popis odůvodnění',
 	'REASON_DESC_TRANSLATED'	=> 'Zobrazený popis odůvodnění',
 	'REASON_EDIT'				=> 'Upravit odůvodnění',
@@ -291,5 +291,5 @@ $lang = array_merge($lang, array(
 	'REASON_TITLE_TRANSLATED'	=> 'Zobrazený název odůvodnění',
 	'REASON_UPDATED'			=> 'Odůvodnění schválení/zamítnutí bylo aktualizováno.',
 
-	'USED_IN_REPORTS'		=> 'Použito v&nbsp;hlášeních',
+	'USED_IN_REPORTS'		=> 'Použito v hlášeních',
 ));

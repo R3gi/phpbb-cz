@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACP_FILES'						=> 'Jazykové soubory administrace',
-	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Zde můžete instalovat/odinstalovat jazykové balíky k&nbsp;fóru. Jazyk nastavený jako výchozí je označen hvězdičkou.',
+	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Zde můžete instalovat/odinstalovat jazykové balíky k fóru. Jazyk nastavený jako výchozí je označen hvězdičkou.',
 
 	'DELETE_LANGUAGE_CONFIRM'		=> 'Opravdu chcete smazat „%s“?',
 
@@ -69,8 +69,8 @@ $lang = array_merge($lang, array(
 	'NO_REMOVE_DEFAULT_LANG'		=> 'Nelze odstranit výchozí jazyk.<br />Pokud chcete tento jazyk odstranit, musíte nejdříve změnit výchozí jazyk fóra.',
 	'NO_UNINSTALLED_LANGUAGE_PACKS'	=> 'Žádné odinstalované balíky',
 
-	'THOSE_MISSING_LANG_FILES'			=> 'Následující soubory chybí v&nbsp;adresáři jazyku %s.',
-	'THOSE_MISSING_LANG_VARIABLES'		=> 'Následující proměnné chybějí v&nbsp;jazykovém balíku <strong>%s</strong>.',
+	'THOSE_MISSING_LANG_FILES'			=> 'Následující soubory chybí v adresáři jazyku %s.',
+	'THOSE_MISSING_LANG_VARIABLES'		=> 'Následující proměnné chybějí v jazykovém balíku <strong>%s</strong>.',
 
 	'UNINSTALLED_LANGUAGE_PACKS'	=> 'Nenainstalované jazykové balíky',
 

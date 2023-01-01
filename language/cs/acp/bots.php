@@ -39,7 +39,7 @@ if (empty($lang) || !is_array($lang))
 // Bot settings
 $lang = array_merge($lang, array(
 	'BOTS'							=> 'Spravovat boty',
-	'BOTS_EXPLAIN'			=> '„Boti“ jsou automatičtí roboti, které zpravidla používají vyhledávače pro přidávání odkazů do vlastních databází. Vzhledem k&nbsp;tomu, že využívají sessions správným způsobem jen zřídka, mohou narušit počítání návštěvníků, zvýšit zatížení serveru a občas chybně zaindexovat stránky. Zde lze nastavit zvláštní druh uživatele, čímž můžete problémům předejít.',
+	'BOTS_EXPLAIN'			=> '„Boti“ jsou automatičtí roboti, které zpravidla používají vyhledávače pro přidávání odkazů do vlastních databází. Vzhledem k tomu, že využívají sessions správným způsobem jen zřídka, mohou narušit počítání návštěvníků, zvýšit zatížení serveru a občas chybně zaindexovat stránky. Zde lze nastavit zvláštní druh uživatele, čímž můžete problémům předejít.',
 	'BOT_ACTIVATE'			=> 'Aktivovat',
 	'BOT_ACTIVE'				=> 'Aktivní bot',
 	'BOT_ADD'						=> 'Přidat bota',
@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 	'BOT_DEACTIVATE'		=> 'Deaktivovat',
 	'BOT_DELETED'				=> 'Bot byl odstraněn.',
 	'BOT_EDIT'					=> 'Upravit boty',
-	'BOT_EDIT_EXPLAIN'	=> 'Zde můžete přidat či upravit existující záznam o&nbsp;botovi. Pro rozeznání bota lze nastavit, pod jakým označením nebo IP adresou (popř. rozsahem adres) se vyskytuje. Buďte opatrní při definování řetězců nebo IP pro rozpoznání botů. Je rovněž možné nastavit styl a jazyk, který bot uvidí při přístupu na fórum. Nastavením jednoduchého stylu pro boty lze snížit objem přenesených dat. Nezapomeňte nadefinovat vlastní oprávnění skupiny s&nbsp;boty.',
+	'BOT_EDIT_EXPLAIN'	=> 'Zde můžete přidat či upravit existující záznam o botovi. Pro rozeznání bota lze nastavit, pod jakým označením nebo IP adresou (popř. rozsahem adres) se vyskytuje. Buďte opatrní při definování řetězců nebo IP pro rozpoznání botů. Je rovněž možné nastavit styl a jazyk, který bot uvidí při přístupu na fórum. Nastavením jednoduchého stylu pro boty lze snížit objem přenesených dat. Nezapomeňte nadefinovat vlastní oprávnění skupiny s boty.',
 	'BOT_LANG'					=> 'Jazyk bota',
 	'BOT_LANG_EXPLAIN'	=> 'Přednastavený jazyk pro bota během jeho procházení stránek.',
 	'BOT_LAST_VISIT'		=> 'Poslední návštěva',

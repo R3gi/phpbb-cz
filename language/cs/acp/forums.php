@@ -73,7 +73,7 @@ $lang = array_merge($lang, array(
 	'ENABLE_QUICK_REPLY'				=> 'Povolit rychlou odpověď',
 	'ENABLE_QUICK_REPLY_EXPLAIN'	=> 'Po povolení se zobrazí ve fóru pod tématem box pro rychlou odpověď. Pokud je rychlá odpověď globálně vypnutá v nastavení funkcí fóra, na toto nastavení nebude brán ohled. Rychlá odpověď bude navíc zobrazena pouze těm uživatelům, kteří mají právo přispívat.',
 	'ENABLE_RECENT'							=> 'Zobrazit aktivní témata',
-	'ENABLE_RECENT_EXPLAIN'			=> 'Je-li nastaveno na „Ano“, oblíbená témata v&nbsp;tomto fóru budou označena v&nbsp;kompletním přehledu oblíbených témat.',
+	'ENABLE_RECENT_EXPLAIN'			=> 'Je-li nastaveno na „Ano“, oblíbená témata v tomto fóru budou označena v kompletním přehledu oblíbených témat.',
 	'ENABLE_TOPIC_ICONS'				=> 'Povolit ikonky tématu',
 
 	'FORUM_ADMIN'								=> 'Správa fór',
@@ -90,7 +90,7 @@ $lang = array_merge($lang, array(
 	'FORUM_DESC_EXPLAIN'				=> 'Všechny tagy HTML zde zadané nebudou zpracovány. Pokud vyberete jako typ fóra kategorii, popis nebude použit.',
 	'FORUM_EDIT_EXPLAIN'				=> 'Tento formulář umožňuje přizpůsobit fórum vašim představám. Nastavení moderátorů a počítání příspěvků je však třeba nastavit přes Oprávnění fór pro jednotlivé uživatele nebo skupiny.',
 	'FORUM_IMAGE'								=> 'Obrázek fóra',
-	'FORUM_IMAGE_EXPLAIN'				=> 'Umístění obrázku zobrazeného u&nbsp;tohoto fóra, relativně ke kořenovému adresáři phpBB.',
+	'FORUM_IMAGE_EXPLAIN'				=> 'Umístění obrázku zobrazeného u tohoto fóra, relativně ke kořenovému adresáři phpBB.',
 	'FORUM_IMAGE_NO_EXIST'			=> 'Vybraný obrázek fóra neexistuje.',
 	'FORUM_LINK_EXPLAIN'				=> 'Uplná adresa URL (Včetně protokolu; například <samp>http://</samp>), kam bude uživatel po kliknutí přesměrován.',
 	'FORUM_LINK_TRACK'					=> 'Sledovat kliknutí',
@@ -102,7 +102,7 @@ $lang = array_merge($lang, array(
 	'FORUM_PASSWORD'								=> 'Heslo fóra',
 	'FORUM_PASSWORD_CONFIRM'				=> 'Potvrdit heslo fóra',
 	'FORUM_PASSWORD_CONFIRM_EXPLAIN'=> 'Vyplňte, pouze pokud nastavujete heslo pro fórum.',
-	'FORUM_PASSWORD_EXPLAIN'				=> 'Zadejte heslo pro toto fórum. Použijte systém oprávnění v&nbsp;nastavení.',
+	'FORUM_PASSWORD_EXPLAIN'				=> 'Zadejte heslo pro toto fórum. Použijte systém oprávnění v nastavení.',
 	'FORUM_PASSWORD_UNSET'					=> 'Odstranit heslo fóra',
 	'FORUM_PASSWORD_UNSET_EXPLAIN'	=> 'Zkontrolujte, zda si přejete heslo fóra odstranit.',
 	'FORUM_PASSWORD_OLD'            => 'Heslo fóra používá zastaralou hashovací metodu a mělo by být změněno.',
@@ -113,7 +113,7 @@ $lang = array_merge($lang, array(
 	'FORUM_RESYNCED'					=> 'Fórum „%s“ bylo úspěšně resynchronizováno.',
 	'FORUM_RULES_EXPLAIN'				=> 'Pravidla fóra budou zobrazena na všech stránkách daného fóra.',
 	'FORUM_RULES_LINK'					=> 'Odkaz na pravidla fóra',
-	'FORUM_RULES_LINK_EXPLAIN'			=> 'Zde můžete zadat URL stránky/příspěvku s&nbsp;pravidly. Tomuto nastavení bude dána přednost před textem, který jste zde mohli zadat.',
+	'FORUM_RULES_LINK_EXPLAIN'			=> 'Zde můžete zadat URL stránky/příspěvku s pravidly. Tomuto nastavení bude dána přednost před textem, který jste zde mohli zadat.',
 	'FORUM_RULES_PREVIEW'				=> 'Náhled pravidel fóra.',
 	'FORUM_RULES_TOO_LONG'				=> 'Pravidla fóra mohou mít maximálně 4000 znaků.',
 	'FORUM_SETTINGS'					=> 'Nastavení fóra',
@@ -122,7 +122,7 @@ $lang = array_merge($lang, array(
 	'FORUM_TOPICS_PAGE'					=> 'Témat na stránku',
 	'FORUM_TOPICS_PAGE_EXPLAIN'			=> 'Pokud není nastaveno na 0, bude tomuto nastavení dána přednost před nastavením globálním.',
 	'FORUM_TYPE'						=> 'Typ fóra',
-	'FORUM_UPDATED'						=> 'Informace o&nbsp;fóru byly aktualizovány.',
+	'FORUM_UPDATED'						=> 'Informace o fóru byly aktualizovány.',
 
 	'FORUM_WITH_SUBFORUMS_NOT_TO_LINK'  => 'Chcete změnit fórum, které obsahuje subfóra a do kterého lze přispívat na odkaz. Přesuňte nejdříve všechna subfóra jinam, protože po změně fóra na odkaz už nebudou viditelná ani dostupná.',
 
@@ -131,10 +131,10 @@ $lang = array_merge($lang, array(
 	'LINK'										=> 'Odkaz',
 	'LIMIT_SUBFORUMS'			=> 'Zobrazit v legendě pouze subfóra, která jsou přímými potomky tohoto fóra',
 	'LIMIT_SUBFORUMS_EXPLAIN'	=> 'Omezí subfóra, která budou zobrazena v legendě pouze na přímé potomky tohoto fóra. Zakázáním tohoto nastavení a povolením „Zobrazit subfóra v přehledu” se zobrazí všechna subfóra bez ohledu na hloubku zanoření.',
-	'LIST_INDEX'							=> 'Zobrazit fórum v&nbsp;přehledu subfór',
-	'LIST_INDEX_EXPLAIN'			=> 'Zobrazí odkaz na toto fórum ve výpisu subfór u&nbsp;nadřazeného fóra.',
+	'LIST_INDEX'							=> 'Zobrazit fórum v přehledu subfór',
+	'LIST_INDEX_EXPLAIN'			=> 'Zobrazí odkaz na toto fórum ve výpisu subfór u nadřazeného fóra.',
 	'LIST_SUBFORUMS'					=> 'Zobrazit subfóra v přehledu',
-	'LIST_SUBFORUMS_EXPLAIN'	=> 'Zobrazí subfóra tohoto fóra na hlavní stránce a jinde jako odkaz pokud je nastavení „Zobrazit fórum v&nbsp;přehledu subfór“ povoleno pro toto fórum.',
+	'LIST_SUBFORUMS_EXPLAIN'	=> 'Zobrazí subfóra tohoto fóra na hlavní stránce a jinde jako odkaz pokud je nastavení „Zobrazit fórum v přehledu subfór“ povoleno pro toto fórum.',
 	'LOCKED'									=> 'Zamknuto',
 
 	'MOVE_POSTS_NO_POSTABLE_FORUM'	=> 'Do fóra, které jste vybrali pro přesunutí příspěvku, není možno přispívat. Prosíme, zvolte dostupné fórum.',
@@ -142,7 +142,7 @@ $lang = array_merge($lang, array(
 	'MOVE_SUBFORUMS_TO'				=> 'Přesunout subfóra do',
 
 	'NO_DESTINATION_FORUM'			=> 'Nezvolili jste fórum, do něhož bude přesunut obsah.',
-	'NO_FORUM_ACTION'				=> 'Nebyla definována akce pro naložení s&nbsp;obsahem fóra',
+	'NO_FORUM_ACTION'				=> 'Nebyla definována akce pro naložení s obsahem fóra',
 	'NO_PARENT'						=> 'Nemá nadřazené',
 	'NO_PERMISSIONS'				=> 'Nekopírovat oprávnění',
 	'NO_PERMISSION_FORUM_ADD'		=> 'Nemáte dostatečná oprávnění pro přidání fóra.',
@@ -153,7 +153,7 @@ $lang = array_merge($lang, array(
 	'PRUNE_ANNOUNCEMENTS'		=> 'Pročistit důležité',
 	'PRUNE_STICKY'				=> 'Pročistit oznámení',
 	'PRUNE_OLD_POLLS'			=> 'Pročistit staré anktety',
-	'PRUNE_OLD_POLLS_EXPLAIN'	=> 'Vymazat témata s&nbsp;anketami, ve kterých nikdo nehlasoval od zadaných dnů.',
+	'PRUNE_OLD_POLLS_EXPLAIN'	=> 'Vymazat témata s anketami, ve kterých nikdo nehlasoval od zadaných dnů.',
 
 	'REDIRECT_ACL'	=> 'Nyní můžete %snastavit oprávnění%s pro toto fórum.',
 

@@ -38,22 +38,22 @@ if (empty($lang) || !is_array($lang))
 
 // Privacy policy and T&C
 $lang = array_merge($lang, array(
-	'TERMS_OF_USE_CONTENT'	=> 'Svým přístupem na „%1$s“ (dále jen „my“, „naše“, „nás“, “%1$s”, “%2$s”), souhlasíte s&nbsp;následujícími podmínkami. Pokud nesouhlasíte, neprodleně opusťte „%1$s“, nevstupujte na něj a nepoužívejte jej. Vyhrazujeme si právo tyto podmínky kdykoliv změnit a učiníme vše potřebné pro to, abychom vás o&nbsp;této změně informovali.  Přesto je rozumné tyto podmínky průběžně sledovat vzhledem k&nbsp;tomu, že používáním  „%1$s“ s&nbsp;nimi souhlasíte.
+	'TERMS_OF_USE_CONTENT'	=> 'Svým přístupem na „%1$s“ (dále jen „my“, „naše“, „nás“, “%1$s”, “%2$s”), souhlasíte s následujícími podmínkami. Pokud nesouhlasíte, neprodleně opusťte „%1$s“, nevstupujte na něj a nepoužívejte jej. Vyhrazujeme si právo tyto podmínky kdykoliv změnit a učiníme vše potřebné pro to, abychom vás o této změně informovali.  Přesto je rozumné tyto podmínky průběžně sledovat vzhledem k tomu, že používáním  „%1$s“ s nimi souhlasíte.
 	<br><br>
-	Naše fóra běží na systému phpBB, což je řešení internetového fóra, které je vydané pod licencí „<a href="http://opensource.org/licenses/gpl-2.0.php">General Public License</a>“ a které je možno stáhnout z <a href="https://www.phpbb.com/">www.phpbb.com</a>. phpBB software pouze zprostředkovává internetové diskuze. Pro další informace o&nbsp;phpBB navštivte: <a href="https://www.phpbb.com/">https://www.phpbb.com/</a>.
+	Naše fóra běží na systému phpBB, což je řešení internetového fóra, které je vydané pod licencí „<a href="http://opensource.org/licenses/gpl-2.0.php">General Public License</a>“ a které je možno stáhnout z <a href="https://www.phpbb.com/">www.phpbb.com</a>. phpBB software pouze zprostředkovává internetové diskuze. Pro další informace o phpBB navštivte: <a href="https://www.phpbb.com/">https://www.phpbb.com/</a>.
 	<br><br>
-	Zavazujete se nepřispívat na fórum pohoršujícím, hanlivým, nevhodným, vulgárním nebo jiným materiálem, který by mohl porušovat platné zákony ve vaší zemi, zákony v&nbsp;zemi, kde sídlí „%1$s“, nebo platné mezinárodní právo. Tato činnost může vést k&nbsp;okamžitému a trvalému vykázání z fóra a/nebo upozornění vašeho poskytovatele internetových služeb (ISP) na vaši činnost, pokud bude uznáno za nutné. IP adresy všech příspěvků jsou ukládány pro případné uplatnění těchto opatření. Souhlasíte s&nbsp;tím, že „%1$s“  má právo odstranit, upravit, přesunout nebo uzamknout jakékoliv téma nebo příspěvek, pokud to bude považovat za nutné. Jako uživatel souhlasíte se všemi údaji uloženými v&nbsp;databázi. Přestože „%1$s“ ani phpBB neposkytne tyto informace třetí straně nebo cizím osobám, nepřebírá „%1$s“ ani phpBB zodpovědnost za jakýkoliv pokus o&nbsp;vniknutí do systému, který by mohl vést ke kompromitaci těchto dat.
+	Zavazujete se nepřispívat na fórum pohoršujícím, hanlivým, nevhodným, vulgárním nebo jiným materiálem, který by mohl porušovat platné zákony ve vaší zemi, zákony v zemi, kde sídlí „%1$s“, nebo platné mezinárodní právo. Tato činnost může vést k okamžitému a trvalému vykázání z fóra a/nebo upozornění vašeho poskytovatele internetových služeb (ISP) na vaši činnost, pokud bude uznáno za nutné. IP adresy všech příspěvků jsou ukládány pro případné uplatnění těchto opatření. Souhlasíte s tím, že „%1$s“  má právo odstranit, upravit, přesunout nebo uzamknout jakékoliv téma nebo příspěvek, pokud to bude považovat za nutné. Jako uživatel souhlasíte se všemi údaji uloženými v databázi. Přestože „%1$s“ ani phpBB neposkytne tyto informace třetí straně nebo cizím osobám, nepřebírá „%1$s“ ani phpBB zodpovědnost za jakýkoliv pokus o vniknutí do systému, který by mohl vést ke kompromitaci těchto dat.
 	',
 
 	'PRIVACY_POLICY'		=> 'Toto prohlášení podrobně vysvětluje jak „%1$s“ (dále jen “my”, “nás”, “naše”, “%1$s”, “%2$s”) a phpBB („phpBB software“, „www.phpbb.com“, „phpBB Limited“) používá jakékoliv informace shromážděné během každé vaší návštěvy.
 	<br><br>
-	Vaše osobní údaje jsou shromážděny dvěma způsoby. Prvním při vstupu na „%1$s“, kdy phpBB vytvoří několik cookies, což jsou malé textové soubory, které jsou stáhnuty a uloženy v&nbsp;dočasných souborech vašeho internetového prohlížeče. První dvě cookies obsahují jen uživatelské-id a anonymní identifikátor session, které je vám automaticky přiděleno phpBB softwarem. Třetí cookie se vytvoří, jakmile začnete procházet mezi tématy na „%1$s“, a je používána k&nbsp;ukládání informace, které téma jste již přečetli, což vede k&nbsp;snažšímu a pohodlnějšímu pohybu po fóru.
+	Vaše osobní údaje jsou shromážděny dvěma způsoby. Prvním při vstupu na „%1$s“, kdy phpBB vytvoří několik cookies, což jsou malé textové soubory, které jsou stáhnuty a uloženy v dočasných souborech vašeho internetového prohlížeče. První dvě cookies obsahují jen uživatelské-id a anonymní identifikátor session, které je vám automaticky přiděleno phpBB softwarem. Třetí cookie se vytvoří, jakmile začnete procházet mezi tématy na „%1$s“, a je používána k ukládání informace, které téma jste již přečetli, což vede k snažšímu a pohodlnějšímu pohybu po fóru.
 	<br><br>
-	Můžeme také vytvořit další cookies, které nepatří k&nbsp;phpBB software během procházení „%1$s“, ale tyto cookies jsou mimo rozsah tohoto dokumentu, který se zaobírá jen soubory, které vytvořilo phpBB. Druhá možnost jak můžeme shromažďovat vaše osobní údaje, je vaše odeslání těchto údajů nám. Toto může zahrnovat: odeslání příspěvků jako anonymní uživatel, registrace na „%1$s“ a odeslání příspěvků po vaší registrace, když jste přihlášeni.
+	Můžeme také vytvořit další cookies, které nepatří k phpBB software během procházení „%1$s“, ale tyto cookies jsou mimo rozsah tohoto dokumentu, který se zaobírá jen soubory, které vytvořilo phpBB. Druhá možnost jak můžeme shromažďovat vaše osobní údaje, je vaše odeslání těchto údajů nám. Toto může zahrnovat: odeslání příspěvků jako anonymní uživatel, registrace na „%1$s“ a odeslání příspěvků po vaší registrace, když jste přihlášeni.
 	<br><br>
-	Váš účet bude přinejmenším obsahovat uživatelské jméno, osobní heslo, používané při přihlašování do vašeho účtu, a osobní, platnou e-mailovou adresu. Vaše osobní údaje pro váš účet na „%1$s“ jsou chráněny zákony o&nbsp;ochraně osobních údajů a dat, které jsou platné v&nbsp;zemi, ve které sídlíme. Jakékoliv jiné informace požadované od „%1$s“ kromě vašeho uživatelského jména, vašeho hesla a vašeho e-mailu při registraci, můžeme zvolit jako povinné nebo dobrovolné. Ve všech případech dostanete možnost rozhodnout, zda-li tyto informace budou veřejně zobrazitelné. Dále ve vašem účtu máte možnost zakázat nebo povolit zasílání automaticky vytvářených e-mailů phpBB softwarem na váš e-mail.
+	Váš účet bude přinejmenším obsahovat uživatelské jméno, osobní heslo, používané při přihlašování do vašeho účtu, a osobní, platnou e-mailovou adresu. Vaše osobní údaje pro váš účet na „%1$s“ jsou chráněny zákony o ochraně osobních údajů a dat, které jsou platné v zemi, ve které sídlíme. Jakékoliv jiné informace požadované od „%1$s“ kromě vašeho uživatelského jména, vašeho hesla a vašeho e-mailu při registraci, můžeme zvolit jako povinné nebo dobrovolné. Ve všech případech dostanete možnost rozhodnout, zda-li tyto informace budou veřejně zobrazitelné. Dále ve vašem účtu máte možnost zakázat nebo povolit zasílání automaticky vytvářených e-mailů phpBB softwarem na váš e-mail.
 	<br><br>
-	Vaše heslo je zašifrováno (jednosměrný hash) pro zajištění jeho bezpečnosti. Přesto není doporučeno používat stejné heslo na dalších stránkách. Vaše heslo je prostředek k&nbsp;přístupu k&nbsp;vašemu účtu na „%1$s“, takže jej pečlivě uchovejte a v&nbsp;žádném případě nebude nikdo spojený s&nbsp;„%1$s“, phpBB nebo jiné, třetí strany, požadovat od vás vaše heslo. V případě, že byste zapomněli vaše heslo k&nbsp;vašemu účtu, můžete použít funkci „Zapomněl jsem své heslo“ poskytovanou phpBB softwarem. Tento proces po vás bude žádat zadaní vašeho uživatelského jména a vašeho e-mailu, poté phpBB software vygeneruje heslo nové a zašle vám ho, abyste se mohli přihlásit ke svému účtu.<br />
+	Vaše heslo je zašifrováno (jednosměrný hash) pro zajištění jeho bezpečnosti. Přesto není doporučeno používat stejné heslo na dalších stránkách. Vaše heslo je prostředek k přístupu k vašemu účtu na „%1$s“, takže jej pečlivě uchovejte a v žádném případě nebude nikdo spojený s „%1$s“, phpBB nebo jiné, třetí strany, požadovat od vás vaše heslo. V případě, že byste zapomněli vaše heslo k vašemu účtu, můžete použít funkci „Zapomněl jsem své heslo“ poskytovanou phpBB softwarem. Tento proces po vás bude žádat zadaní vašeho uživatelského jména a vašeho e-mailu, poté phpBB software vygeneruje heslo nové a zašle vám ho, abyste se mohli přihlásit ke svému účtu.<br />
 	',
 ));
 
@@ -64,7 +64,7 @@ $lang = array_merge($lang, array(
 	'ACCOUNT_ACTIVE_PROFILE'		=> 'Váš účet byl reaktivován.',
 	'ACCOUNT_ADDED'					=> 'Děkujeme za registraci, váš účet byl vytvořen.',
 	'ACCOUNT_COPPA'					=> 'Váš účet byl vytvořen. Před užíváním navštivte prosím vaši e-mailovou schránku.',
-	'ACCOUNT_EMAIL_CHANGED'			=> 'Váš účet byl aktualizován. Fórum ale vyžaduje, abyste reaktivovali svůj účet po takovéto změně. Aktivační klíč byl zaslán na uvedenou adresu. Tam najdete další informace o&nbsp;tom, jak dále postupovat.',
+	'ACCOUNT_EMAIL_CHANGED'			=> 'Váš účet byl aktualizován. Fórum ale vyžaduje, abyste reaktivovali svůj účet po takovéto změně. Aktivační klíč byl zaslán na uvedenou adresu. Tam najdete další informace o tom, jak dále postupovat.',
 	'ACCOUNT_EMAIL_CHANGED_ADMIN'	=> 'Váš účet byl aktualizován. Fórum ale vyžaduje reaktivaci účtu administrátory po změně e-mailové adresy. Byl jim zaslán e-mail a budete informováni, jakmile váš účet bude aktivní.',
 	'ACCOUNT_INACTIVE'				=> 'Váš účet byl vytvořen. Toto fórum vyžaduje aktivaci účtu, aktivační e-mail vám byl zaslán na zadanou e-mailovou adresu. Pro další informace zkontrolujte váš e-mail a podívejte se i do složky s nevyžádanými e-maily. V závislosti na poskytovateli vašeho e-mailu může doručení e-mailu chvíli trvat.',
 	'ACCOUNT_INACTIVE_ADMIN'		=> 'Váš účet byl vytvořen. Toto fórum vyžaduje aktivaci administrátorem. Budete informováni na zadané e-mailové adrese.',
@@ -82,7 +82,7 @@ $lang = array_merge($lang, array(
 	'ADD_TO'						=> 'Přidat',
 	'ADD_USERS_UCP_EXPLAIN'			=> 'Odsud můžete přidat nové uživatele do skupiny. Můžete zvolit, jestli tato skupina bude jejich nová výchozí. Každé uživatelské jméno dejte na novou řádku.',
 	'ADMIN_EMAIL'					=> 'Zasílat informace od administrátorů',
-	'AGREE'							=> 'Souhlasím s&nbsp;těmito podmínkami',
+	'AGREE'							=> 'Souhlasím s těmito podmínkami',
 	'ALLOW_PM'						=> 'Přijímat soukromé zprávy od uživatelů',
 	'ALLOW_PM_EXPLAIN'				=> 'Zprávy od administrátorů a moderátorů budou přijímány.',
 	'ALREADY_ACTIVATED'				=> 'Váš účet je již aktivován.',
@@ -102,7 +102,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_DRIVER_UPLOAD_EXPLAIN'	=> 'Nahrajte svůj vlastní avatar.',
 	'AVATAR_EXPLAIN'				=> 'Maximální rozměry; šířka: %1$s, výška: %2$s, velikost: %3$.2f KiB.',
 	'AVATAR_EXPLAIN_NO_FILESIZE'	=> 'Maximální rozměry; šířka: %1$s, výška: %2$s.',
-	'AVATAR_FEATURES_DISABLED'		=> 'Avatary jsou v&nbsp;tuto chvíli na fóru vypnuté.',
+	'AVATAR_FEATURES_DISABLED'		=> 'Avatary jsou v tuto chvíli na fóru vypnuté.',
 	'AVATAR_GALLERY'				=> 'Místní galerie',
 	'AVATAR_GENERAL_UPLOAD_ERROR'	=> 'Nelze nahrát obrázek do %s',
 	'AVATAR_NOT_ALLOWED'			=> 'Váš avatar nebude zobrazen, protože jsou avatary celkově vypnutys.',
@@ -116,7 +116,7 @@ $lang = array_merge($lang, array(
 	'BIRTHDAY'					=> 'Datum narození',
 	'BIRTHDAY_EXPLAIN'			=> 'Nastavte datum vašeho narození.',
 	'BOARD_DATE_FORMAT'			=> 'Formát data',
-	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'Syntaxe je shodná s&nbsp;PHP funkcí <a href="https://secure.php.net/manual/function.date.php" onclick="this.target=\'_blank\';" title="Otevřít v&nbsp;novém okně">date()</a>.',
+	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'Syntaxe je shodná s PHP funkcí <a href="https://secure.php.net/manual/function.date.php" onclick="this.target=\'_blank\';" title="Otevřít v novém okně">date()</a>.',
 	'BOARD_LANGUAGE'			=> 'Jazyk fóra',
 	'BOARD_STYLE'				=> 'Vzhled fóra',
 	'BOARD_TIMEZONE'			=> 'Časové pásmo',
@@ -136,7 +136,7 @@ $lang = array_merge($lang, array(
 	'CLICK_RETURN_FOLDER'		=> '%1$s Vrátit se do adresáře „%3$s“ %2$s',
 	'CONFIRMATION'				=> 'Potvrzení registrace',
 	'CONFIRM_CHANGES'			=> 'Potvrdit změny',
-	'CONFIRM_EXPLAIN'			=> 'Jako obranu proti spam-botům vyžaduje administrátor používání ověřovacího kódu. Kód je zobrazen v&nbsp;obrázku níže. Pokud je kód nečitelný nebo zde není, kontaktujte %s Administrátora%s.',
+	'CONFIRM_EXPLAIN'			=> 'Jako obranu proti spam-botům vyžaduje administrátor používání ověřovacího kódu. Kód je zobrazen v obrázku níže. Pokud je kód nečitelný nebo zde není, kontaktujte %s Administrátora%s.',
 	'VC_REFRESH'				=> 'Obnovit ověřovací kód',
 	'VC_REFRESH_EXPLAIN'		=> 'Pokud nelze přečíst ověřovací kód, vygenerujte si nový kliknutím na tlačítko.',
 
@@ -144,7 +144,7 @@ $lang = array_merge($lang, array(
 	'CONFIRM_PASSWORD_EXPLAIN'	=> 'Potvrďte nové heslo.',
 	'COPPA_BIRTHDAY'			=> 'Pro pokračovaní vyplňte prosím datum vašeho narození.',
 	'COPPA_COMPLIANCE'			=> 'COPPA pravidla',
-	'COPPA_EXPLAIN'				=> 'Vaše registrace vyžaduje potvrzení od starší osoby (rodičů). Pošlete e-mail s&nbsp;informacemi dané osobě.',
+	'COPPA_EXPLAIN'				=> 'Vaše registrace vyžaduje potvrzení od starší osoby (rodičů). Pošlete e-mail s informacemi dané osobě.',
 	'CREATE_FOLDER'				=> 'Přidat adresář…',
 	'CURRENT_IMAGE'				=> 'Nynější obrázek',
 	'CURRENT_PASSWORD'			=> 'Nynější heslo',
@@ -186,7 +186,7 @@ $lang = array_merge($lang, array(
 
 	'EDIT_DRAFT_EXPLAIN'		=> 'Zde můžete upravovat koncepty. Koncepty nemohou obsahovat ankety a přílohy.',
 	'EMAIL_BANNED_EMAIL'		=> 'Zadaná e-mailová adresa je zabanovaná a nelze ji použít.',
-	'EMAIL_REMIND'				=> 'Musíte uvést adresu nastavenou u&nbsp;vašeho účtu. Pokud jste ji neměnili, tak je to e-mailová adresa, se kterou jste se registrovali.',
+	'EMAIL_REMIND'				=> 'Musíte uvést adresu nastavenou u vašeho účtu. Pokud jste ji neměnili, tak je to e-mailová adresa, se kterou jste se registrovali.',
 	'EMAIL_TAKEN_EMAIL'			=> 'Vámi zadanou e-mailovou adresu má již registrovanou některý uživatel.',
 	'EMPTY_DRAFT'				=> 'Musíte vyplnit zprávu pro potvrzení změn',
 	'EMPTY_DRAFT_TITLE'			=> 'Musíte zadat název konceptu',
@@ -269,7 +269,7 @@ $lang = array_merge($lang, array(
 
 	'HIDE_ONLINE'				=> 'Skrýt moji přítomnost na fóru',
 	'HIDE_ONLINE_EXPLAIN'		=> 'Změna tohoto nastavení se projeví až po příštím přihlášení.',
-	'HOLD_NEW_MESSAGES'			=> 'Nové zprávy jsou blokovány (nové zprávy budou přijaty až bude k&nbsp;dispozici dostatek místa).',
+	'HOLD_NEW_MESSAGES'			=> 'Nové zprávy jsou blokovány (nové zprávy budou přijaty až bude k dispozici dostatek místa).',
 	'HOLD_NEW_MESSAGES_SHORT'	=> 'Blokovat nové zprávy',
 
 	'IF_FOLDER_FULL'			=> 'Pokud je adresář plný',
@@ -284,7 +284,7 @@ $lang = array_merge($lang, array(
 
 	'LANGUAGE'					=> 'Jazyk',
 	'LINK_REMOTE_AVATAR'		=> 'Odkaz mimo tento web',
-	'LINK_REMOTE_AVATAR_EXPLAIN'=> 'Napište adresu k&nbsp;obrázku.',
+	'LINK_REMOTE_AVATAR_EXPLAIN'=> 'Napište adresu k obrázku.',
 	'LINK_REMOTE_SIZE'			=> 'Rozměry obrázku',
 	'LINK_REMOTE_SIZE_EXPLAIN'	=> 'Nastavte šířku a výšku, vynecháním budou nastaveny výchozí rozměry.',
 	'LOGIN_EXPLAIN_UCP'			=> 'Prosím přihlaste se pro použití uživatelského panelu.',
@@ -295,7 +295,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_KEY'					=> 'Přihlašovací klíč',
 	'LOGIN_TIME'				=> 'Čas přihlášení',
 	'LOGIN_REDIRECT'			=> 'Byli jste úspěšně přihlášeni, vítejte zpátky.',
-	'LOGOUT_FAILED'				=> 'Nebyl jste odhlášen, protože dotaz nesouhlasil s&nbsp;ID vaší session. Kontaktuje administrátora fóra, pokud budou potíže přetrvávat.',
+	'LOGOUT_FAILED'				=> 'Nebyl jste odhlášen, protože dotaz nesouhlasil s ID vaší session. Kontaktuje administrátora fóra, pokud budou potíže přetrvávat.',
 	'LOGOUT_REDIRECT'			=> 'Byli jste úspěšně odhlášeni, těšíme se na další návštěvu.',
 
 	'MARK_IMPORTANT'				=> 'Označit/odznačit jako důležité',
@@ -362,14 +362,14 @@ $lang = array_merge($lang, array(
 	'NOTIFY_ON_PM'					=> 'Zaslat upozornění pří příchozí soukromé zprávě',
 	'NOT_ADDED_FRIENDS_ANONYMOUS'	=> 'Nemůžete přidat anonymního uživatele do seznamu přátel.',
 	'NOT_ADDED_FRIENDS_BOTS'		=> 'Nelze přidávat boty do vašeho seznamu přítel.',
-	'NOT_ADDED_FRIENDS_FOES'		=> 'Nemůžete přidat uživatele do seznamu přátel, neboť ho máte v&nbsp;seznamu nepřátel',
-	'NOT_ADDED_FRIENDS_SELF'		=> 'Nemůžete se přidat k&nbsp;sobě do seznamu přátel',
+	'NOT_ADDED_FRIENDS_FOES'		=> 'Nemůžete přidat uživatele do seznamu přátel, neboť ho máte v seznamu nepřátel',
+	'NOT_ADDED_FRIENDS_SELF'		=> 'Nemůžete se přidat k sobě do seznamu přátel',
 	'NOT_ADDED_FOES_MOD_ADMIN'		=> 'Nemůžete přidat administrátora nebo moderátora do seznamu nepřátel.',
 	'NOT_ADDED_FOES_ANONYMOUS'		=> 'Nemůžete přidat anonymního uživatele do seznamu nepřátel.',
 	'NOT_ADDED_FOES_BOTS'			=> 'Nelze přidávat boty do vašeho seznamu nepřátel.',
-	'NOT_ADDED_FOES_FRIENDS'		=> 'Nemůžete přidat uživatele do seznamu nepřátel, protože ho máte v&nbsp;seznamu přátel.',
-	'NOT_ADDED_FOES_SELF'			=> 'Nemůžete se přidat k&nbsp;sobě do seznamu nepřátel.',
-	'NOT_AGREE'						=> 'Nesouhlasím s&nbsp;těmito podmínkami',
+	'NOT_ADDED_FOES_FRIENDS'		=> 'Nemůžete přidat uživatele do seznamu nepřátel, protože ho máte v seznamu přátel.',
+	'NOT_ADDED_FOES_SELF'			=> 'Nemůžete se přidat k sobě do seznamu nepřátel.',
+	'NOT_AGREE'						=> 'Nesouhlasím s těmito podmínkami',
 	'NOT_ENOUGH_SPACE_FOLDER'		=> 'Adresář „%s“ je plný. Požadavek nebude dokončen.',
 	'NOT_MOVED_MESSAGES'			=> array(
 		1	=> 'V současné době bylo z důvodu plné složky pozdrženu %d soukromou zprávu.',
@@ -428,7 +428,7 @@ $lang = array_merge($lang, array(
 	'PASSWORD_RESET'			=> 'Vaše heslo bylo úspěšně resetováno.',
 	'PASSWORD_RESET_LINK_SENT'	=> 'Pokud Váš účet existuje, bude na Vaši e-mailovou adresu zaslán e-mail s odkazem na resetování hesla. Pokud jste neobdrželi e-mail, může to být způsobeno tím, že jste zabanováni, váš účet není aktivní, požádali jste o hodně obnov v krátkém čase, nebo nejste povoleni měnit si své heslo. Pokud nastane některý z těchto případů, kontaktujte administrátora. Také prosím zkontrolujte spam složku ve svém e-mailu.',
 	'PERMISSIONS_RESTORED'		=> 'Původní oprávnění byla načtena.',
-	'PERMISSIONS_TRANSFERRED'	=> 'Pravomoci od <strong>%s</strong> byly úspěšně přeneseny. Nyní si můžete prohlížet fórum s&nbsp;oprávněními uživatele.<br />Berte na vědomí, že nebyla přenesena oprávnění administrátora. Můžete se kdykoliv vrátit k&nbsp;původním právům.',
+	'PERMISSIONS_TRANSFERRED'	=> 'Pravomoci od <strong>%s</strong> byly úspěšně přeneseny. Nyní si můžete prohlížet fórum s oprávněními uživatele.<br />Berte na vědomí, že nebyla přenesena oprávnění administrátora. Můžete se kdykoliv vrátit k původním právům.',
 	'PM_DISABLED'				=> 'Soukromé zprávy na tomto fóru jsou vypnuty',
 	'PM_FROM'					=> 'Od',
 	'PM_FROM_REMOVED_AUTHOR'	=> 'Tato zpráva byla zaslána uživatelem, který už není registrován.',
@@ -453,7 +453,7 @@ $lang = array_merge($lang, array(
 	'POST_REPLY_PM'				=> 'Odpovědět na zprávu',
 	'PRINT_PM'					=> 'Vytisknout',
 	'PREFERENCES_UPDATED'		=> 'Vaše nastavení bylo aktualizováno.',
-	'PROFILE_INFO_NOTICE'		=> 'Prosím vyplňte informace dostupné ostatním uživatelům. Políčka s&nbsp;* musí být vyplněna.',
+	'PROFILE_INFO_NOTICE'		=> 'Prosím vyplňte informace dostupné ostatním uživatelům. Políčka s * musí být vyplněna.',
 	'PROFILE_UPDATED'			=> 'Váš profil byl aktualizován.',
 	'PROFILE_AUTOLOGIN_KEYS'	=> 'Přihlašovací klíče pro funkci „Zapamatovat si mě“ vás automaticky přihlásí, pokud navštívíte fórum. Pokud se odhlásíte, přihlašovací klíč je smazán jen na počítači, na kterém jste se odhlásili. Na této stránce můžete vidět přihlašovací klíče vytvořené na ostatních počítačích, které jste použili pro přihlášení na toto fórum.',
 	'PROFILE_NO_AUTOLOGIN_KEYS'	=> 'Nejsou tu žádné uložené přihlašovací klíče pro funkci „Zapamatovat si mě“.',
@@ -516,7 +516,7 @@ $lang = array_merge($lang, array(
 	'TO_ADD_MASS'				=> 'Přidat příjemce',
 	'TO_ADD_GROUPS'				=> 'Přidat skupiny',
 	'TOO_MANY_RECIPIENTS'		=> 'Pokusili jste se odeslat zprávu příliš mnoha příjemcům.',
-	'TOO_MANY_REGISTERS'		=> 'Překročil jste limit pokusů o&nbsp;registraci. Prosím, zkuste to později.',
+	'TOO_MANY_REGISTERS'		=> 'Překročil jste limit pokusů o registraci. Prosím, zkuste to později.',
 
 	'UCP'						=> 'Uživatelský panel',
 	'UCP_ACTIVATE'				=> 'Účet byl aktivován',
@@ -576,7 +576,7 @@ $lang = array_merge($lang, array(
 	'UCP_PASSWORD_RESET_DISABLED'	=> 'Funkce pro resetování hesla byla zakázána. Pokud potřebujete přístup k vašemu účtu, kontaktujte, prosím, %sadministrátora fóra%s',
 	'UCP_REGISTER_DISABLE'			=> 'Nemůžete vytvořit další účet.',
 	'UCP_RESEND'					=> 'Poslat aktivační e-mail',
-	'UCP_WELCOME'					=> 'Vítejte v&nbsp;Uživatelském panelu. Můžete zde prohlížet a upravovat svůj profil, nastavení, sledování fór a témat. Můžete také posílat soukromé zprávy (pokud je povoleno). Prosím přečtěte si některá oznámení, než budete pokračovat.',
+	'UCP_WELCOME'					=> 'Vítejte v Uživatelském panelu. Můžete zde prohlížet a upravovat svůj profil, nastavení, sledování fór a témat. Můžete také posílat soukromé zprávy (pokud je povoleno). Prosím přečtěte si některá oznámení, než budete pokračovat.',
 	'UCP_ZEBRA'						=> 'Přátelé a nepřátelé',
 	'UCP_ZEBRA_FOES'				=> 'Nepřátelé',
 	'UCP_ZEBRA_FRIENDS'				=> 'Přátelé',
@@ -599,8 +599,8 @@ $lang = array_merge($lang, array(
 	'VIEW_AVATARS'				=> 'Zobrazovat obrázky uživatelů',
 	'VIEW_EDIT'					=> 'Zobrazit/Upravit',
 	'VIEW_FLASH'				=> 'Zobrazovat Flash animace',
-	'VIEW_IMAGES'				=> 'Zobrazovat obrázky v&nbsp;příspěvcích',
-	'VIEW_NEXT_HISTORY'			=> 'Další SZ v&nbsp;historii',
+	'VIEW_IMAGES'				=> 'Zobrazovat obrázky v příspěvcích',
+	'VIEW_NEXT_HISTORY'			=> 'Další SZ v historii',
 	'VIEW_NEXT_PM'				=> 'Další SZ',
 	'VIEW_PM'					=> 'Zobrazit zprávu',
 	'VIEW_PM_INFO'				=> 'Podrobnosti zprávy',
@@ -609,7 +609,7 @@ $lang = array_merge($lang, array(
 		2	=> '%d zprávy',
 		3	=> '%d zpráv',
 	),
-	'VIEW_PREVIOUS_HISTORY'		=> 'Předchozí SZ v&nbsp;historii',
+	'VIEW_PREVIOUS_HISTORY'		=> 'Předchozí SZ v historii',
 	'VIEW_PREVIOUS_PM'			=> 'Předchozí SZ',
 	'VIEW_PROFILE'				=> 'Zobrazit profil',
 	'VIEW_SIGS'					=> 'Zobrazovat podpisy',
@@ -621,7 +621,7 @@ $lang = array_merge($lang, array(
 	'VIEW_POSTS_DIR'			=> 'Seřadit příspěvky',
 	'VIEW_POSTS_KEY'			=> 'Seřadit příspěvky podle',
 
-	'WATCHED_EXPLAIN'			=> 'Pokud označíte téma jako sledované, bude vám na e-mail chodit upozornění o&nbsp;novém příspěvku. Toto můžete zrušit kliknutím na <em>Nesledovat téma</em>',
+	'WATCHED_EXPLAIN'			=> 'Pokud označíte téma jako sledované, bude vám na e-mail chodit upozornění o novém příspěvku. Toto můžete zrušit kliknutím na <em>Nesledovat téma</em>',
 	'WATCHED_FORUMS'			=> 'Sledovaná fóra',
 	'WATCHED_TOPICS'			=> 'Sledovaná témata',
 	'WRONG_ACTIVATION'			=> 'Klávesa pro aktivaci je nesprávná',
@@ -663,7 +663,7 @@ $lang = array_merge($lang, array(
 		'TO_ME'			=> 'pro mne',
 	),
 
-	'GROUPS_EXPLAIN'	=> 'Uživatelské skupiny umožňují administrátorům lépe spravovat uživatele. Každý uživatel má svojí výchozí skupinu. Ta definuje jak bude vypadat vůči ostatním uživatelům, například jakou bude mít barvu jména, avatar, hodnost, atd. Změnit výchozí skupinu lze pouze, pokud to administrátor na fóru povolí. Lze také vstoupit nebo být přidělen do dalších skupin. Některé skupiny vám mohou dát větší pravomoci pro prohlížení nebo zvýšit vaše možnosti v&nbsp;jiných oblastech.',
+	'GROUPS_EXPLAIN'	=> 'Uživatelské skupiny umožňují administrátorům lépe spravovat uživatele. Každý uživatel má svojí výchozí skupinu. Ta definuje jak bude vypadat vůči ostatním uživatelům, například jakou bude mít barvu jména, avatar, hodnost, atd. Změnit výchozí skupinu lze pouze, pokud to administrátor na fóru povolí. Lze také vstoupit nebo být přidělen do dalších skupin. Některé skupiny vám mohou dát větší pravomoci pro prohlížení nebo zvýšit vaše možnosti v jiných oblastech.',
 	'GROUP_LEADER'		=> 'Moderátor',
 	'GROUP_MEMBER'		=> 'Člen',
 	'GROUP_PENDING'		=> 'Čekající na přijetí',

@@ -47,19 +47,19 @@ $lang = array_merge($lang, array(
 		<p>Nastavují přístupová práva pro jednotlivá fóra zvlášť. Jsou dále rozdělena na Oprávnění fóra, Moderátoři fóra, Uživatelské oprávnění fóra a Skupinové oprávnění fóra.</p>
 
 		<h2>Role oprávnění</h2>
-		<p>Používají se k&nbsp;vytvoření různých předdefinovaných rolí, které využívají všechny druhy oprávnění a lze je využít při nastavování ostatních druhů oprávnění. Výchozí předdefinované role by měly pokrýt potřeby velkých i malých diskusních fór, v&nbsp;opačném případě můžete přidávat/upravovat/mazat další role podle vlastních potřeb.</p>
+		<p>Používají se k vytvoření různých předdefinovaných rolí, které využívají všechny druhy oprávnění a lze je využít při nastavování ostatních druhů oprávnění. Výchozí předdefinované role by měly pokrýt potřeby velkých i malých diskusních fór, v opačném případě můžete přidávat/upravovat/mazat další role podle vlastních potřeb.</p>
 
 		<h2>Masky oprávnění</h2>
 		<p>Jsou využitelné pro zobrazení konkrétních koncových oprávnění přidělených Uživatelům, Moderátorům (místním i Globálním), Administrátorům nebo jednotlivým fórům.</p>
 
 		<br />
 
-		<p>Pro další informace o&nbsp;nastavení a správě oprávnění na vašem fóru nahlédněte do <a href="https://www.phpbb.com/support/docs/en/3.3/ug/quickstart/permissions/">Nastavení oprávnění pro rychlý start</a>.</p>
+		<p>Pro další informace o nastavení a správě oprávnění na vašem fóru nahlédněte do <a href="https://www.phpbb.com/support/docs/en/3.3/ug/quickstart/permissions/">Nastavení oprávnění pro rychlý start</a>.</p>
 	',
 
 	'ACL_NEVER'				=> 'Nikdy',
 	'ACL_SET'				=> 'Nastavení oprávnění',
-	'ACL_SET_EXPLAIN'		=> 'Oprávnění jsou založena na jednoduchém systému <samp>ANO</samp>/<samp>NE</samp>. Je-li oprávnění uživatele nebo skupiny nastaveno na hodnotu <samp>NIKDY</samp>, budou ignorována jakákoli jiná nastavení oprávnění. Pokud si nepřejete přiřadit hodnotu k&nbsp;vlastnosti pro uživatele nebo skupinu, nastavte položku na <samp>NE</samp>. Jsou-li oprávnění nastavena na jiném místě odlišně, budou použita přednostně, jinak bude nastavení shodné s&nbsp;hodnotou <samp>NIKDY</samp>. Všechny zaškrtnuté objekty obdrží nastavené oprávnění.',
+	'ACL_SET_EXPLAIN'		=> 'Oprávnění jsou založena na jednoduchém systému <samp>ANO</samp>/<samp>NE</samp>. Je-li oprávnění uživatele nebo skupiny nastaveno na hodnotu <samp>NIKDY</samp>, budou ignorována jakákoli jiná nastavení oprávnění. Pokud si nepřejete přiřadit hodnotu k vlastnosti pro uživatele nebo skupinu, nastavte položku na <samp>NE</samp>. Jsou-li oprávnění nastavena na jiném místě odlišně, budou použita přednostně, jinak bude nastavení shodné s hodnotou <samp>NIKDY</samp>. Všechny zaškrtnuté objekty obdrží nastavené oprávnění.',
 	'ACL_SETTING'			=> 'Nastavení',
 
 	'ACL_TYPE_A_'			=> 'Administrátorská oprávnění',
@@ -78,17 +78,17 @@ $lang = array_merge($lang, array(
 	'ACL_VIEW_EXPLAIN'		=> 'Zde si můžete prohlédnout využitelná oprávnění uživatele nebo skupiny. Červený čtverec indikuje, že uživatel/skupina nemá dané oprávnění; zelený, že toto oprávnění má.',
 	'ACL_YES'				=> 'Ano',
 
-	'ACP_ADMINISTRATORS_EXPLAIN'				=> 'Zde můžete přidělit administrátorská práva uživatelům nebo skupinám. Všichni uživatelé s&nbsp;administrátorskými pravomocemi mohou nahlížet do Administrace fóra.',
- 	'ACP_FORUM_MODERATORS_EXPLAIN'				=> 'Zde můžete přidělit uživatelům nebo skupinám práva moderátora fóra. Pro nastavení přístupu uživatelů k&nbsp;diskuzím, nastavení globálních moderátorů nebo administrátorů použijte odpovídající sekce oprávnění.',
-	'ACP_FORUM_PERMISSIONS_EXPLAIN'				=> 'Zde můžete určit, které skupiny nebo uživatelé mají přístup k&nbsp;určitým fórům. Pro nastavení moderátorů nebo administrátorů použijte odpovídající sekce oprávnění.',
+	'ACP_ADMINISTRATORS_EXPLAIN'				=> 'Zde můžete přidělit administrátorská práva uživatelům nebo skupinám. Všichni uživatelé s administrátorskými pravomocemi mohou nahlížet do Administrace fóra.',
+ 	'ACP_FORUM_MODERATORS_EXPLAIN'				=> 'Zde můžete přidělit uživatelům nebo skupinám práva moderátora fóra. Pro nastavení přístupu uživatelů k diskuzím, nastavení globálních moderátorů nebo administrátorů použijte odpovídající sekce oprávnění.',
+	'ACP_FORUM_PERMISSIONS_EXPLAIN'				=> 'Zde můžete určit, které skupiny nebo uživatelé mají přístup k určitým fórům. Pro nastavení moderátorů nebo administrátorů použijte odpovídající sekce oprávnění.',
 	'ACP_FORUM_PERMISSIONS_COPY_EXPLAIN'		=> 'Zde můžete kopírovat nastavení oprávnění fóra z jednoho na druhé.',
-	'ACP_GLOBAL_MODERATORS_EXPLAIN'				=> 'Zde můžete přiradit moderátorské pravomoci pro celé fórum uživatelům nebo skupinám. Tito moderátoři jsou shodní s&nbsp;běžnými, nicméně mají práva ke všem sekcím na fóru.',
+	'ACP_GLOBAL_MODERATORS_EXPLAIN'				=> 'Zde můžete přiradit moderátorské pravomoci pro celé fórum uživatelům nebo skupinám. Tito moderátoři jsou shodní s běžnými, nicméně mají práva ke všem sekcím na fóru.',
 	'ACP_GROUPS_FORUM_PERMISSIONS_EXPLAIN'		=> 'Zde můžete upravit práva skupin pro jednotlivá fóra.',
 	'ACP_GROUPS_PERMISSIONS_EXPLAIN'			=> 'Zde můžete přiřadit globální práva skupinám - uživatelská, moderátorská či administrátorská. Uživatelská oprávnění zahrnují možnosti jako použití avataru, odesílání soukromých zpráv atd.; globální moderátorská práva zahrnují možnosti jako schvalování příspěvků, správa témat, správa banů apod.; administrátorská zahrnují práva jako např. úpravy oprávnění, definování vlastních BBCode značek, správa fór atd. Individuální uživatelská oprávnění by měla být upravována pouze výjimečně, preferovanou metodou je zařazení uživatelů do skupin a nastavení koncových práv konkrétním skupinám.',
-	'ACP_ADMIN_ROLES_EXPLAIN'					=> 'Zde můžete upravit role pro administrátorská oprávnění. Upravíte-li oprávnění určité role, všem uživatelům nebo skupinám k&nbsp;ní přiřazeným se odpovídajícím způsobem změní oprávnění.',
-	'ACP_FORUM_ROLES_EXPLAIN'					=> 'Zde můžete upravit role pro oprávnění fór. Upravíte-li oprávnění určité role, všem uživatelům nebo skupinám k&nbsp;ní přiřazeným se odpovídajícím způsobem změní oprávnění.',
-	'ACP_MOD_ROLES_EXPLAIN'						=> 'Zde můžete upravit role pro moderátorská oprávnění. Upravíte-li oprávnění určité role, všem uživatelům nebo skupinám k&nbsp;ní přiřazeným se odpovídajícím způsobem změní oprávnění.',
-	'ACP_USER_ROLES_EXPLAIN'					=> 'Zde můžete upravit role pro uživatelská oprávnění. Upravíte-li oprávění určité role, všem uživatelům nebo skupinám k&nbsp;ní přiřazeným se odpovídajícím způsobem změní oprávnění.',
+	'ACP_ADMIN_ROLES_EXPLAIN'					=> 'Zde můžete upravit role pro administrátorská oprávnění. Upravíte-li oprávnění určité role, všem uživatelům nebo skupinám k ní přiřazeným se odpovídajícím způsobem změní oprávnění.',
+	'ACP_FORUM_ROLES_EXPLAIN'					=> 'Zde můžete upravit role pro oprávnění fór. Upravíte-li oprávnění určité role, všem uživatelům nebo skupinám k ní přiřazeným se odpovídajícím způsobem změní oprávnění.',
+	'ACP_MOD_ROLES_EXPLAIN'						=> 'Zde můžete upravit role pro moderátorská oprávnění. Upravíte-li oprávnění určité role, všem uživatelům nebo skupinám k ní přiřazeným se odpovídajícím způsobem změní oprávnění.',
+	'ACP_USER_ROLES_EXPLAIN'					=> 'Zde můžete upravit role pro uživatelská oprávnění. Upravíte-li oprávění určité role, všem uživatelům nebo skupinám k ní přiřazeným se odpovídajícím způsobem změní oprávnění.',
 	'ACP_USERS_FORUM_PERMISSIONS_EXPLAIN'		=> 'Zde můžete uživatelům přiřadit oprávnění pro jednotlivá fóra.',
 	'ACP_USERS_PERMISSIONS_EXPLAIN'				=> 'Zde můžete uživatelům přiřadit globální oprávnění uživatelská, moderátorská i administrátorská. Uživatelská oprávnění zahrnují možnosti jako použití avataru, odesílání soukromých zpráv atd.; moderátorská oprávnění možnosti jako schvalování příspěvků, správá témat, správa banů apod.; administrátorská oprávnění možnosti jako úpravy oprávnění, definování vlastních BBCode značek, správa fór atd. K úpravě těchto oprávnění pro větší počet uživatelů se doporučuje využít Uživatelské skupiny. Individuální uživatelská oprávnění by měla být měněna pouze výjimečně, preferovanou metodou je zařazení uživatelů do skupin a nastavení koncových práv konkrétním skupinám.',
 	'ACP_VIEW_ADMIN_PERMISSIONS_EXPLAIN'		=> 'Zde si můžete prohlédnout koncová administrátorská oprávnění, přiřazená vybraným uživatelům nebo skupinám.',
@@ -155,7 +155,7 @@ $lang = array_merge($lang, array(
 	'RESULTING_PERMISSION'			=> 'Výsledné oprávnění',
 	'ROLE'							=> 'Role',
 	'ROLE_ADD_SUCCESS'				=> 'Role byla přidána.',
-	'ROLE_ASSIGNED_TO'				=> 'Uživatelé/skupiny byli přiřazeni k&nbsp;%s',
+	'ROLE_ASSIGNED_TO'				=> 'Uživatelé/skupiny byli přiřazeni k %s',
 	'ROLE_DELETED'					=> 'Role byla odstraněna.',
 	'ROLE_DESCRIPTION'				=> 'Popis role',
 
@@ -184,15 +184,15 @@ $lang = array_merge($lang, array(
 	'ROLE_USER_STANDARD'		=> 'Běžné funkce',
 	'ROLE_USER_NEW_MEMBER'		=> 'Funkce nového člena fóra',
 
-	'ROLE_DESCRIPTION_ADMIN_FORUM'			=> 'Má přístup k&nbsp;ovládání fór a nastavení oprávnění pro fóra.',
+	'ROLE_DESCRIPTION_ADMIN_FORUM'			=> 'Má přístup k ovládání fór a nastavení oprávnění pro fóra.',
 	'ROLE_DESCRIPTION_ADMIN_FULL'			=> 'Má přístup ke všem administrátorským panelům na tomto fóru.<br />Není doporučeno.',
-	'ROLE_DESCRIPTION_ADMIN_STANDARD'		=> 'Má přístup k&nbsp;většině práv administrátora, ale nemůže měnit nastavení serveru a systému.',
+	'ROLE_DESCRIPTION_ADMIN_STANDARD'		=> 'Má přístup k většině práv administrátora, ale nemůže měnit nastavení serveru a systému.',
 	'ROLE_DESCRIPTION_ADMIN_USERGROUP'		=> 'Může spravovat skupiny a uživatele; Může měnit oprávnění, nastavení, bany a hodnosti.',
 	'ROLE_DESCRIPTION_FORUM_BOT'			=> 'Tato role je doporučena pro boty a vyhledávací roboty.',
 	'ROLE_DESCRIPTION_FORUM_FULL'			=> 'Může využívat všech možností fóra, včetně odesílaní Důležitých témat a Oznámení. Také může ignorovat časový interval pro odeslání příspěvků.<br />Není doporučeno pro běžné uživatele.',
 	'ROLE_DESCRIPTION_FORUM_LIMITED'		=> 'Může využít některé možnosti fóra, ale nemůže připojovat přílohy a používat ikony témat.',
 	'ROLE_DESCRIPTION_FORUM_LIMITED_POLLS'	=> 'Stejné jako Omezený přístup, ale může zakládat hlasování.',
-	'ROLE_DESCRIPTION_FORUM_NOACCESS'		=> 'Nevidí ani nemá přístup k&nbsp;fóru.',
+	'ROLE_DESCRIPTION_FORUM_NOACCESS'		=> 'Nevidí ani nemá přístup k fóru.',
 	'ROLE_DESCRIPTION_FORUM_ONQUEUE'		=> 'Může využít většinu funkcí fóra včetně příloh, ale příspěvky a témata musí být schváleny moderátorem.',
 	'ROLE_DESCRIPTION_FORUM_POLLS'			=> 'Stejné jako Běžný přístup, ale může zakládat hlasování.',
 	'ROLE_DESCRIPTION_FORUM_READONLY'		=> 'Může číst témata na fóru, ale nemůže vytvářet nová témata nebo odesílat odpovědi.',
@@ -200,21 +200,21 @@ $lang = array_merge($lang, array(
 	'ROLE_DESCRIPTION_FORUM_NEW_MEMBER'		=> 'Role pro skupinu nově registrovaných uživatelů. obsahuje oprávnění typu <samp>NIKDY</samp> pro omezení oprávnění nových uživatelů',
 	'ROLE_DESCRIPTION_MOD_FULL'				=> 'Může využívat všechny možnosti moderátora, včetně banování.',
 	'ROLE_DESCRIPTION_MOD_QUEUE'			=> 'Může pouze schvalovat příspěvky.',
-	'ROLE_DESCRIPTION_MOD_SIMPLE'			=> 'Může využívat jen základní operace s&nbsp;tématy. Nemůže udělovat varování nebo schvalovat příspěvky.',
+	'ROLE_DESCRIPTION_MOD_SIMPLE'			=> 'Může využívat jen základní operace s tématy. Nemůže udělovat varování nebo schvalovat příspěvky.',
 	'ROLE_DESCRIPTION_MOD_STANDARD'			=> 'Může využívat většinu nástrojů moderátora, ale nemůže udělit ban nebo změnit autora příspěvku.',
 	'ROLE_DESCRIPTION_USER_FULL'			=> 'Může využívat všechna uživatelská oprávnění, včetně změny uživatelského jména a ignorace ochranných intervalů.<br />Není doporučeno.',
-	'ROLE_DESCRIPTION_USER_LIMITED'			=> 'Má přístup k&nbsp;některým oprávněním uživatele. Přílohy, e-maily nebo instant messaging nejsou povoleny.',
+	'ROLE_DESCRIPTION_USER_LIMITED'			=> 'Má přístup k některým oprávněním uživatele. Přílohy, e-maily nebo instant messaging nejsou povoleny.',
 	'ROLE_DESCRIPTION_USER_NOAVATAR'		=> 'Má omezenou sadu možností a zákaz používání avataru.',
 	'ROLE_DESCRIPTION_USER_NOPM'			=> 'Má omezenou sadu možností a nemůže používat soukromé zprávy.',
-	'ROLE_DESCRIPTION_USER_STANDARD'		=> 'Má přístup k&nbsp;většině uživatelských oprávnění. Např. nemůže změnit své uživatelské jméno nebo ignorovat ochranné intervaly.',
+	'ROLE_DESCRIPTION_USER_STANDARD'		=> 'Má přístup k většině uživatelských oprávnění. Např. nemůže změnit své uživatelské jméno nebo ignorovat ochranné intervaly.',
 	'ROLE_DESCRIPTION_USER_NEW_MEMBER'		=> 'Role pro skupinu nově registrovaných uživatelů. obsahuje oprávnění typu <samp>NIKDY</samp> pro omezení oprávnění nových uživatelů',
 
-	'ROLE_DESCRIPTION_EXPLAIN'		=> 'Můžete vložit krátký popis/označení role. Text, který zde vložíte, se zobrazí v&nbsp;přehledu rolí v&nbsp;administraci.',
+	'ROLE_DESCRIPTION_EXPLAIN'		=> 'Můžete vložit krátký popis/označení role. Text, který zde vložíte, se zobrazí v přehledu rolí v administraci.',
 	'ROLE_DESCRIPTION_LONG'			=> 'Popis role nesmí být delší než 4000 znaků.',
 	'ROLE_DETAILS'					=> 'Podrobnosti role',
 	'ROLE_EDIT_SUCCESS'				=> 'Role byla upravena.',
 	'ROLE_NAME'						=> 'Název role',
-	'ROLE_NAME_ALREADY_EXIST'		=> 'Role s&nbsp;názvem <strong>%s</strong> pro daný druh oprávnění již existuje.',
+	'ROLE_NAME_ALREADY_EXIST'		=> 'Role s názvem <strong>%s</strong> pro daný druh oprávnění již existuje.',
 	'ROLE_NOT_ASSIGNED'				=> 'Role ještě nebyla přiřazena.',
 
 	'SELECTED_FORUM_NOT_EXIST'		=> 'Zvolená fóra neexistují.',
@@ -238,7 +238,7 @@ $lang = array_merge($lang, array(
 	'TRACE_GROUP_NEVER_TOTAL_YES'	=> 'Oprávnění skupiny jsou nastavena na <samp>NIKDY</samp>, což změní nastavení oprávnění <samp>ANO</samp> na <samp>NIKDY</samp> pro tohoto uživatele',
 	'TRACE_GROUP_NEVER_TOTAL_YES_LOCAL'	=> 'Oprávnění skupiny jsou pro toto fórum nastavena na <samp>NIKDY</samp>, což změní nastavení oprávnění <samp>ANO</samp> na <samp>NIKDY</samp> pro tohoto uživatele',
 	'TRACE_GROUP_NO'				=> 'Oprávnění je nastaveno na <samp>NE</samp> pro tuto skupinu, proto je ponechána původní hodnota.',
-	'TRACE_GROUP_NO_LOCAL'			=> 'Oprávnění v&nbsp;rámci tohoto fóra je nastaveno na <samp>NE</samp> pro tuto skupinu, proto je ponechána původní hodnota.',
+	'TRACE_GROUP_NO_LOCAL'			=> 'Oprávnění v rámci tohoto fóra je nastaveno na <samp>NE</samp> pro tuto skupinu, proto je ponechána původní hodnota.',
 	'TRACE_GROUP_YES_TOTAL_NEVER'	=> 'Oprávnění skupiny jsou nastavena na <samp>ANO</samp>, ale nastavení oprávnění <samp>NIKDY</samp> nelze ignorovat.',
 	'TRACE_GROUP_YES_TOTAL_NEVER_LOCAL'	=> 'Oprávnění skupiny jsou pro toto fórum nastavena na <samp>ANO</samp>, ale nastavení oprávnění <samp>NIKDY</samp> nelze ignorovat.',
 	'TRACE_GROUP_YES_TOTAL_NO'		=> 'Oprávnění skupiny jsou nastavena na <samp>ANO</samp>, což je nová výsledná hodnota. Předchozí nastavení bylo <samp>NE</samp>.',
@@ -256,8 +256,8 @@ $lang = array_merge($lang, array(
 	'TRACE_USER_FOUNDER'					=> 'Uživatel má nastavenu úroveň Zakladatel, tudíž administrátorská oprávnění jsou nastavena na <samp>ANO</samp>.',
 	'TRACE_USER_KEPT'						=> 'Oprávnění uživatele je nastaveno na <samp>NE</samp>, původní hodnota je tedy ponechána.',
 	'TRACE_USER_KEPT_LOCAL'					=> 'Oprávnění uživatele je pro toto fórum nastaveno na <samp>NE</samp>, původní hodnota je tedy ponechána.',
-	'TRACE_USER_NEVER_TOTAL_NEVER'			=> 'Oprávnění uživatele je nastaveno na <samp>NIKDY</samp>, stejně jako výsledná hodnota, nedojde proto k&nbsp;žádným změnám.',
-	'TRACE_USER_NEVER_TOTAL_NEVER_LOCAL'	=> 'Oprávnění uživatele je pro toto fórum nastaveno na <samp>NIKDY</samp>, stejně jako výsledná hodnota, nedojde proto k&nbsp;žádným změnám.',
+	'TRACE_USER_NEVER_TOTAL_NEVER'			=> 'Oprávnění uživatele je nastaveno na <samp>NIKDY</samp>, stejně jako výsledná hodnota, nedojde proto k žádným změnám.',
+	'TRACE_USER_NEVER_TOTAL_NEVER_LOCAL'	=> 'Oprávnění uživatele je pro toto fórum nastaveno na <samp>NIKDY</samp>, stejně jako výsledná hodnota, nedojde proto k žádným změnám.',
 	'TRACE_USER_NEVER_TOTAL_NO'				=> 'Oprávnění uživatele je nastaveno na <samp>NIKDY</samp>, což je výsledná hodnota. Předchozí nastavení bylo <samp>NE</samp>.',
 	'TRACE_USER_NEVER_TOTAL_NO_LOCAL'		=> 'Oprávnění uživatele je pro toto fórum nastaveno na <samp>NIKDY</samp>, což je výsledná hodnota. Předchozí nastavení bylo <samp>NE</samp>.',
 	'TRACE_USER_NEVER_TOTAL_YES'			=> 'Oprávnění uživatele je nastaveno na <samp>NIKDY</samp> a ruší předchozí hodnotu <samp>ANO</samp>.',
@@ -268,8 +268,8 @@ $lang = array_merge($lang, array(
 	'TRACE_USER_YES_TOTAL_NEVER_LOCAL'		=> 'Oprávnění uživatele je pro toto fórum nastaveno na <samp>ANO</samp>, ale výsledná oprávnění, která nelze přepsat, jsou nastavena na <samp>NIKDY</samp>.',
 	'TRACE_USER_YES_TOTAL_NO'				=> 'Oprávnění uživatele je nastaveno na <samp>ANO</samp>, což je nová výsledná hodnota. Předchozí nastavení bylo <samp>NE</samp>.',
 	'TRACE_USER_YES_TOTAL_NO_LOCAL'			=> 'Oprávnění uživatele je pro toto fórum nastaveno na <samp>ANO</samp>, což je nová výsledná hodnota. Předchozí nastavení bylo <samp>NE</samp>.',
-	'TRACE_USER_YES_TOTAL_YES'				=> 'Oprávnění uživatele je nastaveno na <samp>ANO</samp>, stejně jako výsledná oprávnění, nedojde proto k&nbsp;žádné změně.',
-	'TRACE_USER_YES_TOTAL_YES_LOCAL'		=> 'Oprávnění uživatele je pro toto fórum nastaveno na <samp>ANO</samp>, stejně jako výsledná oprávnění, nedojde proto k&nbsp;žádné změně.',
+	'TRACE_USER_YES_TOTAL_YES'				=> 'Oprávnění uživatele je nastaveno na <samp>ANO</samp>, stejně jako výsledná oprávnění, nedojde proto k žádné změně.',
+	'TRACE_USER_YES_TOTAL_YES_LOCAL'		=> 'Oprávnění uživatele je pro toto fórum nastaveno na <samp>ANO</samp>, stejně jako výsledná oprávnění, nedojde proto k žádné změně.',
 	'TRACE_WHO'								=> 'Kdo',
 	'TRACE_TOTAL'							=> 'Výsledné',
 

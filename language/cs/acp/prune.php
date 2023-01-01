@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 
 // User pruning
 $lang = array_merge($lang, array(
-	'ACP_PRUNE_USERS_EXPLAIN'	=> 'Zde můžete smazat (nebo deaktivovat) uživatele z vaší skupiny. To můžete provést různými způsoby; podle odeslaných příspěvků, poslední aktivity atd., většinu kritérií lze kombinovat. Například uživatelé s&nbsp;poslední aktivitou 2002-01-01 a s&nbsp;počtem příspěvků nižším než 10. Můžete také zadat jen seznam uživatelů do textového pole a ostatní kritéria budou ignorována. Buďte opatrní při pročištění uživatelů, smazané uživatele nelze vrátit zpět.',
+	'ACP_PRUNE_USERS_EXPLAIN'	=> 'Zde můžete smazat (nebo deaktivovat) uživatele z vaší skupiny. To můžete provést různými způsoby; podle odeslaných příspěvků, poslední aktivity atd., většinu kritérií lze kombinovat. Například uživatelé s poslední aktivitou 2002-01-01 a s počtem příspěvků nižším než 10. Můžete také zadat jen seznam uživatelů do textového pole a ostatní kritéria budou ignorována. Buďte opatrní při pročištění uživatelů, smazané uživatele nelze vrátit zpět.',
 
 	'CRITERIA'				=> 'Kritéria',
 
@@ -55,7 +55,7 @@ $lang = array_merge($lang, array(
 	'POSTS_ON_QUEUE'			=> 'Příspěvky čekající na schválení',
 	'PRUNE_USERS_GROUP_EXPLAIN'	=> 'Omezit uživatele na vybranou skupinu.',
 	'PRUNE_USERS_GROUP_NONE'	=> 'Všechny skupiny',
-	'PRUNE_USERS_LIST'				=> 'Uživatele k&nbsp;pročištění',
+	'PRUNE_USERS_LIST'				=> 'Uživatele k pročištění',
 	'PRUNE_USERS_LIST_DELETE'		=> 'S vybranými kritérii budou odstraněny následující uživatelské účty.',
 	'PRUNE_USERS_LIST_DEACTIVATE'	=> 'S vybranými kritérii budou deaktivovány následující uživatelské účty.',
 
@@ -70,7 +70,7 @@ $lang = array_merge($lang, array(
 
 // Forum Pruning
 $lang = array_merge($lang, array(
-	'ACP_PRUNE_FORUMS_EXPLAIN'	=> 'Toto smaže témata, která byla odeslána nebo zobrazena denně méněkrát nežli určený počet. Když nezadáte číslo všechny témata budou smazána. Ve výchozím nastavení nesmaže témata s&nbsp;hlasováním, která stále běží - smaže jen důležité a oznámení.',
+	'ACP_PRUNE_FORUMS_EXPLAIN'	=> 'Toto smaže témata, která byla odeslána nebo zobrazena denně méněkrát nežli určený počet. Když nezadáte číslo všechny témata budou smazána. Ve výchozím nastavení nesmaže témata s hlasováním, která stále běží - smaže jen důležité a oznámení.',
 
 	'FORUM_PRUNE'		=> 'Pročištění fóra',
 
@@ -82,12 +82,12 @@ $lang = array_merge($lang, array(
 	'POSTS_PRUNED'					=> 'Pročištěné příspěvky',
 	'PRUNE_ANNOUNCEMENTS'			=> 'Pročistit důležité',
 	'PRUNE_FINISHED_POLLS'			=> 'Pročistit uzavřená hlasování',
-	'PRUNE_FINISHED_POLLS_EXPLAIN'	=> 'Vymazat témata s&nbsp;uzavřeným hlasováním',
+	'PRUNE_FINISHED_POLLS_EXPLAIN'	=> 'Vymazat témata s uzavřeným hlasováním',
 	'PRUNE_FORUM_CONFIRM'			=> 'Opravdu chcete pročistit vybraná fóra pomocí zvolených kritérií? Tato akce je nevratná, a nelze obnovit pročištěné témata a příspěvky.',
 	'PRUNE_NOT_POSTED'				=> 'Dny od poslední odpovědi',
 	'PRUNE_NOT_VIEWED'				=> 'Dny od posledního zobrazení',
 	'PRUNE_OLD_POLLS'				=> 'Pročistit stará hlasování',
-	'PRUNE_OLD_POLLS_EXPLAIN'		=> 'Odstraní témata s&nbsp;anketou, ve které se nehlasovalo déle, než je nastaven čas od posledního příspěvku.',
+	'PRUNE_OLD_POLLS_EXPLAIN'		=> 'Odstraní témata s anketou, ve které se nehlasovalo déle, než je nastaven čas od posledního příspěvku.',
 	'PRUNE_STICKY'					=> 'Pročistit oznámení',
 	'PRUNE_SUCCESS'					=> 'Pročištění fóra je dokončeno',
 

@@ -37,22 +37,22 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACP_SEARCH_INDEX_EXPLAIN'				=> 'Zde lze spravovat všechny indexy vyhledávacího backendu. Vzhledem k&nbsp;tomu, že bežně používáte pouze jeden index najednou, je doporučeno druhý odstranit pro úsporu místa s&nbsp;tím, že lze kdykoliv znovu vytvořit. Po změně některých nastavení (např. minimální/maximální počet znaků) bude možná stát za to vytvořit nový index, aby se projevily nové změny.',
+	'ACP_SEARCH_INDEX_EXPLAIN'				=> 'Zde lze spravovat všechny indexy vyhledávacího backendu. Vzhledem k tomu, že bežně používáte pouze jeden index najednou, je doporučeno druhý odstranit pro úsporu místa s tím, že lze kdykoliv znovu vytvořit. Po změně některých nastavení (např. minimální/maximální počet znaků) bude možná stát za to vytvořit nový index, aby se projevily nové změny.',
 	'ACP_SEARCH_SETTINGS_EXPLAIN'			=> 'Zde můžete nastavit jaký backend bude použit pro indexování příspěvků a vyhledávání. Můžete nastavit různé možnosti, které mají vliv na to, jak bude vyhledávání náročné na server. Některá z těchto nastavení jsou stejná pro všechny backendy.',
 
 	'COMMON_WORD_THRESHOLD'						=> 'Hranice často používaného slova',
-	'COMMON_WORD_THRESHOLD_EXPLAIN'		=> 'Slova, která se objevují v&nbsp;příspěvcích ve větší míře jsou označená jako častá. Častá slova jsou ignorována při vyhledávání. Nastavením na 0 toto chování vypnete. Tuto funkce lze použít jen při více než 100 příspěvcích. Pokud chcete, aby se projevily změny v nastavení častých slov, musíte znovu vytvořit vyhledávací rejstřík/index.',
+	'COMMON_WORD_THRESHOLD_EXPLAIN'		=> 'Slova, která se objevují v příspěvcích ve větší míře jsou označená jako častá. Častá slova jsou ignorována při vyhledávání. Nastavením na 0 toto chování vypnete. Tuto funkce lze použít jen při více než 100 příspěvcích. Pokud chcete, aby se projevily změny v nastavení častých slov, musíte znovu vytvořit vyhledávací rejstřík/index.',
 	'CONFIRM_SEARCH_BACKEND'					=> 'Přejete si přepnout na jiný vyhledávací backend? Po změně vyhledávacího backendu budete muset vytvořit index pro nový vyhledávací backend. Pokud neplánujete přepnout zpět na předchozí vyhledávací backend můžete smazat staré backendové indexy a uvolnit tak systémové prostředky.',
-	'CONTINUE_DELETING_INDEX'					=> 'Pokračovat v&nbsp;předchozím odstraňování indexu',
+	'CONTINUE_DELETING_INDEX'					=> 'Pokračovat v předchozím odstraňování indexu',
 	'CONTINUE_DELETING_INDEX_EXPLAIN'	=> 'Byl zahájen proces smazaní vyhledávacího indexu. Pro znovuzpřístupnění vyhledávání musíte tuto operaci dokončit.',
-	'CONTINUE_INDEXING'								=> 'Pokračovat v&nbsp;předchozím indexačním procesu',
+	'CONTINUE_INDEXING'								=> 'Pokračovat v předchozím indexačním procesu',
 	'CONTINUE_INDEXING_EXPLAIN'				=> 'Byl zahájen proces vytvoření vyhledávacího indexu. Pro znovuzpřístupnění vyhledávání musíte tuto operaci dokončit.',
 	'CREATE_INDEX'										=> 'Vytvořit index',
   
 	'DEFAULT_SEARCH_RETURN_CHARS'			=> 'Výchozí délka výsledků',
 	'DEFAULT_SEARCH_RETURN_CHARS_EXPLAIN'	=> 'Kolik znaků mají být dlouhé vrácené výsledky. Hodnota 0 vrátí celý příspěvek.',
 	'DELETE_INDEX'												=> 'Smazat index',
-	'DELETING_INDEX_IN_PROGRESS'					=> 'Mazání indexu v&nbsp;průběhu',
+	'DELETING_INDEX_IN_PROGRESS'					=> 'Mazání indexu v průběhu',
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'Vyhledávací backend právě pročišťuje svůj index, toto může trvat několik minut.',
 
 	'FULLTEXT_MYSQL_INCOMPATIBLE_DATABASE'	=> 'MySQL fulltext může být použit pouze od MySQL4 a vyšší.',
@@ -105,7 +105,7 @@ $lang = array_merge($lang, array(
 	'MIN_SEARCH_CHARS'								=> 'Minimální počet znaků pro indexaci',
 	'MIN_SEARCH_CHARS_EXPLAIN'				=> 'Pouze slova, která se skládají z více znaků, než je nastaveno, budou zaindexována.',
 	'MIN_SEARCH_AUTHOR_CHARS'					=> 'Minimální počet znaků ve jméně autora',
-	'MIN_SEARCH_AUTHOR_CHARS_EXPLAIN'	=> 'Uživatelé musí vložit alespoň tento počet znaků při vyhledávání uživatelského jména s&nbsp;použitím zástupných znaků. Pokud je uživatelovo jméno kratší, než je zde nastaven počet znaků, stále jde vyhledat jeho příspěvky zadaním celého uživatelského jména.',
+	'MIN_SEARCH_AUTHOR_CHARS_EXPLAIN'	=> 'Uživatelé musí vložit alespoň tento počet znaků při vyhledávání uživatelského jména s použitím zástupných znaků. Pokud je uživatelovo jméno kratší, než je zde nastaven počet znaků, stále jde vyhledat jeho příspěvky zadaním celého uživatelského jména.',
 
 	'PROGRESS_BAR'							=> 'Postup',
 
@@ -127,7 +127,7 @@ $lang = array_merge($lang, array(
 		2	=> 'Aktuální míra mazání je přibližně %1$.1f příspěvků za sekundu.<br />Probíhá mazání…',
 		3	=> 'Aktuální míra mazání je přibližně %1$.1f příspěvků za sekundu.<br />Probíhá mazání…',
 	),
-	'SEARCH_INDEX_CREATED'					=> 'Všechny příspěvky v&nbsp;databázi fóra byly úspěšně zaindexovány.',
+	'SEARCH_INDEX_CREATED'					=> 'Všechny příspěvky v databázi fóra byly úspěšně zaindexovány.',
 	'SEARCH_INDEX_REMOVED'					=> 'Vyhledávácí index byl odstraněn z databáze.',
 	'SEARCH_INTERVAL'								=> 'Ochranný interval pro uživatele',
 	'SEARCH_INTERVAL_EXPLAIN'				=> 'Počet sekund, po kterém je možno znovu hledat. Interval platí zvlášť pro každého uživatele.',
