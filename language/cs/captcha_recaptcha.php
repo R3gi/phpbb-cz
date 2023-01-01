@@ -1,13 +1,13 @@
 <?php
 /**
 *
-* captcha_recaptcha [Čeština]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id$
-* @copyright (c)  2015 phpBB.cz
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* Original copyright: (c) 2009 phpBB Group
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 

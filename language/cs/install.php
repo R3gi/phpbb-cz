@@ -145,17 +145,17 @@ $lang = array_merge($lang, array(
 	'ADMIN_CONFIG'				=> 'Nastavení administrátora',
 	'ADMIN_PASSWORD'			=> 'Heslo administrátora',
 	'ADMIN_PASSWORD_CONFIRM'	=> 'Potvrdit heslo administrátora',
-	'ADMIN_PASSWORD_EXPLAIN'	=> 'Prosím, vložte heslo o délce mezi 6 a 30 znaky.',
+	'ADMIN_PASSWORD_EXPLAIN'	=> 'Prosím, zadejte heslo o délce mezi 6 a 30 znaky.',
 	'ADMIN_USERNAME'			=> 'Uživatelské jméno administrátora',
-	'ADMIN_USERNAME_EXPLAIN'	=> 'Prosím, vložte uživatelské jméno o délce mezi 3 a 20 znaky.',
+	'ADMIN_USERNAME_EXPLAIN'	=> 'Prosím, zadejte uživatelské jméno o délce mezi 3 a 20 znaky.',
 
 	// Errors
-	'INST_ERR_EMAIL_INVALID'		=> 'Vámi vložená e-mailová adresa není platná.',
-	'INST_ERR_PASSWORD_MISMATCH'	=> 'Vámi vložené heslo se neshoduje.',
-	'INST_ERR_PASSWORD_TOO_LONG'	=> 'Vámi vložené heslo je příliš dlouhé. Maximální délka hesla je 30 znaků.',
-	'INST_ERR_PASSWORD_TOO_SHORT'	=> 'Vámi vložené heslo je příliš krátké. Minimální délka hesla je 6 znaků.',
-	'INST_ERR_USER_TOO_LONG'		=> 'Vámi vložené uživatelské jméno je příliš dlouhé. Maximální délka uživatelského jména je 20 znaků.',
-	'INST_ERR_USER_TOO_SHORT'		=> 'Vámi vložené uživatelské jméno je příliš krátké. Minimální délka uživatelského jména jsou 3 znaky.',
+	'INST_ERR_EMAIL_INVALID'		=> 'Vámi zadaná e-mailová adresa není platná.',
+	'INST_ERR_PASSWORD_MISMATCH'	=> 'Vámi zadané heslo se neshoduje.',
+	'INST_ERR_PASSWORD_TOO_LONG'	=> 'Vámi zadané heslo je příliš dlouhé. Maximální délka hesla je 30 znaků.',
+	'INST_ERR_PASSWORD_TOO_SHORT'	=> 'Vámi zadané heslo je příliš krátké. Minimální délka hesla je 6 znaků.',
+	'INST_ERR_USER_TOO_LONG'		=> 'Vámi zadané uživatelské jméno je příliš dlouhé. Maximální délka uživatelského jména je 20 znaků.',
+	'INST_ERR_USER_TOO_SHORT'		=> 'Vámi zadané uživatelské jméno je příliš krátké. Minimální délka uživatelského jména jsou 3 znaky.',
 
 	//
 	// Board data
@@ -305,7 +305,7 @@ $lang = array_merge($lang, array(
 	'TASK_ADD_MODULES'			=> 'Instalace modulů',
 	'TASK_CREATE_SEARCH_INDEX'	=> 'Vytvářím vyhledávací index',
 
-	// Install finish
+	// Install finish tasks
 	'TASK_INSTALL_EXTENSIONS'	=> 'Instalace přibalených rozšíření',
 	'TASK_NOTIFY_USER'			=> 'Odesílání upozorňovacího e-mailu',
 	'TASK_POPULATE_MIGRATIONS'	=> 'Zaplňování migrací',

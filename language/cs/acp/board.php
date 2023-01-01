@@ -1,13 +1,13 @@
 <?php
 /**
 *
-* acp_board [Čeština]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: board.php 505 2010-11-21 10:32:21Z ameeck $
-* @copyright (c)  2007 phpBB.cz
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* Original copyright: (c) 2005 phpBB Group
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -156,7 +156,6 @@ $lang = array_merge($lang, array(
 	'PM_EDIT_TIME_EXPLAIN'		=> 'Omezuje čas, po který je možné upravovat nedoručenou soukromou zprávu. Pokud je hodnota nastavena na 0, funkce je vypnuta.',
 	'PM_MAX_RECIPIENTS'			=> 'Povolený počet příjemců',
 	'PM_MAX_RECIPIENTS_EXPLAIN'	=> 'Maximální počet příjemců pro jednu soukromou zprávu. Pokud je nastavena 0, zprávu lze zaslat neomezenému počtu uživatelů. Toto nastavení lze upravit pro každou skupinu v jejím nastavení.',
-
 ));
 
 // Post Settings
