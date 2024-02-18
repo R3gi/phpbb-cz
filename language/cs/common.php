@@ -171,6 +171,12 @@ $lang = array_merge($lang, array(
 		2	=> '%d znaky',
 		3	=> '%d znaků',
 	),
+	// Special version to be used when describing ranges e.g. "min x characters and max y characters"
+	'CHARACTERS_XY'			=> array(
+		1	=> '%d znak',
+		2	=> '%d znaky',
+		3 	=> '%d znaků',
+	),
 	'COLLAPSE_VIEW'			=> 'Zmenšit náhled',
 	'CLOSE_WINDOW'			=> 'Zavřít okno',
 	'CODE'					=> 'Kód',
