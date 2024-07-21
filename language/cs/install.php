@@ -508,10 +508,12 @@ $lang = array_merge($lang, array(
 	'CHECK_TABLE_PREFIX'		=> 'Zkontrolujte, prosím, předponu tabulky a akci zopakujte.',
 
 	// Conversion in progress
+	'CATEGORY'					=> 'Kategorie',
 	'CONTINUE_CONVERT'			=> 'Pokračovat v konverzi',
 	'CONTINUE_CONVERT_BODY'		=> 'Byl rozpoznán dřívější pokus o konverzi. Můžete si vybrat, jestli chcete začít novou konverzi, nebo pokračovat v předchozí konverzi.',
 	'CONVERT_NEW_CONVERSION'	=> 'Nová konverze',
 	'CONTINUE_OLD_CONVERSION'	=> 'Pokračovat v dříve započaté konverzi',
+	'POST_ID'					=> 'ID příspěvku',
 
 	// Start conversion
 	'SUB_INTRO'					=> 'Úvod',
@@ -568,6 +570,10 @@ $lang = array_merge($lang, array(
 	'CONVERT_COMPLETE'			=> 'Konverze byla dokončena',
 	'CONVERT_COMPLETE_EXPLAIN'	=> 'Podařilo se vám úspěšně zkonvertovat vaše fórum na phpBB 3.3. Nyní se můžete přihlásit a <a href="..">přejít do vašeho fóra</a>. Předtím, než zapnete vaše fórum smazáním adresáře „install“, se ujistěte, že všechna nastavení byla správně přenesena. Pamatujte, že pomoc pro používání phpBB je dostupná online v <a href="https://www.phpbb.com/support/docs/en/3.2/ug/">Dokumentaci</a> a ve <a href="https://www.phpbb.com/community/viewforum.php?f=466">fórech podpory na phpBB.com</a>.',
 
+	'COLLIDING_CLEAN_USERNAME'			=> '<strong>%s</strong> je čisté uživatelské jméno pro:',
+	'COLLIDING_USER'					=> '» id uživatele: <strong>%d</strong> uživatelské jméno: <strong>%s</strong> (%d příspěvky)',
+	'COLLIDING_USERNAMES_FOUND'			=> 'Nalezena kolidující uživatelská jména ve starém fóru. Pro dokončení konverze odstraňte nebo přejmenujte tyto uživatele, aby ve vašem starém fóru byl vždy jen jeden uživatel s čistým uživatelským jménem.',
+	'CONV_ERR_FATAL'					=> 'Kritická chyba konverze',
 	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'Ve vašem starém fóru je povoleno nahrávání příloh přes FTP. Zakažte, prosím, možnost nahrávání přes FTP a ujistěte se, že máte určen platný adresář pro nahrávání a potom zkopírujte všechny soubory příloh do toho nového z webu dostupného adresáře. Jakmile to uděláte, restartujte konvertor.',
 	'CONV_ERROR_CONFIG_EMPTY'			=> 'Nejsou k dispozici informace o konfiguraci potřebné pro konverzi.',
 	'CONV_ERROR_FORUM_ACCESS'			=> 'Nepodařilo se získat informace pro přístup na fórum.',

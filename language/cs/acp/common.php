@@ -295,9 +295,9 @@ $lang = array_merge($lang, array(
 	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'Nyní máte oprávnění %1$s. Můžete procházet fórum s&nbsp;uživatelským oprávněním, ale nelze vstoupit do Administrace fóra, protože administrátorská oprávnění nebyla přenesena. K <a href="%2$s"><strong>vlastním oprávněním</strong></a> se můžete kdykoliv vrátit.',
 	'PROCEED_TO_ACP'					=> '%sPokračovat na Administrační panel fóra%s',
 
-  'RELEASE_ANNOUNCEMENT'		=> 'Oznámení',
+	'RELEASE_ANNOUNCEMENT'		=> 'Oznámení',
 	'REMIND'							=> 'Připomenout',
-  'REPARSE_LOCK_ERROR'				=> 'Reparsování již bylo spuštěno jiným procesem.',
+	'REPARSE_LOCK_ERROR'				=> 'Reparsování již bylo spuštěno jiným procesem.',
 	'RESYNC'							=> 'Synchronizovat',
 
 	'RUNNING_TASK'			=> 'Spuštěný úkol: %s.',
@@ -360,7 +360,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_DIR_SIZE'			=> 'Velikost adresáře s&nbsp;avatary',
 
 	'BOARD_STARTED'		=> 'Datum spuštění',
-	'BOARD_VERSION'	=> 'Verze fóra',
+	'BOARD_VERSION'		=> 'Verze fóra',
 
 	'DATABASE_SERVER_INFO'	=> 'Databázový server',
 	'DATABASE_SIZE'			=> 'Velikost databáze',
@@ -478,7 +478,7 @@ $lang = array_merge($lang, array(
 	'USER_IS_INACTIVE'		=> 'Uživatel je neaktivní',
 ));
 
-// Send statistics page
+// Help support phpBB page
 $lang = array_merge($lang, array(
 	'EXPLAIN_SEND_STATISTICS'	=> 'Budeme rádi, když na servery phpBB odešlete statistické informace o nastavení vašeho serveru a fóra. Veškerá data, která by mohla identifikovat vaše fórum nebo stránky byly odstraněny, informace jsou naprosto <strong>anonymní</strong>. Na základě zaslaných podrobností můžeme lépe rozhodovat o budoucnosti a vývoji phpBB. Statistiky budou zobrazeny veřejně a budou také sdíleny s vývojáři PHP, programovacím jazykem, ve kterém je phpBB napsáno.',
 	'EXPLAIN_SHOW_STATISTICS'	=> 'Klikněte na následující tlačítko pro zobrazení náhledu odeslaných informací.',
@@ -517,7 +517,7 @@ $lang = array_merge($lang, array(
 	'LOG_ACL_DEL_MOD_LOCAL_M_'			=> '<strong>Odstraněni Moderátoři</strong> z %1$s<br />» %2$s',
 	'LOG_ACL_DEL_FORUM_LOCAL_F_'		=> '<strong>Odstraněni uživatelská/skupinová oprávnění k&nbsp;fóru</strong> %1$s<br />» %2$s',
 
-	'LOG_ACL_TRANSFER_PERMISSIONS'	=> '<strong>Oprávnění přenesena od</strong><br />» %s',
+	'LOG_ACL_TRANSFER_PERMISSIONS'		=> '<strong>Oprávnění přenesena od</strong><br />» %s',
 	'LOG_ACL_RESTORE_PERMISSIONS'		=> '<strong>Vlastní oprávnění obnovena po používání oprávnění od</strong><br />» %s',
 
 	'LOG_ADMIN_AUTH_FAIL'		=> '<strong>Neúspěšný pokus o&nbsp;přihlášení administrátora</strong>',
@@ -727,7 +727,7 @@ $lang = array_merge($lang, array(
 	'LOG_REASON_REMOVED'	=> '<strong>Odstranění důvodu hlášení/zamítnutí</strong><br />» %s',
 	'LOG_REASON_UPDATED'	=> '<strong>Aktualizace důvodu hlášení/zamítnutí</strong><br />» %s',
 
-	'LOG_REFERER_INVALID'	=> '<strong>Selhalo ověření refereru</strong><br />»Referer byl „<em>%1$s</em>“. Požadavek byl odmítnut a session zrušena.',
+	'LOG_REFERER_INVALID'		=> '<strong>Selhalo ověření refereru</strong><br />»Referer byl „<em>%1$s</em>“. Požadavek byl odmítnut a session zrušena.',
 	'LOG_RESET_DATE'			=> '<strong>Vynulován čas spuštění fóra</strong>',
 	'LOG_RESET_ONLINE'			=> '<strong>Vynulován rekord online uživatelů</strong>',
 	'LOG_RESYNC_FILES_STATS'	=> '<strong>Resynchronizovány statistiky souborů</strong>',
@@ -738,6 +738,10 @@ $lang = array_merge($lang, array(
 	'LOG_SEARCH_INDEX_CREATED'	=> '<strong>Vytvořen vyhledávací index pro</strong><br />» %s',
 	'LOG_SEARCH_INDEX_REMOVED'	=> '<strong>Odstraněn vyhledávací index pro</strong><br />» %s',
 	'LOG_SPHINX_ERROR'			=> '<strong>Chyba Sphinxu</strong><br />» %s',
+
+	'LOG_SPAMHAUS_OPEN_RESOLVER'		=> 'Spamhaus neumožňuje požadavky prostřednictvím otevřeného resolveru. Kontrola černé listiny je vypnuta. Více informací najdete na https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/.',
+	'LOG_SPAMHAUS_VOLUME_LIMIT'			=> 'Spamhaus limit velikosti požadavků byl překročen. Kontrola černé listiny je vypnuta. Více informací najdete na https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/.',
+
 	'LOG_STYLE_ADD'				=> '<strong>Přidán nový vzhled</strong><br />» %s',
 	'LOG_STYLE_DELETE'			=> '<strong>Odstraněn vzhled</strong><br />» %s',
 	'LOG_STYLE_EDIT_DETAILS'	=> '<strong>Upraven vzhled</strong><br />» %s',

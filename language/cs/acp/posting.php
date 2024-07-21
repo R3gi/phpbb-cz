@@ -43,7 +43,7 @@ $lang = array_merge($lang, array(
 	'ADD_BBCODE'				=> 'Přidat nový BBCode',
 
 	'BBCODE_DANGER'				=> 'BBCode, který se snažíte vytvořit může být nebezpečný. Nestačilo by vám použít přísnější typy {SIMPLETEXT} nebo {INTTEXT}? Pokračujte pouze tehdy, pokud jste si jisti tím, co děláte, a pokud je {TEXT} jedinou možností, kterou máte.',
- 	'BBCODE_DANGER_PROCEED'		=> 'Rozumím a chci pokračovat', //'I understand the risk',
+	'BBCODE_DANGER_PROCEED'		=> 'Rozumím a chci pokračovat', //'I understand the risk',
 
 	'BBCODE_ADDED'				=> 'Nový BBCode byl přidán.',
 	'BBCODE_EDITED'				=> 'BBCode byl upraven.',
@@ -79,14 +79,14 @@ $lang = array_merge($lang, array(
 
 	'tokens'	=>	array(
 		'TEXT'			=> 'Běžný text, vč. diakritiky, zvláštních znaků, čísel, atd.',
+		'SIMPLETEXT'	=> 'Znaky latinské abecedy (A–Z), čísla, mezery, čárky, tečky, mínus, plus, spojovník a podtržítko',
 		'INTTEXT'		=> 'Běžný text vč. diakritiky, čísla, mezery, čárky, tečky, minus, plus, pomlčka a podtržítko. Nedovoluje speciální znaky jako TEXT',
-		'SIMPLETEXT'   => 'Znaky latinské abecedy (A–Z), čísla, mezery, čárky, tečky, mínus, plus, spojovník a podtržítko',
 		'IDENTIFIER'	=> 'Znaky latinské abecedy (A–Z), čísla, spojovník a podtržítko',
 		'NUMBER'		=> 'Jakákoliv řada číslic',
 		'EMAIL'			=> 'Platná e-mailová adresa',
 		'URL'			=> 'Platná URL, používající volitelný protokol (http, ftp, atd., nelze zneužít pro JavaScriptové útoky). Pokud není zvolený žádný, „http://“ je připojeno na začátek řetězce.',
 		'LOCAL_URL'		=> 'Lokální URL adresa. Zadaná URL musí být relativní k&nbsp;stránce s&nbsp;tématem a nesmí obsahovat definici protokolu nebo název serveru, jako odkazy jsou s předponou „%s”',
-	'RELATIVE_URL'	=> 'Relativní URL adresa. Můžete použít tohle pro ověření části URL adresy, ale buďte opatrní: celá URL adresa je platná jako relativní URL. Pokud byste chtěli použít relativní URL adresy na vašem fóru, použijte LOCAL_URL token.',
+		'RELATIVE_URL'	=> 'Relativní URL adresa. Můžete použít tohle pro ověření části URL adresy, ale buďte opatrní: celá URL adresa je platná jako relativní URL. Pokud byste chtěli použít relativní URL adresy na vašem fóru, použijte LOCAL_URL token.',
 		'COLOR'			=> 'HTML barva, buď v&nbsp;hexadecimálním formátu <samp>#FF1234</samp> nebo jako <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS barva</a> jako <samp>fuchsia</samp> nebo <samp>InactiveBorder</samp>',
 	),
 ));
@@ -96,8 +96,8 @@ $lang = array_merge($lang, array(
 	'ACP_ICONS_EXPLAIN'		=> 'Odsud můžete přidávat a upravovat ikony, které uživatelé mohou použít v&nbsp;záhlaví zpráv. Tyto ikony jsou nejčastěji zobrazené vedle názvu tématu v&nbsp;seznamu témat nebo vedle předmětu v&nbsp;přehledu tématu. Můžete také instalovat nebo vytvořit celé kolekce ikon.',
 	'ACP_SMILIES_EXPLAIN'	=> 'Smajlící nebo emotikony jsou často malé, někdy animované obrázky, které umožňují vyjádřit emoce nebo náladu. Z této stránky můžete přidávat a upravovat smajlíky, které uživatelé mohou používat v&nbsp;jejich příspěvcích a zprávách. Můžete také instalovat nebo vytvořit celou kolekci smajlíků.',
 	'ADD_SMILIES'			=> 'Přidat další smajlíky',
-	'ADD_ICONS'				=> 'Přidat další ikony',
 	'ADD_SMILEY_CODE'		=> 'Přidat další kód smajlíku',
+	'ADD_ICONS'				=> 'Přidat další ikony',
 	'AFTER_ICONS'			=> 'Za %s',
 	'AFTER_SMILIES'			=> 'Za %s',
 
@@ -121,7 +121,7 @@ $lang = array_merge($lang, array(
 
 	'FIRST'			=> 'První',
 
-	'ICONS_ADD'					=> 'Přidat novou ikonu',
+	'ICONS_ADD'				=> 'Přidat novou ikonu',
 	'ICONS_ADDED'			=> array(
 		0	=> 'Nebyla přidaná žádná ikona.',
 		1	=> 'Ikona byla úspěšně přidána.',
@@ -178,8 +178,8 @@ $lang = array_merge($lang, array(
 	'SMILIES_DELETED'			=> 'Smajlík byl odstraněn.',
 	'SMILIES_EDIT'				=> 'Upravit smajlík',
 	'SMILIE_NO_CODE'			=> 'Smajlík „%s“ byl ignorován, protože nebyl zadán žádný kód.',
-	'SMILIE_NO_EMOTION'		=> 'Smajlík „%s“ byl ignorován, protože nebyl zadána žádná emoce.',
-  'SMILIE_NO_FILE'			=> 'Smajlík „%s“ byl ignorován, protože nebyl nalezen soubor.',
+	'SMILIE_NO_EMOTION'			=> 'Smajlík „%s“ byl ignorován, protože nebyl zadána žádná emoce.',
+	'SMILIE_NO_FILE'			=> 'Smajlík „%s“ byl ignorován, protože nebyl nalezen soubor.',
 	'SMILIES_EDITED'			=> array(
 		0	=> 'Žádný smajlík nebyl upraven.',
 		1	=> 'Smajlík byl úspěšně upraven.',

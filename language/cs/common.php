@@ -64,6 +64,7 @@ $lang = array_merge($lang, array(
 	'ACCOUNT_DEACTIVATED'			=> 'Váš účet byl ručně deaktivován a musí být znovu aktivován administrátorem.',
 	'ACP'							=> 'Administrace fóra',
 	'ACP_SHORT'						=> 'Administrace',
+	'ACTIVATION_ALREADY_SENT'		=> 'Aktivační e-mail už byl zaslán na vaši e-mailovou adresu. Pokus můžete opakovat za 24 hodin. Pokud budete mít stále potíže s aktivací vašeho účtu, kontaktujte administrátora fóra.',
 	'ACTIVE'						=> 'aktivní',
 	'ACTIVE_ERROR'					=> 'Uvedli jste neaktivní uživatelské jméno. Prosíme, aktivujte svůj účet a zkuste znovu. Pokud budete mít stále problémy, kontaktujte administrátora fóra',
 	'ADMINISTRATOR'					=> 'Administrátor',
@@ -111,7 +112,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_NOT_UPLOADED'			=> 'Avatar nemohl být nahrán.',
 	'AVATAR_NO_TEMP_DIR'			=> 'Dočasnou složku nelze nalézt, nebo do ní nelze zapisovat.',
 	'AVATAR_NO_SIZE'				=> 'Nelze zjistit šířku a/nebo výšku avataru z odkazu. Prosíme, vložte tyto údaje ručně.',
-	'AVATAR_NO_UPLOAD_DIR'			=> 'Adresář uložiště avatarů neexistuje nebo není zapisovatelný.',
+	'AVATAR_NO_UPLOAD_DIR'			=> 'Adresář úložiště avatarů neexistuje nebo není zapisovatelný.',
 	'AVATAR_NO_UPLOAD_PATH'			=> 'Nahrávání avatarů je povoleno, ale není zadáno, kam se mají ukládat.',
 	'AVATAR_PARTIAL_UPLOAD'			=> 'Soubor byl nahrán na server jen z části.',
 	'AVATAR_PHP_SIZE_NA'			=> 'Avatar je příliš velký. <br />Nelze zjistit nejvyšší povolenou velikost souboru danou PHP ze souboru php.ini.',
@@ -229,7 +230,7 @@ $lang = array_merge($lang, array(
 
 	'EDIT_POST'							=> 'Upravit příspěvek',
 	'ELLIPSIS'							=>	'…',
-	'EMAIL'								=> 'E-mail', // Krátka forma EMAIL_ADDRESS
+	'EMAIL'								=> 'E-mail', // Krátká forma EMAIL_ADDRESS
 	'EMAIL_ADDRESS'						=> 'E-mailová adresa',
 	'EMAIL_INVALID_EMAIL'				=> 'E-mailová adresa, kterou jste zadali je neplatná.',
 	'EMAIL_SMTP_ERROR_RESPONSE'			=> 'Objevily se potíže při odesílání mailu na <strong>řádce %1$s</strong>. Odpověď: %2$s',
@@ -320,8 +321,8 @@ $lang = array_merge($lang, array(
 	'FTP_USERNAME_EXPLAIN'		=> 'Uživ. jméno pro připojení k&nbsp;FTP serveru.',
 
 	'GENERAL_ERROR'				=> 'Všeobecná chyba',
-    'GB'						=> 'GB',
-    'GIB'						=> 'GiB',
+	'GB'						=> 'GB',
+	'GIB'						=> 'GiB',
 	'GO'						=> 'Přejít',
 	'GOTO_FIRST_POST'			=> 'Přejít na první příspěvek',
 	'GOTO_LAST_POST'			=> 'Přejít na poslední příspěvek',
@@ -891,7 +892,7 @@ $lang = array_merge($lang, array(
 	'USERNAME'				=> 'Uživatelské jméno',
 	'USERNAMES'				=> 'Uživatelská jména',
 	'USER_AVATAR'			=> 'Uživatelský avatar',
-	'USER_CANNOT_READ'	=> 'Nemůžete číst témata z tohoto fóra',
+	'USER_CANNOT_READ'		=> 'Nemůžete číst témata z tohoto fóra',
 	'USER_POSTS'			=> array(
 		1	=> '%d Příspěvek',
 		2	=> '%d Příspěvky',
@@ -899,6 +900,7 @@ $lang = array_merge($lang, array(
 	),
 	'USERS'					=> 'Uživatelé',
 	'USE_PERMISSIONS'		=> 'Otestovat oprávnění uživatelů',
+
 	'USER_NEW_PERMISSION_DISALLOWED'	=> 'Je nám líto, ale tuto funkci zatím nemůžete využít. Jste na fóru registrování teprve krátce, abyste mohli používat tuto funkci, je potřeba se zapojit více do diskuzí.',
 
 	'VARIANT_DATE_SEPARATOR'	=> ' / ',	// Used in date format dropdown, eg: "Today, 13:37 / 01 Jan 2007, 13:37" ... to join a relative date with calendar date

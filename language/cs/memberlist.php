@@ -102,7 +102,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_SEARCHUSER'	=> 'Pro hledání uživatelů musíte být zaregistrováni a přihlášeni.',
 	'LOGIN_EXPLAIN_VIEWPROFILE'	=> 'Pro zobrazení profilů musíte být zaregistrováni a přihlášeni.',
 
-  'MANAGE_GROUP'			=> 'Spravovat skupinu',
+	'MANAGE_GROUP'			=> 'Spravovat skupinu',
 	'MORE_THAN'				=> 'Více než',
 
 	'NO_CONTACT_FORM'		=> 'Formulář pro kontaktování administrátora není k dispozici.',
@@ -150,6 +150,6 @@ $lang = array_merge($lang, array(
 	'VIEWING_PROFILE'		=> 'Prohlížení profilu – %s',
 	'VIEW_FACEBOOK_PROFILE'	=> 'Zobrazit profil na Facebooku',
 	'VIEW_SKYPE_PROFILE'	=> 'Zobrazit Skype profil',
-	'VIEW_TWITTER_PROFILE'	=> 'Zobrazit profil na Twitteru',
-	'VIEW_YOUTUBE_CHANNEL'	=> 'Zobrazit YouTube kanál',
+	'VIEW_TWITTER_PROFILE'	=> 'Zobrazit profil na síti X',
+	'VIEW_YOUTUBE_PROFILE'	=> 'Zobrazit YouTube profil',
 ));

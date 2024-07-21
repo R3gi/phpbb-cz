@@ -109,7 +109,7 @@ $lang = array_merge($lang, array(
 	'APPLY_ALL_PERMISSIONS'		=> 'Použít všechna oprávnění',
 	'APPLY_PERMISSIONS'			=> 'Použít oprávnění',
 	'APPLY_PERMISSIONS_EXPLAIN'	=> 'Role a oprávnění definovaná pro tuto položku budou použita na této položce a všech dalších, které jsou zaškrtnuté.',
-  'AUTH_UPDATED'				=> 'Oprávnění byla aktualizována.',
+	'AUTH_UPDATED'				=> 'Oprávnění byla aktualizována.',
 
 	'COPY_PERMISSIONS_CONFIRM'				=> 'Opravdu chcete zkopírovat oprávnění? Kopírování přepíše všechna současná nastavení na cílových fórech.',
 	'COPY_PERMISSIONS_FORUM_FROM_EXPLAIN'	=> 'Zdrojové fórum s již existující sadou oprávnění.',
@@ -282,6 +282,6 @@ $lang = array_merge($lang, array(
 	'VIEW_GLOBAL_PERMS'		=> 'Globální oprávnění',
 	'VIEW_PERMISSIONS'		=> 'Zobrazit oprávnění',
 
-	'WRONG_PERMISSION_TYPE'	=> 'Byl zvolen špatný druh oprávnění.',
-	'WRONG_PERMISSION_SETTING_FORMAT'   => 'Nastavení oprávnění má špatný formát a phpBB je nemůže správně zpracovat.',
+	'WRONG_PERMISSION_TYPE'				=> 'Byl zvolen špatný druh oprávnění.',
+	'WRONG_PERMISSION_SETTING_FORMAT'	=> 'Nastavení oprávnění má špatný formát a phpBB je nemůže správně zpracovat.',
 ));

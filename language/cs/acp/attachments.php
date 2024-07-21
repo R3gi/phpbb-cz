@@ -170,5 +170,5 @@ $lang = array_merge($lang, array(
 	'UPLOAD_DIR_EXPLAIN'			=> 'Cesta k&nbsp;umístění složky pro ukládání příloh.',
 	'UPLOAD_ICON'					=> 'Ikona uploadů',
 	'UPLOAD_NOT_DIR'				=> 'Cesta, kterou jste zadali, není zřejmě platná složka.',
-    'UPLOAD_POST_NOT_EXIST'			=> 'Soubor „%1$s“ nelze nahrát k&nbsp;příspěvku číslo %2$d, protože příspěvek neexistuje.',
+	'UPLOAD_POST_NOT_EXIST'			=> 'Soubor „%1$s“ nelze nahrát k&nbsp;příspěvku číslo %2$d, protože příspěvek neexistuje.',
 ));

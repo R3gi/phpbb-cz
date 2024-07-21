@@ -77,6 +77,6 @@ $lang = array_merge($lang, array(
 	'PARENT_MODULE_FIND_ERROR'			=> 'Nepodařilo se určit identifikátor nadřazeného modulu: %s',
 	'PERMISSION_NOT_EXIST'				=> 'Nastavení oprávnění „%s“, které mělo existovat, neexistuje.',
 
-    'ROLE_ASSIGNED_NOT_EXIST'			=> 'Role oprávnění přiřazená skupině „%1$s“ neočekávaně neexistuje. ID role: „%2$s“',
+	'ROLE_ASSIGNED_NOT_EXIST'			=> 'Role oprávnění přiřazená skupině „%1$s“ neočekávaně neexistuje. ID role: „%2$s“',
 	'ROLE_NOT_EXIST'					=> 'Role oprávnění „%s“, která měla existovat, neexistuje.',
 ));

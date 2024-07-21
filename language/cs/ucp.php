@@ -550,8 +550,8 @@ $lang = array_merge($lang, array(
 	'UCP_NOTIFICATION_OPTIONS'			=> 'Upravit nastavení upozornění',
 	'UCP_NOTIFICATION_OPTIONS_EXPLAIN'	=> 'Zde můžete nastavit, jakým způsobem chcete být upozornění na různé události na fóru.',
 
-	'UCP_PREFS'						=> 'Nastavení',
-	'UCP_PREFS_PERSONAL'	=> 'Osobní nastavení',
+	'UCP_PREFS'					=> 'Nastavení',
+	'UCP_PREFS_PERSONAL'		=> 'Osobní nastavení',
 	'UCP_PREFS_POST'			=> 'Odesílání příspěvků',
 	'UCP_PREFS_VIEW'			=> 'Prohlížení příspěvků',
 

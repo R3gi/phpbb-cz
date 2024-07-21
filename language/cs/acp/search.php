@@ -128,6 +128,7 @@ $lang = array_merge($lang, array(
 		3	=> 'Aktuální míra mazání je přibližně %1$.1f příspěvků za sekundu.<br />Probíhá mazání…',
 	),
 	'SEARCH_INDEX_CREATED'					=> 'Všechny příspěvky v&nbsp;databázi fóra byly úspěšně zaindexovány.',
+	'SEARCH_INDEX_PROGRESS'					=> 'Hotovo: %1$d | Čeká: %2$d | Celkem: %3$d',
 	'SEARCH_INDEX_REMOVED'					=> 'Vyhledávácí index byl odstraněn z databáze.',
 	'SEARCH_INTERVAL'						=> 'Ochranný interval pro uživatele',
 	'SEARCH_INTERVAL_EXPLAIN'				=> 'Počet sekund, po kterém je možno znovu hledat. Interval platí zvlášť pro každého uživatele.',
