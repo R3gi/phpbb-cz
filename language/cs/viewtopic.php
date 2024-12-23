@@ -114,6 +114,7 @@ $lang = array_merge($lang, array(
 	'VIEW_INFO'				=> 'Podrobnosti příspěvku',
 	'VIEW_NEXT_TOPIC'		=> 'Následující téma',
 	'VIEW_PREVIOUS_TOPIC'	=> 'Předchozí téma',
+	'VIEW_QUOTED_POST'		=> 'zobrazit citovaný příspěvek',
 	'VIEW_RESULTS'			=> 'Zobrazit výsledky',
 	'VIEW_TOPIC_POSTS'		=> array(
 		1	=> '%d příspěvek',
