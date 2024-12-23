@@ -105,7 +105,7 @@ $lang = array_merge($lang, array(
 
 	// Server requirements
 	'PHP_VERSION_REQD'					=> 'Verze PHP',
-	'PHP_VERSION_REQD_EXPLAIN'			=> 'phpBB vyžaduje PHP verze 7.1.3 nebo vyšší.',
+	'PHP_VERSION_REQD_EXPLAIN'			=> 'phpBB vyžaduje PHP verze 7.2.0 nebo vyšší.',
 	'PHP_GETIMAGESIZE_SUPPORT'			=> 'Povolená funkce PHP getimagesize()',
 	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> 'Pro správnou funkčnost phpBB musí být k dispozici funkce getimagesize.',
 	'PCRE_UTF_SUPPORT'					=> 'Podpora PCRE UTF-8',

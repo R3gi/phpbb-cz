@@ -8,8 +8,8 @@ This is an official Czech translation for phpBB forum software.
 
 ## Downloads
 
-* [phpBB.cz website](https://www.phpbb.cz/stahnout) (Recommended)
-* This [Github repository](https://github.com/R3gi/phpbb-cz/releases) (Latest)
+* This [GitHub repository](https://github.com/R3gi/phpbb-cz/releases) (Latest)
+* [phpBB.cz website](https://www.phpbb.cz/stahnout)
 * [phpBB.com customization database](https://www.phpbb.com/customise/db/translation/czech/)
 
 ## Installation

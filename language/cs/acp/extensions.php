@@ -47,8 +47,9 @@ $lang = array_merge($lang, array(
 
 	'DETAILS'				=> 'Informace',
 
-	'EXTENSIONS_DISABLED'	=> 'Zakázaná rozšíření',
-	'EXTENSIONS_ENABLED'	=> 'Povolená rozšíření',
+	'EXTENSIONS_NOT_INSTALLED'	=> 'Nenainstalovaná rozšíření',
+	'EXTENSIONS_DISABLED'		=> 'Zakázaná rozšíření',
+	'EXTENSIONS_ENABLED'		=> 'Povolená rozšíření',
 
 	'EXTENSION_DELETE_DATA'	=> 'Smazat data',
 	'EXTENSION_DISABLE'		=> 'Zakázat',
