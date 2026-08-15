@@ -543,7 +543,7 @@ $lang = array_merge($lang, array(
 	'UCP_MAIN_FRONT'			=> 'Přehled',
 	'UCP_MAIN_SUBSCRIBED'		=> 'Sledování',
 
-	'UCP_NO_ATTACHMENTS'	=> 'Neodeslal jste žádnou přílohu',
+	'UCP_NO_ATTACHMENTS'		=> 'Neodeslal jste žádnou přílohu',
 
 	'UCP_NOTIFICATION_LIST'				=> 'Upozornění',
 	'UCP_NOTIFICATION_LIST_EXPLAIN'		=> 'Zde můžete zobrazit všechna dřívější upozornění.',

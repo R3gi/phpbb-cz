@@ -365,6 +365,7 @@ $lang = array_merge($lang, array(
 	'HIDE_ME'						=> 'Skrýt můj online stav pro toto přihlášení',
 	'HOURS'							=> 'Hodin',
 	'HOME'							=> 'Domů',
+	'HTTP_HANDLER_NOT_FOUND'		=> 'Akci se nepodařilo dokončit, protože rozšíření cURL PHP a allow_url_fopen PHP ini nastavení bylo vypnuto a žádný jiný HTTP handler nebyl nalezen.',
 
 	'ICQ'						=> 'ICQ',
 	'IF'						=> 'Jestli',

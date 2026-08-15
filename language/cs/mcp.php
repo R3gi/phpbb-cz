@@ -433,6 +433,6 @@ $lang = array_merge($lang, array(
 			'SPAM'		=> 'Zpráva má za cíl propagovat webovou stránku nebo jiný produkt.',
 			'OFF_TOPIC'	=> 'Zpráva je off-topic.',
 			'OTHER'		=> 'Hlášení nezapadá do žádné z kategorií, prosím, vyplňte pole pro další informace.',
-		)
+		),
 	),
 ));

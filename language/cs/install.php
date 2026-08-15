@@ -83,7 +83,8 @@ $lang = array_merge($lang, array(
 	'ACP_LINK'	=> 'Přejít do <a href="%1$s">administrace</a>',
 
 	'INSTALL_PHPBB_INSTALLED'		=> 'phpBB je již nainstalováno.',
-	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB ještě není nainstalováno.'
+	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB ještě není nainstalováno.',
+	'INSTALL_RESTART'				=> 'Restartovat instalaci',
 ));
 
 // Requirements translation

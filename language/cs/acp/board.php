@@ -493,8 +493,8 @@ $lang = array_merge($lang, array(
 	'SMILIES_PATH_EXPLAIN'		=> 'Cesta pod kořenovým adresářem phpBB, např. <samp>images/smilies</samp>',
 	'UPLOAD_ICONS_PATH'			=> 'Cesta k&nbsp;ukládání ikon pro skupiny příloh',
 	'UPLOAD_ICONS_PATH_EXPLAIN'	=> 'Cesta pod kořenovým adresářem phpBB, např. <samp>images/upload_icons</samp>',
-	'USE_SYSTEM_CRON'		=> 'Spouštět pravidelné úkoly přes cron',
-	'USE_SYSTEM_CRON_EXPLAIN'		=> 'Pokud tuto možnost zakážete, phpBB zajistí, aby byly pravidelné úkoly spouštěny automaticky. Pokud tuto možnost povolíte, phpBB samo nebude plánovat žádné pravidelné úkoly. Administrátor systému musí pro <code>bin/phpbbcli.php cron:run</code> zajistit, aby byl spouštěn v pravidelných intervalech (např. každých 5 minut) cronem systému.',
+	'USE_SYSTEM_CRON'			=> 'Spouštět pravidelné úkoly přes cron',
+	'USE_SYSTEM_CRON_EXPLAIN'	=> 'Pokud tuto možnost zakážete, phpBB zajistí, aby byly pravidelné úkoly spouštěny automaticky. Pokud tuto možnost povolíte, phpBB samo nebude plánovat žádné pravidelné úkoly. Administrátor systému musí pro <code>bin/phpbbcli.php cron:run</code> zajistit, aby byl spouštěn v pravidelných intervalech (např. každých 5 minut) cronem systému.',
 ));
 
 // Security Settings
