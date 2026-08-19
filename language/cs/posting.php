@@ -106,8 +106,8 @@ $lang = array_merge($lang, array(
 	'DELETE_TOPIC_CONFIRM'		=> 'Opravdu chcete smazat toto téma?',
 	'DELETE_TOPIC_PERMANENTLY'	=> array(
 		1	=> 'Téma bude trvale smazáno a nepůjde ho obnovit',
-		2	=> 'Tyto 1$d témata budou trvale smazány a nepůjdou obnovit',
-		3	=> 'Těchto 1$d témat bude trvale smazáno a nepůjde obnovit',
+		2	=> 'Tyto %1$d témata budou trvale smazány a nepůjdou obnovit',
+		3	=> 'Těchto %1$d témat bude trvale smazáno a nepůjde obnovit',
 	),
 	'DELETE_TOPIC_PERMANENTLY_CONFIRM'	=> 'Opravdu chcete <strong>natrvalo</strong> smazat toto téma?',
 	'DELETE_TOPICS_CONFIRM'		=> 'Opravdu chcete smazat tato témata?',
