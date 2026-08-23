@@ -365,6 +365,7 @@ $lang = array_merge($lang, array(
 	'HIDE_ME'						=> 'Skrýt můj online stav pro toto přihlášení',
 	'HOURS'							=> 'Hodin',
 	'HOME'							=> 'Domů',
+	'HTTP_HANDLER_NOT_FOUND'		=> 'Akci se nepodařilo dokončit, protože rozšíření cURL PHP a allow_url_fopen PHP ini nastavení bylo vypnuto a žádný jiný HTTP handler nebyl nalezen.',
 
 	'ICQ'						=> 'ICQ',
 	'IF'						=> 'Jestli',
@@ -631,7 +632,7 @@ $lang = array_merge($lang, array(
 	'POSTS_UNAPPROVED_FORUM'=> 'Nejméně jeden příspěvek v tomto fóru nebyl schválen.',
 	'POST_BY_AUTHOR'		=> 'od',
 	'POST_BY_FOE'			=> 'Tento příspěvek napsal <strong>%1$s</strong>, který je právě ve vašem seznamu ignorovaných.',
-	'POST_DISPLAY'			=> '%1$sZobrazit příspěvek%2$s.',
+	'POST_DISPLAY'			=> 'Zobrazit příspěvek',
 	'POST_DAY'				=> '%.2f příspěvků za den',
 	'POST_DELETED_ACTION'	=> 'Smazaný příspěvek:',
 	'POST_DELETED'			=> 'Tento příspěvek byl smazán.',

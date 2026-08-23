@@ -316,9 +316,9 @@ $lang = array_merge($lang, array(
 	'MOVE_DOWN'						=> 'Přesunout dolů',
 	'MOVE_MARKED_TO_FOLDER'			=> 'Přesunout označené do adresáře %s',
 	'MOVE_PM_ERROR'					=> array(
-	    1	=> 'Během přesunování zpráv do nové složky došlo k chybě. Byla přesunuta jen %2d z %1$s zpráv.',
-		2	=> 'Během přesunování zpráv do nové složky došlo k chybě. Byly přesunuty jen %2d z %1$s zpráv.',
-		3	=> 'Během přesunování zpráv do nové složky došlo k chybě. Bylo přesunuto jen %2d z %1$s zpráv.',
+	    1	=> 'Během přesunování zpráv do nové složky došlo k chybě. Byla přesunuta jen %2$d z %1$s zpráv.',
+		2	=> 'Během přesunování zpráv do nové složky došlo k chybě. Byly přesunuty jen %2$d z %1$s zpráv.',
+		3	=> 'Během přesunování zpráv do nové složky došlo k chybě. Bylo přesunuto jen %2$d z %1$s zpráv.',
 	),
 	'MOVE_TO_FOLDER'				=> 'Přesunout do adresáře',
 	'MOVE_UP'						=> 'Přesunout nahoru',
@@ -543,7 +543,7 @@ $lang = array_merge($lang, array(
 	'UCP_MAIN_FRONT'			=> 'Přehled',
 	'UCP_MAIN_SUBSCRIBED'		=> 'Sledování',
 
-	'UCP_NO_ATTACHMENTS'	=> 'Neodeslal jste žádnou přílohu',
+	'UCP_NO_ATTACHMENTS'		=> 'Neodeslal jste žádnou přílohu',
 
 	'UCP_NOTIFICATION_LIST'				=> 'Upozornění',
 	'UCP_NOTIFICATION_LIST_EXPLAIN'		=> 'Zde můžete zobrazit všechna dřívější upozornění.',
