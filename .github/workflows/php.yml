@@ -1,0 +1,49 @@
+name: PHP Composer
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Setup PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: 7.4
+    - name: Cache Composer packages
+      id: composer-cache
+      uses: actions/cache@v3
+      with:
+        path: vendor
+        key: ${{ runner.os }}-php-${{ hashFiles('**/composer.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-php-
+
+    - name: Install dependencies
+      run: |
+        git clone https://github.com/phpbb/phpbb-translation-validator.git
+        cd phpbb-translation-validator
+        composer update
+        composer install --no-progress
+
+    - name: Validate CS language pack
+      run: |
+        ls
+        pwd
+        mkdir -p phpbb-translation-validator/3.3/cs
+        cp -r language/cs/* phpbb-translation-validator/3.3/cs
+        wget https://www.phpbb.com/customise/db/download/200821 -O language-en.zip
+        unzip language-en.zip
+        mv british_english_3_3_10/language/en phpbb-translation-validator/3.3
+        cd phpbb-translation-validator
+        php translation.php validate cs
