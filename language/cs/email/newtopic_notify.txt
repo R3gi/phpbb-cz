@@ -9,6 +9,10 @@ Pro zobrazení fóra můžete použít následující odkaz:
 
 {U_FORUM}
 
+Pro zobrazení nového tématu klikněte na následující odkaz:
+
+{U_TOPIC}
+
 Pokud už nechcete sledovat toto fórum, použijte odkaz „Přestat sledovat toto fórum“ na samotném fóru, nebo použijte následující odkaz:
 
 {U_STOP_WATCHING_FORUM}

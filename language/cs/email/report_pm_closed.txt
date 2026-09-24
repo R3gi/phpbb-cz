@@ -1,4 +1,4 @@
-Subject: Hlášení soukromé zprávy uzavřeno – „{POST_SUBJECT}“
+Subject: Hlášení soukromé zprávy uzavřeno – „{SUBJECT}“
 
 Dobrý den {USERNAME},
 
@@ -6,7 +6,7 @@ Vaše hlášení soukromé zprávy „{SUBJECT}“ od uživatele „{AUTHOR_NAME
 
 Nahlášená zpráva:
 
-{U_VIEW_POST}
+{U_VIEW_MESSAGE}
 
 Nastavení zasílání e-mailových upozornění si můžete upravit ve svém uživatelském panelu.
 

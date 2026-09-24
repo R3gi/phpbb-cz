@@ -1,4 +1,4 @@
-Subject: Hlášení o soukromé zprávě - "{TOPIC_TITLE}"
+Subject: Hlášení o soukromé zprávě - "{SUBJECT}"
 
 Ahoj {USERNAME},
 

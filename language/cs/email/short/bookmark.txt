@@ -7,12 +7,6 @@ Obdržel jste toto upozornění, protože do tématu "{TOPIC_TITLE}", které má
 Pro zobrazení nejnovějších příspěvků, které byly odeslány od vaší poslední návštěvy fóra, klikněte na následující odkaz:
 {U_NEWEST_POST}
 
-Pro zobrazení tématu klikněte na následující odkaz:
-{U_TOPIC}
-
-Pro zobrazení fóra klikněte na následující odkaz:
-{U_FORUM}
-
 Pokud už nechcete dostávat informace o odpovědích k záložkám, aktualizujte si, prosím, vaše nastavení upozorňování:
 
 {U_NOTIFICATION_SETTINGS}

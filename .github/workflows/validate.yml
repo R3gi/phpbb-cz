@@ -1,0 +1,129 @@
+# Validates the language pack with the phpBB Translation Validator against the
+# official English files of the current stable phpBB release. The check fails on
+# any fatal or error finding; warnings and notices are reported but do not fail.
+#
+# The weekly schedule catches a new phpBB release that a passing pack no longer
+# satisfies. Publishing a release is deliberately not part of this workflow.
+name: Validate language pack
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+  schedule:
+    - cron: "17 5 * * 1"
+  workflow_dispatch:
+    inputs:
+      phpbb_version:
+        description: "phpBB version to validate against, e.g. 3.3.17 (default: current stable release of the line)"
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+env:
+  # phpBB release line the pack targets. The validator's 1.6.x branch is the
+  # one that supports 3.3; its master branch only supports 4.0.
+  PHPBB_LINE: "3.3"
+  VALIDATOR_BRANCH: "1.6.x"
+
+jobs:
+  validate:
+    name: Validate against phpBB
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - uses: shivammathur/setup-php@f3e473d116dcccaddc5834248c87452386958240 # 2.37.2
+        with:
+          php-version: "8.3"
+          tools: composer
+
+      - name: Resolve phpBB version
+        env:
+          INPUT_VERSION: ${{ inputs.phpbb_version }}
+        run: |
+          set -euo pipefail
+          version="$INPUT_VERSION"
+          if [[ -z "$version" ]]; then
+            version="$(curl -fsS --max-time 20 --retry 2 https://version.phpbb.com/phpbb/versions.json \
+              | jq -er --arg line "$PHPBB_LINE" '.stable[$line].current')"
+          fi
+          if [[ ! "$version" =~ ^[0-9]+\.[0-9]+\.[0-9]+[A-Za-z0-9.-]*$ || "$version" != "$PHPBB_LINE".* ]]; then
+            echo "::error::Unexpected phpBB version '$version' for line $PHPBB_LINE"
+            exit 1
+          fi
+          echo "PHPBB_VERSION=$version" >> "$GITHUB_ENV"
+          echo "Validating against phpBB $version"
+
+      - name: Fetch official English reference files
+        run: |
+          set -euo pipefail
+          url="https://download.phpbb.com/pub/release/$PHPBB_LINE/$PHPBB_VERSION/phpBB-$PHPBB_VERSION.zip"
+          curl -fsSL --max-time 300 --retry 2 -o "$RUNNER_TEMP/phpbb.zip" "$url"
+          expected="$(curl -fsSL --max-time 30 --retry 2 "$url.sha256" | cut -d' ' -f1)"
+          actual="$(sha256sum "$RUNNER_TEMP/phpbb.zip" | cut -d' ' -f1)"
+          if [[ -z "$expected" || "$expected" != "$actual" ]]; then
+            echo "::error::SHA-256 mismatch for phpBB-$PHPBB_VERSION.zip (expected '$expected', got '$actual')"
+            exit 1
+          fi
+          unzip -q "$RUNNER_TEMP/phpbb.zip" \
+            'phpBB3/language/en/*' \
+            'phpBB3/ext/phpbb/viglink/language/en/*' \
+            'phpBB3/styles/prosilver/theme/en/*' \
+            -d "$RUNNER_TEMP/phpbb"
+          en="$RUNNER_TEMP/pkg/en"
+          mkdir -p "$en/language" "$en/ext/phpbb/viglink/language" "$en/styles/prosilver/theme"
+          mv "$RUNNER_TEMP/phpbb/phpBB3/language/en" "$en/language/en"
+          mv "$RUNNER_TEMP/phpbb/phpBB3/ext/phpbb/viglink/language/en" "$en/ext/phpbb/viglink/language/en"
+          mv "$RUNNER_TEMP/phpbb/phpBB3/styles/prosilver/theme/en" "$en/styles/prosilver/theme/en"
+
+      - name: Stage the language pack
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          iso_files=(language/*/iso.txt)
+          if [[ ${#iso_files[@]} -ne 1 ]]; then
+            echo "::error::Expected exactly one language/<iso>/iso.txt, found ${#iso_files[@]}"
+            exit 1
+          fi
+          iso="$(basename "$(dirname "${iso_files[0]}")")"
+          # Only the folders that belong in a release zip; repository files such
+          # as README.md and SECURITY.md are not allowed inside the package.
+          mkdir -p "$RUNNER_TEMP/pkg/$iso"
+          cp -r ext language styles "$RUNNER_TEMP/pkg/$iso/"
+          echo "PACK_ISO=$iso" >> "$GITHUB_ENV"
+
+      - name: Install the validator
+        run: |
+          set -euo pipefail
+          git clone -q --depth 1 --branch "$VALIDATOR_BRANCH" \
+            https://github.com/phpbb/phpbb-translation-validator "$RUNNER_TEMP/validator"
+          composer install -q --no-dev --no-interaction --working-dir="$RUNNER_TEMP/validator"
+
+      - name: Validate
+        run: |
+          set -uo pipefail
+          status=0
+          # Safe mode parses the pack's PHP files instead of including them.
+          report="$(php -d error_reporting='E_ALL & ~E_DEPRECATED' \
+            "$RUNNER_TEMP/validator/translation.php" validate "$PACK_ISO" \
+            --package-dir="$RUNNER_TEMP/pkg" --phpbb-version="$PHPBB_LINE" --safe-mode 2>&1)" || status=$?
+          echo "$report"
+          # The validator's exit code only reflects fatal findings, so read the
+          # summary for errors too. A missing summary is a failure, not a pass.
+          if [[ ! "$report" =~ Fatal:\ ([0-9]+),\ Error:\ ([0-9]+) ]]; then
+            echo "::error::Could not read the validator summary"
+            exit 1
+          fi
+          fatal="${BASH_REMATCH[1]}"
+          errors="${BASH_REMATCH[2]}"
+          if [[ $status -ne 0 || $fatal -gt 0 || $errors -gt 0 ]]; then
+            echo "::error::Validation failed: $fatal fatal, $errors error"
+            exit 1
+          fi
+          echo "Validation passed."
