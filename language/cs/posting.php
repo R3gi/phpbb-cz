@@ -273,6 +273,7 @@ $lang = array_merge($lang, array(
 	'TOO_MANY_CHARS_LIMIT'		=> array(
 		1	=> 'Maximum povolených znaků je %1$d.',
 		2	=> 'Maximum povolených znaků je %1$d.',
+		3	=> 'Maximum povolených znaků je %1$d.',
 	),
 	'TOO_MANY_POLL_OPTIONS'		=> 'Snažíte se vložit příliš mnoho hlasovacích možností',
 	'TOO_MANY_SMILIES'			=> 'Vaše zpráva obsahuje příliš mnoho smajlíků. Je povoleno maximálně %d smajlíků.',

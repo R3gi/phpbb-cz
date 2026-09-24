@@ -100,7 +100,7 @@ $lang = array_merge($lang, array(
 	'AUTH_PROVIDER_OAUTH_SERVICE_BITLY'						=> 'Bitly',
 	'AUTH_PROVIDER_OAUTH_SERVICE_FACEBOOK'					=> 'Facebook',
 	'AUTH_PROVIDER_OAUTH_SERVICE_GOOGLE'					=> 'Google',
-	'AUTH_PROVIDER_OAUTH_SERVICE_TWITTER'					=> 'X (Twitter)',
+	'AUTH_PROVIDER_OAUTH_SERVICE_TWITTER'					=> 'X',
 	'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_NOT_STORED'			=> 'OAuth token nebyl uložen.',
 	'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_INCORRECTLY_STORED'	=> 'OAuth token byl nesprávně uložen.',
 	'AVATAR_DISALLOWED_CONTENT'		=> 'Nahraný soubor byl odmínut, protože byl identifikován jako možný útok.',
@@ -873,7 +873,7 @@ $lang = array_merge($lang, array(
 		3	=> 'Celkem <strong>%d</strong> témat',
 	),
 	'TOTAL_USERS'		=> array(
-		2	=> 'Celkem <strong>%d</strong> člen',
+		1	=> 'Celkem <strong>%d</strong> člen',
 		2	=> 'Celkem <strong>%d</strong> členi',
 		3	=> 'Celkem <strong>%d</strong> členů',
 	),
