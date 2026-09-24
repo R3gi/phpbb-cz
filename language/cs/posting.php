@@ -271,6 +271,7 @@ $lang = array_merge($lang, array(
 	'TOO_MANY_ATTACHMENTS'		=> 'Nemůže vložit další soubor, %d je maximum.',
 	'TOO_MANY_CHARS'			=> 'Vaše zpráva obsahuje příliš mnoho znaků.',
 	'TOO_MANY_CHARS_LIMIT'		=> array(
+		1	=> 'Maximum povolených znaků je %1$d.',
 		2	=> 'Maximum povolených znaků je %1$d.',
 	),
 	'TOO_MANY_POLL_OPTIONS'		=> 'Snažíte se vložit příliš mnoho hlasovacích možností',

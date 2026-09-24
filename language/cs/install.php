@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 
 	// Support page
 	'SUPPORT_TITLE'		=> 'Podpora',
-	'SUPPORT_BODY'		=> 'Plná podpora se poskytuje zdarma pro aktuální stabilní verzi phpBB3. Tato podpora zahrnuje pomoc s:</p><ul><li>instalací</li><li>nastavením</li><li>technickými otázkami</li><li>problémy, které se týkají potencionálních chyb v programu</li><li>aktualizací z RC (Release Candidate) verze na poslední stabilní verzi</li><li>konverzí z phpBB 2.0.x na phpBB3</li><li>konverzí z jiných programů diskuzních fór na phpBB3 (více informací najdete na phpBB.com ve fóru <a href="https://www.phpbb.com/community/viewforum.php?f=486">Convertors Forum</a>)</li></ul><p>Doporučujeme všem uživatelů, kteří stále používají beta verzi phpBB3, aby aktualizovali jejich instalaci na nejnovější verzí.</p><h2>Rozšíření a vzhledy</h2><p>Pro problémy týkající se rozšíření použijte, prosím, příslušné <a href="https://www.phpbb.com/community/viewforum.php?f=451">Extensions Forum</a> (Fórum o modifikacích).<br />Pro problémy týkající se vzhledů, šablon a motivů použijte, prosím, příslušné <a href="https://www.phpbb.com/community/viewforum.php?f=471">Styles Forum</a> (Fórum o vzhledech).<br /><br />Jestliže se vaše otázka týká konkrétního balíčku, napište, prosím, přímo do tématu věnovanému tomu balíčku.</p><h2>Další informace</h2><p><a href="https://www.phpbb.com/support/">Stránka podpory (ang.)</a><br /><a href="https://www.phpbb.com/support/docs/en/3.3/ug/quickstart/">Quick Start Guide</a> (Rychlý průvodce (ang.))<br /><br />Abyste vždy věděli o posledních novinkách a nových verzích, sledujte nás na <a href="https://www.twitter.com/phpbb/">Twitteru</a> a <a href="https://www.facebook.com/phpbb/">Facebooku</a><br /><br />',
+	'SUPPORT_BODY'		=> 'Plná podpora se poskytuje zdarma pro aktuální stabilní verzi phpBB3. Tato podpora zahrnuje pomoc s:</p><ul><li>instalací</li><li>nastavením</li><li>technickými otázkami</li><li>problémy, které se týkají potencionálních chyb v programu</li><li>aktualizací z RC (Release Candidate) verze na poslední stabilní verzi</li><li>konverzí z phpBB 2.0.x na phpBB3</li><li>konverzí z jiných programů diskuzních fór na phpBB3 (více informací najdete na phpBB.com ve fóru <a href="https://www.phpbb.com/community/viewforum.php?f=486">Convertors Forum</a>)</li></ul><p>Doporučujeme všem uživatelů, kteří stále používají beta verzi phpBB3, aby aktualizovali jejich instalaci na nejnovější verzí.</p><h2>Rozšíření a vzhledy</h2><p>Pro problémy týkající se rozšíření použijte, prosím, příslušné <a href="https://www.phpbb.com/community/viewforum.php?f=451">Extensions Forum</a> (Fórum o modifikacích).<br />Pro problémy týkající se vzhledů, šablon a motivů použijte, prosím, příslušné <a href="https://www.phpbb.com/community/viewforum.php?f=471">Styles Forum</a> (Fórum o vzhledech).<br /><br />Jestliže se vaše otázka týká konkrétního balíčku, napište, prosím, přímo do tématu věnovanému tomu balíčku.</p><h2>Další informace</h2><p><a href="https://www.phpbb.com/support/">Stránka podpory (ang.)</a><br /><a href="https://www.phpbb.com/support/docs/en/3.3/ug/quickstart/">Quick Start Guide</a> (Rychlý průvodce (ang.))<br /><br />Abyste vždy věděli o posledních novinkách a nových verzích, sledujte nás na <a href="https://www.x.com/phpbb/">X</a> a <a href="https://www.facebook.com/phpbb/">Facebooku</a><br /><br />',
 
 	// License
 	'LICENSE_TITLE'		=> 'General Public License',
@@ -301,10 +301,11 @@ $lang = array_merge($lang, array(
 	'TASK_CREATE_TABLES'				=> 'Vytváření tabulek',
 
 	// Install data
+	'TASK_ADD_AI_CRAWLERS'		=> 'Registrování AI prohledávačů',
 	'TASK_ADD_BOTS'				=> 'Registrování botů',
 	'TASK_ADD_LANGUAGES'		=> 'Instalace dostupných jazyků',
 	'TASK_ADD_MODULES'			=> 'Instalace modulů',
-	'TASK_CREATE_SEARCH_INDEX'	=> 'Vytvářím vyhledávací index',
+	'TASK_CREATE_SEARCH_INDEX'	=> 'Vytváření vyhledávacího indexu',
 
 	// Install finish tasks
 	'TASK_INSTALL_EXTENSIONS'	=> 'Instalace přibalených rozšíření',
@@ -496,6 +497,7 @@ $lang = array_merge($lang, array(
 	// Common converter messages
 	'CONVERT_NOT_EXIST'			=> 'Určený konvertor neexistuje.',
 	'DEV_NO_TEST_FILE'			=> 'V konvertoru nebyla určená hodnota pro proměnnou test_file. Pokud jste uživatel tohoto konvertoru, neměli byste tuto chybu vidět. Nahlaste, prosím, tuto zprávu autorovi konvertoru. Pokud jste autor konvertoru, musíte specifikovat název souboru, který existuje ve zdrojovém fóru, aby mohla být k němu ověřena cesta.',
+	'COULD_NOT_COPY'			=> 'Nelze zkopírovat soubor <strong>%1$s</strong> do <strong>%2$s</strong><br><br>Ujistěte se, že cílová složka existuje a že do ní webový server může zapisovat.',
 	'COULD_NOT_FIND_PATH'		=> 'Nelze najít cestu k vašemu původnímu fóru. Zkontrolujte, prosím, vaše nastavení a zkuste akci zopakovat.<br />» %s bylo určeno jako zdrojová cesta.',
 	'CONFIG_PHPBB_EMPTY'		=> 'phpBB3 konfigurační proměnná „%s“ je prázdná.',
 
@@ -569,7 +571,7 @@ $lang = array_merge($lang, array(
 
 	// Finish conversion
 	'CONVERT_COMPLETE'			=> 'Konverze byla dokončena',
-	'CONVERT_COMPLETE_EXPLAIN'	=> 'Podařilo se vám úspěšně zkonvertovat vaše fórum na phpBB 3.3. Nyní se můžete přihlásit a <a href="..">přejít do vašeho fóra</a>. Předtím, než zapnete vaše fórum smazáním adresáře „install“, se ujistěte, že všechna nastavení byla správně přenesena. Pamatujte, že pomoc pro používání phpBB je dostupná online v <a href="https://www.phpbb.com/support/docs/en/3.3/ug/">Dokumentaci</a> a ve <a href="https://www.phpbb.com/community/viewforum.php?f=466">fórech podpory na phpBB.com</a>.',
+	'CONVERT_COMPLETE_EXPLAIN'	=> 'Podařilo se vám úspěšně zkonvertovat vaše fórum na phpBB 3.3. Nyní se můžete přihlásit a <a href="../">přejít do vašeho fóra</a>. Předtím, než zapnete vaše fórum smazáním adresáře „install“, se ujistěte, že všechna nastavení byla správně přenesena. Pamatujte, že pomoc pro používání phpBB je dostupná online v <a href="https://www.phpbb.com/support/docs/en/3.3/ug/">Dokumentaci</a> a ve <a href="https://www.phpbb.com/community/viewforum.php?f=661">fórech podpory na phpBB.com</a>.',
 
 	'COLLIDING_CLEAN_USERNAME'			=> '<strong>%s</strong> je čisté uživatelské jméno pro:',
 	'COLLIDING_USER'					=> '» id uživatele: <strong>%d</strong> uživatelské jméno: <strong>%s</strong> (%d příspěvky)',

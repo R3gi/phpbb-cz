@@ -226,7 +226,7 @@ $lang = array_merge($lang, array(
 
 	'BACK'					=> 'Zpět',
 
-	'CONTAINER_EXCEPTION' => 'Kvůli nainstalovanému rozšíření došlo v phpBB k chybě při vytváření kontejneru. Z tohoto důvodu byla všechna rozšíření dočasně zakázána. Prosím, zkuste pročistit cache fóra. Jakmile bude chyba s kontejnerem vyřešena, budou všechna rozšíření znovu povolena. Pokud tato chyba bude přetrvávat, navštivte, prosím, <a href="https://www.phpbb.com/support">podpůrné fórum na phpBB.com</a>.',
+	'CONTAINER_EXCEPTION' => 'Kvůli nainstalovanému rozšíření došlo v phpBB k chybě při vytváření kontejneru. Z tohoto důvodu byla všechna rozšíření dočasně zakázána. Prosím, zkuste pročistit mezipaměť fóra. Jakmile bude chyba s kontejnerem vyřešena, budou všechna rozšíření znovu povolena. Pokud tato chyba bude přetrvávat, navštivte, prosím, <a href="https://www.phpbb.com/support">podpůrné fórum na phpBB.com</a>.',
 	'EXCEPTION' => 'Výjimka',
 
 	'COLOUR_SWATCH'			=> 'Vzorník bezpečných barev',
@@ -400,16 +400,16 @@ $lang = array_merge($lang, array(
 	'PURGE_CACHE_EXPLAIN'	=> 'Pročistí všechny soubory vzhledů a SQL dotazy v mezipaměti.',
 	'PURGE_CACHE_SUCCESS'	=> 'Mezipaměť byla úspěšně pročištěna.',
 
-	'PURGE_SESSIONS'			=> 'Pročistit všechny sessions',
-	'PURGE_SESSIONS_CONFIRM'	=> 'Opravdu chcete smazat všechny sessions? Smazaním odhlásíte všechny uživatele.',
-	'PURGE_SESSIONS_EXPLAIN'	=> 'Odstraní veškeré sessions a odhlásí všechny uživatele pročištěním jejich databázové tabulky. Toto se hodí při nekontrolovaném nárůstu počtu sessions.',
-	'PURGE_SESSIONS_SUCCESS'	=> 'Sessions byly úspěšně pročištěny.',
+	'PURGE_SESSIONS'			=> 'Pročistit všechny relace',
+	'PURGE_SESSIONS_CONFIRM'	=> 'Opravdu chcete pročistit všechny relace? Smazáním odhlásíte všechny uživatele.',
+	'PURGE_SESSIONS_EXPLAIN'	=> 'Pročistí všechny relace. Odhlásí všechny uživatele pročištěním jejich databázové tabulky.',
+	'PURGE_SESSIONS_SUCCESS'	=> 'Relace byly úspěšně pročištěny.',
 
 	'RESET_DATE'					=> 'Vynulovat datum spuštění',
 	'RESET_DATE_CONFIRM'			=> 'Opravdu chcete vynulovat datum založení fóra?',
 	'RESET_DATE_SUCCESS'				=> 'Datum spuštění fóra bylo úspěšně resetováno',
 	'RESET_ONLINE'					=> 'Vynulovat rekord uživatelů online',
-	'RESET_ONLINE_CONFIRM'			=> 'Opravdu chcete vynulovat rekord přítomých uživatelů?',
+	'RESET_ONLINE_CONFIRM'			=> 'Opravdu chcete vynulovat rekord přítomných uživatelů?',
 	'RESET_ONLINE_SUCCESS'				=> 'Maximální počet uživatelů najednou přítomných ve fóru byl úspěšně resetován',
 	'RESYNC_POSTCOUNTS'				=> 'Resynchronizovat počítadla příspěvků',
 	'RESYNC_POSTCOUNTS_EXPLAIN'		=> 'Brány v&nbsp;úvahu budou pouze existující příspěvky. Pročištěné příspěvky nebudou počítány.',
@@ -450,7 +450,7 @@ $lang = array_merge($lang, array(
 	'VIEW_INACTIVE_USERS'			=> 'Zobrazit neaktivní uživatele',
 
 	'WELCOME_PHPBB'			=> 'Vítejte v&nbsp;phpBB',
-	'WRITABLE_CONFIG'		=> 'Soubor s nastavením (config.php) je world-writable, může jej upravit kdokoliv. Silně vám doporučujeme změnit oprávnění na 640 nebo alespoň na 644 (např.: <a href="http://cs.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
+	'WRITABLE_CONFIG'		=> 'Soubor s nastavením (config.php) je world-writable, může jej upravit kdokoliv. Silně vám doporučujeme změnit oprávnění na 640 nebo alespoň na 644 (např.: <a href="http://en.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
 ));
 
 // Inactive Users
@@ -609,6 +609,7 @@ $lang = array_merge($lang, array(
 	'LOG_TOPIC_TYPE_CHANGED'	=> '<strong>Změna druhu tématu</strong><br />» %s',
 	'LOG_UNLOCK'				=> '<strong>Odemknutí tématu</strong><br />» %s',
 	'LOG_UNLOCK_POST'			=> '<strong>Odemknutí příspěvku</strong><br />» %s',
+	'LOG_VERSION_CHECK_FAIL'	=> '<strong>Kontrola verze se nezdařila</strong>',
 
 	'LOG_DISALLOW_ADD'		=> '<strong>Přidání zakázaného uživatelského jména</strong><br />» %s',
 	'LOG_DISALLOW_DELETE'	=> '<strong>Odstranění zakázaného uživatelského jména</strong>',
