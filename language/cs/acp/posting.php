@@ -140,6 +140,7 @@ $lang = array_merge($lang, array(
 		0	=> 'Nebyla přidaná žádná ikona.',
 		1	=> 'Ikona byla úspěšně přidána.',
 		2	=> 'Ikony byly úspěšně přidány.',
+		3	=> 'Ikony byly úspěšně přidány.',
 	),
 	'ICONS_CONFIG'			=> 'Nastavení ikon',
 	'ICONS_DELETED'			=> 'Ikona byla odstraněna.',

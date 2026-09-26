@@ -38,18 +38,22 @@ if (empty($lang) || !is_array($lang))
 
 // Privacy policy and T&C
 $lang = array_merge($lang, array(
-	'TERMS_OF_USE_CONTENT'	=> 'Svým přístupem na „%1$s“ (dále jen „my“, „naše“, „nás“, “%1$s”, “%2$s”), souhlasíte s&nbsp;následujícími podmínkami. Pokud nesouhlasíte, neprodleně opusťte „%1$s“, nevstupujte na něj a nepoužívejte jej. Vyhrazujeme si právo tyto podmínky kdykoliv změnit a učiníme vše potřebné pro to, abychom vás o&nbsp;této změně informovali.  Přesto je rozumné tyto podmínky průběžně sledovat vzhledem k&nbsp;tomu, že používáním  „%1$s“ s&nbsp;nimi souhlasíte.
+	'TERMS_OF_USE_CONTENT'	=> 'Svým přístupem na „%1$s“ (dále jen „my“, „naše“, „nás“, “%1$s”, “%2$s”), souhlasíte s&nbsp;následujícími podmínkami. Pokud nesouhlasíte, neprodleně opusťte „%1$s“, nevstupujte na něj a nepoužívejte jej. Vyhrazujeme si právo tyto podmínky kdykoliv změnit a učiníme vše potřebné pro to, abychom vás o&nbsp;této změně informovali. Přesto je rozumné tyto podmínky průběžně sledovat vzhledem k&nbsp;tomu, že používáním „%1$s“ s&nbsp;nimi souhlasíte.
 	<br><br>
-	Naše fóra běží na systému phpBB, což je řešení internetového fóra, které je vydané pod licencí „<a href="https://opensource.org/license/gpl-2-0">General Public License</a>“ a které je možno stáhnout z <a href="https://www.phpbb.com/">www.phpbb.com</a>. phpBB software pouze zprostředkovává internetové diskuze. Pro další informace o&nbsp;phpBB navštivte: <a href="https://www.phpbb.com/">https://www.phpbb.com/</a>.
+	Naše fóra běží na systému phpBB, což je řešení internetového fóra, které je vydané pod licencí „<a href="https://opensource.org/license/gpl-2-0">GNU General Public License v2</a>“ (GPL) a které je možno stáhnout z <a href="https://www.phpbb.com/">www.phpbb.com</a>. phpBB software pouze zprostředkovává internetové diskuze. Pro další informace o&nbsp;phpBB navštivte: <a href="https://www.phpbb.com/">https://www.phpbb.com/</a>.
 	<br><br>
-	Zavazujete se nepřispívat na fórum pohoršujícím, hanlivým, nevhodným, vulgárním nebo jiným materiálem, který by mohl porušovat platné zákony ve vaší zemi, zákony v&nbsp;zemi, kde sídlí „%1$s“, nebo platné mezinárodní právo. Tato činnost může vést k&nbsp;okamžitému a trvalému vykázání z fóra a/nebo upozornění vašeho poskytovatele internetových služeb (ISP) na vaši činnost, pokud bude uznáno za nutné. IP adresy všech příspěvků jsou ukládány pro případné uplatnění těchto opatření. Souhlasíte s&nbsp;tím, že „%1$s“  má právo odstranit, upravit, přesunout nebo uzamknout jakékoliv téma nebo příspěvek, pokud to bude považovat za nutné. Jako uživatel souhlasíte se všemi údaji uloženými v&nbsp;databázi. Přestože „%1$s“ ani phpBB neposkytne tyto informace třetí straně nebo cizím osobám, nepřebírá „%1$s“ ani phpBB zodpovědnost za jakýkoliv pokus o&nbsp;vniknutí do systému, který by mohl vést ke kompromitaci těchto dat.
+	Zavazujete se nepřispívat na fórum pohoršujícím, hanlivým, nevhodným, vulgárním nebo jiným materiálem, který by mohl porušovat platné zákony ve vaší zemi, zákony v&nbsp;zemi, kde sídlí „%1$s“, nebo platné mezinárodní právo. Tato činnost může vést k&nbsp;okamžitému a trvalému vykázání z fóra a/nebo upozornění vašeho poskytovatele internetových služeb (ISP) na vaši činnost, pokud bude uznáno za nutné. IP adresy všech příspěvků jsou ukládány pro případné uplatnění těchto opatření.
+	<br><br>
+	Souhlasíte s&nbsp;tím, že „%1$s“  má právo odstranit, upravit, přesunout nebo uzamknout jakékoliv téma nebo příspěvek, pokud to bude považovat za nutné. Jako uživatel souhlasíte se všemi údaji uloženými v&nbsp;databázi. Přestože „%1$s“ ani phpBB neposkytne tyto informace třetí straně nebo cizím osobám, nepřebírá „%1$s“ ani phpBB zodpovědnost za jakýkoliv pokus o&nbsp;vniknutí do systému, který by mohl vést ke kompromitaci těchto dat.
 	',
 
 	'PRIVACY_POLICY'		=> 'Toto prohlášení podrobně vysvětluje jak „%1$s“ (dále jen “my”, “nás”, “naše”, “%1$s”, “%2$s”) a phpBB („phpBB software“, „www.phpbb.com“, „phpBB Limited“) používá jakékoliv informace shromážděné během každé vaší návštěvy.
 	<br><br>
 	Vaše osobní údaje jsou shromážděny dvěma způsoby. Prvním při vstupu na „%1$s“, kdy phpBB vytvoří několik cookies, což jsou malé textové soubory, které jsou stáhnuty a uloženy v&nbsp;dočasných souborech vašeho internetového prohlížeče. První dvě cookies obsahují jen uživatelské-id a anonymní identifikátor session, které je vám automaticky přiděleno phpBB softwarem. Třetí cookie se vytvoří, jakmile začnete procházet mezi tématy na „%1$s“, a je používána k&nbsp;ukládání informace, které téma jste již přečetli, což vede k&nbsp;snažšímu a pohodlnějšímu pohybu po fóru.
 	<br><br>
-	Můžeme také vytvořit další cookies, které nepatří k&nbsp;phpBB software během procházení „%1$s“, ale tyto cookies jsou mimo rozsah tohoto dokumentu, který se zaobírá jen soubory, které vytvořilo phpBB. Druhá možnost jak můžeme shromažďovat vaše osobní údaje, je vaše odeslání těchto údajů nám. Toto může zahrnovat: odeslání příspěvků jako anonymní uživatel, registrace na „%1$s“ a odeslání příspěvků po vaší registrace, když jste přihlášeni.
+	Můžeme také vytvořit další cookies, které nepatří k&nbsp;phpBB software během procházení „%1$s“, ale tyto cookies jsou mimo rozsah tohoto dokumentu, který se zaobírá jen soubory, které vytvořilo phpBB.
+	<br><br>
+	Druhá možnost jak můžeme shromažďovat vaše osobní údaje, je vaše odeslání těchto údajů nám. Toto může zahrnovat: odeslání příspěvků jako anonymní uživatel, registrace na „%1$s“ a odeslání příspěvků po vaší registrace, když jste přihlášeni.
 	<br><br>
 	Váš účet bude přinejmenším obsahovat uživatelské jméno, osobní heslo, používané při přihlašování do vašeho účtu, a osobní, platnou e-mailovou adresu. Vaše osobní údaje pro váš účet na „%1$s“ jsou chráněny zákony o&nbsp;ochraně osobních údajů a dat, které jsou platné v&nbsp;zemi, ve které sídlíme. Jakékoliv jiné informace požadované od „%1$s“ kromě vašeho uživatelského jména, vašeho hesla a vašeho e-mailu při registraci, můžeme zvolit jako povinné nebo dobrovolné. Ve všech případech dostanete možnost rozhodnout, zda-li tyto informace budou veřejně zobrazitelné. Dále ve vašem účtu máte možnost zakázat nebo povolit zasílání automaticky vytvářených e-mailů phpBB softwarem na váš e-mail.
 	<br><br>
@@ -116,7 +120,7 @@ $lang = array_merge($lang, array(
 	'BIRTHDAY'					=> 'Datum narození',
 	'BIRTHDAY_EXPLAIN'			=> 'Nastavte datum vašeho narození.',
 	'BOARD_DATE_FORMAT'			=> 'Formát data',
-	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'Syntaxe je shodná s&nbsp;PHP funkcí <a href="https://secure.php.net/manual/function.date.php" onclick="this.target=\'_blank\';" title="Otevřít v&nbsp;novém okně">date()</a>.',
+	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'Syntaxe je shodná s&nbsp;PHP <a href="https://www.php.net/manual/datetime.format.php">funkcí času</a>.',
 	'BOARD_LANGUAGE'			=> 'Jazyk fóra',
 	'BOARD_STYLE'				=> 'Vzhled fóra',
 	'BOARD_TIMEZONE'			=> 'Časové pásmo',
@@ -341,7 +345,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TYPE'									=> 'Způsob upozornění',
 	'NOTIFICATION_TYPE_BOOKMARK'						=> 'Někdo pošle odpověď do tématu, které máte v záložkách',
 	'NOTIFICATION_TYPE_GROUP_REQUEST'					=> 'Někdo požádá o členství ve skupině, kterou vedete',
-  'NOTIFICATION_TYPE_FORUM'							=> 'Někdo odpověděl v příspěvku ve fóru, které sledujete',
+	'NOTIFICATION_TYPE_FORUM'							=> 'Někdo odpověděl v příspěvku ve fóru, které sledujete',
 	'NOTIFICATION_TYPE_IN_MODERATION_QUEUE'				=> 'Je třeba schválit příspěvek nebo téma',
 	'NOTIFICATION_TYPE_MODERATION_QUEUE'				=> 'Vaše témata/příspěvky budou schváleny nebo zamítnuty moderátorem',
 	'NOTIFICATION_TYPE_PM'								=> 'Někdo vám pošle soukromou zprávu',
@@ -353,6 +357,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TYPE_REPORT_PM_CLOSED'				=> 'Vaše nahlášení soukromé zprávy bylo uzavřeno moderátorem',
 	'NOTIFICATION_TYPE_TOPIC'							=> 'Někdo vytvoří téma ve fóru téma, které sledujete',
 	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Uživatel vyžadující aktivaci',
+	'NOTIFICATION_TYPE_UPDATE_MAINTENANCE'				=> 'Upozornění na phpBB aktualizaci',
 
 	'NOTIFY_METHOD'					=> 'Způsob oznámení',
 	'NOTIFY_METHOD_BOTH'			=> 'Oba způsoby',

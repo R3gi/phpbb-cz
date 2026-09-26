@@ -44,7 +44,7 @@ $lang = array_merge($lang, array(
 	'COMMON_WORD_THRESHOLD_EXPLAIN'			=> 'Slova, která se objevují v&nbsp;příspěvcích ve větší míře jsou označená jako častá. Častá slova jsou ignorována při vyhledávání. Nastavením na 0 toto chování vypnete. Tuto funkce lze použít jen při více než 100 příspěvcích. Pokud chcete, aby se projevily změny v nastavení častých slov, musíte znovu vytvořit vyhledávací rejstřík/index.',
 	'CONFIRM_SEARCH_BACKEND'				=> 'Přejete si přepnout na jiný vyhledávací backend? Po změně vyhledávacího backendu budete muset vytvořit index pro nový vyhledávací backend. Pokud neplánujete přepnout zpět na předchozí vyhledávací backend můžete smazat staré backendové indexy a uvolnit tak systémové prostředky.',
 	'CONTINUE_DELETING_INDEX'				=> 'Pokračovat v&nbsp;předchozím odstraňování indexu',
-	'CONTINUE_DELETING_INDEX_EXPLAIN'		=> 'Byl zahájen proces smazaní vyhledávacího indexu. Pro znovuzpřístupnění vyhledávání musíte tuto operaci dokončit.',
+	'CONTINUE_DELETING_INDEX_EXPLAIN'		=> 'Byl zahájen proces smazání vyhledávacího indexu. Pro znovuzpřístupnění vyhledávání musíte tuto operaci dokončit.',
 	'CONTINUE_INDEXING'						=> 'Pokračovat v&nbsp;předchozím indexačním procesu',
 	'CONTINUE_INDEXING_EXPLAIN'				=> 'Byl zahájen proces vytvoření vyhledávacího indexu. Pro znovuzpřístupnění vyhledávání musíte tuto operaci dokončit.',
 	'CREATE_INDEX'							=> 'Vytvořit index',
@@ -92,7 +92,7 @@ $lang = array_merge($lang, array(
 	'GO_TO_SEARCH_INDEX'					=> 'Přejít na stránku vyhledávání',
 
 	'INDEX_STATS'							=> 'Statistiky indexu',
-	'INDEXING_IN_PROGRESS'					=> 'Indexace probíhá',
+	'INDEXING_IN_PROGRESS'					=> 'Probíhá indexace…',
 	'INDEXING_IN_PROGRESS_EXPLAIN'			=> 'Vyhledávací backend právě indexuje všechny příspěvky na vašem fóru. Toto může trvat několik minut až hodin, podle velikosti vašeho fóra.',
 
 	'LIMIT_SEARCH_LOAD'						=> 'Omezení vyhledávání při zatížení serveru',
@@ -112,19 +112,23 @@ $lang = array_merge($lang, array(
 	'SEARCH_GUEST_INTERVAL'					=> 'Ochranný interval pro anonymní',
 	'SEARCH_GUEST_INTERVAL_EXPLAIN'			=> 'Počet sekund, který musí anonymní návštěvník vyčkat mezi jednotlivými hledáními. Pokud jeden návštěvník vyhledává, ostatní musejí vyčkat uplynutí této lhůty.',
 	'SEARCH_INDEX_CREATE_REDIRECT'			=> array(
-		2	=> 'Všechny příspěvky až do příspěvku s id %2$d byly zatím indexovány, z toho %1$d příspěvky během tohoto kroku.<br />',
-		3	=> 'Všechny příspěvky až do příspěvku s id %2$d byly zatím indexovány, z toho %1$d příspěvků během tohoto kroku.<br />',
+		1	=> 'Všechny příspěvky až do příspěvku s id %2$d byly zatím indexovány, z toho %1$d příspěvek během tohoto kroku.',
+		2	=> 'Všechny příspěvky až do příspěvku s id %2$d byly zatím indexovány, z toho %1$d příspěvky během tohoto kroku.',
+		3	=> 'Všechny příspěvky až do příspěvku s id %2$d byly zatím indexovány, z toho %1$d příspěvků během tohoto kroku.',
 	),
 	'SEARCH_INDEX_CREATE_REDIRECT_RATE'		=> array(
-		2	=> 'Indexování aktuálně probíhá průměrnou rychlostí %1$.1f příspěvky za sekundu.<br />Probíhá indexování…',
-		3	=> 'Indexování aktuálně probíhá průměrnou rychlostí %1$.1f příspěvků za sekundu.<br />Probíhá indexování…',
+		1	=> 'Indexování aktuálně probíhá průměrnou rychlostí %1$.1f příspěvek za sekundu.',
+		2	=> 'Indexování aktuálně probíhá průměrnou rychlostí %1$.1f příspěvky za sekundu.',
+		3	=> 'Indexování aktuálně probíhá průměrnou rychlostí %1$.1f příspěvků za sekundu.',
 	),
 	'SEARCH_INDEX_DELETE_REDIRECT'			=> array(
-		2	=> 'Všechny příspěvky až do příspěvku s id %2$d byly odstraněny z vyhledávacího indexu. Z toho %1$d příspěvků v tomto kroku.<br />',
-		3	=> 'Všechny příspěvky až do příspěvku s id %2$d byly odstraněny z vyhledávacího indexu. Z toho %1$d příspěvků v tomto kroku.<br />',
+		1	=> 'Všechny příspěvky až do příspěvku s id %2$d byly odstraněny z vyhledávacího indexu. Z toho %1$d příspěvek v tomto kroku.',
+		2	=> 'Všechny příspěvky až do příspěvku s id %2$d byly odstraněny z vyhledávacího indexu. Z toho %1$d příspěvky v tomto kroku.',
+		3	=> 'Všechny příspěvky až do příspěvku s id %2$d byly odstraněny z vyhledávacího indexu. Z toho %1$d příspěvků v tomto kroku.',
 	),
 	'SEARCH_INDEX_DELETE_REDIRECT_RATE'		=> array(
-		2	=> 'Aktuální míra mazání je přibližně %1$.1f příspěvků za sekundu.<br />Probíhá mazání…',
+		1	=> 'Aktuální míra mazání je přibližně %1$.1f příspěvek za sekundu.<br />Probíhá mazání…',
+		2	=> 'Aktuální míra mazání je přibližně %1$.1f příspěvky za sekundu.<br />Probíhá mazání…',
 		3	=> 'Aktuální míra mazání je přibližně %1$.1f příspěvků za sekundu.<br />Probíhá mazání…',
 	),
 	'SEARCH_INDEX_CREATED'					=> 'Všechny příspěvky v&nbsp;databázi fóra byly úspěšně zaindexovány.',

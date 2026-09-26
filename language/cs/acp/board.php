@@ -350,22 +350,28 @@ $lang = array_merge($lang, array(
 
 // Cookie Settings
 $lang = array_merge($lang, array(
-	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Zde lze definovat obsah dat obsažených v&nbsp;cookies odesíláných prohlížečům návštěvníků. Ve většině případů by výchozí hodnoty měly bez potíží vyhovovat. Pokud je však třeba některé upravit, buďte opatrní; jejich špatné nastavení může zabránit uživatelům v&nbsp;přihlášení. Pokud máte problémy s uživateli přihlášenými na Vaše fórum, navštivte <strong><a href="https://www.phpbb.com/support/go/cookie-settings/">phpBB.com Knowledge Base - Fixing incorrect cookie settings</a></strong>',
+	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Zde lze definovat obsah dat obsažených v&nbsp;cookies odesíláných prohlížečům návštěvníků. Ve většině případů by výchozí hodnoty měly bez potíží vyhovovat. Pokud je však třeba některé upravit, buďte opatrní; jejich špatné nastavení může zabránit uživatelům v&nbsp;přihlášení. Pokud máte problémy s uživateli přihlášenými na Vaše fórum, navštivte <strong><a href="https://www.phpbb.com/support/go/cookie-settings">phpBB.com Knowledge Base - Fixing incorrect cookie settings</a></strong>.',
 
-	'COOKIE_DOMAIN'				=> 'Doména cookie',
-	'COOKIE_DOMAIN_EXPLAIN'		=> 'Nejčastěji může zůstat toto nastavení jako volitelné. Nechte jej prázdné pokud si nejste jisti.<br /><br /> V případech, kdy máte fórum integrováno s vlastním softwarem nebo máte vícero domén, pak vyplňte doménu se kterou má fórum propojit cookies. V případech, kdy máte <i>example.com</i> a <i>forums.example.com</i>, nebo pravděpodobně <i>forums.example.com</i> a <i>blog.example.com</i>. Odstraňte subdomény dokud nebudete mít doménu základní úrovně, například <i>example.com</i>. Pak přidejte tečku na začátek této domény .example.com (poznámka - před doménou je tečka).',
-	'COOKIE_NAME'				=> 'Název cookie',
-	'COOKIE_NAME_EXPLAIN'		=> 'Zadejte libovolný název, tak abyste zajistili jeho unikátnost. Kdykoliv budete měnit nastavení cookies, měli byste změnit i tohle nastavení.',
-	'COOKIE_NOTICE'				=> 'Cookie lišta',
-	'COOKIE_NOTICE_EXPLAIN'		=> 'Pokud je povoleno, zobrazí se cookie lišta s upozorněním o využívání cookie na webu. Může být vyžadováno zákonem, záleží na obsahu fóra a použitých doplňcích.',
-	'COOKIE_PATH'				=> 'Cesta ke cookie',
-	'COOKIE_PATH_EXPLAIN'		=> 'Tohle je obvykle stejné jako Cesta ke skriptům nebo lomítko, nezáleží jaká je adresa Vašeho fóra.',
-	'COOKIE_SECURE'				=> 'Zabezpečená cookie',
-	'COOKIE_SECURE_EXPLAIN'		=> 'Pokud váš server běží výhradně přes SSL, aktivujte toto nastavení, v&nbsp;ostatních případech jej ponechte vypnuté. Je-li funkce zapnutá a stránky neběží přes SSL, budou se při přesměrování zobrazovat chyby.',
-	'ONLINE_LENGTH'				=> 'Doba přítomnosti uživatele',
-	'ONLINE_LENGTH_EXPLAIN'		=> 'Počet minut, po jejichž uplynutí budou neaktivní uživatelé vyřazeni ze seznamu uživatelů online. Čím je hodnota vyšší, tím náročnější je zpracování tohoto seznamu.',
-	'SESSION_LENGTH'			=> 'Délka session',
-	'SESSION_LENGTH_EXPLAIN'	=> 'Session vyprší po stanoveném počtu sekund.',
+	'COOKIE_DOMAIN'					=> 'Doména cookie',
+	'COOKIE_DOMAIN_EXPLAIN'			=> 'Nejčastěji může zůstat toto nastavení jako volitelné. Nechte jej prázdné pokud si nejste jisti.<br /><br /> V případech, kdy máte fórum integrováno s vlastním softwarem nebo máte vícero domén, pak vyplňte doménu se kterou má fórum propojit cookies. V případech, kdy máte <i>example.com</i> a <i>forums.example.com</i>, nebo pravděpodobně <i>forums.example.com</i> a <i>blog.example.com</i>. Odstraňte subdomény dokud nebudete mít doménu základní úrovně, například <i>example.com</i>. Pak přidejte tečku na začátek této domény .example.com (poznámka - před doménou je tečka).',
+	'COOKIE_NAME'					=> 'Název cookie',
+	'COOKIE_NAME_EXPLAIN'			=> 'Zadejte libovolný název, tak abyste zajistili jeho unikátnost. Kdykoliv budete měnit nastavení cookies, měli byste změnit i tohle nastavení.',
+	'COOKIE_NOTICE'					=> 'Cookie lišta',
+	'COOKIE_NOTICE_EXPLAIN'			=> 'Pokud je povoleno, zobrazí se cookie lišta s upozorněním o využívání cookie na webu. Může být vyžadováno zákonem, záleží na obsahu fóra a použitých doplňcích.',
+	'COOKIE_PATH'					=> 'Cesta ke cookie',
+	'COOKIE_PATH_EXPLAIN'			=> 'Tohle je obvykle stejné jako Cesta ke skriptům nebo lomítko, nezáleží jaká je adresa Vašeho fóra.',
+	'COOKIE_SECURE'					=> 'Zabezpečená cookie',
+	'COOKIE_SECURE_EXPLAIN'			=> 'Pokud váš server běží výhradně přes SSL, aktivujte toto nastavení, v&nbsp;ostatních případech jej ponechte vypnuté. Je-li funkce zapnutá a stránky neběží přes SSL, budou se při přesměrování zobrazovat chyby.',
+	'ONLINE_LENGTH'					=> 'Doba přítomnosti uživatele',
+	'ONLINE_LENGTH_EXPLAIN'			=> 'Počet minut, po jejichž uplynutí budou neaktivní uživatelé vyřazeni ze seznamu uživatelů online. Čím je hodnota vyšší, tím náročnější je zpracování tohoto seznamu.',
+	'SESSION_LENGTH'				=> 'Délka relace',
+	'SESSION_LENGTH_EXPLAIN'		=> 'Relace vyprší po stanoveném počtu sekund.',
+	'SESSION_GC'					=> 'Interval pročištění relace',
+	'SESSION_GC_EXPLAIN'			=> 'Relace budou pročištěny po stanoveném počtu sekund.',
+	'SESSION_GUEST_LENGTH'			=> 'Délka relace návštěvníků',
+	'SESSION_GUEST_LENGTH_EXPLAIN'	=> 'Relace návštěvníků vyprší po stanoveném počtu sekund.',
+	'SESSION_GUEST_GC'				=> 'Interval pročištění relace návštěvníků',
+	'SESSION_GUEST_GC_EXPLAIN'		=> 'Relace návštěvníků budou pročištěny po stanoveném počtu sekund.',
 ));
 
 // Contact Settings
@@ -600,7 +606,7 @@ $lang = array_merge($lang, array(
 	'SMTP_VERIFY_PEER_EXPLAIN'		=> 'Vyžaduje ověření SSL certifikátu používaného SMTP serverem.<em><strong>Varování:</strong> Připojování s neověřeným SSL certifikátem může být bezpečnostním rizikem.</em>',
 	'SMTP_VERIFY_PEER_NAME'			=> 'Ověřit SMTP název',
 	'SMTP_VERIFY_PEER_NAME_EXPLAIN'	=> 'Vyžaduje ověření názvu SMTP serverů používajících SSL / TLS připojení.<em><strong>Varování:</strong> Připojení k neověřeným uzlům může být bezpečnostní hrozbou.</em>',
-	'TEST_EMAIL_SENT'				=> 'Testovací e-mail byl odeslán.<br />Pokud vám nepřijde, prosím zkontrolujte vaši konfiguraci e-mailů.<br /><br />Pokud potřebujete pomoc, prosím navštivte <a href="https://www.phpbb.cz/index.php">českou podporu phpBB.cz</a>.',
+	'TEST_EMAIL_SENT'				=> 'Testovací e-mail byl odeslán.<br />Pokud vám nepřijde, prosím zkontrolujte vaši konfiguraci e-mailů.<br /><br />Pokud potřebujete pomoc, prosím navštivte <a href="https://www.phpbb.com/community/">fórum podpory phpBB</a>.',
 
 	'USE_SMTP'						=> 'Použít SMTP server pro odesílání',
 	'USE_SMTP_EXPLAIN'				=> 'Zvolte „Ano“, pokud chcete, aby byly e-maily odeslány přes označený server místo serverové funkce e-mail.',

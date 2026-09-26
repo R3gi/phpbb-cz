@@ -1,0 +1,14 @@
+Subject: Dostupná nová verze phpBB {NEW_VERSION} – Kritická aktualizace pro web „{SITENAME}“
+
+Dobrý den, {USERNAME},
+
+pro vaši instalaci phpBB byla vydána kritická bezpečnostní aktualizace. Nainstalujte ji co nejdříve.
+
+Vaše aktuální verze je {CURRENT_VERSION}. Doporučujeme vaše fórum neprodleně aktualizovat na nejnovější dostupnou verzi {NEW_VERSION}, aby vaše instalace zůstala zabezpečená a chráněná.
+
+Podrobnosti o vydání si můžete zobrazit v administraci vaší instalace phpBB.
+{U_BOARD}
+
+Pokud potřebujete s procesem aktualizace pomoc, nahlédněte do dokumentace nebo navštivte fóra podpory phpBB.
+
+{EMAIL_SIG}

@@ -1,0 +1,14 @@
+Subject: Dostupná nová verze phpBB {NEW_VERSION} pro „{SITENAME}“
+
+Dobrý den, {USERNAME},
+
+pro vaši instalaci phpBB je k dispozici nová aktualizace.
+
+Vaše aktuální verze je {CURRENT_VERSION} a nejnovější dostupná verze je {NEW_VERSION}. Důrazně doporučujeme udržovat vaše fórum aktualizované, abyste zajistili co nejvyšší úroveň zabezpečení, stability a výkonu.
+
+Podrobnosti o vydání si můžete zobrazit v administraci vaší instalace phpBB.
+{U_BOARD}
+
+Pokud potřebujete s procesem aktualizace pomoc, nahlédněte do dokumentace nebo navštivte fóra podpory phpBB.
+
+{EMAIL_SIG}
